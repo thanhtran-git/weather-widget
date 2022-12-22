@@ -20,5 +20,5 @@ Missing things:
 
 Bugs, issues:
 
-- Configuring the headers was not successful so far. The browser extension "Allow CORS: Access-Control-Allow-Origin" is used and has to be turned on to display this widget.
+- Configuring the headers was not successful so far. For now as a workaround, the browser extension "Allow CORS: Access-Control-Allow-Origin" is used and has to be turned on to display this widget.
   Link: https://microsoftedge.microsoft.com/addons/detail/allow-cors-accesscontro/bhjepjpgngghppolkjdhckmnfphffdag
