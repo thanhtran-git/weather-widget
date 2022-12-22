@@ -1,0 +1,24 @@
+A weather widget that dispays the curremt temperature with a weather icon a max/min temp forecast of the next two days.
+The opensource API from Deutscher Wetterdienst is used. The weather station is located in Berlin-Tempelhof.
+
+Coded in VSC with React.
+
+![preview.png](github/preview.png)
+
+Currently working on:
+
+- testing different slider carousel solutions before implementation
+
+Planned features (will be reevaluted from time to time)
+
+- A slider carousel to scroll horizontally with clickable arrows for displaying more content
+- possible contents are: location search function, temperature visualization via a graph, or more detailed weather data like humidity, wind etc.
+
+Missing things:
+
+- More weather icons like thunderstorm, light rain, wind
+
+Bugs, issues:
+
+- Configuring the headers was not successful so far. The browser extension "Allow CORS: Access-Control-Allow-Origin" is used and has to be turned on to display this widget.
+  Link: https://microsoftedge.microsoft.com/addons/detail/allow-cors-accesscontro/bhjepjpgngghppolkjdhckmnfphffdag
