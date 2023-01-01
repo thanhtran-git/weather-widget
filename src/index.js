@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './CSS/index.css';
 import reportWebVitals from './reportWebVitals';
-import FetchWeatherData from './FetchWeatherData';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <FetchWeatherData />
-  </React.StrictMode>
+  <>
+    <App />
+  </>
 );
 
 

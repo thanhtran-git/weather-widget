@@ -1,5 +1,5 @@
-A weather widget that dispays the curremt temperature with a weather icon a max/min temp forecast of the next two days.
-The opensource API from Deutscher Wetterdienst is used. The weather station is located in Berlin-Tempelhof.
+A weather widget that dispays the current temperature with a fitting weather icon and a max/min temp forecast of the next two days.
+The opensource API from Deutscher Wetterdienst is used. The weather station of the ID 10384 is located in Berlin-Tempelhof.
 
 Coded in VSC with React.
 
@@ -12,11 +12,12 @@ Currently working on:
 Planned features (will be reevaluted from time to time)
 
 - A slider carousel to scroll horizontally with clickable arrows for displaying more content
-- possible contents are: location search function, temperature visualization via a graph, or more detailed weather data like humidity, wind etc.
+- possible contents are: temperature visualization via a graph, or more detailed weather data like humidity, wind etc.
+- location search function
 
 Missing things:
 
-- More weather icons like thunderstorm, light rain, wind
+- More weather icons like thunderstorm, wind
 
 Bugs, issues:
 
