@@ -1,60 +1,65 @@
-// import { useState, useEffect } from "react";
-// import React from "react";                                     
+import React, {useState, useContext} from "react";
+import {WeatherContext} from './FetchApi.jsx'
+import WeatherIcon from './WeatherIcon.jsx'
+import './CSS/Widget-Page2.css'
 
-//                                             /* Fetching data from API */
-// export default function FetchWeatherData() {
-//   const [data, setData] = useState([]);
-//   const [loading, setLoading] = useState(true);
-//   const [error, setError] = useState(null);
-//   const apiUrl = "https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=433,10384"
+const WidgetPage2 = () => {
+    const [data] = useContext(WeatherContext)
+    const [error] = useState(null);
+    const today = new Date()
+    const currentHour = today.getHours()
+    const todaysDate = new Date(data["10384"]?.forecast1?.start)
 
-//     useEffect(() => {
-//       const getData = async () => {
-//         try {
-//           const response = await fetch(apiUrl)
-//           if (!response.ok) {
-//             throw new Error(
-//               `HTTP error. Status: ${response.status}`
-//             );
-//           }
-//           let weatherData = await response.json();
-//           setData(weatherData)
-//           console.log(weatherData);
-//           setError(null);
+    return(
+     <>
+        {error && (
+            <h1>{`Fehler beim Laden von Daten. Error fetching data - ${error}`}</h1>
+            )}
 
-//         } catch(err) {
-//           setError(err.message);
-//           setData(null);
-//         } finally {
-//           setLoading(false);
-//         }
-//       }
-//       getData()
-//     }, [])
+        {data && (
+        <div className="widget-container">
+                                                    {/* BERLIN" HEADER */}
+            <div className="weather-header">
+                <span className="weather-location">Berlin </span>
+                <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
 
-// ------------------------------------------------------------------------------
-//                                           /* determining current date and next ones */
-//                                           const today = new Date();
-// const currentHour = today.getHours()
-// const todaysDate = new Date(data["10384"]?.forecast1?.start)
-// console.log(todaysDate.toLocaleDateString('de-de'))
+            </div>
+               
+                        <div className="weather-bottom">   
+                                                    {/* Weather Icon + TempNow Container*/}
+                            <div className="weather-now">
+                              {WeatherIcon()}
+                                <span className="weather-now-temp">
+                                    {Math.round(data["10384"]?.forecast1?.temperature[currentHour]/10)}°
+                                </span>
+                            </div>                       
+                        <div className="weather-next">
 
-// const weekDay = ["So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."]
-// const date1 = new Date(data["10384"]?.days[1]?.dayDate);
-// const forecastNextDay = weekDay[date1.getDay()]
-// const date2 = new Date(data["10384"]?.days[2]?.dayDate)
-// const forecastNextDay2 = weekDay[date2.getDay()]
+                                                    {/* Forecast Next Day Container */}
+                            <div className="">
+                                <span className="title-data">Luftfeuchte</span>
 
+                                <span className="humidity">
+                                    {Math.round(data["10384"]?.forecast1?.humidity[0]/10)}%
+                                    </span>{' '}
 
-//                                                  /* Displaying the Data */
-// return (
-//   <>
-//     {loading && <div>Loading...</div>}
-//     {error && (
-//       <h1>{`Fehler beim Laden von Daten. Error fetching data - ${error}`}</h1>
-//     )}
-      
-           
-//     </>    
-// )
-// }
+                                <span className="weather-next-temp tempMin">
+                                </span>
+                            </div>
+                            
+                                                    {/* Forecast Second Next Day Container */}
+                            <div className="">
+                                <span className="title-data">Regen</span>
+                                <span className="precipitation">
+                                    {data["10384"]?.forecast1?.precipitationTotal[currentHour]}mm/h
+                                    </span>{' '}
+                            
+                            </div>
+                        </div>
+                        </div>
+                        
+            </div> )} 
+    </>    
+    )
+}    
+export default WidgetPage2;
