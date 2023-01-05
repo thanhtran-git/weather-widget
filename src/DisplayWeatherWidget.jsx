@@ -1,6 +1,7 @@
 import React, {useState, useContext} from "react";
 import {WeatherContext} from './FetchApi.jsx'
 import WeatherIcon from './WeatherIcon.jsx'
+import './CSS/index.css'
 
 const DisplayWeatherWidget = () => {
     const [data] = useContext(WeatherContext)

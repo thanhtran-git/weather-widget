@@ -26,10 +26,7 @@
     -webkit-box-align: center;
     display:flex;
   }
-  .title::after{
-    content: ' |';
-    margin-left: 5px;
-  }
+
   
   .weather-location {
     align-self: flex-end;
@@ -75,21 +72,12 @@
   }
   
   
-  .weather-now::after {
-    background: #e1e6eb;
-    content: "";
-    display: block;
-    height: 65px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 2px;
+
   
-  }
   
   .weather-next {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-grow: 1;
     -webkit-box-pack: justify;
     -webkit-box-flex: 1;
@@ -100,19 +88,19 @@
   
   }
   
-  .wtitle-data {
+  .title-data {
     color: #0A1924;
       display: block;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-weight: bold;
       line-height: 1;
       margin-bottom: 2px;
   }
   
   .humidity, .precipitation {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    color:  #6285dc;
+    color:  #6d8ad2;
   }
 
 
