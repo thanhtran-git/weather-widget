@@ -28,8 +28,8 @@ const WidgetPage2 = () => {
                         <div className="weather-bottom">   
                                                     {/* Weather Icon + TempNow Container*/}
                             <div className="weather-now">
-                              {WeatherIcon()}
-                                <span className="weather-now-temp">
+                              <span className="wicon-page-2">{WeatherIcon()}</span>
+                                <span className="temp-page-2">
                                     {Math.round(data["10384"]?.forecast1?.temperature[currentHour]/10)}°
                                 </span>
                             </div>                       

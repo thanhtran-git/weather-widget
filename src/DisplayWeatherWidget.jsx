@@ -63,7 +63,6 @@ const DisplayWeatherWidget = () => {
                         <span className="weather-next-temp tempMin">
                             {Math.round(data["10384"]?.days[2]?.temperatureMin/10)}°</span>
                     </div>
-
                 </div>
             )} 
         </div> 
