@@ -21,14 +21,14 @@ const WidgetPage3 = () => {
         <div className="widget-container">
                                                     {/* BERLIN" HEADER */}
             <div className="weather-header">
-                <span className="weather-location">Berlin aktuell</span>
+                <span className="weather-location">7 Tage Vorschau </span>
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
             
 
                  <div className="weather-next">
                 
-                {WeatherIcon()}
+                {<img src="./7tage.png" width="450px" height="150px" alt="7daysPreview" />}
 
                                        
                 </div>
