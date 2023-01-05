@@ -22,9 +22,8 @@ const WidgetPage2 = () => {
             <div className="weather-header">
                 <span className="weather-location">Berlin </span>
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
-
             </div>
-               
+            
                         <div className="weather-bottom">   
                                                     {/* Weather Icon + TempNow Container*/}
                             <div className="weather-now">
@@ -38,7 +37,6 @@ const WidgetPage2 = () => {
                                                     {/* Forecast Next Day Container */}
                             <div className="">
                                 <span className="title-data">Luftfeuchte</span>
-
                                 <span className="humidity">
                                     {Math.round(data["10384"]?.forecast1?.humidity[0]/10)}%
                                     </span>{' '}
