@@ -63,9 +63,9 @@
     margin-right: 15px;;
   }
   
-  .weather-now {
+  .weather-now-temp {
     font-size: 3.5rem;
-    margin-right: 19px;
+    /* margin-right: 19px; */
     padding-right: 19px;
     display: flex;
     position: relative;
@@ -123,8 +123,6 @@
   
     width: 500px; 
   }
-  
-  
   
   
   
