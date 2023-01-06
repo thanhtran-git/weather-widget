@@ -8,7 +8,7 @@ const WeatherIcon = () => {
     const currentHour = today.getHours()
     const checkDayNight = currentHour >=6 && currentHour <=18 /*For cases 1,2 and 3, a sun or moon icon will be displayed depending on daytime. */
     let icon = ""
-
+    
     switch(data['10384']?.forecast1?.icon[currentHour]) {
         case 1 : checkDayNight ? icon = <img src="/weatherIcons/sonne.png" className="img" alt="wIcon" />
                     : icon = <img src="/weatherIcons/mond.png" className="img"  alt="wIcon" />; break;
