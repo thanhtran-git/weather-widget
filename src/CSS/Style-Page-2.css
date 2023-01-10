@@ -5,15 +5,7 @@
   html{
     position: relative;
   }
-  body {
-    margin: 0;
-    font-family: IBM Plex Sans, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
-    color: rgb(69, 69, 69);
-    background-color: rgb(238, 238, 238);
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-  }
+
   
   .title {
     margin-bottom: 0;
@@ -53,7 +45,6 @@
     display: flex;
     height: 70%;
     -webkit-box-align: center;
-  
   }
   
   .weather-now img {
@@ -71,11 +62,7 @@
     /* -webkit-box-align: center; */
   }
   
-  
-
-  
-  
-  .weather-next {
+  .weather-details {
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
@@ -89,7 +76,7 @@
   }
   
   .title-data {
-    color: #0A1924;
+      color: rgb(68, 68, 68);
       display: block;
       font-size: 1.2rem;
       font-weight: bold;
@@ -100,7 +87,7 @@
   .humidity, .precipitation {
     font-size: 1.1rem;
     font-weight: 400;
-    color:  #6d8ad2;
+    color: rgb(68, 68, 68);
   }
 
 

@@ -3,7 +3,7 @@ import {WeatherContext} from './FetchApi.jsx'
 import WeatherIconForecast from './WeatherIcon-Forecast.jsx'
 import WeatherIcon from "./WeatherIcon.jsx";
 import { station_ID } from "./Variables.jsx";
-import './CSS/Style-Page-2.css'
+import './CSS/Page4.css'
 
 const WidgetPage2 = () => {
     const [data] = useContext(WeatherContext)
@@ -19,20 +19,19 @@ const WidgetPage2 = () => {
             )}
 
         {data && (
-        <div className="widget-container-p2">
+        <div className="widget-container-p4">
                                                     {/* BERLIN" HEADER */}
             <div className="weather-header">
-            {WeatherIconForecast(data[station_ID]?.forecast1.icon[currentHour])}
-
-
-                <span className="weather-location">Die nächsten Tage</span>
+                <span className="weather-location">Berlin Heute</span>
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
+
             </div>
             
                         <div className="weather-bottom">   
                                                     {/* Weather Icon + TempNow Container*/}
                                                  
                         <div className="weather-next">
+                        {<img src="./page4.png" width="450px" height="150px" alt="page4" />}
 
                                                     {/* Forecast Next Day Container */}
                             <div className="test">
