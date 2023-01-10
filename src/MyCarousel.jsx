@@ -3,6 +3,7 @@ import React from 'react';
 import DisplayWeatherWidget from './DisplayWeatherWidget';
 import WidgetPage2 from './WidgetPage2';
 import WidgetPage3 from './WidgetPage3';
+import WidgetPage4 from './WidgetPage4'
 
 function MyCarousel() {
   return (
@@ -17,6 +18,10 @@ function MyCarousel() {
 
       <Carousel.Item>
         <WidgetPage3 />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <WidgetPage4/>
       </Carousel.Item>
 
       
