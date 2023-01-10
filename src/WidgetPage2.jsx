@@ -29,40 +29,35 @@ const WidgetPage2 = () => {
             
                         <div className="weather-bottom">   
                                                     {/* Weather Icon + TempNow Container*/}
-                 
-                        <div className="weather-next">
+                            <div className="weather-next">
+                                                        {/* Forecast Next Day Container */}
+                                <div className="">
+                                    <span className="title-data">Luftfeuchte</span>
+                                    {<img src="/weathericons/icon-feuchtigkeit-32.png" alt="humidityicon"/>}{' '}
+                                    <span className="humidity">
+                                        {Math.round(data[station_ID]?.forecast1?.humidity[0]/10)}%
+                                        </span>{' '}
+                                    <span className="weather-next-temp tempMin">
+                                    </span>
+                                </div>
+                                
+                                                        {/* Forecast Second Next Day Container */}
+                                <div className="">
+                                    <span className="title-data">Regen</span>
+                                    {<img src="/weathericons/icon-regen-32.png" alt="regenIcon"/>}{' '}
+                                    <span className="precipitation">
+                                        {data[station_ID]?.forecast1?.precipitationTotal[currentHour]}mm/h
+                                        </span>{' '}
+                                </div>
 
-                                                    {/* Forecast Next Day Container */}
-                            <div className="">
-                                <span className="title-data">Luftfeuchte</span>
-                                {<img src="/weathericons/icon-feuchtigkeit-32.png" alt="humidityicon"/>}{' '}
-                                <span className="humidity">
-                                    {Math.round(data[station_ID]?.forecast1?.humidity[0]/10)}%
-                                    </span>{' '}
-
-                                <span className="weather-next-temp tempMin">
-                                </span>
+                                <div className="">
+                                    <span className="title-data">Wind</span>
+                                    {<img src="/weathericons/icon-wind-32.png" alt="windIcon"/>}{' '}
+                                    <span className="precipitation">
+                                        {(data[station_ID]?.days[0]?.windSpeed/10)}km/h
+                                        </span>{' '}
+                                </div>
                             </div>
-                            
-                                                    {/* Forecast Second Next Day Container */}
-                            <div className="">
-                                <span className="title-data">Regen</span>
-                                {<img src="/weathericons/icon-regen-32.png" alt="regenIcon"/>}{' '}
-                                <span className="precipitation">
-                                    {data[station_ID]?.forecast1?.precipitationTotal[currentHour]}mm/h
-                                    </span>{' '}
-
-                            </div>
-
-                            <div className="">
-                                <span className="title-data">Wind</span>
-                                {<img src="/weathericons/icon-wind-32.png" alt="windIcon"/>}{' '}
-                                <span className="precipitation">
-                                    {(data[station_ID]?.days[0]?.windSpeed/10)}km/h
-                                    </span>{' '}
-
-                            </div>
-                        </div>
                         </div>
                         
             </div> )} 

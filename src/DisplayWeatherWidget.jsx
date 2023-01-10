@@ -2,7 +2,7 @@ import React, {useState, useContext} from "react";
 import {WeatherContext} from './FetchApi.jsx'
 import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/index.css'
-import {station_ID, currentHour, weekDay} from './Variables'
+import {station_ID, currentHour, weekDay} from './Variables' /* Station_ID has to be dynamic depending on location search */
 
 const DisplayWeatherWidget = () => {
     const [data] = useContext(WeatherContext)

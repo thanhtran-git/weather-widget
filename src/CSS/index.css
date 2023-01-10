@@ -40,7 +40,7 @@ body {
 }
 
 .todaysDate {
-  margin-left: 105px;
+  /* margin-left: 0px; */
   align-self:center;
   font-size: 1.1rem;
   font-weight: 500;
@@ -61,7 +61,8 @@ body {
 }
 
 .weather-now img {
-  margin-right: 15px;;
+  margin-right: 15px;
+  display: inline-flex; /* makes weather icon and temp-now align */
 }
 
 .weather-now {
