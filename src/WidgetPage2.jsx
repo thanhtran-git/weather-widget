@@ -27,10 +27,7 @@ const WidgetPage2 = () => {
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
             
-                        <div className="weather-bottom">   
-                                                    {/* Weather Icon + TempNow Container*/}
-                 
-                        <div className="weather-next">
+                        <div className="weather-details">
 
                                                     {/* Forecast Next Day Container */}
                             <div className="">
@@ -39,19 +36,15 @@ const WidgetPage2 = () => {
                                 <span className="humidity">
                                     {Math.round(data[station_ID]?.forecast1?.humidity[0]/10)}%
                                     </span>{' '}
-
-                                <span className="weather-next-temp tempMin">
-                                </span>
                             </div>
                             
-                                                    {/* Forecast Second Next Day Container */}
+                                                    
                             <div className="">
                                 <span className="title-data">Regen</span>
                                 {<img src="/weathericons/icon-regen-32.png" alt="regenIcon"/>}{' '}
                                 <span className="precipitation">
                                     {data[station_ID]?.forecast1?.precipitationTotal[currentHour]}mm/h
                                     </span>{' '}
-
                             </div>
 
                             <div className="">
@@ -60,9 +53,15 @@ const WidgetPage2 = () => {
                                 <span className="precipitation">
                                     {(data[station_ID]?.days[0]?.windSpeed/10)}km/h
                                     </span>{' '}
-
                             </div>
-                        </div>
+                            
+                            <div className="">
+                                <span className="title-data">Sonne</span>
+                                {<img src="/weathericons/sun.png" alt="windIcon"/>}{' '}
+                                <span className="precipitation">
+                                    {Math.round(data[station_ID]?.days[0]?.sunshine/10)}min
+                                    </span>{' '} 
+                            </div>
                         </div>
                         
             </div> )} 
