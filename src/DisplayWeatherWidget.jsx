@@ -2,7 +2,7 @@ import React, {useState, useContext} from "react";
 import {WeatherContext} from './FetchApi.jsx'
 import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/index.css'
-import {station_ID, currentHour, weekDay} from './Variables' /* Station_ID has to be dynamic depending on location search */
+import {station_ID, currentHour, weekDay, weekdayToday} from './Variables' /* Station_ID has to be dynamic depending on location search */
 
 const DisplayWeatherWidget = () => {
     const [data] = useContext(WeatherContext)
@@ -23,7 +23,8 @@ const DisplayWeatherWidget = () => {
                                                     {/* "WETTER | BERLIN" HEADER */}
             <div className="weather-header">
                 <span className="title">Wetter</span> <span className="weather-location">Berlin   </span>
-                <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
+                
+                <span className="todaysDate">{weekdayToday+' '}{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
             {data && (
                 <div className="weather-bottom">   

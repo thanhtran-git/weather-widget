@@ -1,8 +1,9 @@
 import React, {useState, useContext} from "react";
 import {WeatherContext} from './FetchApi.jsx'
-// import WeatherIcon from './WeatherIcon.jsx'
-import './CSS/Style-Page-2.css'
+import WeatherIconForecast from './WeatherIcon-Forecast.jsx'
 import WeatherIcon from "./WeatherIcon.jsx";
+import { station_ID } from "./Variables.jsx";
+import './CSS/Page4.css'
 
 const WidgetPage3 = () => {
     const [data] = useContext(WeatherContext)
@@ -18,24 +19,55 @@ const WidgetPage3 = () => {
             )}
 
         {data && (
-        <div className="widget-container">
+        <div className="widget-container-p4">
                                                     {/* BERLIN" HEADER */}
             <div className="weather-header">
-                <span className="weather-location">7 Tage Vorschau </span>
+                <span className="weather-location">Berlin Heute</span>
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
+
             </div>
             
+                        <div className="weather-bottom">   
+                                                    {/* Weather Icon + TempNow Container*/}
+                                                 
+                        <div className="weather-next">
+                        {<img src="./page4.png" width="450px" height="150px" alt="page4" />}
 
-                 <div className="weather-next">
-                
-                {<img src="./7tage.png" width="450px" height="150px" alt="7daysPreview" />}
+                                                    {/* Forecast Next Day Container */}
+                            <div className="test">
+                                <span className="title-data"></span>
+  
+                                                   
+                                <span className="humidity">
 
-                                       
-                </div>
+                                    </span>{' '}
 
-        
+                                <span className="weather-next-temp tempMin">
+                                </span>
+                            </div>
+                            
+                                                    {/* Forecast Second Next Day Container */}
+                            <div className="">
+                                <span className="title-data"></span>
+
+                                <span className="precipitation">
+
+                                    </span>{' '}
+
+                            </div>
+
+                            <div className="">
+                                <span className="title-data"></span>
+
+                                <span className="precipitation">
+
+                                    </span>{' '}
+
+                            </div>
+                        </div>
+                        </div>
                         
-                </div> )} 
+            </div> )} 
     </>    
     )
 }    
