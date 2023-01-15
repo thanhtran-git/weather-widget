@@ -6,7 +6,9 @@ const WeatherIcon = () => {
     const [data] = useContext(WeatherContext)
     const today = new Date()
     const currentHour = today.getHours()
-    const checkDayNight = currentHour >=6 && currentHour <=18 /*For cases 1,2 and 3, a sun or moon icon will be displayed depending on daytime. */
+    const sunrise = new Date(data["10384"]?.days[0]?.sunrise)
+    const sunset = new Date(data["10384"]?.days[0]?.sunset)
+    const checkDayNight = currentHour > sunrise.getHours() && currentHour < sunset.getHours()
     let icon = ""
     
     switch(data['10384']?.forecast1?.icon[currentHour]) {
