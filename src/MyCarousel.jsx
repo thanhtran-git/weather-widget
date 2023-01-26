@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
-import DisplayWeatherWidget from './DisplayWeatherWidget';
+import WidgetPage1 from './WidgetPage1';
 import WidgetPage2 from './WidgetPage2';
 
 import WidgetPage4 from './WidgetPage3'
@@ -9,7 +9,7 @@ function MyCarousel() {
   return (
     <Carousel interval={null}>
       <Carousel.Item >
-        <DisplayWeatherWidget />
+        <WidgetPage1 />
       </Carousel.Item>
 
       <Carousel.Item>

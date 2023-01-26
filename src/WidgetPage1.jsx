@@ -4,7 +4,7 @@ import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/index.css'
 import {station_ID, currentHour, weekDay, weekdayToday} from './Variables' /* Station_ID has to be dynamic depending on location search */
 
-const DisplayWeatherWidget = () => {
+const WidgetPage1 = () => {
     const [data] = useContext(WeatherContext)
     const [error] = useState(null);
     const todaysDate = new Date(data[station_ID]?.forecast1?.start)
@@ -13,7 +13,7 @@ const DisplayWeatherWidget = () => {
     const date2 = new Date(data[station_ID]?.days[2]?.dayDate)
     const forecastNextDay2 = weekDay[date2.getDay()]
 
-    return(
+    return (
      <>
         {error && (
             <h1>{`Fehler beim Laden von Daten. Error fetching data - ${error}`}</h1>
@@ -23,7 +23,6 @@ const DisplayWeatherWidget = () => {
                                                     {/* "WETTER | BERLIN" HEADER */}
             <div className="weather-header">
                 <span className="title">Wetter</span> <span className="weather-location">Berlin   </span>
-                
                 <span className="todaysDate">{weekdayToday+' '}{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
             {data && (
@@ -69,4 +68,4 @@ const DisplayWeatherWidget = () => {
     </>    
     )
 }    
-export default DisplayWeatherWidget;
+export default WidgetPage1;

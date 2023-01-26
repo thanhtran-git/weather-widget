@@ -11,7 +11,7 @@ const WeatherIcon = () => {
     const checkDayNight = currentHour > sunrise.getHours() && currentHour < sunset.getHours()
     let icon = ""
     
-    switch(data['10384']?.forecast1?.icon[currentHour]) {
+    switch(data['10384']?.forecast1?.icon[currentHour]) { //hard coded to Berlin-tempelhof, will be replaced later
         case 1 : checkDayNight ? icon = <img src="/weatherIcons/sonne.png" className="img" alt="wIcon" />
                     : icon = <img src="/weatherIcons/mond.png" className="img"  alt="wIcon" />; break;
         case 2 : checkDayNight ? icon =  <img src="/weatherIcons/sonne_woelkchen.png" className="img" alt="wIcon" />
@@ -40,4 +40,3 @@ const WeatherIcon = () => {
     )
 }
 export default WeatherIcon;
-
