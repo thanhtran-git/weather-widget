@@ -1,3 +1,4 @@
+//This component is used to slide through the widget pages on button click
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 import WidgetPage1 from './WidgetPage1';

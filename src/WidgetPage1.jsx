@@ -1,12 +1,13 @@
+//This component is the main widget page displaying the location search bar, temps of today and next 2 days + weather icon
 import React, {useState, useContext} from "react";
-// import {WeatherContext} from './FetchApi.jsx'
-import {SearchContext} from './Search.js'
+import {SearchContext} from './SearchContext.js'
 import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/index.css'
 import {currentHour, weekDay, weekdayToday} from './Variables'
+import { SearchBar } from "./SeachBar.jsx";
 
 const WidgetPage1 = () => {
-    const {data, stationId} = useContext(SearchContext)
+    const {data, stationId, searchTerm} = useContext(SearchContext)
     const [error] = useState(null);
     const todaysDate = new Date(data[stationId]?.forecast1?.start)
     const date1 = new Date(data[stationId]?.days[1]?.dayDate)
@@ -23,16 +24,24 @@ const WidgetPage1 = () => {
 
                                                     {/* "WETTER | BERLIN" HEADER */}
             <div className="weather-header">
-                <span className="title">Wetter</span> <span className="weather-location">Berlin   </span>
+                { <span className="title">Wetter</span> /*<span className="weather-location">{searchTerm}   </span> */}
                 <span className="todaysDate">{weekdayToday+' '}{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
+
+                                        {/* Search Bar  */}
+            <div className="searchbar">
+                {SearchBar()}
+            </div>
+
+
+
             {data && (
                 <div className="weather-bottom">   
 
-                                                        {/* Weather Icon + TempNow Container*/}
+                                        {/* Weather Icon + TempNow Container*/}
                     <div className="weather-now">
 
-                                                        {/* Weather Icon component */}
+                                        {/* Weather Icon component */}
                         {WeatherIcon()}
                         <span className="weather-now-temp">
                             {Math.round(data[stationId]?.forecast1.temperature[currentHour]/10)}°                                    
@@ -41,7 +50,7 @@ const WidgetPage1 = () => {
                 <div className="weather-next">
                 </div>
 
-                                            {/* Forecast Next Day Container */}
+                                        {/* Forecast Next Day Container */}
                     <div className="weather-next-item">
                         <span className="weather-next-date">{forecastNextDay}</span>
 
@@ -53,7 +62,7 @@ const WidgetPage1 = () => {
                             {Math.round(data[stationId]?.days[1].temperatureMin/10)}°</span>
                     </div>
                     
-                                            {/* Forecast Second Next Day Container */}
+                                        {/* Forecast Second Next Day Container */}
                     <div className="weather-next-item">
                         <span className="weather-next-date">{forecastNextDay2}</span>
 

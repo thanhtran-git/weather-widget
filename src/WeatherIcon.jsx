@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import {SearchContext} from "./Search.js"; 
+import {SearchContext} from "./SearchContext.js"; 
 import './CSS/Wicon.css'
 
 const WeatherIcon = () => {

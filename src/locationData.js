@@ -288,14 +288,6 @@ export const locationData = [
         ID: "K1585"
     },
     {
-        Name: "ARNSBERG-MÜS",
-        ID: "H573"
-    },
-    {
-        Name: "ARNSBERG-NEHE",
-        ID: "H572"
-    },
-    {
         Name: "ARNSTADT",
         ID: "N5528"
     },
@@ -10305,12 +10297,8 @@ export const locationData = [
         ID: 10334
     },
     {
-        Name: "WUPPERTAL-BAR",
+        Name: "WUPPERTAL",
         ID: "N8322"
-    },
-    {
-        Name: "WUPPERTAL-VOH",
-        ID: "N8334"
     },
     {
         Name: "WURMANNSQUICK",

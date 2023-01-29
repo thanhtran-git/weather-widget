@@ -1,15 +1,15 @@
 import React, {useState, useContext} from "react";
-import {SearchContext} from './Search.js'
+import {SearchContext} from './SearchContext.js'
 // import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/Style-Page-2.css'
 import WeatherIconForecast from "./WeatherIcon-Forecast.jsx";
 
 const WidgetPage2 = () => {
-    const {data, stationId} = useContext(SearchContext)
+    const {data, stationId, searchTerm} = useContext(SearchContext)
     const [error] = useState(null);
     const today = new Date()
     const currentHour = today.getHours()
-    const todaysDate = new Date(data["10384"]?.forecast1?.start)
+    const todaysDate = new Date(data[stationId]?.forecast1?.start)
 
     return(
      <>
@@ -21,7 +21,7 @@ const WidgetPage2 = () => {
         <div className="widget-container-p2">
                                                     {/* BERLIN" HEADER */}
             <div className="weather-header">
-                <span className="weather-location">Berlin aktuell</span>
+                <span className="weather-location">{searchTerm}</span>
                 {"  "}{WeatherIconForecast(data[stationId]?.forecast1.icon[currentHour])}
                 <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
