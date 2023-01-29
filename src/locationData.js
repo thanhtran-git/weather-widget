@@ -5277,10 +5277,6 @@ export const locationData = [
         ID: "P0012"
     },
     {
-        Name: "LEIBSTADT",
-        ID: 6666
-    },
-    {
         Name: "LEICHLINGEN",
         ID: "P0223"
     },

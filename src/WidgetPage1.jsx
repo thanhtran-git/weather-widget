@@ -1,16 +1,17 @@
 import React, {useState, useContext} from "react";
-import {WeatherContext} from './FetchApi.jsx'
+// import {WeatherContext} from './FetchApi.jsx'
+import {SearchContext} from './Search.js'
 import WeatherIcon from './WeatherIcon.jsx'
 import './CSS/index.css'
-import {station_ID, currentHour, weekDay, weekdayToday} from './Variables' /* Station_ID has to be dynamic depending on location search */
+import {currentHour, weekDay, weekdayToday} from './Variables'
 
 const WidgetPage1 = () => {
-    const [data] = useContext(WeatherContext)
+    const {data, stationId} = useContext(SearchContext)
     const [error] = useState(null);
-    const todaysDate = new Date(data[station_ID]?.forecast1?.start)
-    const date1 = new Date(data[station_ID]?.days[1]?.dayDate)
+    const todaysDate = new Date(data[stationId]?.forecast1?.start)
+    const date1 = new Date(data[stationId]?.days[1]?.dayDate)
     const forecastNextDay = weekDay[date1.getDay()]
-    const date2 = new Date(data[station_ID]?.days[2]?.dayDate)
+    const date2 = new Date(data[stationId]?.days[2]?.dayDate)
     const forecastNextDay2 = weekDay[date2.getDay()]
 
     return (
@@ -34,7 +35,7 @@ const WidgetPage1 = () => {
                                                         {/* Weather Icon component */}
                         {WeatherIcon()}
                         <span className="weather-now-temp">
-                            {Math.round(data[station_ID]?.forecast1.temperature[currentHour]/10)}°                                    
+                            {Math.round(data[stationId]?.forecast1.temperature[currentHour]/10)}°                                    
                         </span>
                     </div>                       
                 <div className="weather-next">
@@ -45,11 +46,11 @@ const WidgetPage1 = () => {
                         <span className="weather-next-date">{forecastNextDay}</span>
 
                         <span className="weather-next-temp tempMax">
-                            {Math.round(data[station_ID]?.days[1].temperatureMax/10)}°
+                            {Math.round(data[stationId]?.days[1].temperatureMax/10)}°
                             </span> /{' '}
 
                         <span className="weather-next-temp tempMin">
-                            {Math.round(data[station_ID]?.days[1].temperatureMin/10)}°</span>
+                            {Math.round(data[stationId]?.days[1].temperatureMin/10)}°</span>
                     </div>
                     
                                             {/* Forecast Second Next Day Container */}
@@ -57,10 +58,10 @@ const WidgetPage1 = () => {
                         <span className="weather-next-date">{forecastNextDay2}</span>
 
                         <span className="weather-next-temp tempMax">
-                            {Math.round(data[station_ID]?.days[2].temperatureMax/10)}°
+                            {Math.round(data[stationId]?.days[2].temperatureMax/10)}°
                             </span> /{' '}
                         <span className="weather-next-temp tempMin">
-                            {Math.round(data[station_ID]?.days[2].temperatureMin/10)}°</span>
+                            {Math.round(data[stationId]?.days[2].temperatureMin/10)}°</span>
                     </div>
                 </div>
             )} 
