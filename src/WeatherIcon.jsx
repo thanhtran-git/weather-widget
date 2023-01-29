@@ -1,17 +1,17 @@
 import React, {useContext} from "react";
-import { WeatherContext } from "./FetchApi";
+import {SearchContext} from "./Search.js"; 
 import './CSS/Wicon.css'
 
 const WeatherIcon = () => {
-    const [data] = useContext(WeatherContext)
+    const {data, stationId} = useContext(SearchContext)
     const today = new Date()
     const currentHour = today.getHours()
-    const sunrise = new Date(data["10384"]?.days[0]?.sunrise)
-    const sunset = new Date(data["10384"]?.days[0]?.sunset)
+    const sunrise = new Date(data[stationId]?.days[0]?.sunrise)
+    const sunset = new Date(data[stationId]?.days[0]?.sunset)
     const checkDayNight = currentHour > sunrise.getHours() && currentHour < sunset.getHours()
     let icon = ""
     
-    switch(data['10384']?.forecast1?.icon[currentHour]) { //hard coded to Berlin-tempelhof, will be replaced later
+    switch(data[stationId]?.forecast1?.icon[currentHour]) {
         case 1 : checkDayNight ? icon = <img src="/weatherIcons/sonne.png" className="img" alt="wIcon" />
                     : icon = <img src="/weatherIcons/mond.png" className="img"  alt="wIcon" />; break;
         case 2 : checkDayNight ? icon =  <img src="/weatherIcons/sonne_woelkchen.png" className="img" alt="wIcon" />
