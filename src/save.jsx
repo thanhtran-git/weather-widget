@@ -1,29 +1,18 @@
 //This Component is the Search Bar and Search Button, used on WidgetPage1
-import React, {useState, useContext} from "react";
+import React, {useContext} from "react";
 import { SearchContext } from "./SearchContext";
 import { locationData } from "./locationData";
 import './CSS/SearchBar.css'
 
 export const SearchBar = () => {
     const {onSearch, onChange, reset} = useContext(SearchContext)
-    const {searchTerm, setSearchTerm} = useContext(SearchContext)
-
-
-    const filterSuggestions = (value) => {
-      const filteredSuggestions = locationData.filter((item) =>
-        item.Name.toLowerCase().startsWith(searchTerm.toLowerCase())
-      );
-      setSearchTerm(filteredSuggestions);
-    };
+    const {searchTerm} = useContext(SearchContext)
 
     return (
         <div className="search-container">
           <div className="search-inner">
             <input className="search-box" type="text" value={searchTerm} 
-            onChange={(e)=> {
-                setSearchTerm(e.target.value)
-                filterSuggestions(e.target.value)
-            }}
+            onChange={onChange} 
             onKeyDown={e => {
               if (e.key === 'Enter') {
                 onSearch(searchTerm);

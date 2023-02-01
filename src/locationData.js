@@ -1,10455 +1,11953 @@
 export const locationData = [
     {
-        Name: "AACHEN",
-        ID: 10501
+     Name: "AACHEN",
+     ID: 10501,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "AALEN",
-        ID: "N1503"
+     Name: "AACHEN-ORSBACH",
+     ID: 10505,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ABENSBERG-SAN",
-        ID: "N0674"
+     Name: "AACHEN-RICHTERICH",
+     ID: "P0004",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ABLASS",
-        ID: "P0358"
+     Name: "AALEN",
+     ID: "N1503",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ABTSGMÜND-UN",
-        ID: "Q334"
+     Name: "ABENSBERG-SANDHARL.",
+     ID: "N0674",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ACHENKIRCÖ",
-        ID: "Z004"
+     Name: "ABLASS",
+     ID: "P0358",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "ACHERN",
-        ID: "N0477"
+     Name: "ABTSGMUEND-UNTERGROE",
+     ID: "Q334",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ADELHEIDSDORF",
-        ID: "N4365"
+     Name: "ACHERN",
+     ID: "N0477",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ADELSDORF",
-        ID: "P761"
+     Name: "ADELHEIDSDORF",
+     ID: "N4365",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ADENAU",
-        ID: "K242"
+     Name: "ADELSDORF (KLAERANLA",
+     ID: "P761",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ADENSTEDT",
-        ID: "N4838"
+     Name: "ADENAU",
+     ID: "K242",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ADORF",
-        ID: "N5939"
+     Name: "ADENSTEDT",
+     ID: "N4838",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AHAUS",
-        ID: "N3102"
+     Name: "AHAUS",
+     ID: 10309,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "AHLEN",
-        ID: "N0224"
+     Name: "AHLEN",
+     ID: "N0224",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "AHLHORN",
-        ID: 10218
+     Name: "AHLHORN",
+     ID: 10218,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AHOLFING",
-        ID: "P468"
+     Name: "AHOLFING",
+     ID: "P468",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AHRENSFELDE",
-        ID: "F451"
+     Name: "AHRENSFELDE",
+     ID: "F451",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "AIGEENNS",
-        ID: 11157
+     Name: "AINERTSHOFEN",
+     ID: "G340",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AINERTSHOFEN",
-        ID: "G340"
+     Name: "AK STUTTGART",
+     ID: "Q441",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "AK STUTTGART",
-        ID: "Q441"
+     Name: "ALBSTADT-BADKAP",
+     ID: "Q751",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ALBSTADT-BADK",
-        ID: "Q751"
+     Name: "ALBSTADT-BURGFELDEN",
+     ID: "N1038",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ALBSTADT-BURG",
-        ID: "N1038"
+     Name: "ALDENHOVEN",
+     ID: "P0217",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ALDENHOVEN",
-        ID: "P0217"
+     Name: "ALDERSBACH-KRIESTORF",
+     ID: "P681",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALDERSBACH-KR",
-        ID: "P681"
+     Name: "ALFELD",
+     ID: 10442,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ALFELD",
-        ID: 10442
+     Name: "ALFHAUSEN",
+     ID: "E626",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ALFHAUSEN",
-        ID: "E626"
+     Name: "ALHEIM",
+     ID: "L267",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ALHEIM",
-        ID: "L267"
+     Name: "ALLGAEUER TOR",
+     ID: "P805",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALLGÄÜR TOR",
-        ID: "P805"
+     Name: "ALLMENDFELD",
+     ID: "L912",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ALLMENDFELD",
-        ID: "L912"
+     Name: "ALPERSTEDT",
+     ID: "M357",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ALPERSTEDT",
-        ID: "M357"
+     Name: "ALSFELD",
+     ID: "L463",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ALPINZENTRUM",
-        ID: 11138
+     Name: "ALSFELD-EIFA",
+     ID: "L464",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ALSFELD",
-        ID: "L463"
+     Name: "ALTDORF OFR.",
+     ID: "N3312",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALSFELD-EIFA",
-        ID: "L464"
+     Name: "ALTENBEKEN, MG",
+     ID: "P0139",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ALTDOROFR.",
-        ID: "N3312"
+     Name: "ALTENBRAK",
+     ID: "N6566",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "ALTENBEKEN, M",
-        ID: "P0139"
+     Name: "ALTENDORF",
+     ID: "P374",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTENBRAK",
-        ID: "N6566"
+     Name: "ALTENDORF OBERFRANKE",
+     ID: "P252",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTENDORF",
-        ID: "P374"
+     Name: "ALTENESSEN",
+     ID: "H423",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ALTENDOROBE",
-        ID: "P252"
+     Name: "ALTENKIRCHEN",
+     ID: "N7744",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ALTENESSEN",
-        ID: "H423"
+     Name: "ALTENSTADT",
+     ID: 10954,
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTENKIRCHEN",
-        ID: "N7744"
+     Name: "ALTENSTEIG-WART",
+     ID: "N1319",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ALTENRHEIN",
-        ID: 6690
+     Name: "ALTERTHEIM-OBERALTER",
+     ID: "P222",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTENSTADT",
-        ID: "L648"
+     Name: "ALTGERINGSWALDE",
+     ID: "O510",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "ALTENSTEIG-WA",
-        ID: "N1319"
+     Name: "ALTOETTING",
+     ID: "P0055",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTERTHEIM-OB",
-        ID: "P222"
+     Name: "ALTOMUENSTER",
+     ID: "K4116",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTGERINGSWAL",
-        ID: "O510"
+     Name: "ALTOMUENSTER-MAISBRU",
+     ID: "P629",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTÖTTING",
-        ID: "P0055"
+     Name: "ALTSHAUSEN",
+     ID: "Q873",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ALTOMÜNSTER",
-        ID: "K4116"
+     Name: "ALTUSRIED-MUTHMANNSH",
+     ID: "P988",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALTOMÜNSTER-",
-        ID: "P629"
+     Name: "ALZEY",
+     ID: "K2614",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ALTSHAUSEN",
-        ID: "Q873"
+     Name: "AM SCHARFENSTEIN",
+     ID: "L242",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ALTUSRIED-MUT",
-        ID: "P988"
+     Name: "AMBERG-UNTERAMMERSR.",
+     ID: "P354",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ALZEY",
-        ID: "K685"
+     Name: "AMERANG-PFAFFING",
+     ID: "P874",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AM SCHARFENST",
-        ID: "L242"
+     Name: "AMOENEBURG-RUEDIGHEI",
+     ID: "L442",
+     Bundesland: "Hessen"
     },
     {
-        Name: "AMBERG-UNTERA",
-        ID: "P354"
+     Name: "AMORBACH",
+     ID: "N4005",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AMERANG-PFAFF",
-        ID: "P874"
+     Name: "AMORBACH-NEUDORF",
+     ID: "P208",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AMÖNEBURG-RU",
-        ID: "L442"
+     Name: "AMPFING (KLAERANLAGE",
+     ID: "P781",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AMORBACH",
-        ID: "N4005"
+     Name: "AMT NEUHAUS",
+     ID: "P0206",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AMORBACH-NEUD",
-        ID: "P208"
+     Name: "ANDERNACH",
+     ID: 10520,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "AMPFING",
-        ID: "P781"
+     Name: "ANEMOLTER",
+     ID: "P0053",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AMSTETTEN",
-        ID: 11018
+     Name: "ANFELDEN",
+     ID: "G270",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AMT NEUHAUS",
-        ID: "P0206"
+     Name: "ANGELBURG-FRECHENHAU",
+     ID: "L314",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ANDERNACH",
-        ID: 10520
+     Name: "ANGERMUENDE",
+     ID: 10291,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ANEMOLTER",
-        ID: "P0053"
+     Name: "ANKLAM",
+     ID: "N2386",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "ANFELDEN",
-        ID: "G270"
+     Name: "ANKUM",
+     ID: "N0514",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ANGELBURG-FRE",
-        ID: "L314"
+     Name: "ANNABERG_BUCHHOLZ",
+     ID: "N4377",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "ANGERMÜNDE",
-        ID: 10291
+     Name: "ANSBACH",
+     ID: 10755,
+     Bundesland: "Bayern"
     },
     {
-        Name: "ANKLAM",
-        ID: "B488"
+     Name: "ARKONA",
+     ID: 10091,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "ANKUM",
-        ID: "N0514"
+     Name: "ARNSBERG",
+     ID: "K1585",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ANNABERG_BUCH",
-        ID: "N4377"
+     Name: "ARNSBERG-MUESCHEDE",
+     ID: "H573",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ANSBACH",
-        ID: 10755
+     Name: "ARNSBERG-NEHEIM",
+     ID: "H572",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ARKONA",
-        ID: 10091
+     Name: "ARNSTADT",
+     ID: "N5528",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ARLBERG",
-        ID: "P0298"
+     Name: "ARNSTEIN-MUEDESHEIM",
+     ID: "P125",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ARNSBERG",
-        ID: "K1585"
+     Name: "AROLSEN",
+     ID: "K1584",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ARNSTADT",
-        ID: "N5528"
+     Name: "AROLSEN-LANDAU",
+     ID: "L130",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ARNSTEIN-MÜD",
-        ID: "P125"
+     Name: "AROLSEN-VOLKHARDINGH",
+     ID: "L131",
+     Bundesland: "Hessen"
     },
     {
-        Name: "AROLSEN",
-        ID: "K1584"
+     Name: "ARTERN",
+     ID: 10460,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "AROLSEN-LANDA",
-        ID: "L130"
+     Name: "ARZFELD",
+     ID: "N7060",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "AROLSEN-VOLKH",
-        ID: "L131"
+     Name: "ASCHAFFENBURG",
+     ID: "N4045",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ARTERN",
-        ID: 10460
+     Name: "ASCHAU",
+     ID: "N2431",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ARZFELD",
-        ID: "N7060"
+     Name: "ASCHAU-STEIN",
+     ID: "P974",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASCHAFFENBURG",
-        ID: "N4045"
+     Name: "ASCHEBERG",
+     ID: "P0230",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ASCHAU",
-        ID: "N2431"
+     Name: "ASCHHEIM",
+     ID: "P755",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASCHAU-STEIN",
-        ID: "P974"
+     Name: "ASEN",
+     ID: "G367",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASCHEBERG",
-        ID: "P0230"
+     Name: "ASENDORF",
+     ID: "P0147",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ASCHHEIM",
-        ID: "P755"
+     Name: "ASSLAR KLEIN-ALTENST",
+     ID: "L521",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ASEN",
-        ID: "G367"
+     Name: "ASSLING",
+     ID: "P963",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASENDORF",
-        ID: "P0147"
+     Name: "ATTENDORN-NEULISTERN",
+     ID: "H669",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ASSLAR KLEIN-",
-        ID: "L521"
+     Name: "ATTENKAM",
+     ID: "P804",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASSLING",
-        ID: "P963"
+     Name: "AUBSTADT",
+     ID: "P032",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ASTANA",
-        ID: "P0566"
+     Name: "AUE",
+     ID: 10575,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "ATTENDORN-NEU",
-        ID: "H669"
+     Name: "AUERBACH OPF.",
+     ID: "N3265",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ATTENKAM",
-        ID: "P804"
+     Name: "AUFSESS",
+     ID: "G226",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AUBSTADT",
-        ID: "P032"
+     Name: "AUFSESS-HOCHSTAHL",
+     ID: "P168",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AÜ",
-        ID: "O863"
+     Name: "AUGSBURG",
+     ID: 10852,
+     Bundesland: "Bayern"
     },
     {
-        Name: "AÜRBACOPF.",
-        ID: "N3265"
+     Name: "AURA IM SINNGRUND",
+     ID: "P505",
+     Bundesland: "Bayern"
     },
     {
-        Name: "AUFSESS",
-        ID: "G226"
+     Name: "AURICH",
+     ID: "K1060",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AUFSESS-HOCHS",
-        ID: "P168"
+     Name: "AVELSBACH",
+     ID: "K610",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "AUGSBURG",
-        ID: 10852
+     Name: "B.MARIENBG.",
+     ID: 10526,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "AURA IM SINNG",
-        ID: "P505"
+     Name: "BACHEM",
+     ID: "J739",
+     Bundesland: "Saarland"
     },
     {
-        Name: "AURICH",
-        ID: "K1060"
+     Name: "BACKNANG",
+     ID: "N1245",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "AUSSIG",
-        ID: 11502
+     Name: "BAD BENTHEIM",
+     ID: "N3060",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "AVELSBACH",
-        ID: "K610"
+     Name: "BAD BERGZABERN",
+     ID: "K2688",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "B.MARIENBG.",
-        ID: 10526
+     Name: "BAD BERLEBURG",
+     ID: "K1599",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BACHEM",
-        ID: "J739"
+     Name: "BAD BERLEBURG-STÜNZE",
+     ID: "H795",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BACKNANG",
-        ID: "N1245"
+     Name: "BAD BERTRICH",
+     ID: "K2269",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD BENTHEIM",
-        ID: "N3060"
+     Name: "BAD BEVENSEN",
+     ID: "N8421",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD BERGZABER",
-        ID: "K2688"
+     Name: "BAD BRAMSTEDT",
+     ID: "N8667",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "BAD BERLEBURG",
-        ID: "H795"
+     Name: "BAD BREISIG",
+     ID: "P0186",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD BERTRICH",
-        ID: "K2269"
+     Name: "BAD DOBERAN",
+     ID: "N2813",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BAD BEVENSEN",
-        ID: "N8421"
+     Name: "BAD DUEBEN",
+     ID: "N4535",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BAD BRAMSTEDT",
-        ID: "N8667"
+     Name: "BAD DUERKHEIM",
+     ID: "K881",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD BREISIG",
-        ID: "P0186"
+     Name: "BAD DUERRENBERG",
+     ID: "N5872",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "BAD DOBERAN",
-        ID: "N2813"
+     Name: "BAD EMSTAL",
+     ID: "P0185",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAD DÜBEN",
-        ID: "N4535"
+     Name: "BAD FRANKENHAUSEN KY",
+     ID: "K3406",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "BAD DÜRKHEIM",
-        ID: "K881"
+     Name: "BAD GANDERSHEIM",
+     ID: "N4655",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD DÜRRENBE",
-        ID: "N5872"
+     Name: "BAD GOTTLEUBA",
+     ID: "K4408",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BAD EMSTAL",
-        ID: "P0185"
+     Name: "BAD HARZBURG",
+     ID: "E897",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD FRANKENHA",
-        ID: "K3406"
+     Name: "BAD HERRENALB",
+     ID: "K2706",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD GANDERSHE",
-        ID: "N4655"
+     Name: "BAD HERSFELD",
+     ID: 10542,
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAD GASTEIN",
-        ID: 11145
+     Name: "BAD HOMBURG",
+     ID: "N4333",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAD GOISERN",
-        ID: 11354
+     Name: "BAD KOENIGSHOFEN",
+     ID: "P033",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD GOTTLEUBA",
-        ID: "K4408"
+     Name: "BAD KOHLGRUB",
+     ID: "P942",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD HARZBURG",
-        ID: "E897"
+     Name: "BAD KREUZNACH",
+     ID: "K2274",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD HERRENALB",
-        ID: "K2706"
+     Name: "BAD LAUTERBERG",
+     ID: "K3973",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD HERSFELD",
-        ID: 10542
+     Name: "BAD LIEBENZELL",
+     ID: "N1336",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD HOMBURG",
-        ID: "N4333"
+     Name: "BAD LIPPSPRINGE",
+     ID: 10430,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAD ISCHL",
-        ID: 11156
+     Name: "BAD LOBENSTEIN",
+     ID: "M965",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "BAD KÖNIGSHO",
-        ID: "P033"
+     Name: "BAD MERGENTHEIM",
+     ID: "K2679",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD KOHLGRUB",
-        ID: "P942"
+     Name: "BAD MERGENTHEIM-NEUN",
+     ID: "Q076",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD KREUZNACH",
-        ID: "K2274"
+     Name: "BAD MUENDER",
+     ID: "N2433",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD LAUTERBER",
-        ID: "K3973"
+     Name: "BAD MUENSTEREIFEL",
+     ID: "N8403",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAD LIEBENZEL",
-        ID: "N1336"
+     Name: "BAD MUSKAU",
+     ID: "O025",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BAD LIPPSPRIN",
-        ID: 10430
+     Name: "BAD NAUHEIM",
+     ID: "L635",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAD LOBENSTEI",
-        ID: "M965"
+     Name: "BAD NEUENAHR-AHRWEIL",
+     ID: "K038",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD MERGENTHE",
-        ID: "K2679"
+     Name: "BAD NEUENAHR-AHRWL.",
+     ID: "K2245",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BAD MÜNDER",
-        ID: "N2433"
+     Name: "BAD OLDESLOE",
+     ID: "N7012",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "BAD MÜNSTERE",
-        ID: "N8403"
+     Name: "BAD REICHENHALL",
+     ID: "K4535",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD MUSKAU",
-        ID: "O025"
+     Name: "BAD SALZUFLEN",
+     ID: 10325,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAD NAUHEIM",
-        ID: "L635"
+     Name: "BAD SALZUNGEN",
+     ID: "N9228",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "BAD NEÜNAHR-",
-        ID: "K038"
+     Name: "BAD SCHUSSENRIED",
+     ID: "N0136",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD OLDESLÖ",
-        ID: "N7012"
+     Name: "BAD SCHWALBACH",
+     ID: "K2588",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAD REICHENHA",
-        ID: "K4535"
+     Name: "BAD SEGEBERG",
+     ID: "K3854",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "BAD SALZUFLEN",
-        ID: 10325
+     Name: "BAD STAFFELSTEIN",
+     ID: "G210",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD SALZUNGEN",
-        ID: "N9228"
+     Name: "BAD SUELZE",
+     ID: "N2575",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BAD SCHUSSENR",
-        ID: "N0136"
+     Name: "BAD TENNSTEDT",
+     ID: "N5570",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "BAD SCHWALBAC",
-        ID: "K2588"
+     Name: "BAD TOELZ",
+     ID: "K4169",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD SEGEBERG",
-        ID: "K3854"
+     Name: "BAD WALDSEE",
+     ID: "N0139",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD STAFFELST",
-        ID: "G210"
+     Name: "BAD ZWISCHENAHN",
+     ID: "N6423",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAD SÜLZE",
-        ID: "N2575"
+     Name: "BADEN BADEN",
+     ID: "K2701",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD TENNSTEDT",
-        ID: "N5570"
+     Name: "BADEN-BADEN-GEROLDSA",
+     ID: "Q411",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAD TÖLZ",
-        ID: "K4169"
+     Name: "BADEWITZ BEI ZERBST",
+     ID: "N553",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "BAD WALDSEE",
-        ID: "N0139"
+     Name: "BAERNAU",
+     ID: "N1101",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAD ZWISCHENA",
-        ID: "N6423"
+     Name: "BAESWEILER",
+     ID: "P0224",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BADEN BADEN",
-        ID: "K2701"
+     Name: "BAIERSBRONN-MITTELTA",
+     ID: "Q522",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BADEN-BADEN-G",
-        ID: "Q411"
+     Name: "BAIERSBRONN-RUHESTEI",
+     ID: "Q409",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BADEWITZ BEI",
-        ID: "N553"
+     Name: "BALDERSCHWANG",
+     ID: "N0101",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BÄRNAU",
-        ID: "G352"
+     Name: "BALINGEN",
+     ID: "N1043",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BÄSWEILER",
-        ID: "P0224"
+     Name: "BALINGEN-BRONNHPTN.",
+     ID: "Q740",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BAIERSBRONN-M",
-        ID: "Q522"
+     Name: "BALLERSTEDT",
+     ID: "N158",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "BAIERSBRONN-R",
-        ID: "Q409"
+     Name: "BALTERSWEILER",
+     ID: "J736",
+     Bundesland: "Saarland"
     },
     {
-        Name: "BALDERSCHWANG",
-        ID: "N0101"
+     Name: "BALTMANNSWEILER-HOHE",
+     ID: "Q461",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "BALINGEN",
-        ID: "N1043"
+     Name: "BALTRUM",
+     ID: "E5344",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BALINGEN-BRON",
-        ID: "Q740"
+     Name: "BAMBERG",
+     ID: 10675,
+     Bundesland: "Bayern"
     },
     {
-        Name: "BALLERSTEDT",
-        ID: "N158"
+     Name: "BAMMERSDORF",
+     ID: "G243",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BALTERSWEILER",
-        ID: "J736"
+     Name: "BARNSTORF",
+     ID: "E545",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BALTMANNSWEIL",
-        ID: "Q461"
+     Name: "BARSINGHAUSEN",
+     ID: "N5015",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BALTRUM",
-        ID: "E5344"
+     Name: "BARSINGHAUSEN-HOHENB",
+     ID: "E744",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BAMBERG",
-        ID: 10675
+     Name: "BARTH",
+     ID: 10180,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BAMMERSDORF",
-        ID: "G243"
+     Name: "BARUTH",
+     ID: 10376,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "BARNAUL",
-        ID: 29838
+     Name: "BASEPOHL",
+     ID: 10273,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BARNSTORF",
-        ID: "E545"
+     Name: "BASSENS",
+     ID: "P0141",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BARSINGHAUSEN",
-        ID: "N5015"
+     Name: "BASSUM",
+     ID: "E438",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BARTH",
-        ID: 10180
+     Name: "BASTORF-KAEGSDORF (S",
+     ID: "B203",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BARUTH",
-        ID: 10376
+     Name: "BATTENBERG-HOF KARLS",
+     ID: "L201",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BASEL",
-        ID: 6601
+     Name: "BAUMGARTEN",
+     ID: "B531",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BASEL-MLH.",
-        ID: 7299
+     Name: "BAUMHOLDER",
+     ID: 10619,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BASEPOHL",
-        ID: 10273
+     Name: "BAUTZEN",
+     ID: "K3382",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BASSENS",
-        ID: "P0141"
+     Name: "BAYERFELD-STECKWEILE",
+     ID: "K666",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BASSUM",
-        ID: "E438"
+     Name: "BAYREUTH",
+     ID: 10677,
+     Bundesland: "Bayern"
     },
     {
-        Name: "BASTORF-KÄGS",
-        ID: "B203"
+     Name: "BAYRISCHZELL",
+     ID: "K4546",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BATTENBERG-HO",
-        ID: "L201"
+     Name: "BEBRA",
+     ID: "L391",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAUMGARTEN",
-        ID: "B531"
+     Name: "BECHHOFEN MITTELFRAN",
+     ID: "P410",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BAUMHOLDER",
-        ID: 10619
+     Name: "BECKUMER BERG",
+     ID: "H267",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAUTZEN",
-        ID: "K3382"
+     Name: "BECKUM-UNTERBERG",
+     ID: "H361",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAYERFELD-STE",
-        ID: "K666"
+     Name: "BEDBURG-WEILER HOHEN",
+     ID: "H721",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BAYREUTH",
-        ID: 10677
+     Name: "BEERFELDEN",
+     ID: "K2667",
+     Bundesland: "Hessen"
     },
     {
-        Name: "BAYRISCHZELL",
-        ID: "K4546"
+     Name: "BEILNGRIES",
+     ID: "N0763",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BEBRA",
-        ID: "L391"
+     Name: "BELGERSHAIN",
+     ID: "O141",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BECHHOFEMIT",
-        ID: "P410"
+     Name: "BELM",
+     ID: 10312,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BECKUMER BERG",
-        ID: "H267"
+     Name: "BELMULLET",
+     ID: 3976,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "BECKUM-UNTERB",
-        ID: "H361"
+     Name: "BENTHEIM, BAD",
+     ID: "E704",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BEDBURG-WEILE",
-        ID: "H721"
+     Name: "BERATZHAUSEN",
+     ID: "P444",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BEERFELDEN",
-        ID: "K2667"
+     Name: "BERBERSDORF",
+     ID: "O013",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "BEILNGRIES",
-        ID: "N0763"
+     Name: "BERCHING",
+     ID: "P433",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BELGERSHAIN",
-        ID: "O141"
+     Name: "BERCHTESG.",
+     ID: "K4536",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BELM",
-        ID: 10312
+     Name: "BERCHTESGADEN",
+     ID: "P996",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BENTHEIM, BAD",
-        ID: "E704"
+     Name: "BERCHTESGADEN JENNER",
+     ID: "P997",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BERATZHAUSEN",
-        ID: "P444"
+     Name: "BERDEL",
+     ID: "P0621",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BERCHING",
-        ID: "P433"
+     Name: "BERG.NEUKIRCHEN",
+     ID: "N8369",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BERCHTESG.",
-        ID: "K4536"
+     Name: "BERGE",
+     ID: "F431",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "BERCHTESGADEN",
-        ID: "P997"
+     Name: "BERGEN RUEGEN",
+     ID: "N2457",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "BERDEL",
-        ID: "P0621"
+     Name: "BERGEN-HOHNE",
+     ID: 10238,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "BERG.NEUKIRCH",
-        ID: "N8369"
+     Name: "BERGHAM",
+     ID: "G376",
+     Bundesland: "Bayern"
     },
     {
-        Name: "BERGE",
-        ID: "F431"
+     Name: "BERGHAUSEN",
+     ID: "K399",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BERGERÜGEN",
-        ID: "N2457"
+     Name: "BERGHEIM",
+     ID: "P0225",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BERGEN-HOHNE",
-        ID: 10238
+     Name: "BERGISCH GLADBACH",
+     ID: "P0226",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "BERGHAM",
-        ID: "G376"
+     Name: "BERGLICHT",
+     ID: "P0508",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "BERGHAUSEN",
-        ID: "K399"
-    },
-    {
-        Name: "BERGHEIM",
-        ID: "P0225"
-    },
-    {
-        Name: "BERGISCH GLADBACH",
-        ID: "P0226"
-    },
-    {
-        Name: "BERGLICHT",
-        ID: "P0508"
-    },
-    {
-        Name: "BERGSTEDT",
-        ID: "P0488"
-    },
-    {
-        Name: "BERKHOLZ-MEYE",
-        ID: "F199"
-    },
-    {
-        Name: "BERLEBURG, BA",
-        ID: "H791"
-    },
-    {
-        Name: "BERLIN-ALEXANDERPLATZ",
-        ID: 10389
-    },
-    {
-        Name: "BERLIN-BUCH",
-        ID: "G002"
-    },
-    {
-        Name: "BERLIN-DAHLEM",
-        ID: 10381
-    },
-    {
-        Name: "BERLIN-MARZAHN",
-        ID: "G005"
-    },
-    {
-        Name: "BERLIN-TEGEL",
-        ID: 10382
-    },
-    {
-        Name: "BERLIN-TEMPELHOF",
-        ID: 10384
-    },
-    {
-        Name: "BERNKASTEL-KU",
-        ID: "K531"
-    },
-    {
-        Name: "BERSTELAND-NI",
-        ID: "P0504"
-    },
-    {
-        Name: "BERTIKOW",
-        ID: "P0500"
-    },
-    {
-        Name: "BERTSDORF-HÖ",
-        ID: "O598"
-    },
-    {
-        Name: "BERUS",
-        ID: 10704
-    },
-    {
-        Name: "BESIGHEIM",
-        ID: "Q247"
-    },
-    {
-        Name: "BETZDORF",
-        ID: "P0187"
-    },
-    {
-        Name: "BETZWEILER-WA",
-        ID: "Q056"
-    },
-    {
-        Name: "BEUREN",
-        ID: "K517"
-    },
-    {
-        Name: "BEVERGERN",
-        ID: "P0627"
-    },
-    {
-        Name: "Beveringen",
-        ID: "EW002"
-    },
-    {
-        Name: "BEVERN",
-        ID: "E818"
-    },
-    {
-        Name: "BEVERSTEDT",
-        ID: "E158"
-    },
-    {
-        Name: "BEZNAU",
-        ID: 6646
-    },
-    {
-        Name: "BIBERACH",
-        ID: "K2765"
-    },
-    {
-        Name: "BIBERACH AN D",
-        ID: "Q786"
-    },
-    {
-        Name: "BIBLIS",
-        ID: "N2216"
-    },
-    {
-        Name: "BIBRA, BAD-AL",
-        ID: "N815"
-    },
-    {
-        Name: "BICKENDORF",
-        ID: "P0410"
-    },
-    {
-        Name: "BIEBESHEIM",
-        ID: "P0178"
-    },
-    {
-        Name: "BIELEFELD",
-        ID: 10326
-    },
-    {
-        Name: "BIELEFELD-DEP",
-        ID: "H174"
-    },
-    {
-        Name: "BIGGE",
-        ID: "N8790"
-    },
-    {
-        Name: "BILLERBECK",
-        ID: "P0006"
-    },
-    {
-        Name: "BILLIGHEIM",
-        ID: "P0252"
-    },
-    {
-        Name: "BINGEN-BÜDES",
-        ID: "N5374"
-    },
-    {
-        Name: "BINGEN-GAULSH",
-        ID: "K571"
-    },
-    {
-        Name: "BIRENBACH",
-        ID: "Q672"
-    },
-    {
-        Name: "BIRKELBACH",
-        ID: "H884"
-    },
-    {
-        Name: "BIRKENAU",
-        ID: "L979"
-    },
-    {
-        Name: "BIRKENMOOR",
-        ID: "G201"
-    },
-    {
-        Name: "BIRX",
-        ID: "M805"
-    },
-    {
-        Name: "BISCHDORF, KR",
-        ID: "F757"
-    },
-    {
-        Name: "BISCHOFSHEIM",
-        ID: "N3729"
-    },
-    {
-        Name: "BISCHOFSHOFEN",
-        ID: 11141
-    },
-    {
-        Name: "BISCHOFSMAIS",
-        ID: "N1333"
-    },
-    {
-        Name: "BISCHOFSWERDA",
-        ID: "N3264"
-    },
-    {
-        Name: "BISCHOFSZELL",
-        ID: 6678
-    },
-    {
-        Name: "BISDORF",
-        ID: "P0332"
-    },
-    {
-        Name: "BISSINGEN",
-        ID: "P517"
-    },
-    {
-        Name: "BITBURG",
-        ID: "N7075"
-    },
-    {
-        Name: "BITTERFELD",
-        ID: "K3362"
-    },
-    {
-        Name: "BLANDOW",
-        ID: "X480"
-    },
-    {
-        Name: "BLANKENBURG",
-        ID: "P0576"
-    },
-    {
-        Name: "BLANKENHEIM",
-        ID: "H993"
-    },
-    {
-        Name: "BLANKENHEIA",
-        ID: "N7822"
-    },
-    {
-        Name: "BLANKENRATH",
-        ID: "K463"
-    },
-    {
-        Name: "BLAUFELDEN",
-        ID: "N1622"
-    },
-    {
-        Name: "BLECKEDE-WALM",
-        ID: "E297"
-    },
-    {
-        Name: "BLEICHERODE",
-        ID: "P0577"
-    },
-    {
-        Name: "BLIESDORF",
-        ID: "P0430"
-    },
-    {
-        Name: "BLIESRANSBACH",
-        ID: "P0274"
-    },
-    {
-        Name: "BLUMBERG",
-        ID: "N0214"
-    },
-    {
-        Name: "BLUMBERG-RAND",
-        ID: "Q481"
-    },
-    {
-        Name: "BOBECK",
-        ID: "M565"
-    },
-    {
-        Name: "BOCHOLT",
-        ID: 10406
-    },
-    {
-        Name: "BOCHUM",
-        ID: "H432"
-    },
-    {
-        Name: "BOCHUM UMSPWK",
-        ID: "F9501"
-    },
-    {
-        Name: "BOCKEL",
-        ID: "E267"
-    },
-    {
-        Name: "BOCKHORN-GRAB",
-        ID: "E200"
-    },
-    {
-        Name: "BODDENGEW. OS",
-        ID: "E5414"
-    },
-    {
-        Name: "BODENFELDE-AM",
-        ID: "E902"
-    },
-    {
-        Name: "BODENKIRCHEN-",
-        ID: "N2603"
-    },
-    {
-        Name: "BÖBLINGEN",
-        ID: "K2913"
-    },
-    {
-        Name: "BÖNNIGHEIM",
-        ID: "N1401"
-    },
-    {
-        Name: "BÖSDORF",
-        ID: "N305"
-    },
-    {
-        Name: "BÖSLEBEN",
-        ID: "G402"
-    },
-    {
-        Name: "BOGEN-PFELLIN",
-        ID: "P571"
-    },
-    {
-        Name: "BOHLENDORF",
-        ID: "X481"
-    },
-    {
-        Name: "BOHMTE",
-        ID: "P0634"
-    },
-    {
-        Name: "BOIZENBURG",
-        ID: 10249
-    },
-    {
-        Name: "BOLLBERG",
-        ID: "G401"
-    },
-    {
-        Name: "BOLTENHAGEN",
-        ID: 10161
-    },
-    {
-        Name: "BONNDORF",
-        ID: "K2761"
-    },
-    {
-        Name: "BONN-FRIESDOR",
-        ID: 10517
-    },
-    {
-        Name: "BONNHOF",
-        ID: "G274"
-    },
-    {
-        Name: "BONN-ROLEBER",
-        ID: 10519
-    },
-    {
-        Name: "BOPFINGEN",
-        ID: "N0432"
-    },
-    {
-        Name: "BORDELUM",
-        ID: "A138"
-    },
-    {
-        Name: "BORGENTREICH",
-        ID: "H492"
-    },
-    {
-        Name: "BORKEWESTFA",
-        ID: "H411"
-    },
-    {
-        Name: "BORKUM",
-        ID: "K1083"
-    },
-    {
-        Name: "BORKUM-FLUGPL",
-        ID: "E008"
-    },
-    {
-        Name: "BORKUM-SÜDER",
-        ID: "E006"
-    },
-    {
-        Name: "BORN",
-        ID: "N315"
-    },
-    {
-        Name: "BORNA",
-        ID: "N6257"
-    },
-    {
-        Name: "BORNHEIM EICH",
-        ID: "H840"
-    },
-    {
-        Name: "BORNUM AM HAR",
-        ID: "P0054"
-    },
-    {
-        Name: "BOTTMERSDORF-",
-        ID: "N435"
-    },
-    {
-        Name: "BOTTROP",
-        ID: "N9067"
-    },
-    {
-        Name: "BOXBERG",
-        ID: "O182"
-    },
-    {
-        Name: "BRAKE",
-        ID: "E235"
-    },
-    {
-        Name: "BRAKEL",
-        ID: "H391"
-    },
-    {
-        Name: "BRANDENBURH",
-        ID: "F518"
-    },
-    {
-        Name: "BRANNENBURG-D",
-        ID: "P971"
-    },
-    {
-        Name: "BRAUNECK",
-        ID: "P0308"
-    },
-    {
-        Name: "BRAUNERSGRÜN",
-        ID: "G213"
-    },
-    {
-        Name: "BRAUNLAGE",
-        ID: 10452
-    },
-    {
-        Name: "BRAUNSCHWEIG",
-        ID: 10348
-    },
-    {
-        Name: "BRAUNSDORF",
-        ID: "N4464"
-    },
-    {
-        Name: "BRECHERSPITZE",
-        ID: "Z931"
-    },
-    {
-        Name: "BRECKERFELD-W",
-        ID: "H543"
-    },
-    {
-        Name: "BREGENZ",
-        ID: 11101
-    },
-    {
-        Name: "BREISACH",
-        ID: "N0291"
-    },
-    {
-        Name: "BREITENBACHTA",
-        ID: "H789"
-    },
-    {
-        Name: "BREITENBRUNN-",
-        ID: "P718"
-    },
-    {
-        Name: "BREITNAU",
-        ID: "Q813"
-    },
-    {
-        Name: "BREITSOL",
-        ID: 10645
-    },
-    {
-        Name: "BREKENDORFER",
-        ID: "A338"
-    },
-    {
-        Name: "BREMEN",
-        ID: 10224
-    },
-    {
-        Name: "BREMERHAVEN",
-        ID: 10129
-    },
-    {
-        Name: "BREMERVÖRDE",
-        ID: 10139
-    },
-    {
-        Name: "BRENNER",
-        ID: 11128
-    },
-    {
-        Name: "BRENSBACH",
-        ID: "P0179"
-    },
-    {
-        Name: "BRETTEN, KREI",
-        ID: "Q218"
-    },
-    {
-        Name: "BRILON",
-        ID: "N8623"
-    },
-    {
-        Name: "BRILON-TH LEN",
-        ID: "H591"
-    },
-    {
-        Name: "BROCKEN",
-        ID: 10453
-    },
-    {
-        Name: "BROKDORF",
-        ID: "N8690"
-    },
-    {
-        Name: "BROTJACKLRIEG",
-        ID: "K4570"
-    },
-    {
-        Name: "BRUCHSAL-HEID",
-        ID: "Q333"
-    },
-    {
-        Name: "BRUCHWEILER,",
-        ID: "K539"
-    },
-    {
-        Name: "BRUCKMÜHL",
-        ID: "P0264"
-    },
-    {
-        Name: "BRÜCK-GÖMNI",
-        ID: "F620"
-    },
-    {
-        Name: "BRÜGGEN",
-        ID: 10401
-    },
-    {
-        Name: "BRÜHL",
-        ID: "N8204"
-    },
-    {
-        Name: "BRUNNSTEINSPI",
-        ID: "Z922"
-    },
-    {
-        Name: "BRUNSBÜTTE",
-        ID: "P0027"
-    },
-    {
-        Name: "BUCH AM AMMER",
-        ID: "P0265"
-    },
-    {
-        Name: "BUCHA",
-        ID: "M557"
-    },
-    {
-        Name: "BUCHEN,KR.NEC",
-        ID: "Q055"
-    },
-    {
-        Name: "BUCHENBACH",
-        ID: "Q811"
-    },
-    {
-        Name: "BUCHENHOFEN",
-        ID: "H547"
-    },
-    {
-        Name: "BUCHHOLZ I.D.",
-        ID: "K1489"
-    },
-    {
-        Name: "BUCHLÖ",
-        ID: "P821"
-    },
-    {
-        Name: "BUCHS-SUHR",
-        ID: 6633
-    },
-    {
-        Name: "BÜCHEL",
-        ID: 10613
-    },
-    {
-        Name: "BÜCHLBERG-TA",
-        ID: "P597"
-    },
-    {
-        Name: "BÜCKEBURG",
-        ID: 10335
-    },
-    {
-        Name: "BÜHNE-RIMBEC",
-        ID: "N500"
-    },
-    {
-        Name: "BÜNDE",
-        ID: "P0233"
-    },
-    {
-        Name: "BÜRG",
-        ID: "G348"
-    },
-    {
-        Name: "BÜRGSTADT",
-        ID: "P235"
-    },
-    {
-        Name: "BÜRSTADT",
-        ID: "P0176"
-    },
-    {
-        Name: "BÜSUM",
-        ID: "A505"
-    },
-    {
-        Name: "BÜTTHARD",
-        ID: "P228"
-    },
-    {
-        Name: "BÜTZOW-WOLKE",
-        ID: "N2781"
-    },
-    {
-        Name: "BUNDENTHAL",
-        ID: "K986"
-    },
-    {
-        Name: "BURBACH-WÜRG",
-        ID: "H889"
-    },
-    {
-        Name: "BURG B.MAGDEB",
-        ID: "N7622"
-    },
-    {
-        Name: "BURGBERNHEIM",
-        ID: "P302"
-    },
-    {
-        Name: "BURG-BLUMENTH",
-        ID: "N366"
-    },
-    {
-        Name: "BURGHAUN",
-        ID: "P0183"
-    },
-    {
-        Name: "BURGHAUSEN",
-        ID: "N2583"
-    },
-    {
-        Name: "BURGHEIM",
-        ID: "G318"
-    },
-    {
-        Name: "BURGKUNSTADT",
-        ID: "P068"
-    },
-    {
-        Name: "BURGSINN",
-        ID: "N3778"
-    },
-    {
-        Name: "BURGWALD-BOTT",
-        ID: "L217"
-    },
-    {
-        Name: "BURKAÜR BERG",
-        ID: "O372"
-    },
-    {
-        Name: "BURKERSDORF",
-        ID: "G403"
-    },
-    {
-        Name: "BURLADINGEN-H",
-        ID: "Q655"
-    },
-    {
-        Name: "BUTJADINGEN-I",
-        ID: "E145"
-    },
-    {
-        Name: "BUTZBACH",
-        ID: "N6160"
-    },
-    {
-        Name: "CalvÖrde",
-        ID: "EW003"
-    },
-    {
-        Name: "CALW",
-        ID: "P0603"
-    },
-    {
-        Name: "CAMBERG, BAD",
-        ID: "L617"
-    },
-    {
-        Name: "CARLSFELD",
-        ID: 10574
-    },
-    {
-        Name: "CELLE",
-        ID: 10343
-    },
-    {
-        Name: "CELLE (STADT)",
-        ID: "E673"
-    },
-    {
-        Name: "CHAM",
-        ID: 6674
-    },
-    {
-        Name: "CHASSERAL",
-        ID: 6605
-    },
-    {
-        Name: "CHEMNITZ",
-        ID: 10577
-    },
-    {
-        Name: "CHIEMING",
-        ID: 10982
-    },
-    {
-        Name: "CHIEMSEE",
-        ID: "P0158"
-    },
-    {
-        Name: "CHIEMSEE-HERR",
-        ID: "P875"
-    },
-    {
-        Name: "CHURANOV",
-        ID: 11457
-    },
-    {
-        Name: "CLAUSTHAL-ZEL",
-        ID: "E877"
-    },
-    {
-        Name: "CLOPPENBURG",
-        ID: "K1511"
-    },
-    {
-        Name: "COBURG",
-        ID: 10671
-    },
-    {
-        Name: "COCHSTEDT",
-        ID: 10457
-    },
-    {
-        Name: "CÖLBE",
-        ID: "L319"
-    },
-    {
-        Name: "CÖSFELD",
-        ID: "N3114"
-    },
-    {
-        Name: "COLMAR",
-        ID: 7197
-    },
-    {
-        Name: "COLMBERG-BINZ",
-        ID: "P306"
-    },
-    {
-        Name: "COSCHEN",
-        ID: "F695"
-    },
-    {
-        Name: "COTTBUS",
-        ID: 10496
-    },
-    {
-        Name: "COTTBUFLUGP",
-        ID: 10492
-    },
-    {
-        Name: "COTTBULUB",
-        ID: "P0038"
-    },
-    {
-        Name: "CRAILSHEIM",
-        ID: "N1613"
-    },
-    {
-        Name: "CRAILSHEIM",
-        ID: "Q293"
-    },
-    {
-        Name: "CREMLINGEN-DE",
-        ID: "E799"
-    },
-    {
-        Name: "CRESSIER",
-        ID: 6606
-    },
-    {
-        Name: "CREUSSEN-BÜH",
-        ID: "P179"
-    },
-    {
-        Name: "CRIMMITSCHAU-",
-        ID: "O708"
-    },
-    {
-        Name: "CROSSEELSTE",
-        ID: "M473"
-    },
-    {
-        Name: "CUXHAVEN",
-        ID: 10131
-    },
-    {
-        Name: "DACHAU",
-        ID: "N2142"
-    },
-    {
-        Name: "DACHSBERG-WOL",
-        ID: "Q824"
-    },
-    {
-        Name: "DACHSTEIN",
-        ID: "P0300"
-    },
-    {
-        Name: "DACHWIG",
-        ID: "M348"
-    },
-    {
-        Name: "Dahlem-Berg",
-        ID: "EW004"
-    },
-    {
-        Name: "DAHLEM-KRONEN",
-        ID: "N7417"
-    },
-    {
-        Name: "DAHLEM-SCHMID",
-        ID: "H212"
-    },
-    {
-        Name: "DAHME",
-        ID: "N7411"
-    },
-    {
-        Name: "DAMME",
-        ID: "P0210"
-    },
-    {
-        Name: "DAMÜLS",
-        ID: "P0385"
-    },
-    {
-        Name: "DARMSTADT",
-        ID: "K2596"
-    },
-    {
-        Name: "DARSSER ORT",
-        ID: "B040"
-    },
-    {
-        Name: "DASING",
-        ID: "P626"
-    },
-    {
-        Name: "DAUN",
-        ID: "K2270"
-    },
-    {
-        Name: "DEGGENAU",
-        ID: "P573"
-    },
-    {
-        Name: "DEGGENDORF",
-        ID: "N1475"
-    },
-    {
-        Name: "DEGGENHAUSERT",
-        ID: "Q790"
-    },
-    {
-        Name: "DEISENHOFEN,",
-        ID: "P860"
-    },
-    {
-        Name: "DELBRÜCK",
-        ID: "H372"
-    },
-    {
-        Name: "Delitzsch",
-        ID: "EW005"
-    },
-    {
-        Name: "DELITZSCH-SEL",
-        ID: "P0129"
-    },
-    {
-        Name: "DELMENHORST",
-        ID: "N6067"
-    },
-    {
-        Name: "DEMKER",
-        ID: "N272"
-    },
-    {
-        Name: "DEMMIN",
-        ID: "N2372"
-    },
-    {
-        Name: "DENSBORN",
-        ID: "K318"
-    },
-    {
-        Name: "DESSAU",
-        ID: "N4639"
-    },
-    {
-        Name: "DETMOLD",
-        ID: "K9097"
-    },
-    {
-        Name: "DETTENDORF",
-        ID: "P869"
-    },
-    {
-        Name: "DEUSELBACH",
-        ID: 10615
-    },
-    {
-        Name: "DEUTSCHNEUDOR",
-        ID: "O842"
-    },
-    {
-        Name: "DEXHEIM",
-        ID: "K598"
-    },
-    {
-        Name: "DIEBURG",
-        ID: "N4070"
-    },
-    {
-        Name: "DIEDORSCHWA",
-        ID: "P618"
-    },
-    {
-        Name: "DIENSTWEILER",
-        ID: "K630"
-    },
-    {
-        Name: "DIEPHOLZ",
-        ID: 10321
-    },
-    {
-        Name: "DIESDORF",
-        ID: "N104"
-    },
-    {
-        Name: "DIESSEN",
-        ID: "P0157"
-    },
-    {
-        Name: "DIESSEAMMER",
-        ID: "P833"
-    },
-    {
-        Name: "DIETRICHSDORF",
-        ID: "G328"
-    },
-    {
-        Name: "DIETZHÖLZTAL",
-        ID: "N6208"
-    },
-    {
-        Name: "DIETZHOF",
-        ID: "G250"
-    },
-    {
-        Name: "DIFFERTEN",
-        ID: "J623"
-    },
-    {
-        Name: "DILLENBURG",
-        ID: "L411"
-    },
-    {
-        Name: "DILLINGEN-FRI",
-        ID: "P602"
-    },
-    {
-        Name: "DINGOLFING",
-        ID: "P0297"
-    },
-    {
-        Name: "DINKELSBÜHL",
-        ID: "N0406"
-    },
-    {
-        Name: "DINKELSBÜHL-",
-        ID: "P405"
-    },
-    {
-        Name: "DINSLAKEN",
-        ID: "H420"
-    },
-    {
-        Name: "DIPPOLDISWALD",
-        ID: "O660"
-    },
-    {
-        Name: "DISCHINGEN",
-        ID: "N0359"
-    },
-    {
-        Name: "DOBERLUG-KIRC",
-        ID: 10490
-    },
-    {
-        Name: "DOBITSCHEN",
-        ID: "G406"
-    },
-    {
-        Name: "DODOW",
-        ID: "B710"
-    },
-    {
-        Name: "DÖBELN",
-        ID: "P0291"
-    },
-    {
-        Name: "DÖRENTHE",
-        ID: "P0625"
-    },
-    {
-        Name: "DÖRNICK",
-        ID: 10150
-    },
-    {
-        Name: "DÖRNTHAL",
-        ID: "N4426"
-    },
-    {
-        Name: "DÖRPEN",
-        ID: "K1091"
-    },
-    {
-        Name: "DÖRRMOSCHEL-",
-        ID: "K761"
-    },
-    {
-        Name: "DOGERN",
-        ID: "Q913"
-    },
-    {
-        Name: "DOKSANY",
-        ID: 11509
-    },
-    {
-        Name: "DOLLART-KANAL",
-        ID: "E207"
-    },
-    {
-        Name: "DOMÄNE VOGEL",
-        ID: "L283"
-    },
-    {
-        Name: "DONAÜSCHINGE",
-        ID: "Q870"
-    },
-    {
-        Name: "DONAUWÖRTH",
-        ID: "N0445"
-    },
-    {
-        Name: "DONAUWÖRTH-O",
-        ID: "P515"
-    },
-    {
-        Name: "DORFCHEMNITZ",
-        ID: "O013"
-    },
-    {
-        Name: "DORFEN",
-        ID: "P771"
-    },
-    {
-        Name: "DORFEN KR.ERD",
-        ID: "N2388"
-    },
-    {
-        Name: "DORMAGEN",
-        ID: "N8381"
-    },
-    {
-        Name: "DORMAGEN-ZONS",
-        ID: "H635"
-    },
-    {
-        Name: "DORNA",
-        ID: "P0359"
-    },
-    {
-        Name: "DORNBURG",
-        ID: "G407"
-    },
-    {
-        Name: "DORNUM",
-        ID: "E025"
-    },
-    {
-        Name: "DORSTEN",
-        ID: "N9538"
-    },
-    {
-        Name: "DORTMUND",
-        ID: 10416
-    },
-    {
-        Name: "DRANSFELD-OSS",
-        ID: "E970"
-    },
-    {
-        Name: "DREI GLEICHEN",
-        ID: "M640"
-    },
-    {
-        Name: "DREIECK WEIL",
-        ID: "Q904"
-    },
-    {
-        Name: "DREIS-BRÜCK",
-        ID: "K442"
-    },
-    {
-        Name: "DRENSTEINFURT",
-        ID: "H257"
-    },
-    {
-        Name: "DRESDEFLUGH",
-        ID: 10488
-    },
-    {
-        Name: "DRESDEN-HOSTE",
-        ID: "O458"
-    },
-    {
-        Name: "DRESDEN-PILLN",
-        ID: "O451"
-    },
-    {
-        Name: "DRESDEN-STADT",
-        ID: 10487
-    },
-    {
-        Name: "DRESDEN-STREH",
-        ID: "O457"
-    },
-    {
-        Name: "DREWITZ BEI B",
-        ID: "N398"
-    },
-    {
-        Name: "DRIEDORF",
-        ID: "L409"
-    },
-    {
-        Name: "DROCHTERSEN",
-        ID: "E091"
-    },
-    {
-        Name: "DÜBEN",
-        ID: "N563"
-    },
-    {
-        Name: "DÜLMEN",
-        ID: "P0051"
-    },
-    {
-        Name: "DÜRABUCH",
-        ID: "G363"
-    },
-    {
-        Name: "DÜREN",
-        ID: "N0226"
-    },
-    {
-        Name: "DÜRRHENNERSD",
-        ID: "O580"
-    },
-    {
-        Name: "DÜRRNBACHHOR",
-        ID: "Z939"
-    },
-    {
-        Name: "DÜSSELDORF",
-        ID: 10400
-    },
-    {
-        Name: "DUISBURG",
-        ID: "K1188"
-    },
-    {
-        Name: "DUISBURG-BÄR",
-        ID: "H419"
-    },
-    {
-        Name: "DURBACH-EBERS",
-        ID: "Q511"
-    },
-    {
-        Name: "EBERFING",
-        ID: "P825"
-    },
-    {
-        Name: "EBERN-EYRICHS",
-        ID: "N3149"
-    },
-    {
-        Name: "EBERSBERG",
-        ID: "K4171"
-    },
-    {
-        Name: "EBERSBERG-HAL",
-        ID: "P768"
-    },
-    {
-        Name: "EBERSWALDE",
-        ID: "N1542"
-    },
-    {
-        Name: "EBERTSHAUSEN",
-        ID: "G208"
-    },
-    {
-        Name: "EBNAT-KAPPEL",
-        ID: 6693
-    },
-    {
-        Name: "EBRACH",
-        ID: "P148"
-    },
-    {
-        Name: "ECHZELL SCHWA",
-        ID: "L641"
-    },
-    {
-        Name: "ECKENHAGEN",
-        ID: "H775"
-    },
-    {
-        Name: "ECKERNFÖRDE",
-        ID: "N7244"
-    },
-    {
-        Name: "EDELSFELD",
-        ID: "G258"
-    },
-    {
-        Name: "EDELSHAUSEN",
-        ID: "G331"
-    },
-    {
-        Name: "EGER",
-        ID: 11406
-    },
-    {
-        Name: "EGGEBEK",
-        ID: "A159"
-    },
-    {
-        Name: "EGGENFELDEN",
-        ID: "N2611"
-    },
-    {
-        Name: "EGING AM SEE",
-        ID: "N2253"
-    },
-    {
-        Name: "EGING AM SEE-",
-        ID: "P682"
-    },
-    {
-        Name: "EGOLZWIL",
-        ID: 6648
-    },
-    {
-        Name: "EHINGEDONAU",
-        ID: "N0171"
-    },
-    {
-        Name: "EHINGEN-KIRCH",
-        ID: "Q679"
-    },
-    {
-        Name: "EHRENHAIN",
-        ID: "G408"
-    },
-    {
-        Name: "EHRINGEDONA",
-        ID: "X376"
-    },
-    {
-        Name: "EIBENSTOCK",
-        ID: "N4123"
-    },
-    {
-        Name: "EICH",
-        ID: "K695"
-    },
-    {
-        Name: "EICHENDORF",
-        ID: "P672"
-    },
-    {
-        Name: "EICHENRIED",
-        ID: "G360"
-    },
-    {
-        Name: "EICHHOF",
-        ID: "L379"
-    },
-    {
-        Name: "EICHSTÄTT",
-        ID: "K4108"
-    },
-    {
-        Name: "EICHSTÄTT-LA",
-        ID: "P522"
-    },
-    {
-        Name: "EIERSDORF",
-        ID: "G295"
-    },
-    {
-        Name: "EILSLEBEN",
-        ID: "N9413"
-    },
-    {
-        Name: "EIMEN-VORWOHL",
-        ID: "E835"
-    },
-    {
-        Name: "EINÖLLEN",
-        ID: "K755"
-    },
-    {
-        Name: "EINSIEDELN",
-        ID: 6675
-    },
-    {
-        Name: "EISENACH",
-        ID: "N9357"
-    },
-    {
-        Name: "EISENBACH",
-        ID: "Q822"
-    },
-    {
-        Name: "EISENBERG",
-        ID: "P0196"
-    },
-    {
-        Name: "EISERFELD UMS",
-        ID: "F9502"
-    },
-    {
-        Name: "EISERSZELL",
-        ID: "G294"
-    },
-    {
-        Name: "EITORF",
-        ID: "P0228"
-    },
-    {
-        Name: "ELBEMÜNDUNG",
-        ID: "E5409"
-    },
-    {
-        Name: "ELBEN",
-        ID: "X013"
-    },
-    {
-        Name: "ELLRICH-WERNA",
-        ID: "M031"
-    },
-    {
-        Name: "ELLWANGEJAG",
-        ID: "K4100"
-    },
-    {
-        Name: "ELLWANGEN-RIN",
-        ID: "Q382"
-    },
-    {
-        Name: "ELPERSBÜTTEL",
-        ID: 10130
-    },
-    {
-        Name: "ELSENBORN",
-        ID: 6496
-    },
-    {
-        Name: "ELSENDORF",
-        ID: "P547"
-    },
-    {
-        Name: "ELSENDORF-HOR",
-        ID: "P548"
-    },
-    {
-        Name: "ELSFLETH",
-        ID: "K1481"
-    },
-    {
-        Name: "ELSTER, BAD-S",
-        ID: "O980"
-    },
-    {
-        Name: "ELSTER-SAALE-",
-        ID: "N891"
-    },
-    {
-        Name: "ELSTERWERDA",
-        ID: "N3666"
-    },
-    {
-        Name: "ELZACH-FISNAC",
-        ID: "Q712"
-    },
-    {
-        Name: "ELZTAL-RITTER",
-        ID: "Q047"
-    },
-    {
-        Name: "EMDEN",
-        ID: 10203
-    },
-    {
-        Name: "EMDEN-FLUGPLA",
-        ID: 10200
-    },
-    {
-        Name: "EMLICHHEIM",
-        ID: "N3049"
-    },
-    {
-        Name: "EMMENDINGEN-M",
-        ID: "Q702"
-    },
-    {
-        Name: "EMMERTHAL-GRO",
-        ID: "N2375"
-    },
-    {
-        Name: "ENDINGEN",
-        ID: "P0255"
-    },
-    {
-        Name: "ENERTRAG",
-        ID: "P0477"
-    },
-    {
-        Name: "ENGELBERG",
-        ID: "Q348"
-    },
-    {
-        Name: "ENGER",
-        ID: "H170"
-    },
-    {
-        Name: "ENGERSDORF",
-        ID: "G343"
-    },
-    {
-        Name: "ENKENBACH",
-        ID: "K767"
-    },
-    {
-        Name: "ENNEPETAL-MIL",
-        ID: "N8864"
-    },
-    {
-        Name: "ENNEPETALSPER",
-        ID: "P0605"
-    },
-    {
-        Name: "ENNIGERLOH",
-        ID: "P0619"
-    },
-    {
-        Name: "ENTENPFUHL",
-        ID: "K550"
-    },
-    {
-        Name: "ENZKLÖSTERLE",
-        ID: "Q424"
-    },
-    {
-        Name: "EPINAL",
-        ID: 7173
-    },
-    {
-        Name: "EPPENROBORN",
-        ID: "K290"
-    },
-    {
-        Name: "EPPINGEN-ELSE",
-        ID: "Q221"
-    },
-    {
-        Name: "ERFDE",
-        ID: "A351"
-    },
-    {
-        Name: "ERFTSTADT-BLI",
-        ID: "N8424"
-    },
-    {
-        Name: "ERFURT",
-        ID: 10554
-    },
-    {
-        Name: "ERFURT LVG",
-        ID: "G409"
-    },
-    {
-        Name: "ERFURT-STADT",
-        ID: "P0560"
-    },
-    {
-        Name: "ERKELENZ",
-        ID: "N0304"
-    },
-    {
-        Name: "ERLANGEN",
-        ID: "K4087"
-    },
-    {
-        Name: "ERLBACH-EUBAB",
-        ID: "O993"
-    },
-    {
-        Name: "ERWITTE",
-        ID: "P0234"
-    },
-    {
-        Name: "ESCH",
-        ID: "K040"
-    },
-    {
-        Name: "ESCHBRONN-MAR",
-        ID: "Q731"
-    },
-    {
-        Name: "ESCHWEGE",
-        ID: "K3997"
-    },
-    {
-        Name: "ESCHWEGE-ELTM",
-        ID: "L292"
-    },
-    {
-        Name: "ESCHWEILER N",
-        ID: "H813"
-    },
-    {
-        Name: "ESLOHE",
-        ID: "H579"
-    },
-    {
-        Name: "ESPELKAMP-ISE",
-        ID: "H081"
-    },
-    {
-        Name: "ESSEL",
-        ID: "E662"
-    },
-    {
-        Name: "ESSEN",
-        ID: 10410
-    },
-    {
-        Name: "ESSEBAHNHOF",
-        ID: "P0446"
-    },
-    {
-        Name: "ESSENBACH",
-        ID: "P0534"
-    },
-    {
-        Name: "ETTAL-LINDERH",
-        ID: "P937"
-    },
-    {
-        Name: "ETZLEBEN",
-        ID: "M281"
-    },
-    {
-        Name: "EÜRHAUSEN",
-        ID: "G256"
-    },
-    {
-        Name: "EUSKIRCHEN",
-        ID: 10522
-    },
-    {
-        Name: "EUTIN",
-        ID: "K3822"
-    },
-    {
-        Name: "EW-Lindenberg",
-        ID: "EW031"
-    },
-    {
-        Name: "EW-RÖdeser-B",
-        ID: "EW039"
-    },
-    {
-        Name: "FAHLHORST",
-        ID: "F537"
-    },
-    {
-        Name: "FAHRENBERG",
-        ID: "Z925"
-    },
-    {
-        Name: "FAHRENZHAUSEN",
-        ID: "P639"
-    },
-    {
-        Name: "FAHY",
-        ID: 6616
-    },
-    {
-        Name: "FALKENBERG,KR",
-        ID: "P674"
-    },
-    {
-        Name: "FALKENSTEIN K",
-        ID: "N1382"
-    },
-    {
-        Name: "FALKENSTEIT",
-        ID: "P0050"
-    },
-    {
-        Name: "FALLINGBOSTEL",
-        ID: "E571"
-    },
-    {
-        Name: "FASSBERG",
-        ID: 10246
-    },
-    {
-        Name: "FEHMARNBELT",
-        ID: "E5512"
-    },
-    {
-        Name: "FEILNBACH, BA",
-        ID: "P962"
-    },
-    {
-        Name: "FEISTENAICH",
-        ID: "G321"
-    },
-    {
-        Name: "FELDBERMECK",
-        ID: 10282
-    },
-    {
-        Name: "FELDBERS.",
-        ID: 10908
-    },
-    {
-        Name: "FELDKIRCH",
-        ID: 11105
-    },
-    {
-        Name: "FELDKIRCHEN-W",
-        ID: "P862"
-    },
-    {
-        Name: "FELGENTREU",
-        ID: "F635"
-    },
-    {
-        Name: "FELLHORN",
-        ID: "Z905"
-    },
-    {
-        Name: "FEUCHTWANGEN",
-        ID: 10756
-    },
-    {
-        Name: "FEÜRKOGEL",
-        ID: 11155
-    },
-    {
-        Name: "FICHTELBERG",
-        ID: 10578
-    },
-    {
-        Name: "FICHTELBERO",
-        ID: "P182"
-    },
-    {
-        Name: "FILZMOOS",
-        ID: "P0386"
-    },
-    {
-        Name: "FINKENWERDER",
-        ID: "P0026"
-    },
-    {
-        Name: "FINO1",
-        ID: "EW035"
-    },
-    {
-        Name: "FINOPLATTFO",
-        ID: "P0439"
-    },
-    {
-        Name: "FINSING",
-        ID: "P769"
-    },
-    {
-        Name: "FLÄMING",
-        ID: "F618"
-    },
-    {
-        Name: "FLENSB.FÖR.",
-        ID: "E5510"
-    },
-    {
-        Name: "FLENSBURG",
-        ID: 10033
-    },
-    {
-        Name: "FLENSBURG",
-        ID: "A160"
-    },
-    {
-        Name: "FLOMBORN",
-        ID: "P0411"
-    },
-    {
-        Name: "FLOSSENBÜRG",
-        ID: "P294"
-    },
-    {
-        Name: "FLUSSBACH",
-        ID: "K445"
-    },
-    {
-        Name: "FÖhr",
-        ID: "EW007"
-    },
-    {
-        Name: "FORBACH",
-        ID: "Q414"
-    },
-    {
-        Name: "FORBACH-HERRE",
-        ID: "N0527"
-    },
-    {
-        Name: "FORCHHEIOFR",
-        ID: "N3420"
-    },
-    {
-        Name: "FORSTHAUS",
-        ID: "L687"
-    },
-    {
-        Name: "FORSTING",
-        ID: "G373"
-    },
-    {
-        Name: "FRANKELBACH",
-        ID: "K756"
-    },
-    {
-        Name: "FRANKENBERE",
-        ID: "K1596"
-    },
-    {
-        Name: "FRANKENBERG-A",
-        ID: "O625"
-    },
-    {
-        Name: "FRANKENBERG-G",
-        ID: "L215"
-    },
-    {
-        Name: "FRANKENBLICK-",
-        ID: "M938"
-    },
-    {
-        Name: "FRANKENDORF",
-        ID: "G355"
-    },
-    {
-        Name: "FRANKENFELD-H",
-        ID: "E564"
-    },
-    {
-        Name: "FRANKENHOFEN",
-        ID: "G297"
-    },
-    {
-        Name: "FRANKENTHAL",
-        ID: "K795"
+     Name: "BERGSTEDT",
+     ID: "P0488",
+     Bundesland: "Hamburg"
     },
 
     {
-        Name: "FRANKFURM",
-        ID: 10637
+     Name: "BERKHOLZ-MEYENBURG",
+     ID: "F199",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "FRANKFURODE",
-        ID: "N1323"
+     Name: "BERLIN-ALEX.",
+     ID: 10389,
+     Bundesland: "Berlin"
     },
     {
-        Name: "FRANKFURPAL",
-        ID: "K2561"
+     Name: "BERLIN-TEGEL",
+     ID: 10382,
+     Bundesland: "Berlin"
     },
     {
-        Name: "FRANKFURZEI",
-        ID: "P0445"
+     Name: "BERLIN-TEMPELHOF",
+     ID: 10384,
+     Bundesland: "Berlin"
     },
     {
-        Name: "FRANKFURT-MAIN",
-         ID: 10637
+     Name: "BERNAU BRANDENBURG",
+     ID: "P0281",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "FRANKFURT-HAHN",
-        ID: "X128"
+     Name: "BERNBEUREN-PRACHTSRI",
+     ID: "P931",
+     Bundesland: "Bayern"
     },
     {
-        Name: "FRANKFURT-ODER",
-        ID: "N1323" 
+     Name: "BERNBURG SAALE",
+     ID: "K3182",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "FRAÜNRIEDHAU",
-        ID: "G334"
+     Name: "BERNKASTEL-KUES",
+     ID: "K531",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FRAÜNWALD",
-        ID: "M833"
+     Name: "BERSTELAND-NIEWITZ",
+     ID: "P0504",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "Freiamt",
-        ID: "EW008"
+     Name: "BERTIKOW",
+     ID: "P0500",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "FREIBERG",
-        ID: "K4402"
+     Name: "BERTSDORF-HOERNITZ",
+     ID: "O598",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "FREIBURG",
-        ID: 10803
+     Name: "BERUS",
+     ID: 10704,
+     Bundesland: "Saarland"
     },
     {
-        Name: "FREIBURELBE",
-        ID: "E082"
+     Name: "BESIGHEIM",
+     ID: "P0248",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FREIENBESSING",
-        ID: "M259"
+     Name: "BETZDORF",
+     ID: "P0187",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FREIENSTEINAU",
-        ID: "L562"
+     Name: "BETZWEILER-WAELDE",
+     ID: "Q056",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FREIGERICHT-H",
-        ID: "L769"
+     Name: "BEUREN (HOCHWALD)",
+     ID: "K517",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FREIHUNG-GROS",
-        ID: "P287"
+     Name: "BEVERGERN",
+     ID: "P0627",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FREIMERSHEIM",
-        ID: "K677"
+     Name: "Beveringen",
+     ID: "EW002",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "FREINSHEIM",
-        ID: "P0194"
+     Name: "BEVERN",
+     ID: "E818",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "FREISESAAR",
-        ID: "N5111"
+     Name: "BEVERSTEDT",
+     ID: "E158",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "FREISTADT",
-        ID: 11015
+     Name: "BIBERACH",
+     ID: "K2765",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FREREN",
-        ID: "P0622"
+     Name: "BIBERACH AN DER RISS",
+     ID: "Q786",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FREUDENBERM",
-        ID: "Q062"
+     Name: "BIBLIS",
+     ID: "N2216",
+     Bundesland: "Hessen"
     },
     {
-        Name: "FREUDENST.",
-        ID: 10815
+     Name: "BIBRA, BAD-ALTENRODA",
+     ID: "N815",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "FREUDENSTADT",
-        ID: "X383"
+     Name: "BICKENDORF",
+     ID: "P0410",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FREYBURUNST",
-        ID: "N855"
+     Name: "BIEBESHEIM",
+     ID: "P0178",
+     Bundesland: "Hessen"
     },
     {
-        Name: "FREYSTADT-OBE",
-        ID: "P339"
+     Name: "BIELEFELD",
+     ID: 10326,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FREYUNG",
-        ID: "K4514"
+     Name: "BIELEFELD OLDENTRUP",
+     ID: "C0073",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FRIEDBERG",
-        ID: "N4253"
+     Name: "BIELEFELD-DEPPENDORF",
+     ID: "H174",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FRIEDBERG-OCK",
-        ID: "G428"
+     Name: "BIGGE",
+     ID: "N8790",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FRIEDEBURG-HO",
-        ID: "N2028"
+     Name: "BILLERBECK",
+     ID: "P0006",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FRIEDING",
-        ID: "G357"
+     Name: "BILLIGHEIM",
+     ID: "P0252",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FRIEDLAND",
-        ID: "N2228"
+     Name: "BINGEN-BUEDESHEIM",
+     ID: "N5374",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FRIEDRICHSHAF",
-        ID: 10935
+     Name: "BINGEN-GAULSHEIM",
+     ID: "K571",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FRIEDRICHSHFN",
-        ID: "Q978"
+     Name: "BIRENBACH",
+     ID: "Q672",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "FRIEDRICHSWAL",
-        ID: "F280"
+     Name: "BIRKELBACH",
+     ID: "H884",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FRIEMAR",
-        ID: "G410"
+     Name: "BIRKENAU",
+     ID: "L979",
+     Bundesland: "Hessen"
     },
     {
-        Name: "FRIESACK",
-        ID: "N7740"
+     Name: "BIRKENMOOR",
+     ID: "G201",
+     Bundesland: "Bayern"
     },
     {
-        Name: "FRIESOYTHE",
-        ID: "N0717"
+     Name: "BIRX",
+     ID: "M805",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "FRIESOYTHE-AL",
-        ID: 10210
+     Name: "BISCHDORF, KREIS OBE",
+     ID: "F757",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "FRITZLAR",
-        ID: 10439
+     Name: "BISCHOFSHEIM RHOEN",
+     ID: "N3729",
+     Bundesland: "Bayern"
     },
     {
-        Name: "FRÖNDENBERG",
-        ID: "N8686"
+     Name: "BISCHOFSMAIS",
+     ID: "N1333",
+     Bundesland: "Bayern"
     },
     {
-        Name: "FRÖNDENBERG-",
-        ID: "H450"
+     Name: "BISCHOFSWERDA",
+     ID: "N3264",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "FÜRTH",
-        ID: "K4086"
+     Name: "BISDORF",
+     ID: "P0332",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "FÜRSTENFELDB",
-        ID: 10858
+     Name: "BISSINGEN (KLAERANLA",
+     ID: "P517",
+     Bundesland: "Bayern"
     },
     {
-        Name: "FÜRSTENWALDE",
-        ID: "N7386"
+     Name: "BITBURG",
+     ID: "N7075",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FÜRSTENZELL",
-        ID: 10895
+     Name: "BITTERFELD",
+     ID: "K3362",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "FÜRTBAYERN",
-        ID: "K4086"
+     Name: "BLANDOW",
+     ID: "X480",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "FÜSSEN-WEISS",
-        ID: "N0505"
+     Name: "BLANKENBURG   HARZ",
+     ID: "P0576",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "FULDA",
-        ID: "L585"
+     Name: "BLANKENHEIM",
+     ID: "H993",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FULPMES",
-        ID: "P0387"
+     Name: "BLANKENHEIM AHRHUET.",
+     ID: "N7822",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "FUNTENSEETAÜ",
-        ID: "Z947"
+     Name: "BLANKENRATH",
+     ID: "K463",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "FURTH IM WALD",
-        ID: "N1371"
+     Name: "BLAUFELDEN",
+     ID: "N1622",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GAILINGEN",
-        ID: "Q945"
+     Name: "BLECKEDE-WALMSBURG",
+     ID: "E297",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GALGENBERG",
-        ID: "P589"
+     Name: "BLEICHERODE",
+     ID: "P0577",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GALZIG",
-        ID: 11110
+     Name: "BLIESDORF",
+     ID: "P0430",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GAMMERTINGEN",
-        ID: "P0261"
+     Name: "BLIESRANDSBACH",
+     ID: "P0274",
+     Bundesland: "Saarland"
     },
     {
-        Name: "GANGKOFEN",
-        ID: "P668"
+     Name: "BLUMBERG",
+     ID: "N0214",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GARCHING",
-        ID: "P0532"
+     Name: "BLUMBERG-RANDEN",
+     ID: "Q481",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GARDELEGEN",
-        ID: 10359
+     Name: "BOBECK",
+     ID: "M565",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GARLSTORF",
-        ID: "P0149"
+     Name: "BOCHOLT",
+     ID: 10406,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GARMISCH",
-        ID: 10963
+     Name: "BOCHUM",
+     ID: "K1161",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GARSEBACH BEI",
-        ID: "O348"
+     Name: "BOCHUM UMSPWK.",
+     ID: "F9501",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GAUCHSBERG",
-        ID: "K552"
+     Name: "BOCKEL",
+     ID: "E267",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GEDERN-SCHÖN",
-        ID: "L652"
+     Name: "BOCKHORN-GRABSTEDE",
+     ID: "E200",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GEESTHACHT",
-        ID: "P0025"
+     Name: "BODENFELDE-AMELITH",
+     ID: "E902",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GEFREES",
-        ID: "N3003"
+     Name: "BODENKIRCHEN-AICH",
+     ID: "N2603",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GEILENKIRCHEN",
-        ID: 10500
+     Name: "BOEBLINGEN",
+     ID: "K2913",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GEISA",
-        ID: "M700"
+     Name: "BOENNIGHEIM",
+     ID: "N1401",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GEISENFELD-EI",
-        ID: "P549"
+     Name: "BOESDORF",
+     ID: "N305",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GEISENHAUSEN",
-        ID: "N2221"
+     Name: "BOGEN-PFELLING",
+     ID: "P571",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GEISENHEIM",
-        ID: 10628
+     Name: "BOHLENDORF",
+     ID: "X481",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "GEISINGEN",
-        ID: "Q848"
+     Name: "BOHMTE",
+     ID: "P0634",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GEISLINGEN",
-        ID: "N1140"
+     Name: "BOIZENBURG",
+     ID: 10249,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "GELBELSEE",
-        ID: 10777
+     Name: "BONNDORF",
+     ID: "K2761",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GELDERN-WALBE",
-        ID: "H401"
+     Name: "BONN-FRIESDORF",
+     ID: 10517,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GELNHAUSEN",
-        ID: "K2637"
+     Name: "BONNHOF",
+     ID: "G274",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GELSENKIRCHEN",
-        ID: "K1115"
+     Name: "BONN-ROLEBER",
+     ID: 10519,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GENTHIN",
-        ID: 10365
+     Name: "BOPFINGEN",
+     ID: "N0432",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GERA",
-        ID: 10567
+     Name: "BORDELUM",
+     ID: "A138",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "GERÄR BERG",
-        ID: "M575"
+     Name: "BORGENTREICH",
+     ID: "H492",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GERBRUNN",
-        ID: "G240"
+     Name: "BORKEN WESTFALEN",
+     ID: "H411",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GERLOS",
-        ID: 11134
+     Name: "BORKUM-FLUGPLATZ",
+     ID: "E008",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GERMERSHEIM",
-        ID: "N0680"
+     Name: "BORKUM-SUEDERSTRASSE",
+     ID: "E006",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GEROLDSGRÜN-",
-        ID: "N3047"
+     Name: "BORN",
+     ID: "N315",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GEROLSTEIN",
-        ID: "P0192"
+     Name: "BORNA",
+     ID: "N6257",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GERSDORF",
-        ID: "B320"
+     Name: "BORNHEIM EICHENKAMP",
+     ID: "H840",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GERSFELD",
-        ID: "L595"
+     Name: "BORNUM AM HARZ",
+     ID: "P0054",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GERSTETTEN-DE",
-        ID: "N0352"
+     Name: "BOTTMERSDORF-KLEIN G",
+     ID: "N435",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GETTORF",
-        ID: "P0346"
+     Name: "BOTTROP",
+     ID: "N9067",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GEVELSBERG-OB",
-        ID: "H542"
+     Name: "BOXBERG",
+     ID: "M524",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GEYEN PULHEIM",
-        ID: "F9526"
+     Name: "BRAKE",
+     ID: "E235",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GIESSEN",
-        ID: 10532
+     Name: "BRAKEL",
+     ID: "H391",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GIFHORN",
-        ID: "N4068"
+     Name: "BRANDENBURG HAVEL",
+     ID: "F518",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GILSERBERG-MO",
-        ID: "L340"
+     Name: "BRANNENBURG-DEGERNDO",
+     ID: "P971",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GLADBECK",
-        ID: "P0602"
+     Name: "BRAUNECK",
+     ID: "P0308",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GLANDORF",
-        ID: "P0209"
+     Name: "BRAUNERSGRUEN",
+     ID: "G213",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GLARUS",
-        ID: 6685
+     Name: "BRAUNLAGE",
+     ID: 10452,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GLINDE",
-        ID: "P0202"
+     Name: "BRAUNSCHWG.",
+     ID: 10348,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GLOBAL1",
-        ID: "E7708"
+     Name: "BRAUNSDORF",
+     ID: "N4464",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GLÜCKSTADT",
-        ID: "K1484"
+     Name: "BRAUWEILER WEST 1",
+     ID: "F9525",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GMUNTEGERNS",
-        ID: "P0159"
+     Name: "BRAUWEILER WEST 2",
+     ID: "F9526",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GMUNDEN",
-        ID: 11154
+     Name: "BRECHERSPITZE",
+     ID: "Z931",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GNOIEN",
-        ID: "X482"
+     Name: "BRECKERFELD-WENGEBER",
+     ID: "H543",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GODEWIN1",
-        ID: "P0643"
+     Name: "BREISACH",
+     ID: "N0291",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GODEWIN2",
-        ID: "P0644"
+     Name: "BREITENBACHTALSPERRE",
+     ID: "H789",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GÖHL",
-        ID: "P0331"
+     Name: "BREITENBRUNN-FUERBUC",
+     ID: "P718",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GÖPPINGEN",
-        ID: "N1147"
+     Name: "BREITNAU",
+     ID: "Q813",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GÖRLITZ",
-        ID: 10499
+     Name: "BREITSOL",
+     ID: 10645,
+     Bundesland: "Bayern"
     },
     {
-        Name: "GÖSGEN (KKW)",
-        ID: 6626
+     Name: "BREKENDORFER MOOR",
+     ID: "A338",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "GÖSSWEINSTEI",
-        ID: "P262"
+     Name: "BREMEN",
+     ID: 10224,
+     Bundesland: "Bremen"
     },
     {
-        Name: "GÖTTENDORF",
-        ID: "M799"
+     Name: "BREMERHAVEN",
+     ID: 10129,
+     Bundesland: "Bremen"
     },
     {
-        Name: "GÖTTINGEN",
-        ID: 10444
+     Name: "BREMERVOERDE",
+     ID: 10139,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GOLDBERG",
-        ID: 10168
+     Name: "BRENSBACH",
+     ID: "P0179",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GOLDENBOW",
-        ID: "B629"
+     Name: "BRETTEN, KREIS KARLS",
+     ID: "Q218",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GOLDENE BREMM",
-        ID: "J907"
+     Name: "BRILON",
+     ID: "N8623",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GOLDISTHAL",
-        ID: "X040"
+     Name: "BRILON-THÜLEN",
+     ID: "H591",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GOLLHOFEN",
-        ID: "P238"
+     Name: "BROCKEN",
+     ID: 10453,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GONDERSHAUSEN",
-        ID: "K376"
+     Name: "BROKDORF",
+     ID: "N8690",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "Goosefeld",
-        ID: "EW009"
+     Name: "BROTJACKLRIEGEL",
+     ID: "K4570",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GOSLAR",
-        ID: "N4161"
+     Name: "BRUCHSAL-HEIDELSHEIM",
+     ID: "Q333",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GOTHA",
-        ID: "N9349"
+     Name: "BRUCHWEILER, KR. BIR",
+     ID: "K539",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "GOTTFRIEDING",
-        ID: 10872
+     Name: "BRUCKMUEHL",
+     ID: "P0264",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GOTTMADINGEN",
-        ID: "N0197"
+     Name: "BRUECK-GOEMNIGK",
+     ID: "F620",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GR NBERG",
-        ID: "L543"
+     Name: "BRUEGGEN",
+     ID: 10401,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GR.ARBER",
-        ID: 10791
+     Name: "BRUEHL",
+     ID: "N8204",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GR.FELDBGTS",
-        ID: "P0016"
+     Name: "BRUNSBUETTEL SWA",
+     ID: "P0027",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "GRAAL-MÜRITZ",
-        ID: "N2626"
+     Name: "BUCH AM AMMERSEE",
+     ID: "P0265",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRÄFENBERG",
-        ID: "N3334"
+     Name: "BUCHA",
+     ID: "M557",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GRÄFENBERG-K",
-        ID: "P265"
+     Name: "BUCHEN,KR.NECKAR-OD.",
+     ID: "Q055",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GRÄFENDORF,K",
-        ID: "P120"
+     Name: "BUCHENBACH",
+     ID: "Q811",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GRÄFENTONNA",
-        ID: "N3685"
+     Name: "BUCHENHOFEN",
+     ID: "H547",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GRAINERT-REHB",
-        ID: "P594"
+     Name: "BUCHHALDE",
+     ID: "L985",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GRAMAIÖSTE",
-        ID: "Z001"
+     Name: "BUCHHOLZ I.D. NORDH.",
+     ID: "K1489",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GRAMBECK",
-        ID: "K3869"
+     Name: "BUCHLOE",
+     ID: "P821",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRAMBEK",
-        ID: "A981"
+     Name: "BUECHEL",
+     ID: 10613,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "GRAMBOW-SCHWE",
-        ID: "B898"
+     Name: "BUECHLBERG-TANNOED",
+     ID: "P597",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRASSAU",
-        ID: "P987"
+     Name: "BUECKEBURG",
+     ID: 10335,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GRAUSTEIN",
-        ID: "F878"
+     Name: "BUEHNE-RIMBECK",
+     ID: "N500",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GREBENHAIN",
-        ID: "N1027"
+     Name: "BUENDE",
+     ID: "P0233",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GREBENSTEIN",
-        ID: "L685"
+     Name: "BUERG",
+     ID: "G348",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GREDING",
-        ID: "N0753"
+     Name: "BUERGSTADT",
+     ID: "G247",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GREIFSWALD",
-        ID: 10184
+     Name: "BUERSTADT",
+     ID: "P0176",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GREIFSWALDER",
-        ID: 10097
+     Name: "BUETTHARD",
+     ID: "P228",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GREIMERSDORF",
-        ID: "G265"
+     Name: "BUETZOW-WOLKEN",
+     ID: "N2781",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "GREIZ-DÖLAU",
-        ID: "K4420"
+     Name: "BUNDENTHAL",
+     ID: "K986",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "GRENCHEN",
-        ID: 6632
+     Name: "BURBACH-WUERGENDORF",
+     ID: "H889",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GRENZAU",
-        ID: "K169"
+     Name: "BURG B.MAGDEBURG",
+     ID: "N7622",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GREUSSEN",
-        ID: "X033"
+     Name: "BURGBERNHEIM",
+     ID: "P302",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GREVESMÜHLEN",
-        ID: "B511"
+     Name: "BURG-BLUMENTHAL",
+     ID: "N366",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GRIEBEN",
-        ID: "N268"
+     Name: "BURGHAUN",
+     ID: "P0183",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GRIESHEIM B.",
-        ID: "G427"
+     Name: "BURGHAUSEN",
+     ID: "N2583",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRIMMA",
-        ID: "N4513"
+     Name: "BURGHEIM",
+     ID: "G318",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRIMMA-KLEINB",
-        ID: "O322"
+     Name: "BURGKUNSTADT",
+     ID: "P068",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRIMMEN",
-        ID: "N2362"
+     Name: "BURGSINN",
+     ID: "N3778",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRONAU WEST",
-        ID: "F9515"
+     Name: "BURGWALD-BOTTENDORF",
+     ID: "L217",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GRONINGEN",
-        ID: 6280
+     Name: "BURKAUER BERG",
+     ID: "O372",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GROSS BERSSEN",
-        ID: "E513"
+     Name: "BURLADINGEN-HAUSEN",
+     ID: "Q655",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GROSS KIESOW-",
-        ID: "B482"
+     Name: "BUTJADINGEN-INTE",
+     ID: "E145",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSS KREUTZ",
-        ID: "F520"
+     Name: "BUTZBACH",
+     ID: "N6160",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GROSS LÜSEWI",
-        ID: "B334"
+     Name: "CALGARY",
+     ID: 71877,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GROSS LUKOW",
-        ID: "B766"
+     Name: "Calvoerde",
+     ID: "EW003",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GROSS UMSTADT",
-        ID: "P0017"
+     Name: "CALW",
+     ID: "P0603",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GROSS WITTENS",
-        ID: "A345"
+     Name: "CAMBERG, BAD",
+     ID: "L617",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GROSSBERGHOFE",
-        ID: "G358"
+     Name: "CARLSFELD",
+     ID: 10574,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GROSSENBRODE",
-        ID: "A397"
+     Name: "CELLE",
+     ID: 10343,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSSENKNETEN",
-        ID: "E426"
+     Name: "CELLE (STADT)",
+     ID: "E673",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSSENLACH M",
-        ID: "Q351"
+     Name: "CHAM",
+     ID: "K4488",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GROSSENSTEIN",
-        ID: "G413"
+     Name: "CHEMNITZ",
+     ID: 10577,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GROSSER BEERB",
-        ID: "P0057"
+     Name: "CHIEMING",
+     ID: 10982,
+     Bundesland: "Bayern"
     },
     {
-        Name: "GROSSER HÖLL",
-        ID: "P0065"
+     Name: "CHIEMSEE",
+     ID: "P0158",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GROSS-GERAU-W",
-        ID: "L865"
+     Name: "CHIEMSEE-HERRENCHIEM",
+     ID: "P875",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GROSSGLOCKNER",
-        ID: "P0299"
+     Name: "CHITA",
+     ID: 30758,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GROSSMACKENST",
-        ID: "P0433"
+     Name: "CLAUSTHAL-ZELLERFELD",
+     ID: "E877",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSSOSTHEIM",
-        ID: "P106"
+     Name: "CLAUSTHAL-ZELLERFLD.",
+     ID: "K3982",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSSS GM HLE",
-        ID: "K787"
+     Name: "CLOPPENBURG",
+     ID: "K1511",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GROSSWEIL",
-        ID: "P941"
+     Name: "COBURG",
+     ID: 10671,
+     Bundesland: "Bayern"
     },
     {
-        Name: "GROSSZIEGENFE",
-        ID: "G216"
+     Name: "COCHSTEDT",
+     ID: 10457,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "GRUB",
-        ID: "Q988"
+     Name: "COELBE",
+     ID: "L319",
+     Bundesland: "Hessen"
     },
     {
-        Name: "GRÜNBERG",
-        ID: "P0180"
+     Name: "COESFELD",
+     ID: "N3114",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GRÜNDAU-BREI",
-        ID: "L771"
+     Name: "COLMBERG-BINZWANGEN",
+     ID: "P306",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GRÜNOW",
-        ID: 10289
+     Name: "COSCHEN",
+     ID: "F695",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GRÜNSTADT",
-        ID: "K784"
+     Name: "COTTBUS",
+     ID: 10496,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GRÜPPENBÜHR",
-        ID: "P0435"
+     Name: "COTTBUS FLUGPLATZ",
+     ID: 10492,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GUBEN",
-        ID: "N1156"
+     Name: "COTTBUS LUB",
+     ID: "P0038",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "GUDENSBERG",
-        ID: "L244"
+     Name: "CRAILSHEIM",
+     ID: "N1613",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GÜDDERATH",
-        ID: "H605"
+     Name: "CRAILSHEIM (LUBW)",
+     ID: "Q293",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GÜNZBURG",
-        ID: "P606"
+     Name: "CREMLINGEN-DESTEDT",
+     ID: "E799",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GÜTERSLOH",
-        ID: 10320
+     Name: "CREUSSEN-BUEHL",
+     ID: "P179",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GÜTERSLÖM",
-        ID: "H265"
+     Name: "CRIMMITSCHAU-MANNICH",
+     ID: "O708",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "GÜTTINGEN",
-        ID: 6621
+     Name: "CROSSEN ELSTER-NICKE",
+     ID: "M473",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GUMMERSBACH",
-        ID: "N8146"
+     Name: "CUXHAVEN",
+     ID: 10131,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "GUNDELFINGEN",
-        ID: "F9503"
+     Name: "DACHAU",
+     ID: "N2142",
+     Bundesland: "Bayern"
     },
     {
-        Name: "GUNDREMMINGEN",
-        ID: "P0533"
+     Name: "DACHSBERG-WOLPADINGE",
+     ID: "Q824",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "GUNZENHSN.",
-        ID: "K4069"
+     Name: "DACHWIG",
+     ID: "M348",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "GUT HÜLL",
-        ID: "G375"
+     Name: "Dahlem-Berg",
+     ID: "EW004",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "GUTACBR.",
-        ID: "N0311"
+     Name: "DAHLEM-KRONENBURG",
+     ID: "N7417",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HAALE",
-        ID: "A536"
+     Name: "DAHLEM-SCHMIDTHEIM",
+     ID: "H212",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HAARSTRANG",
-        ID: "P0512"
+     Name: "DAHME",
+     ID: "N7411",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HABAROVSK",
-        ID: 31735
+     Name: "DAMME",
+     ID: "P0210",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HABICHTSWALD",
-        ID: "H075"
+     Name: "DARMSTADT",
+     ID: "K2596",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HACHENBURWE",
-        ID: "K081"
+     Name: "DARSSER ORT (SWN)",
+     ID: "B040",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "HÄHNICHEN-TR",
-        ID: "O099"
+     Name: "DASING (KLAERANLAGE)",
+     ID: "P626",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HÄNCHEN",
-        ID: "F863"
+     Name: "DAUN",
+     ID: "K2270",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HAFTENKAMP",
-        ID: "P0618"
+     Name: "DEGGENAU",
+     ID: "P573",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAGELSTADT",
-        ID: "P460"
+     Name: "DEGGENDORF",
+     ID: "N1475",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAGEN",
-        ID: "N8884"
+     Name: "DEGGENHAUSERTAL-AZEN",
+     ID: "Q790",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "Hagen-Dahl",
-        ID: "EW010"
+     Name: "DEISENHOFEN, KREIS M",
+     ID: "P860",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAGEN-HOHENLI",
-        ID: "P0604"
+     Name: "DELBRUECK",
+     ID: "N9320",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HAGENOW",
-        ID: "N8326"
+     Name: "Delitzsch",
+     ID: "EW005",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HAHN",
-        ID: 10616
+     Name: "DELITZSCH-SELBEN",
+     ID: "P0129",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HAHNHEIM",
-        ID: "K589"
+     Name: "DELMENHORST",
+     ID: "N6067",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HAHNWEILER",
-        ID: "K732"
+     Name: "DEMKER",
+     ID: "N272",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HAIGER",
-        ID: "L414"
+     Name: "DEMMIN",
+     ID: "N2372",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "HAIGERLOCH-HA",
-        ID: "N1054"
+     Name: "DENSBORN",
+     ID: "K318",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HAIGERLOCH-WE",
-        ID: "Q642"
+     Name: "DESSAU",
+     ID: "N4639",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HAIMHAUSEN-OT",
-        ID: "P764"
+     Name: "DETMOLD",
+     ID: "K9097",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HALBERSTADT",
-        ID: "N4414"
+     Name: "DETTENDORF",
+     ID: "P869",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HALBLECH-TRAU",
-        ID: "P934"
+     Name: "DEUSELBACH",
+     ID: 10615,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HALDENSLEBEN",
-        ID: "N6935"
+     Name: "DEUTSCHNEUDORF-BRUED",
+     ID: "O842",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HALDENWANG",
-        ID: "G345"
+     Name: "DIEBURG",
+     ID: "N4070",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HALLAU",
-        ID: 6624
+     Name: "DIEDORF SCHWABEN-BIB",
+     ID: "P618",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HALLE",
-        ID: 10466
+     Name: "DIEMHEIM",
+     ID: "K598",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HALLE DIESELS",
-        ID: "F9435"
+     Name: "DIENSTWEILER",
+     ID: "K630",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HALLNORD.WE",
-        ID: "P0231"
+     Name: "DIEPHOLZ",
+     ID: 10321,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HALLIG HOOGE",
-        ID: "P0151"
+     Name: "DIESDORF",
+     ID: "N104",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HALLSTATT",
-        ID: "P0161"
+     Name: "DIESSEN",
+     ID: "P0157",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HALTERN",
-        ID: "N9530"
+     Name: "DIESSEN AMMERSEE-DET",
+     ID: "P833",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HALTERN",
-        ID: "H330"
+     Name: "DIETRICHSDORF",
+     ID: "G328",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMBACH",
-        ID: "P0561"
+     Name: "DIETZHOELZTAL",
+     ID: "N6208",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HAMBURG INNEN",
-        ID: "P0489"
+     Name: "DIETZHOF",
+     ID: "G250",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMBURG-FUHLSBÜTTEL.",
-        ID: 10147
+     Name: "DIFFERTEN",
+     ID: "J623",
+     Bundesland: "Saarland"
     },
     {
-        Name: "HAMBURG-NEUWIEDENTHAL",
-        ID: "C720"
+     Name: "DILLENBURG",
+     ID: "L411",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HAMELN",
-        ID: "E732"
+     Name: "DILLINGEN-FRISTINGEN",
+     ID: "P602",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMELN-HASTEN",
-        ID: "E739"
+     Name: "DINGOLFING",
+     ID: "P0297",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMM",
-        ID: "N9401"
+     Name: "DINKELSBUEHL",
+     ID: "N0406",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMMELBURG",
-        ID: "P122"
+     Name: "DINKELSBUEHL-OBERWIN",
+     ID: "P405",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HAMSWEHRUM",
-        ID: "P0145"
+     Name: "DINSLAKEN",
+     ID: "H420",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HANAU",
-        ID: "N4116"
+     Name: "DIPPOLDISWALDE-REIN.",
+     ID: "O660",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HANEKENF HR U",
-        ID: "F9504"
+     Name: "DISCHINGEN(EGAUWAS.)",
+     ID: "N0359",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HANNOV.MÜNDE",
-        ID: "P0204"
+     Name: "DOBERLUG-KIRCHHAIN",
+     ID: 10490,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HANNOVER",
-        ID: 10338
+     Name: "DODOW",
+     ID: "B710",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "HANNOVER-HERR",
-        ID: "E755"
+     Name: "DOEBELN",
+     ID: "P0291",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HANNOVER-KIRC",
-        ID: "E756"
+     Name: "DOERENTHE",
+     ID: "P0625",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HARBURG",
-        ID: 10850
+     Name: "DOERNICK",
+     ID: 10150,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HARDHEIM",
-        ID: "P0609"
+     Name: "DOERNTHAL",
+     ID: "N4426",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HARRISLEE",
-        ID: "P0347"
+     Name: "DOERPEN",
+     ID: "K1091",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HARSEFELD",
-        ID: "N8615"
+     Name: "DOERRMOSCHEL-FELSBER",
+     ID: "K761",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HARSEWINKEL",
-        ID: "C0014"
+     Name: "DOGERN",
+     ID: "Q913",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HARTENHOF",
-        ID: "G276"
+     Name: "DOLLART-KANALPOLDER",
+     ID: "E207",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HARTH-PÖLLNI",
-        ID: "M691"
+     Name: "DOMAENE VOGELSBURG",
+     ID: "L283",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HARZGERODE",
-        ID: 10458
+     Name: "DONAUESCHINGEN",
+     ID: "K2780",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HASELTAL",
-        ID: "P116"
+     Name: "DONAUESCHINGEN (LAND",
+     ID: "Q870",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HASELÜNNE",
-        ID: "N0546"
+     Name: "DONAUWOERTH",
+     ID: "N0445",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HASELÜNNE KN",
-        ID: "P0434"
+     Name: "DONAUWOERTH-OSTERWE.",
+     ID: "P515",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HASLACH IM KI",
-        ID: "Q715"
+     Name: "DORFEN (KLAERANLAGE)",
+     ID: "P771",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HASLOCMAIN",
-        ID: "P212"
+     Name: "DORFEN KR.ERDING",
+     ID: "N2388",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HASSELFELDE",
-        ID: "N6553"
+     Name: "DORMAGEN",
+     ID: "N8381",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HASSFURT",
-        ID: "N3504"
+     Name: "DORMAGEN-ZONS",
+     ID: "H635",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HATTENDORF",
-        ID: "E735"
+     Name: "DORNA",
+     ID: "P0359",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HATTINGEN",
-        ID: "P0491"
+     Name: "DORNUM",
+     ID: "E025",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HATTSTEDT",
-        ID: "A226"
+     Name: "DORSTEN",
+     ID: "N9538",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HAUFELD",
-        ID: "G414"
+     Name: "DORTMUND",
+     ID: 10416,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HAUNDORF-OBER",
-        ID: "P411"
+     Name: "DRANSFELD-OSSENFELD",
+     ID: "E970",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HAUNETAL-WEHR",
-        ID: "L483"
+     Name: "DREI GLEICHEN-MUEHLB",
+     ID: "M640",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HECHINGEN",
-        ID: "Q651"
+     Name: "DREIECK WEIL",
+     ID: "Q904",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HECKELBERG",
-        ID: "F361"
+     Name: "DREIS-BRUECK",
+     ID: "K442",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HECKLINGEN-GR",
-        ID: "N532"
+     Name: "DRENSTEINFURT",
+     ID: "H257",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HEESLINGEN-WI",
-        ID: "E364"
+     Name: "DRESDEN",
+     ID: 10488,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEIDE",
-        ID: "A512"
+     Name: "DRESDEN FLUGHAFEN",
+     ID: "O454",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEIDHOLSTEI",
-        ID: "K1445"
+     Name: "DRESDEN-HOSTERWITZ",
+     ID: "O458",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEIDELBERG",
-        ID: "K2693"
+     Name: "DRESDEN-PILLNITZ",
+     ID: "O451",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEIDEN",
-        ID: "P0507"
+     Name: "DRESDEN-STADT",
+     ID: 10487,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEIDENHEIM",
-        ID: "K4102"
+     Name: "DRESDEN-STREHLEN",
+     ID: "O457",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HEILBRONN",
-        ID: "K2689"
+     Name: "DREWITZ BEI BURG",
+     ID: "N398",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HEINERSCHEID",
-        ID: "F9600"
+     Name: "DRIEDORF",
+     ID: "L409",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HEINERSGRÜN",
-        ID: "O951"
+     Name: "DROCHTERSEN",
+     ID: "E091",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HEINERSREUTH-",
-        ID: "P175"
+     Name: "DUEBEN",
+     ID: "N563",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HEINRICHSTHAL",
-        ID: "P104"
+     Name: "DUELMEN",
+     ID: "P0051",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HEINSBERG",
-        ID: "K1174"
+     Name: "DUERABUCH",
+     ID: "G363",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEINSBERG-SCH",
-        ID: "H606"
+     Name: "DUEREN",
+     ID: "N0226",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HEITERSHEIM",
-        ID: "N0283"
+     Name: "DUERRHENNERSDORF",
+     ID: "O580",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HELBEDÜNDORF",
-        ID: "M146"
+     Name: "DUERRNBACHHORN",
+     ID: "Z939",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HELGOLAND",
-        ID: 10015
+     Name: "DUESSELDORF",
+     ID: 10400,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HELLENGERST",
-        ID: "P910"
+     Name: "DUISBURG",
+     ID: "K1188",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HELMBRECHTS",
-        ID: "P0273"
+     Name: "DUISBURG-BAERL",
+     ID: "H419",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HELMSTADT",
-        ID: "G241"
+     Name: "DURBACH-EBERSWEIER",
+     ID: "Q511",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HELMSTEDT",
-        ID: "E798"
+     Name: "EBERFING",
+     ID: "P825",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEMMOOR",
-        ID: "N1040"
+     Name: "EBERN-EYRICHSHOF",
+     ID: "N3149",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HENSCHTAL",
-        ID: "K747"
+     Name: "EBERSBERG",
+     ID: "K4171",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEPPDIEL",
-        ID: "G255"
+     Name: "EBERSBERG-HALBING",
+     ID: "P768",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEPPENHEIM",
-        ID: "N2204"
+     Name: "EBERSWALDE",
+     ID: "N1542",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HERBORN",
-        ID: "N6223"
+     Name: "EBERTSHAUSEN",
+     ID: "G208",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERDORF",
-        ID: "K082"
+     Name: "EBRACH",
+     ID: "K4058",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERFORD",
-        ID: "K1524"
+     Name: "ECHZELL SCHWALHEIM",
+     ID: "L641",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HERLESHAUSEN-",
-        ID: "L299"
+     Name: "ECKENHAGEN",
+     ID: "H775",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HERMARINGEN-A",
-        ID: "Q485"
+     Name: "ECKERNFOERDE",
+     ID: "N7244",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HERMESKEIL",
-        ID: "K626"
+     Name: "EDELSFELD",
+     ID: "G258",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERMSDORF",
-        ID: "P0578"
+     Name: "EDELSHAUSEN",
+     ID: "G331",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERNE",
-        ID: "N9030"
+     Name: "EDMONTON INT.",
+     ID: 71123,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HERRENALB, BA",
-        ID: "Q327"
+     Name: "EGGEBEK",
+     ID: 10034,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HERRENBERG",
-        ID: "K2920"
+     Name: "EGGENFELDEN",
+     ID: "N2611",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERRIEDEN",
-        ID: "P318"
+     Name: "EGING AM SEE",
+     ID: "N2253",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERSBRUCK",
-        ID: "N3303"
+     Name: "EGING AM SEE-ROHRBAC",
+     ID: "P682",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HERXHEIMWEYHE",
-        ID: "K880"
+     Name: "EHINGEN DONAU",
+     ID: "N0171",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HERZBERG",
-        ID: "E944"
+     Name: "EHINGEN-KIRCHEN",
+     ID: "Q679",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HERZBERBRAN",
-        ID: "P0282"
+     Name: "EIBENSTOCK(TALSP.)",
+     ID: "N4123",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HERZBERG-LONA",
-        ID: "E950"
+     Name: "EICH",
+     ID: "K695",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HERZOGSTANDBA",
-        ID: "Z926"
+     Name: "EICHENDORF",
+     ID: "P672",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HESSENRING",
-        ID: "L284"
+     Name: "EICHENRIED",
+     ID: "G360",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HESSISCH LICH",
-        ID: "L271"
+     Name: "EICHHOF",
+     ID: "L379",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HETTSTEDT",
-        ID: "N6435"
+     Name: "EICHSTAETT",
+     ID: "K4108",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEUSWEILER",
-        ID: "P0275"
+     Name: "EICHSTAETT-LANDERSH.",
+     ID: "P522",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEYDA BEI RIE",
-        ID: "O248"
+     Name: "EIERSDORF",
+     ID: "G295",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HEYDENHOF",
-        ID: "G462"
+     Name: "EILSLEBEN",
+     ID: "N9413",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HIDDENSEE-VIT",
-        ID: "B006"
+     Name: "EIMEN-VORWOHLE",
+     ID: "E835",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HIENBERG",
-        ID: "P267"
+     Name: "EINOELLEN",
+     ID: "K755",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HILDBURGHAUSE",
-        ID: "N9117"
+     Name: "EISENACH",
+     ID: 10540,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HILDESHEIM",
-        ID: "K1546"
+     Name: "EISENBACH",
+     ID: "Q822",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HILGENROTH",
-        ID: "K017"
+     Name: "EISENBERG",
+     ID: "P0196",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "Hilkenbrook",
-        ID: "EW011"
+     Name: "EISERFELD UMSPWK.",
+     ID: "F9502",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HILKENBROOK,",
-        ID: "P0135"
+     Name: "EISERSZELL",
+     ID: "G294",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HILTPOLTSTEIN",
-        ID: "G253"
+     Name: "EITORF",
+     ID: "P0228",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HINDELANOST",
-        ID: "N0242"
+     Name: "ELLRICH-WERNA",
+     ID: "M031",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HINDELANG-UNT",
-        ID: "P927"
+     Name: "ELLWANGEN JAGST",
+     ID: "K4100",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HINTERHORNBAC",
-        ID: "Z002"
+     Name: "ELLWANGEN-RINDELBACH",
+     ID: "Q382",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HINTERSEE",
-        ID: "P0388"
+     Name: "ELPERSBUETTEL",
+     ID: 10130,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HINTERWEIDENT",
-        ID: "P0193"
+     Name: "ELSENDORF-HORNECK",
+     ID: "P548",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HIRSCHAID",
-        ID: "P159"
+     Name: "ELSFLETH",
+     ID: "K1481",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HIRSCHBERG",
-        ID: "M978"
+     Name: "ELSTER, BAD-SOHL",
+     ID: "O980",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HIRSCHTHAL",
-        ID: "K984"
+     Name: "ELSTER-SAALE-KANAL",
+     ID: "N891",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "HITZACKER",
-        ID: "N8261"
+     Name: "ELSTERWERDA",
+     ID: "N3666",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HOCHFELLN",
-        ID: "P0309"
+     Name: "ELZACH-FISNACHT",
+     ID: "Q712",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOCHGRATBAHN",
-        ID: "Z902"
+     Name: "ELZTAL-RITTERSBACH",
+     ID: "Q047",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOCHHEIM",
-        ID: "P0361"
+     Name: "EMDEN",
+     ID: 10203,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HOCHSÖLDEN",
-        ID: "P0391"
+     Name: "EMDEN-FLUGPLATZ",
+     ID: 10200,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HODENHAGEN",
-        ID: "P0207"
+     Name: "EMLICHHEIM",
+     ID: "N3049",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HÖCHSTADT",
-        ID: "P0028"
+     Name: "EMMENDINGEN-MUNDING.",
+     ID: "Q702",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HÖCHSTADT A.",
-        ID: "G249"
+     Name: "EMMERTHAL-GROHNDE",
+     ID: "N2375",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HÖHR-GRENZHA",
-        ID: "K170"
+     Name: "ENDINGEN",
+     ID: "P0255",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HÖLLENSTEI",
-        ID: "P0067"
+     Name: "ENERTRAG",
+     ID: "P0477",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HÖLLGRABEN",
-        ID: "Z948"
+     Name: "ENGELBERG",
+     ID: "Q348",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HÖRMOOS",
-        ID: "Z901"
+     Name: "ENGER",
+     ID: "H170",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HÖRNLE",
-        ID: "P0307"
+     Name: "ENGERSDORF",
+     ID: "G343",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HÖRNLI",
-        ID: 6689
+     Name: "ENKENBACH",
+     ID: "K767",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HÖRSCHEL",
-        ID: "M403"
+     Name: "ENNEPETAL-MILSPE",
+     ID: "N8864",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HÖRSELBERG-H",
-        ID: "M412"
+     Name: "ENNEPETALSPERRE",
+     ID: "P0605",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HÖRSTEL",
-        ID: "H061"
+     Name: "ENNIGERLOH",
+     ID: "P0619",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HÖXTER",
-        ID: "N2336"
+     Name: "ENTENPFUHL",
+     ID: "K550",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HOF",
-        ID: 10685
+     Name: "ENZKLOESTERLE",
+     ID: "Q424",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOF LAUTERBAC",
-        ID: "L119"
+     Name: "EPPENROD BORNBACH",
+     ID: "K290",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HOFLUGHAFEN",
-        ID: 10684
+     Name: "EPPINGEN-ELSENZ",
+     ID: "Q221",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOFGEISMAR",
-        ID: "N2235"
+     Name: "ERFDE",
+     ID: "A351",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HOGFGEISMAR",
-        ID: "X484"
+     Name: "ERFTSTADT-BLIESHEIM",
+     ID: "N8424",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHEGEISS",
-        ID: "X098"
+     Name: "ERFURT",
+     ID: 10554,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HOHEGING, NT",
-        ID: "P0138"
+     Name: "ERFURT-STADT",
+     ID: "P0560",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HOHEN PRITZ",
-        ID: "P0502"
+     Name: "ERKELENZ",
+     ID: "N0304",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHENBEREGE",
-        ID: "P190"
+     Name: "ERLANGEN",
+     ID: "K4087",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOHENBUCKO",
-        ID: "F736"
+     Name: "ERLBACH-EUBABRUNN",
+     ID: "O993",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HOHENECK UMSP",
-        ID: "F9505"
+     Name: "ERWITTE",
+     ID: "P0234",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHENFELS",
-        ID: "N1265"
+     Name: "ESCH",
+     ID: "K040",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "HOHENHOLTE",
-        ID: "P0630"
+     Name: "ESCHBRONN-MARIAZELL",
+     ID: "Q731",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOHENPEISS.BG",
-        ID: 10962
+     Name: "ESCHWEGE",
+     ID: "K3997",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HOHENREINKEND",
-        ID: "F069"
+     Name: "ESCHWEGE-ELTMANNSHAU",
+     ID: "L292",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HOHENROTH",
-        ID: "G202"
+     Name: "ESCHWEILER N",
+     ID: "H813",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHENSTEIN-BE",
-        ID: "Q663"
+     Name: "ESLOHE",
+     ID: "H579",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHENSTEIN-BR",
-        ID: "L714"
+     Name: "ESPELKAMP-ISENSTEDT",
+     ID: "H081",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHENTHANN",
-        ID: "P557"
+     Name: "ESSEL",
+     ID: "E662",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HOHENZETHEN",
-        ID: "E482"
+     Name: "ESSEN",
+     ID: 10410,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHERODSKOPF",
-        ID: 10534
+     Name: "ESSEN BAHNHOF",
+     ID: "P0446",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOHN",
-        ID: 10038
+     Name: "ESSENBACH",
+     ID: "P0534",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOHWACHT",
-        ID: "A481"
+     Name: "ETTAL-LINDERHOF",
+     ID: "P937",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOLLEDAU SÜD",
-        ID: "P632"
+     Name: "ETZLEBEN",
+     ID: "M281",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HOLTE-STUKENB",
-        ID: "P0232"
+     Name: "EUERHAUSEN",
+     ID: "G256",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOLZBÜTTGEN",
-        ID: "H528"
+     Name: "EUSKIRCHEN",
+     ID: "K2226",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "HOLZDORF",
-        ID: 10476
+     Name: "EUTIN",
+     ID: "K3822",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "HOLZHEIM BEI",
-        ID: "K295"
+     Name: "EW-Hamburg",
+     ID: "EW034",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "HOLZKIRCHEN",
-        ID: "P856"
+     Name: "EW-Lindenberg",
+     ID: "EW031",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HOLZKIRCHEO",
-        ID: "K4172"
+     Name: "EW-Roedeser-Berg",
+     ID: "EW039",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HOLZMINDEN",
-        ID: "K1550"
+     Name: "FAHLHORST",
+     ID: "F537",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HOLZSCHLÄGER",
-        ID: "P0484"
+     Name: "FAHRENBERG",
+     ID: "Z925",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOLZSPITZE",
-        ID: "Q068"
+     Name: "FAHRENZHAUSEN",
+     ID: "P639",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOMBERG-OHM",
-        ID: "L542"
+     Name: "FALKENBERG,KR.ROTTAL",
+     ID: "P674",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOMBERG-SCHÖ",
-        ID: "K764"
+     Name: "FALKENSTEIN KR.CHAM",
+     ID: "N1382",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOMBURG, BAD",
-        ID: "L732"
+     Name: "FALKENSTEIN TAUNUS",
+     ID: "P0050",
+     Bundesland: "Hessen"
     },
     {
-        Name: "HOMBURSAAR",
-        ID: "J846"
+     Name: "FALLINGBOSTEL, BAD",
+     ID: "E571",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HOOGEVEEN",
-        ID: 6279
+     Name: "FASSBERG",
+     ID: 10246,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "HOPSTEN",
-        ID: 10314
+     Name: "FASTNET",
+     ID: "W5011",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "HORB",
-        ID: "N1033"
+     Name: "FEILNBACH, BAD",
+     ID: "P962",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HORN",
-        ID: "P0330"
+     Name: "FEISTENAICH",
+     ID: "G321",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HORNISGRINDE",
-        ID: "Q410"
+     Name: "FELDBERG MECKLENBURG",
+     ID: 10282,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "HORTENKOPF",
-        ID: "K931"
+     Name: "FELDBERG S.",
+     ID: 10908,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "HOYA",
-        ID: "N3240"
+     Name: "FELDKIRCHEN-WESTERHA",
+     ID: "P862",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HOYERSWERDA",
-        ID: "N3619"
+     Name: "FELGENTREU",
+     ID: "F635",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "HUDOLDENBUR",
-        ID: "E335"
+     Name: "FELLHORN",
+     ID: "Z905",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HÜLL",
-        ID: "G333"
+     Name: "FEUCHTWANGEN",
+     ID: 10756,
+     Bundesland: "Bayern"
     },
     {
-        Name: "HÜMMERICH",
-        ID: "K057"
+     Name: "FICHTELBERG",
+     ID: 10578,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "HÜRTH",
-        ID: "P0490"
+     Name: "FICHTELBERG OBERFRA.",
+     ID: "P182",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HÜTTGESWASEN",
-        ID: "K633"
+     Name: "FINKENWERDER",
+     ID: "P0026",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "HUNDSTEIN",
-        ID: "P0061"
+     Name: "FINSING (KRAFTWERK)",
+     ID: "P769",
+     Bundesland: "Bayern"
     },
     {
-        Name: "HUSUM",
-        ID: 10026
+     Name: "FISCHACH",
+     ID: "P0268",
+     Bundesland: "Bayern"
     },
     {
-        Name: "IDAR-OBERSTEI",
-        ID: 10618
+     Name: "FLAEMING",
+     ID: "F618",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "IDSTEIN",
-        ID: "L716"
+     Name: "FLENSBURG",
+     ID: 10033,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "IHLEWITZ",
-        ID: "P0362"
+     Name: "FLENSBURG (SCHAEFERH",
+     ID: "A160",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "IHRINGEN",
-        ID: "Q412"
+     Name: "FLOMBORN",
+     ID: "P0411",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ILLERIEDEN-DO",
-        ID: "P0260"
+     Name: "FLOSSENBUERG",
+     ID: "P294",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ILMENAU",
-        ID: "N5346"
+     Name: "FLUSSBACH",
+     ID: "K445",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ILMTAL-DIENST",
-        ID: "M651"
+     Name: "Foehr",
+     ID: "EW007",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "IMMENSTADT",
-        ID: "N0253"
+     Name: "FORBACH (LUBW)",
+     ID: "Q414",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "IMMENSTADT-RE",
-        ID: "P914"
+     Name: "FORBACH-HERRENWIES",
+     ID: "N0527",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "INGELFINGEN-S",
-        ID: "Q165"
+     Name: "FORCHHEIM OFR.",
+     ID: "N3420",
+     Bundesland: "Bayern"
     },
     {
-        Name: "INGELHEIM",
-        ID: "N5044"
+     Name: "FORSTHAUS",
+     ID: "L687",
+     Bundesland: "Hessen"
     },
     {
-        Name: "INGOLSTADT",
-        ID: 10860
+     Name: "FORSTING",
+     ID: "G373",
+     Bundesland: "Bayern"
     },
     {
-        Name: "INNSBRUCK FL.",
-        ID: 11120
+     Name: "FRANKELBACH",
+     ID: "K756",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "INZELL",
-        ID: "P986"
+     Name: "FRANKENBERG EDER",
+     ID: "K1596",
+     Bundesland: "Hessen"
     },
     {
-        Name: "IPHOFEN",
-        ID: "G246"
+     Name: "FRANKENBERG-ALTENHAI",
+     ID: "O625",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "IRRENLOHE",
-        ID: "G273"
+     Name: "FRANKENBERG-GEISMAR",
+     ID: "L215",
+     Bundesland: "Hessen"
     },
     {
-        Name: "IRSCHENBERG-K",
-        ID: "P870"
+     Name: "FRANKENBLICK-MENGERS",
+     ID: "M938",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "IRXLEBEN",
-        ID: "N443"
+     Name: "FRANKENDORF",
+     ID: "G355",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ISEN-WESTACH",
-        ID: "P765"
+     Name: "FRANKENFELD-HEDERN",
+     ID: "E564",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ISERLOHN",
-        ID: "P0327"
+     Name: "FRANKENHOFEN",
+     ID: "G297",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ISERLOHN-RODE",
-        ID: "N8832"
+     Name: "FRANKENTHAL",
+     ID: "K795",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ISET-MEER22",
-        ID: "E5543"
+     Name: "FRANKFURT",
+     ID: "L838",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ISNY",
-        ID: "K4138"
+     Name: "FRANKFURT WESTEND",
+     ID: "L841",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ISSUM",
-        ID: "P0029"
+     Name: "FRANKFURT M",
+     ID: 10637,
+     Bundesland: "Hessen"
     },
     {
-        Name: "ITZEHÖ",
-        ID: 10142
+     Name: "FRANKFURT ODER",
+     ID: "N1323",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ITZGRUND-HERR",
-        ID: "P058"
+     Name: "FRANKFURT PALMENGAR.",
+     ID: "K2561",
+     Bundesland: "Hessen"
     },
     {
-        Name: "JACHENAU-TANN",
-        ID: "P956"
+     Name: "FRANKFURT ZEIL",
+     ID: "P0445",
+     Bundesland: "Hessen"
     },
     {
-        Name: "JÄVENITZ",
-        ID: "X032"
+     Name: "FRAUENRIEDHAUSEN",
+     ID: "G334",
+     Bundesland: "Bayern"
     },
     {
-        Name: "JENA",
-        ID: "M552"
+     Name: "FRAUENWALD",
+     ID: "M833",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "JENSTERNWAR",
-        ID: "K4204"
+     Name: "Freiamt",
+     ID: "EW008",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "JENNER",
-        ID: "Z949"
+     Name: "FREIBERG",
+     ID: "K4402",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "JESSNITZ",
-        ID: "N566"
+     Name: "FREIBURG",
+     ID: 10803,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "JESTETTEN",
-        ID: "P0258"
+     Name: "FREIBURG ELBE",
+     ID: "E082",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "JETTENBACH",
-        ID: "P777"
+     Name: "FREIENBESSINGEN",
+     ID: "M259",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "JETZENDORF",
-        ID: "G346"
+     Name: "FREIENSTEINAU",
+     ID: "L562",
+     Bundesland: "Hessen"
     },
     {
-        Name: "JEVER",
-        ID: 10122
+     Name: "FREIGERICHT-HORBACH",
+     ID: "L769",
+     Bundesland: "Hessen"
     },
     {
-        Name: "JOACHIMSTHAL",
-        ID: "F283"
+     Name: "FREIHUNG-GROSSSCHOEN",
+     ID: "P287",
+     Bundesland: "Bayern"
     },
     {
-        Name: "JUDENBACH-NEU",
-        ID: "M945"
+     Name: "FREIMERSHEIM",
+     ID: "K677",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "JÜLICH",
-        ID: "K2204"
+     Name: "FREINSHEIM",
+     ID: "P0194",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "JÜLICH Ä",
-        ID: "H718"
+     Name: "FREISEN SAAR",
+     ID: "N5111",
+     Bundesland: "Saarland"
     },
     {
-        Name: "K HMOOS UMSPW",
-        ID: "F9506"
+     Name: "FREREN",
+     ID: "P0622",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "K RPERICH-GAY",
-        ID: "K418"
+     Name: "FREUDENBERG MAIN-BOX",
+     ID: "Q062",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "K.ASTEN",
-        ID: 10427
+     Name: "FREUDENST.",
+     ID: 10815,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KÄBSCHÜTZTA",
-        ID: "P0289"
+     Name: "FREYBURG UNSTRUT-ZEU",
+     ID: "N855",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "KAHL",
-        ID: "P101"
+     Name: "FREYSTADT-OBERNDORF",
+     ID: "P339",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAHL (MAIN)",
-        ID: "P100"
+     Name: "FREYUNG",
+     ID: "K4514",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAIL",
-        ID: "K354"
+     Name: "FRIEDBERG",
+     ID: "N4253",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KAISERSBACH-C",
-        ID: 10747
+     Name: "FRIEDEBURG-HORSTEN",
+     ID: "N2028",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KAISERSLAUTER",
-        ID: "K2288"
+     Name: "FRIEDING",
+     ID: "G357",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAISER-WILH.-",
-        ID: "P0131"
+     Name: "FRIEDLAND",
+     ID: "N2228",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "Kaiser-Wilhel",
-        ID: "EW012"
+     Name: "FRIEDRICHSHAFEN",
+     ID: 10935,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KALBACH",
-        ID: "N1012"
+     Name: "FRIEDRICHSHFN UNTER.",
+     ID: "Q978",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KALKAR",
-        ID: 10404
+     Name: "FRIEDRICHSWALDE",
+     ID: "F280",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KALLETAL NIED",
-        ID: "H176"
+     Name: "FRIESACK",
+     ID: "N7740",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KALL-SISTIG",
-        ID: "H981"
+     Name: "FRIESOYTHE",
+     ID: "N0717",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KALTENBACH",
-        ID: "H228"
+     Name: "FRIESOYTHE-ALTENOYTH",
+     ID: 10210,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KALTENBERG",
-        ID: "G307"
+     Name: "FRITZLAR",
+     ID: 10439,
+     Bundesland: "Hessen"
     },
     {
-        Name: "KALTENBORN, H",
-        ID: "K240"
+     Name: "FROENDENBERG",
+     ID: "N8686",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KALTENEBER",
-        ID: "G416"
+     Name: "FROENDENBERG-HOHENHE",
+     ID: "H450",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KALTENNORDHEI",
-        ID: 10546
+     Name: "FUERSTENFELDBRUCK",
+     ID: 10858,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAMENZ",
-        ID: "N3608"
+     Name: "FUERSTENWALDE SPREE",
+     ID: "N7386",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KAMMSPITZ",
-        ID: "P0069"
+     Name: "FUERSTENZELL",
+     ID: 10895,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAMPENWAND",
-        ID: "Z937"
+     Name: "FUERTH BAYERN",
+     ID: "K4086",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KANDERN-GUPF",
-        ID: "Q903"
+     Name: "FUESSEN-WEISSENSEE",
+     ID: "N0505",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KANNENBÄCKER",
-        ID: "K164"
+     Name: "FULDA",
+     ID: 10536,
+     Bundesland: "Hessen"
     },
     {
-        Name: "KANZELWAND",
-        ID: "Z904"
+     Name: "FUNTENSEETAUERN",
+     ID: "Z947",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KANZERN",
-        ID: "K620"
+     Name: "FURTH IM WALD",
+     ID: "N1371",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KARAGANDA",
-        ID: 35394
+     Name: "GAILINGEN",
+     ID: "Q945",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KARLSBAD",
-        ID: 11414
+     Name: "GALGENBERG",
+     ID: "P589",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KARLSHAGEN",
-        ID: "B382"
+     Name: "GAMMERTINGEN",
+     ID: "P0261",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KARLSHULD",
-        ID: "G325"
+     Name: "GANGKOFEN (KLAERANLA",
+     ID: "P668",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KARLSRBADEN",
-        ID: 10722
+     Name: "GARCHING",
+     ID: "P0532",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KARLSRUHE",
-        ID: "Q208"
+     Name: "GARDELEGEN",
+     ID: 10359,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "KARLSRUHBAD",
-        ID: "X132"
+     Name: "GARLSTORF",
+     ID: "P0149",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KARSTÄDPRI",
-        ID: "F108"
+     Name: "GARMISCH",
+     ID: 10963,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KARSTEDTSHOF",
-        ID: "F136"
+     Name: "GARSEBACH BEI MEISSE",
+     ID: "O348",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "KASSEL",
-        ID: 10438
+     Name: "GAUCHSBERG",
+     ID: "K552",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KASSEL-CALDEN",
-        ID: "X133"
+     Name: "GEDERN-SCHOENHAUSEN",
+     ID: "L652",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KASTELLAUN",
-        ID: "N7608"
+     Name: "GEESTHACHT",
+     ID: "P0025",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KASTL, KREIS",
-        ID: "P356"
+     Name: "GEFREES",
+     ID: "N3003",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KATZHÜTTE",
-        ID: "M846"
+     Name: "GEILENKIRCHEN",
+     ID: 10500,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KAUBENHEIM",
-        ID: "G261"
+     Name: "GEISA",
+     ID: "M700",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KAUFBEUREN",
-        ID: "P817"
+     Name: "GEISENFELD-EICHELBER",
+     ID: "P549",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KAVELSDORF",
-        ID: "B335"
+     Name: "GEISENHAUSEN",
+     ID: "N2221",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KEGNÄS",
-        ID: 6119
+     Name: "GEISENHEIM",
+     ID: 10628,
+     Bundesland: "Hessen"
     },
     {
-        Name: "KEHL",
-        ID: "K2309"
+     Name: "GEISINGEN",
+     ID: "Q848",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KEHL-ODELSHOF",
-        ID: "Q408"
+     Name: "GEISLINGEN",
+     ID: "N1140",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KEHRIG",
-        ID: "P0414"
+     Name: "GELBELSEE",
+     ID: 10777,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KELHEIM",
-        ID: "N0781"
+     Name: "GELDERN-WALBECK",
+     ID: "H401",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KELHEIM",
-        ID: "P449"
+     Name: "GELNHAUSEN",
+     ID: "K2637",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KEMBERG-RADIS",
-        ID: "N671"
+     Name: "GELSENKIRCHEN",
+     ID: "K1115",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KEMNATH",
-        ID: "N1151"
+     Name: "GENTHIN",
+     ID: 10365,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "KEMPTEN",
-        ID: 10946
+     Name: "GERA",
+     ID: 10567,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KERPEN",
-        ID: "P0213"
+     Name: "GERAER BERG",
+     ID: "M575",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KIEFERSFELDEN",
-        ID: "P975"
+     Name: "GERBRUNN",
+     ID: "G240",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KIEL",
-        ID: 10046
+     Name: "GERMERSHEIM",
+     ID: "N0680",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KIELER BUCHT",
-        ID: "E5411"
+     Name: "GEROLDSGRUEN-STEINB.",
+     ID: "N3047",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KINDELBRÜCK",
-        ID: "G417"
+     Name: "GEROLSTEIN",
+     ID: "P0192",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KINZESBERG",
-        ID: "G337"
+     Name: "GERSDORF",
+     ID: "B320",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KIRCHBERG IM",
-        ID: "G303"
+     Name: "GERSFELD_(RHÖN)-DALH",
+     ID: "L595",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KIRCHBERG, RH",
-        ID: "K501"
+     Name: "GERSTETTEN-DETTINGEN",
+     ID: "N0352",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KIRCHBERNIE",
-        ID: "P581"
+     Name: "GETTORF",
+     ID: "P0346",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KIRCHBERG-JAG",
-        ID: "Q292"
+     Name: "GEVELSBERG-OBERB.",
+     ID: "H542",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KIRCHDORF, KR",
-        ID: "E651"
+     Name: "GIESSEN",
+     ID: 10532,
+     Bundesland: "Hessen"
     },
     {
-        Name: "KIRCHDORPÖ",
-        ID: "B308"
+     Name: "GIFHORN",
+     ID: "N4068",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KIRCHESIEG",
-        ID: "N8032"
+     Name: "GILSERBERG-MOISCHEID",
+     ID: "L340",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KIRCHENGEL",
-        ID: "G418"
+     Name: "GLADBECK",
+     ID: "P0602",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KIRCHHEIM",
-        ID: "G372"
+     Name: "GLANDORF",
+     ID: "P0209",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KIRCHHEITEC",
-        ID: "K2718"
+     Name: "GLINDE",
+     ID: "P0202",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KIRCHHEIMBOLA",
-        ID: "N2159"
+     Name: "GLUECKSTADT",
+     ID: "K1484",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KIRCHHERTEN",
-        ID: "P0212"
+     Name: "GMUND TEGERNSEE",
+     ID: "P0159",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KIRCHWEILER",
-        ID: "K322"
+     Name: "GNOIEN",
+     ID: "X482",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KIRCHZARTEN",
-        ID: "P0254"
+     Name: "GOEHL",
+     ID: "P0331",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KIRF-BEUREN",
-        ID: "K701"
+     Name: "GOEPPINGEN",
+     ID: "N1147",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KIRN",
-        ID: "K650"
+     Name: "GOERLITZ",
+     ID: 10499,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "KISSINGEN",
-        ID: 10658
+     Name: "GOESSWEINSTEIN",
+     ID: "P262",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KITZBÜHEL",
-        ID: "P0023"
+     Name: "GOETTENDORF",
+     ID: "M799",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KITZENRIED",
-        ID: "G277"
+     Name: "GOETTINGEN",
+     ID: 10444,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KITZINGEN",
-        ID: "K4057"
+     Name: "GOLDBERG",
+     ID: 10168,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KL.FELDBGTS",
-        ID: 10635
+     Name: "GOLDENBOW",
+     ID: "B629",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KLADRUM",
-        ID: "P0355"
+     Name: "GOLDENE BREMM",
+     ID: "J907",
+     Bundesland: "Saarland"
     },
     {
-        Name: "KLEIN-ALTENDO",
-        ID: "K100"
+     Name: "GOLLHOFEN",
+     ID: "P238",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KLEINER INSEL",
-        ID: "M620"
+     Name: "GONDERSHAUSEN",
+     ID: "K376",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KLEINICH, KR.",
-        ID: "K533"
+     Name: "Goosefeld",
+     ID: "EW009",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KLESSEN",
-        ID: "F305"
+     Name: "GORJACINSK",
+     ID: 30731,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KLETTWITZ",
-        ID: "P0365"
+     Name: "GOSLAR",
+     ID: "N4161",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KLETZIN",
-        ID: "G464"
+     Name: "GOTHA",
+     ID: "N9349",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KLEVE",
-        ID: "H203"
+     Name: "GOTTFRIEDING",
+     ID: 10872,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KLINGENTHAL-K",
-        ID: "O974"
+     Name: "GOTTMADINGEN",
+     ID: "N0197",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KLIPPENECK",
-        ID: 10818
+     Name: "GR.ARBER",
+     ID: 10791,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KOBLENZ-BEND.",
-        ID: 10515
+     Name: "GR.FELDBG. TS.",
+     ID: "P0016",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KOCELOVICE",
-        ID: 11487
+     Name: "GRAAL-MUERITZ",
+     ID: "N2626",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KOCHEL",
-        ID: "N2048"
+     Name: "GRAEFENBERG",
+     ID: "N3334",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KOCHEL-EINSIE",
-        ID: "P947"
+     Name: "GRAEFENBERG-KASBERG",
+     ID: "P265",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖCKTE",
-        ID: "N214"
+     Name: "GRAEFENDORF,KR.MAIN-",
+     ID: "P120",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖFERING",
-        ID: "G301"
+     Name: "GRAEFENTONNA",
+     ID: "N3685",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KÖHN",
-        ID: "A473"
+     Name: "GRAINERT-REHBERG",
+     ID: "P594",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖLN BOTANISCHER GARTEN",
-        ID: "K2221"
+     Name: "GRAMBECK",
+     ID: "K3869",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KÖLBONN",
-        ID: 10513
+     Name: "GRAMBEK",
+     ID: "A981",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KÖLN-STAMMHEIM",
-        ID: "H744"
+     Name: "GRAMBOW-SCHWENNENZ",
+     ID: "B898",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KÖNIGHEIM",
-        ID: "Q033"
+     Name: "GRASSAU",
+     ID: "P987",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖNIGS WUSTE",
-        ID: "P0039"
+     Name: "GRAUSTEIN",
+     ID: "F878",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KÖNIGSBACH-S",
-        ID: "Q222"
+     Name: "GREAT FALLS MT.",
+     ID: 72775,
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖNIGSBERB",
-        ID: "P141"
+     Name: "GREBENHAIN",
+     ID: "N1027",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KÖNIGSBORN",
-        ID: "N463"
+     Name: "GREBENSTEIN",
+     ID: "L685",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KÖNIGSEE-BER",
-        ID: "X213"
+     Name: "GREDING",
+     ID: "N0753",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖNIGSMOOR",
-        ID: "E277"
+     Name: "GREIFSWALD",
+     ID: 10184,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KÖNIGSTEIT",
-        ID: "K2649"
+     Name: "GREIFSWALDER OIE",
+     ID: 10097,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KÖNIGSWINTER",
-        ID: "P0227"
+     Name: "GREIMERSDORF",
+     ID: "G265",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÖNNEREN",
-        ID: "X011"
+     Name: "GREIZ-DOELAU",
+     ID: "K4420",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "KÖSCHING",
-        ID: "P532"
+     Name: "GRENZAU",
+     ID: "K169",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KÖSCHINGER F",
-        ID: "P533"
+     Name: "GREVESMUEHLEN",
+     ID: "B511",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KÖSLAU",
-        ID: "G214"
+     Name: "GRIEBEN",
+     ID: "N268",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "KÖTERBERG",
-        ID: 10432
+     Name: "GRIMMA",
+     ID: "N4513",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "KÖTHEN",
-        ID: "N652"
+     Name: "GRIMMA-KLEINBOTHEN",
+     ID: "O322",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "KOLITZHEIM",
-        ID: "P137"
+     Name: "GRIMMEN",
+     ID: "N2362",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KONNERSREUTH",
-        ID: "G235"
+     Name: "GRONAU WEST",
+     ID: "F9515",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KONSTANZ",
-        ID: 10929
+     Name: "GROSS BERSSEN",
+     ID: "E513",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KOPPIGEN",
-        ID: 6635
+     Name: "GROSS KIESOW-SCHLAGT",
+     ID: "B482",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KORBACH-RHENA",
-        ID: "L113"
+     Name: "GROSS KREUTZ",
+     ID: "F520",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KOTTMARHÄUSE",
-        ID: "X096"
+     Name: "GROSS LUESEWITZ",
+     ID: "B334",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KRAFTISRIED",
-        ID: "P818"
+     Name: "GROSS LUKOW",
+     ID: "B766",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "KRAGELUND",
-        ID: "P0125"
+     Name: "GROSS UMSTADT",
+     ID: "P0017",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KRAICHTAL-GOC",
-        ID: "N0761"
+     Name: "GROSS WITTENSEE",
+     ID: "A345",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KRANZBERG",
-        ID: "Z919"
+     Name: "GROSSBERGHOFEN",
+     ID: "G358",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KRAUTHEIM",
-        ID: "P0250"
+     Name: "GROSSENBRODE",
+     ID: "A397",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KREFELD",
-        ID: "N8527"
+     Name: "GROSSENKNETEN-AHL.",
+     ID: "E426",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KREIPITZSCH",
-        ID: "N924"
+     Name: "GROSSENLACH MANNENW.",
+     ID: "Q351",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KREMMEN-GROSS",
-        ID: "F325"
+     Name: "GROSSER BEERBERG",
+     ID: "P0057",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "KREMPEL",
-        ID: "A411"
+     Name: "GROSS-GERAU-WALLERST",
+     ID: "L865",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KREMSMÜNSTER",
-        ID: 11012
+     Name: "GROSSMACKENSTEDT",
+     ID: "P0433",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KREUTH",
-        ID: "K4179"
+     Name: "GROSSOSTHEIM",
+     ID: "G222",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KREUTH-GLASHU",
-        ID: "P958"
+     Name: "GROSSWEIL",
+     ID: "P941",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KREUZ AACHEN",
-        ID: "H810"
+     Name: "GROSSZIEGENFELD",
+     ID: "G216",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KRINGELL",
-        ID: "G324"
+     Name: "GRUB",
+     ID: "Q988",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KRONACH",
-        ID: "K4036"
+     Name: "GRUENBERG",
+     ID: "P0180",
+     Bundesland: "Hessen"
     },
     {
-        Name: "Kroppach",
-        ID: "EW013"
+     Name: "GRUENDAU-BREITENBORN",
+     ID: "L771",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KRÜMMEL",
-        ID: "B951"
+     Name: "GRUENOW",
+     ID: 10289,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KRÜN",
-        ID: "P950"
+     Name: "GRUENSTADT",
+     ID: "N2132",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "KRUMBACH-EDEN",
-        ID: "K4130"
+     Name: "GRUEPPENBUEHREN",
+     ID: "P0435",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "KRUMMHÖRN-LO",
-        ID: "P0130"
+     Name: "GRÜNBERG",
+     ID: "L543",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KUBSCHÜTZ,KR",
-        ID: "O384"
+     Name: "GUBEN",
+     ID: "N1156",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "KÜHROINT",
-        ID: "Z946"
+     Name: "GUDENSBERG",
+     ID: "L244",
+     Bundesland: "Hessen"
     },
     {
-        Name: "KÜMMERSBRUCK",
-        ID: 10771
+     Name: "GUEDDERATH",
+     ID: "H605",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KÜNZELSAU-MO",
-        ID: "N1551"
+     Name: "GUENZBURG",
+     ID: "P606",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KÜNZING",
-        ID: "P0266"
+     Name: "GUETERSLOH",
+     ID: 10320,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KÜSTE JASMUN",
-        ID: "P0417"
+     Name: "GUETERSLOH EMS",
+     ID: "H265",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KUFSTEIN",
-        ID: 11130
+     Name: "GUMMERSBACH",
+     ID: "N8146",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KUGELBERG O.",
-        ID: "F9531"
+     Name: "GUNDELFINGEN UMSPWK.",
+     ID: "F9503",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KUHBIER",
-        ID: "F125"
+     Name: "GUNDREMMINGEN",
+     ID: "P0533",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KULMBACH",
-        ID: "K4042"
+     Name: "GUNZENHSN.",
+     ID: "K4069",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KUPFERZELL-RE",
-        ID: "Q171"
+     Name: "GUT HUELL",
+     ID: "G375",
+     Bundesland: "Bayern"
     },
     {
-        Name: "KUSEL",
-        ID: "N5227"
+     Name: "GUTACH BR.",
+     ID: "N0311",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "KUSEL ÄRA",
-        ID: "K744"
+     Name: "HAALE",
+     ID: "A536",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "KUTZLEBEN",
-        ID: "G419"
+     Name: "HAARSTRANG",
+     ID: "P0512",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "KYRITZ",
-        ID: 10267
+     Name: "HABICHTSWALD",
+     ID: "H075",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LA CHAUX DE F",
-        ID: 6612
+     Name: "HACHENBURG WESTERWAL",
+     ID: "K081",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LAAGE",
-        ID: 10172
+     Name: "HAEHNICHEN-TREBUS",
+     ID: "O099",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "LABÖ",
-        ID: "P0200"
+     Name: "HAENCHEN",
+     ID: "F863",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "LADBERGEN",
-        ID: "H069"
+     Name: "HAFTENKAMP",
+     ID: "P0618",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LÄGERN",
-        ID: 6669
+     Name: "HAGELSTADT",
+     ID: "P460",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LAGE, KREIS L",
-        ID: "H281"
+     Name: "HAGEN",
+     ID: "N8884",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LAHR",
-        ID: 10805
+     Name: "Hagen-Dahl",
+     ID: "EW010",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LALLING",
-        ID: "N2202"
+     Name: "HAGEN-HOHENLIMBURG",
+     ID: "P0604",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LAM",
-        ID: "N1353"
+     Name: "HAGENOW",
+     ID: "N8326",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "LAMBRECHT",
-        ID: "P0021"
+     Name: "HAHN",
+     ID: 10616,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LAM-LAMBACH",
-        ID: "P481"
+     Name: "HAHNHEIM",
+     ID: "K589",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LAMSTEDT",
-        ID: "E087"
+     Name: "HAHNWEILER",
+     ID: "K732",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LANDAISAR",
-        ID: "N2193"
+     Name: "HAIGER",
+     ID: "L414",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LANDAPFALZ",
-        ID: "N0677"
+     Name: "HAIGERLOCH-HART",
+     ID: "N1054",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LANDECK",
-        ID: 11112
+     Name: "HAIGERLOCH-WEILDORF",
+     ID: "Q642",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LANDSBERG",
-        ID: 10857
+     Name: "HAIMHAUSEN-OTTERSHAU",
+     ID: "P764",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LANDSHUT",
-        ID: "K4503"
+     Name: "HALBERSTADT",
+     ID: "N4414",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LANDSHUT-REIT",
-        ID: "P655"
+     Name: "HALBLECH-TRAUCHGAU",
+     ID: "P934",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LANGELSHEIM-A",
-        ID: "E884"
+     Name: "HALDENSLEBEN",
+     ID: "N6935",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LANGENAU",
-        ID: "P0608"
+     Name: "HALDENWANG",
+     ID: "G345",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LANGENENSLING",
-        ID: "Q762"
+     Name: "HALLE",
+     ID: 10466,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LANGEN-HOLSSE",
-        ID: "E067"
+     Name: "HALLE DIESELSTR. HKW",
+     ID: "F9435",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LANGENLIPSDOR",
-        ID: "F707"
+     Name: "HALLE NORD.WESTFALEN",
+     ID: "P0231",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LANGEN-TRECHO",
-        ID: "P0501"
+     Name: "HALLIG HOOGE",
+     ID: "P0151",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "LANGENZENN",
-        ID: "P321"
+     Name: "HALTERN",
+     ID: "N9530",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LANGQUAID-OBE",
-        ID: "P551"
+     Name: "HALTERN (WASSERWERK)",
+     ID: "H330",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LANGWARDEN",
-        ID: "P0211"
+     Name: "HAMBACH",
+     ID: "P0561",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LANGWEDEL",
-        ID: "P0208"
+     Name: "HAMBURG INNENSTADT",
+     ID: "P0489",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "LAUBACHER HÖ",
-        ID: "K341"
+     Name: "HAMBURG-FU.",
+     ID: 10147,
+     Bundesland: "Hamburg"
     },
     {
-        Name: "LAUCHA",
-        ID: "P0123"
+     Name: "HAMBURG-NEUENG.",
+     ID: "P0120",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "LAUCHHEIM",
-        ID: "Q395"
+     Name: "HAMBURG-NEUWIEDENTH.",
+     ID: "C720",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "LAUCHSTÄDT,",
-        ID: "N769"
+     Name: "HAMELN",
+     ID: "K1547",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUDA-KÖNIGS",
-        ID: "Q066"
+     Name: "HAMELN-HASTENBECK",
+     ID: "E739",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUDERT",
-        ID: "K480"
+     Name: "HAMM",
+     ID: "N9401",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LAUHEUCHLIN",
-        ID: "N3309"
+     Name: "HAMMELBURG",
+     ID: "N3754",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LAUPEGNITZ",
-        ID: "P266"
+     Name: "HAMSWEHRUM",
+     ID: "P0145",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUFEOBB.-L",
-        ID: "P990"
+     Name: "HANAU",
+     ID: "N4116",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LAUINGEN",
-        ID: "P0269"
+     Name: "HANEKENFÄHR UMSPWK.",
+     ID: "F9504",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUPERATH-SCH",
-        ID: "K308"
+     Name: "HANNOV.MUENDEN",
+     ID: "P0204",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUPHEIM",
-        ID: 10837
+     Name: "HANNOVER",
+     ID: 10338,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUTERBACH",
-        ID: "P0182"
+     Name: "HANNOVER-HERRENHAUSE",
+     ID: "E755",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUTERBERG,BA",
-        ID: "E955"
+     Name: "HANNOVER-KIRCHRODE",
+     ID: "E756",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUTERECKEN",
-        ID: "N5245"
+     Name: "HARBURG",
+     ID: 10850,
+     Bundesland: "Bayern"
     },
     {
-        Name: "LAUTERTAODE",
-        ID: "L926"
+     Name: "HARDHEIM",
+     ID: "P0609",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LAUTERTAODW",
-        ID: "N2222"
+     Name: "HARRISLEE",
+     ID: "P0347",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "LAUTERTAL-HÖ",
-        ID: "L561"
+     Name: "HARSEFELD",
+     ID: "N8615",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LAUTRACH",
-        ID: "G387"
+     Name: "HARSEWINKEL",
+     ID: "C0014",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LECHFELD",
-        ID: 10856
+     Name: "HARTENHOF",
+     ID: "G276",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LECK",
-        ID: 10022
+     Name: "HARTH-POELLNITZ NEUN",
+     ID: "M691",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LEER",
-        ID: "N0765"
+     Name: "HARZGERODE",
+     ID: 10458,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LEHNIN",
-        ID: "N7544"
+     Name: "HASELTAL",
+     ID: "P116",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LEHRE",
-        ID: "N4277"
+     Name: "HASELUENNE",
+     ID: "N0546",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LEHRTE",
-        ID: "N4359"
+     Name: "HASELUENNE KNN",
+     ID: "P0434",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LEHRTE-SIEVER",
-        ID: "E762"
+     Name: "HASLACH IM KINZIGTAL",
+     ID: "Q715",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LEIBSTADT",
-        ID: "P0012"
+     Name: "HASLOCH MAIN (SCHIRR",
+     ID: "P212",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LEICHLINGEN",
-        ID: "P0223"
+     Name: "HASSELFELDE(WASSW.)",
+     ID: "N6553",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LEINEFELDE",
-        ID: 10449
+     Name: "HASSFURT",
+     ID: "N3504",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LEIPZIG",
-        ID: 10471
+     Name: "HATTENDORF",
+     ID: "E735",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LEISENWALD",
-        ID: "P0174"
+     Name: "HATTINGEN",
+     ID: "P0491",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LEMFÖRDE",
-        ID: "P0635"
+     Name: "HATTSTEDT",
+     ID: "A226",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "LENGERICH",
-        ID: "P0441"
+     Name: "HAUNDORF-OBERERLBACH",
+     ID: "P411",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LENGGRIES",
-        ID: "P957"
+     Name: "HAUNETAL-WEHRDA",
+     ID: "L483",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LENNESTADT-AL",
-        ID: "K1597"
+     Name: "HECHINGEN",
+     ID: "Q651",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LENNESTADT-TH",
-        ID: "H678"
+     Name: "HECKELBERG",
+     ID: "F361",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "LENNINGEN",
-        ID: "P0251"
+     Name: "HECKLINGEN-GROSS BOE",
+     ID: "N532",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LENZEELBE",
-        ID: "F105"
+     Name: "HEESLINGEN-WIERSDORF",
+     ID: "E364",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LENZKIRCH-RUH",
-        ID: "Q823"
+     Name: "HEIDE",
+     ID: "A512",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "LEUBSDORF",
-        ID: "M774"
+     Name: "HEIDE HOLSTEIN",
+     ID: "K1445",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "LEUCHTTURM A.",
-        ID: 10124
+     Name: "HEIDELBERG",
+     ID: "K2693",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LEUCHTTURM KI",
-        ID: 10044
+     Name: "HEIDEN",
+     ID: "P0507",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LEUPOLZ UMSPW",
-        ID: "F9507"
+     Name: "HEIDENHEIM",
+     ID: "K4102",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LEUTKIRCH",
-        ID: "N0273"
+     Name: "HEILBRONN",
+     ID: "K2689",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LEUTKIRCH-HER",
-        ID: 10945
+     Name: "HEINERSGRUEN",
+     ID: "O951",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "LEVERKUSEN",
-        ID: "K1171"
+     Name: "HEINERSREUTH-VOLLHOF",
+     ID: "P175",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LICHTENAU",
-        ID: "H375"
+     Name: "HEINRICHSTHAL",
+     ID: "P104",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LICHTENBERG",
-        ID: "P0301"
+     Name: "HEINSBERG",
+     ID: "K1174",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LICHTENFELO",
-        ID: "N3041"
+     Name: "HEINSBERG-SCHLEIDEN",
+     ID: "H606",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LICHTENHAIN",
-        ID: 10591
+     Name: "HEITERSHEIM",
+     ID: "N0283",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LICHTENTANNE",
-        ID: "O805"
+     Name: "HELBEDUENDORF-KEULA",
+     ID: "M146",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LIEBENAU-HAÜ",
-        ID: "L071"
+     Name: "HELLENGERST",
+     ID: "P910",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LIEBENBURG-OT",
-        ID: "E871"
+     Name: "HELMBRECHTS",
+     ID: "P0273",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LIEBENSCHEID",
-        ID: "K099"
+     Name: "HELMSTADT",
+     ID: "G241",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LIEBEROSE",
-        ID: "F770"
+     Name: "HELMSTEDT",
+     ID: "E798",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LIENEN-KATTEN",
-        ID: "H142"
+     Name: "HEMMOOR",
+     ID: "N1040",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LIMBURG",
-        ID: "K2646"
+     Name: "HENSCHTAL",
+     ID: "K747",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LINDAU",
-        ID: "N0113"
+     Name: "HEPPDIEL",
+     ID: "G255",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LINDAU (SWN)",
-        ID: "P903"
+     Name: "HEPPENHEIM",
+     ID: "N2204",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LINDASACHS.",
-        ID: "N6813"
+     Name: "HERBORN",
+     ID: "N6223",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LINDBERG-BUCH",
-        ID: "P485"
+     Name: "HERDORF",
+     ID: "K082",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LINDENBERG",
-        ID: 10393
+     Name: "HERFORD",
+     ID: "K1524",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LINDENBERAL",
-        ID: "K2796"
+     Name: "HERLESHAUSEN-ARCHFEL",
+     ID: "L299",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LINDERSPITZE",
-        ID: "Z924"
+     Name: "HERMARINGEN-ALLEWIND",
+     ID: "Q485",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LINDERSPITZE-",
-        ID: "Z923"
+     Name: "HERMESKEIL",
+     ID: "N7239",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LINDEWITT",
-        ID: "P0126"
+     Name: "HERMSDORF   THUER.",
+     ID: "P0578",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "Lingen",
-        ID: 10305
+     Name: "HERNE",
+     ID: "N9030",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LINGEN-BACCUM",
-        ID: 10303
+     Name: "HERRENALB, BAD (LUBW",
+     ID: "Q327",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LINGERHAHN",
-        ID: "K475"
+     Name: "HERRENBERG",
+     ID: "K2920",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "LINNICH",
-        ID: "P0216"
+     Name: "HERRIEDEN (KLAERANLA",
+     ID: "P318",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LINSTOW",
-        ID: "B742"
+     Name: "HERSBRUCK",
+     ID: "N3303",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LINZ",
-        ID: 11060
+     Name: "HERXHEIMWEYHER",
+     ID: "K880",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LINZ FL.",
-        ID: 11010
+     Name: "HERZBERG",
+     ID: "N4561",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LIPPOLDSBERG",
-        ID: "L031"
+     Name: "HERZBERG BRANDENBURG",
+     ID: "P0282",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "LIPPSTADT-BÖ",
-        ID: "H377"
+     Name: "HERZBERG-LONAU",
+     ID: "E950",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LISSENDORF",
-        ID: "K219"
+     Name: "HERZOGSTANDBAHN",
+     ID: "Z926",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LOBENSTEIN",
-        ID: "K4244"
+     Name: "HESSENRING",
+     ID: "L284",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LÖBAU",
-        ID: "N7182"
+     Name: "HESSISCH LICHTENAU-F",
+     ID: "L271",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LÖHNBERG-OBE",
-        ID: "L511"
+     Name: "HETTSTEDT",
+     ID: "N6435",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "LÖNINGEN",
-        ID: "E525"
+     Name: "HEUSWEILER",
+     ID: "P0275",
+     Bundesland: "Saarland"
     },
     {
-        Name: "LÖRRACH",
-        ID: "N0267"
+     Name: "HEYDA BEI RIESA",
+     ID: "O248",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "LÖSTERBACH S",
-        ID: "J721"
+     Name: "HIENBERG",
+     ID: "P267",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LOFER",
-        ID: 11140
+     Name: "HILDBURGHAUSEN",
+     ID: "N9117",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LOHME-ALME",
-        ID: "H379"
+     Name: "HILDESHEIM",
+     ID: "K1546",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LOHMESACHSE",
-        ID: "O566"
+     Name: "HILGENROTH",
+     ID: "K017",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LOHR",
-        ID: "K2671"
+     Name: "Hilkenbrook",
+     ID: "EW011",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LOHMAIN-HAL",
-        ID: "P113"
+     Name: "HILKENBROOK, NT",
+     ID: "P0135",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LOICHING",
-        ID: "P661"
+     Name: "HILTPOLTSTEIN",
+     ID: "G253",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LOPPENHAUSEN",
-        ID: "P0268"
+     Name: "HINDELANG OSTRACHTAL",
+     ID: "N0242",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LORSCH-KL RAN",
-        ID: "L918"
+     Name: "HINDELANG-UNTERJOCH",
+     ID: "P927",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LOSSBURG",
-        ID: "P0253"
+     Name: "HINTERWEIDENTHAL",
+     ID: "P0193",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LUCKENWALDE",
-        ID: "P0285"
+     Name: "HIRSCHAID",
+     ID: "P159",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LUDWIGSBURG",
-        ID: "K2714"
+     Name: "HIRSCHBERG",
+     ID: "M978",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LUDWIGSCHORGA",
-        ID: "P079"
+     Name: "HIRSCHTHAL",
+     ID: "K984",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LUDWIGSLUST",
-        ID: "N8331"
+     Name: "HITZACKER",
+     ID: "N8261",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LUDWIGSSTADT",
-        ID: "P062"
+     Name: "HOCHFELLN",
+     ID: "P0309",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜB. BUCHT",
-        ID: "E5311"
+     Name: "HOCHGRATBAHN",
+     ID: "Z902",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜBBENAU",
-        ID: "P0284"
+     Name: "HOCHHEIM",
+     ID: "P0361",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LÜBBEN-BLUME",
-        ID: "F742"
+     Name: "HODENHAGEN",
+     ID: "P0207",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "LÜBECK",
-        ID: 10156
+     Name: "HOECHSTADT",
+     ID: "P0028",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜCHOW",
-        ID: 10253
+     Name: "HOECHSTADT A.D. AISC",
+     ID: "G249",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜDENSCHEID",
-        ID: "N8829"
+     Name: "HOEHR-GRENZHAUSEN",
+     ID: "K170",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "LÜDGE",
-        ID: 10433
+     Name: "HOELLGRABEN",
+     ID: "Z948",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜDINGHAUSEN",
-        ID: "H247"
+     Name: "HOERMOOS",
+     ID: "Z901",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜNEBURG",
-        ID: "K3891"
+     Name: "HOERNLE",
+     ID: "P0307",
+     Bundesland: "Bayern"
     },
     {
-        Name: "LÜNNE",
-        ID: "P0506"
+     Name: "HOERSCHEL",
+     ID: "M403",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LÜTZELBACH",
-        ID: "N4032"
+     Name: "HOERSELBERG-HAINICH-",
+     ID: "M412",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "LUPFEN",
-        ID: "P0056"
+     Name: "HOERSTEL",
+     ID: "H061",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LUSTADT",
-        ID: "K963"
+     Name: "HOEXTER",
+     ID: "N2336",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "LUTTERBERG",
-        ID: "L160"
+     Name: "HOF",
+     ID: 10685,
+     Bundesland: "Bayern"
     },
     {
-        Name: "LUXEMBURG",
-        ID: 6590
+     Name: "HOF LAUTERBACH, VOEH",
+     ID: "L119",
+     Bundesland: "Hessen"
     },
     {
-        Name: "LUZERN",
-        ID: 6650
+     Name: "HOF FLUGHAFEN",
+     ID: 10684,
+     Bundesland: "Bayern"
     },
     {
-        Name: "M HLHAUSEN-G",
-        ID: "M225"
+     Name: "HOFGEISMAR",
+     ID: "N2235",
+     Bundesland: "Hessen"
     },
     {
-        Name: "M NSINGEN-APF",
-        ID: "Q671"
+     Name: "HOGFGEISMAR",
+     ID: "X484",
+     Bundesland: "Hessen"
     },
     {
-        Name: "M.N.L.",
-        ID: 7093
+     Name: "HOHEGING, NT",
+     ID: "P0138",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MÄHRING",
-        ID: "P197"
+     Name: "HOHEN PRITZ",
+     ID: "P0502",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "MÄKEL",
-        ID: "P0628"
+     Name: "HOHENBERG EGER",
+     ID: "P190",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MAGDEBURG",
-        ID: 10361
+     Name: "HOHENBUCKO",
+     ID: "F736",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MAINBURG",
-        ID: "K4185"
+     Name: "HOHENECK UMSPWK.",
+     ID: "F9505",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MAINZ",
-        ID: "K2613"
+     Name: "HOHENFELS",
+     ID: "N1265",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MAINZ (DLR)",
-        ID: "K582"
+     Name: "HOHENHOLTE",
+     ID: "P0630",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MAINZ (ZDF)",
-        ID: "K584"
+     Name: "HOHENPEISS.BG",
+     ID: 10962,
+     Bundesland: "Bayern"
     },
     {
-        Name: "MAISACH-GALGE",
-        ID: "P741"
+     Name: "HOHENREINKENDORF",
+     ID: "F069",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MALENTE",
-        ID: "P0348"
+     Name: "HOHENROTH",
+     ID: "G202",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MALK GÖHREN",
-        ID: "B926"
+     Name: "HOHENSTEIN-BERNLOCH",
+     ID: "Q663",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MALLERSDORN",
-        ID: "K4501"
+     Name: "HOHENSTEIN-BREITHARD",
+     ID: "L714",
+     Bundesland: "Hessen"
     },
     {
-        Name: "MALLERSDORF-P",
-        ID: "P555"
+     Name: "HOHENTHANN",
+     ID: "P557",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MALSBURG-MARZ",
-        ID: "Q902"
+     Name: "HOHENZETHEN",
+     ID: "E482",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MAMMING-SCHNE",
-        ID: "P663"
+     Name: "HOHERODSKOPF (VOGELS",
+     ID: 10534,
+     Bundesland: "Hessen"
     },
     {
-        Name: "MANDERSCHEID",
-        ID: "K2265"
+     Name: "HOHN",
+     ID: 10038,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MANNHEIM",
-        ID: 10729
+     Name: "HOHWACHT",
+     ID: "A481",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MANSCHNOW",
-        ID: 10396
+     Name: "HOLLEDAU SUED",
+     ID: "P632",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MANSFELD-ANNA",
-        ID: "N731"
+     Name: "HOLTE-STUKENBROCK",
+     ID: "P0232",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MARBURG",
-        ID: "K2611"
+     Name: "HOLZBUETTGEN",
+     ID: "H528",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MARCHKLAMM",
-        ID: "Z921"
+     Name: "HOLZDORF",
+     ID: 10476,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MARCHKLAMM TA",
-        ID: "Z920"
+     Name: "HOLZHEIM BEI DIEZ",
+     ID: "K295",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MARIA-BILDHAU",
-        ID: "G204"
+     Name: "HOLZKIRCHEN",
+     ID: "P856",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MARIENBERG",
-        ID: 10579
+     Name: "HOLZKIRCHEN OBB.",
+     ID: "K4172",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MARIENBERG-RU",
-        ID: "O846"
+     Name: "HOLZMINDEN",
+     ID: "K1550",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MARIENHÖHE",
-        ID: "O862"
+     Name: "HOLZSCHLAEGERMATTE",
+     ID: "P0484",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MARKERSREUTH",
-        ID: "G205"
+     Name: "HOLZSPITZE",
+     ID: "Q068",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MARKLKOFEN",
-        ID: "P664"
+     Name: "HOMBERG-OHM",
+     ID: "L542",
+     Bundesland: "Hessen"
     },
     {
-        Name: "MARKÖBEL",
-        ID: "L858"
+     Name: "HOMBERG-SCHOENBORNER",
+     ID: "K764",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MARKRANSTÄDT",
-        ID: "O204"
+     Name: "HOMBURG, BAD (FILTER",
+     ID: "L732",
+     Bundesland: "Hessen"
     },
     {
-        Name: "MARKT BIBART",
-        ID: "P236"
+     Name: "HOMBURG SAAR",
+     ID: "J846",
+     Bundesland: "Saarland"
     },
     {
-        Name: "MARKT ERLBACH",
-        ID: "P542"
+     Name: "HOPSTEN",
+     ID: 10314,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MARKTOBERDORF",
-        ID: "P923"
+     Name: "HORB",
+     ID: "N1033",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MARKTREDW.",
-        ID: "N0149"
+     Name: "HORN",
+     ID: "P0330",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MARKTSCHELLEN",
-        ID: "P994"
+     Name: "HORNISGRINDE",
+     ID: "Q410",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MARMSTORF",
-        ID: "C316"
+     Name: "HORTENKOPF",
+     ID: "K931",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MARNE",
-        ID: "P0349"
+     Name: "HOYA",
+     ID: "N3240",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MARNITZ",
-        ID: 10264
+     Name: "HOYERSWERDA",
+     ID: 10495,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "MAROTH",
-        ID: "K060"
+     Name: "HUDE OLDENBURG",
+     ID: "E335",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MARSBERG",
-        ID: "P0607"
+     Name: "HUELL",
+     ID: "G333",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MARSBERG-MEER",
-        ID: "P0409"
+     Name: "HUEMMERICH",
+     ID: "K057",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MARSBERG-POST",
-        ID: "P0329"
+     Name: "HUERTH",
+     ID: "P0490",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MARTINRODA",
-        ID: "M732"
+     Name: "HUETTGESWASEN",
+     ID: "K633",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MARTINSH HE",
-        ID: "K748"
+     Name: "HUSUM",
+     ID: 10026,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MARWITZ",
-        ID: "F338"
+     Name: "IDAR-OBERSTEIN",
+     ID: 10618,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MASSBACH",
-        ID: "P029"
+     Name: "IDSTEIN",
+     ID: "L716",
+     Bundesland: "Hessen"
     },
     {
-        Name: "MAURACH",
-        ID: "P0498"
+     Name: "IHLEWITZ",
+     ID: "P0362",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "MAUTH",
-        ID: "N2284"
+     Name: "IHRINGEN",
+     ID: "Q412",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MAYEN",
-        ID: "K250"
+     Name: "ILLERIEDEN-DORNDORF",
+     ID: "P0260",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MAYRHOFEN",
-        ID: 11322
+     Name: "ILMENAU",
+     ID: "N5346",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MECHERNICH",
-        ID: "P0218"
+     Name: "ILMTAL-DIENSTEDT",
+     ID: "M651",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MECKENHEIRH",
-        ID: "P0215"
+     Name: "IMMENSTADT",
+     ID: "N0253",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEDDERSHEIM",
-        ID: "K560"
+     Name: "IMMENSTADT-REUTE",
+     ID: "P914",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEDEBACH-BERG",
-        ID: "H695"
+     Name: "INGELFINGEN-STACHEN.",
+     ID: "Q165",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MEEDER-OTTOWI",
-        ID: "P051"
+     Name: "INGELHEIM",
+     ID: "N5044",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MEERANE",
-        ID: "P0288"
+     Name: "INGOLSTADT",
+     ID: 10860,
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEHRING, KR.",
-        ID: "P946"
+     Name: "INGOLSTADT (FLUSSMEI",
+     ID: "P535",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEHRINGEASL",
-        ID: "N632"
+     Name: "INZELL",
+     ID: "P986",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEINERZHAGEN-",
-        ID: "H658"
+     Name: "IPHOFEN",
+     ID: "G246",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEININGEN",
-        ID: 10548
+     Name: "IRRENLOHE",
+     ID: "G273",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEISBURG",
-        ID: "K431"
+     Name: "IRSCHENBERG-KASTHUB",
+     ID: "P870",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEISSEN",
-        ID: "K3384"
+     Name: "IRXLEBEN",
+     ID: "N443",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "MEISSNER",
-        ID: "P0354"
+     Name: "ISEN-WESTACH",
+     ID: "P765",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MELIBOCUS",
-        ID: "P0018"
+     Name: "ISERLOHN",
+     ID: "P0327",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MELLE",
-        ID: "K1514"
+     Name: "ISERLOHN-RODEN",
+     ID: "N8832",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MELSUNGEN",
-        ID: "K1579"
+     Name: "ISNY",
+     ID: "K4138",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEMMINGEN",
-        ID: 10947
+     Name: "ISSUM",
+     ID: "P0029",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MENDEN_LENDRI",
-        ID: "H566"
+     Name: "ITZEHOE",
+     ID: 10142,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MENDIG",
-        ID: 10514
+     Name: "ITZGRUND-HERRETH",
+     ID: "P058",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MENGEN-ENNETA",
-        ID: "Q763"
+     Name: "JACHENAU-TANNERN",
+     ID: "P956",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MENGERSKIRCHE",
-        ID: "N6241"
+     Name: "JENA (STERNWARTE)",
+     ID: "M552",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MENSLAGE",
-        ID: "P0148"
+     Name: "JENA STERNWARTE",
+     ID: "K4204",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MENZ",
-        ID: "F151"
+     Name: "JENNER",
+     ID: "Z949",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MEPPEN",
-        ID: "N0602"
+     Name: "JESSNITZ",
+     ID: "N566",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "MERING",
-        ID: "P732"
+     Name: "JESTETTEN",
+     ID: "P0258",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MERKLINGEN",
-        ID: "Q579"
+     Name: "JETTENBACH",
+     ID: "P777",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MERZEN",
-        ID: "P0637"
+     Name: "JETZENDORF",
+     ID: "G346",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MERZIG",
-        ID: "N7316"
+     Name: "JEVER",
+     ID: 10122,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MERZKIRCHEN",
-        ID: "K510"
+     Name: "JOACHIMSTHAL",
+     ID: "F283",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MESCHEDHENN",
-        ID: "N8566"
+     Name: "JUDENBACH-NEUENBAU",
+     ID: "M945",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MESSMAST EMD",
-        ID: "P0134"
+     Name: "JUELICH",
+     ID: "K2204",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MESSMAST OL",
-        ID: "P0133"
+     Name: "JUELICH (KLAERANLAGE",
+     ID: "H718",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MESSMAST WHV",
-        ID: "P0132"
+     Name: "K.ASTEN",
+     ID: 10427,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MESSSTETTEN",
-        ID: 10827
+     Name: "KAEBSCHUETZTAL",
+     ID: "P0289",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "METALLEUROP",
-        ID: "P0037"
+     Name: "KAHL",
+     ID: "P101",
+     Bundesland: "Bayern"
     },
     {
-        Name: "METSCHOW",
-        ID: "G470"
+     Name: "KAHL (MAIN)",
+     ID: "P100",
+     Bundesland: "Bayern"
     },
     {
-        Name: "METTEN",
-        ID: "P572"
+     Name: "KAIL",
+     ID: "K354",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "METZ",
-        ID: 7090
+     Name: "KAISERSBACH-CRONHUET",
+     ID: 10747,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "METZINGEN",
-        ID: "Q561"
+     Name: "KAISERSLAUTERN",
+     ID: "K2288",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MEUSELWITZ",
-        ID: "M480"
+     Name: "KAISER-WILH.-KOOG",
+     ID: "P0131",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MEYENBURG",
-        ID: "F020"
+     Name: "Kaiser-Wilhelm-Koog",
+     ID: "EW012",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MICHELSTADT",
-        ID: "L947"
+     Name: "KALBACH",
+     ID: "N1012",
+     Bundesland: "Hessen"
     },
     {
-        Name: "MICHELSTADT-V",
-        ID: 10648
+     Name: "KALKAR",
+     ID: 10404,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MIDDELHAGEN",
-        ID: "X479"
+     Name: "KALLETAL NIEDERMEIEN",
+     ID: "H176",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MIESAU",
-        ID: "P0198"
+     Name: "KALL-SISTIG",
+     ID: "H981",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MIESBACH A",
-        ID: "P965"
+     Name: "KALTENBACH",
+     ID: "H228",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MINDELHEIM",
-        ID: "N0332"
+     Name: "KALTENBERG",
+     ID: "G307",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MINDEN",
-        ID: 10324
+     Name: "KALTENBORN, HOHE ACH",
+     ID: "K240",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MISTELBACH",
-        ID: "G225"
+     Name: "KALTENNORDHEIM",
+     ID: 10546,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MITTAGSSPITZE",
-        ID: "P0059"
+     Name: "KAMENZ",
+     ID: "N3608",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "MITTELBEXBACH",
-        ID: "F9508"
+     Name: "KAMPENWAND",
+     ID: "Z937",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MITTELNKIRCHE",
-        ID: "E099"
+     Name: "KANDERN-GUPF",
+     ID: "Q903",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MITTENWALD",
-        ID: "K4157"
+     Name: "KANNENBAECKER LAND",
+     ID: "K164",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MITTENWALOB",
-        ID: "P949"
+     Name: "KANZERN",
+     ID: "K620",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "Mittenwald-B.",
-        ID: "P948"
+     Name: "KARLSHAGEN",
+     ID: "B382",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "MITTENWALDU",
-        ID: "F172"
+     Name: "KARLSHULD",
+     ID: "G325",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÖCKMÜHL",
-        ID: "N1648"
+     Name: "KARLSR. BADEN-BADEN",
+     ID: 10722,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MÖCKMÜHL",
-        ID: "Q152"
+     Name: "KARLSRUHE",
+     ID: 10727,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MÖHLIN",
-        ID: 6641
+     Name: "KARSTAEDT PRIGNITZ",
+     ID: "F108",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MÖHNE",
-        ID: "N8653"
+     Name: "KARSTEDTSHOF",
+     ID: "F136",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "MÖHRENDORF-K",
-        ID: "P257"
+     Name: "KASSEL",
+     ID: 10438,
+     Bundesland: "Hessen"
     },
     {
-        Name: "MÖNCHENGLADBACH",
-        ID: 10403
+     Name: "KASTELLAUN",
+     ID: "N7608",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÖNCHPFIFFEL",
-        ID: "G420"
+     Name: "KASTL, KREIS AMBERG-",
+     ID: "P356",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOERS",
-        ID: "N9109"
+     Name: "KATZHUETTE",
+     ID: "M846",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "MÖSLARNALM",
-        ID: "Z936"
+     Name: "KAUBENHEIM",
+     ID: "G261",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOITZFELD",
-        ID: "H746"
+     Name: "KAUFBEUREN",
+     ID: "K4149",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOLLENFELDE",
-        ID: "E972"
+     Name: "KAVELSDORF",
+     ID: "B335",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "MONSCHAU",
-        ID: "N0121"
+     Name: "KEHL",
+     ID: "K2309",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MONSCHAU-KALT",
-        ID: "H908"
+     Name: "KEHL-ODELSHOFEN",
+     ID: "Q408",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MONTABAUR",
-        ID: "K282"
+     Name: "KEHRIG",
+     ID: "P0414",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MOORGRUND-GRA",
-        ID: "M405"
+     Name: "KELHEIM",
+     ID: "N0781",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOORMERLAND-N",
-        ID: "E212"
+     Name: "KELHEIM (KANALSCHLEU",
+     ID: "P449",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOOS,KR. DEGG",
-        ID: "P576"
+     Name: "KEMBERG-RADIS",
+     ID: "N671",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "MORBACH",
-        ID: "P0505"
+     Name: "KEMNATH",
+     ID: "N1151",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MORINGEN-LUTT",
-        ID: "E839"
+     Name: "KEMPTEN",
+     ID: 10946,
+     Bundesland: "Bayern"
     },
     {
-        Name: "MORLAUTERN",
-        ID: "K862"
+     Name: "KERPEN",
+     ID: "P0213",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "MOSBACH-DIEDE",
-        ID: "N1712"
+     Name: "KIEFERSFELDEN",
+     ID: "P975",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MOSELTALBRÜC",
-        ID: "K266"
+     Name: "KIEL-H.",
+     ID: 10046,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "MUDAU-SCHLOSS",
-        ID: "N4002"
+     Name: "KINZESBERG",
+     ID: "G337",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÜHLACKER",
-        ID: 10736
+     Name: "KIRCHBERG IM WALD",
+     ID: "G303",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÜHLDORF",
-        ID: 10875
+     Name: "KIRCHBERG, RHEIN-HUN",
+     ID: "K501",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜHLHAUSEN",
-        ID: "N5432"
+     Name: "KIRCHBERG NIEDERBAYE",
+     ID: "P581",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÜHLHEIMAI",
-        ID: "L850"
+     Name: "KIRCHBERG-JAGST",
+     ID: "Q292",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MÜHLLEITEN",
-        ID: "X095"
+     Name: "KIRCHDORF, KREIS DIE",
+     ID: "E651",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "MÜLHEIM-RUHR",
-        ID: "P0031"
+     Name: "KIRCHDORF POEL",
+     ID: "B308",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "MÜLLHEIM",
-        ID: "Q887"
+     Name: "KIRCHEN SIEG",
+     ID: "N8032",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜNCHBERG",
-        ID: "N3002"
+     Name: "KIRCHHEIM",
+     ID: "G372",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÜNCHEBERG",
-        ID: "F475"
+     Name: "KIRCHHEIM TECK",
+     ID: "K2718",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MÜNCHEHOFE",
-        ID: "F660"
+     Name: "KIRCHHEIMBOLANDEN",
+     ID: "N2159",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜNCHEN",
-        ID: 10865
+     Name: "KIRCHWEILER",
+     ID: "K322",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜNSINGEN-AP",
-        ID: "K2753"
+     Name: "KIRCHZARTEN",
+     ID: "P0254",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "MÜNSTER ZENTRUM",
-        ID: "P0036"
+     Name: "KIRF-BEUREN",
+     ID: "K701",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜNSTEOSNA",
-        ID: 10315
+     Name: "KIRN",
+     ID: "K650",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "MÜNSTERMAIFE",
-        ID: "K268"
+     Name: "KISSINGEN",
+     ID: 10658,
+     Bundesland: "Bayern"
     },
     {
-        Name: "MÜNZENBERG-G",
-        ID: "L631"
+     Name: "KITZENRIED",
+     ID: "G277",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MURAU",
-        ID: 11280
+     Name: "KITZINGEN",
+     ID: "K4057",
+     Bundesland: "Bayern"
     },
     {
-        Name: "MURNAU",
-        ID: "N2046"
+     Name: "KL.FELDBG. TS.",
+     ID: 10635,
+     Bundesland: "Hessen"
     },
     {
-        Name: "MURRHARDT",
-        ID: "K2721"
+     Name: "KLADRUM",
+     ID: "P0355",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "NAABBRÜCKE",
-        ID: "P289"
+     Name: "KLEIN-ALTENDORF",
+     ID: "K100",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NABBURG",
-        ID: "P362"
+     Name: "KLEINER INSELBERG",
+     ID: "M620",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "NAGOLD",
-        ID: "Q541"
+     Name: "KLEINICH, KR. BERNKA",
+     ID: "K533",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NAHMER",
-        ID: "H554"
+     Name: "KLESSEN",
+     ID: "F305",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NAILA",
-        ID: "N3035"
+     Name: "KLETTWITZ",
+     ID: "P0365",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NANCY",
-        ID: 7180
+     Name: "KLEVE",
+     ID: "K1176",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NANDLSTADT",
-        ID: "P645"
+     Name: "KLINGENTHAL-KAMERUN",
+     ID: "O974",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "NASSAU ÄR",
-        ID: "K272"
+     Name: "KLIPPENECK",
+     ID: 10818,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NASSARHL.-P",
-        ID: "P0190"
+     Name: "KLITSCHEN BEI TORGAU",
+     ID: "O057",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "NASSENFELS",
-        ID: "P760"
+     Name: "KOBLENZ-BEND.",
+     ID: 10515,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NAST TTEN",
-        ID: "K386"
+     Name: "KOCHEL",
+     ID: "N2048",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NASTÄTTEN",
-        ID: "P0191"
+     Name: "KOCHEL-EINSIEDL (KRA",
+     ID: "P947",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NATTHEIM-FLEI",
-        ID: "Q491"
+     Name: "KOECKTE",
+     ID: "N214",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "NAÜN",
-        ID: "N7659"
+     Name: "KOEFERING",
+     ID: "G301",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NAUMBURSAAL",
-        ID: "N5417"
+     Name: "KOEHN",
+     ID: "A473",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "NAUNDORF BEI",
-        ID: "N587"
+     Name: "KOELN (BOTAN.GART.)",
+     ID: "K2221",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NDL.PÖL",
-        ID: "E5312"
+     Name: "KOELN BONN",
+     ID: 10513,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEBELHORN",
-        ID: "Z907"
+     Name: "KOELN-STAMMHEIM",
+     ID: "H744",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEBELHORN-KOB",
-        ID: "Z908"
+     Name: "KOENIGHEIM",
+     ID: "Q033",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NECKARGEMÜND",
-        ID: "Q027"
+     Name: "KOENIGS WUSTERH. LUB",
+     ID: "P0039",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NEEF",
-        ID: "K450"
+     Name: "KOENIGSBACH-STEIN, E",
+     ID: "Q222",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEMDEN",
-        ID: "E726"
+     Name: "KOENIGSBERG BAYERN-H",
+     ID: "P141",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NETTETAL-HÜL",
-        ID: "H512"
+     Name: "KOENIGSBORN",
+     ID: "N463",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "NEU ANSPACH",
-        ID: "N4241"
+     Name: "KOENIGSMOOR",
+     ID: "E277",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NEU MADLITZ",
-        ID: "F681"
+     Name: "KOENIGSTEIN TS.",
+     ID: "K2649",
+     Bundesland: "Hessen"
     },
     {
-        Name: "NEUBRANDENBUR",
-        ID: 10280
+     Name: "KOENIGSWINTER",
+     ID: "P0227",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEUBULACH-OBE",
-        ID: "Q437"
+     Name: "KOESCHING",
+     ID: "P532",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUBURDONAU",
-        ID: 10853
+     Name: "KOESCHINGER FORST",
+     ID: "P533",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUBURKAMME",
-        ID: "P308"
+     Name: "KOESLAU",
+     ID: "G214",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEÜNFELD",
-        ID: "P0363"
+     Name: "KOETERBERG",
+     ID: 10432,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEÜNKIRCHEN",
-        ID: "P0638"
+     Name: "KOETHEN (ANHALT)",
+     ID: "N652",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "NEÜNRADE-BLI",
-        ID: "H568"
+     Name: "KO-FALKENST.KASERNE",
+     ID: 10516,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NEÜRNYRSKO",
-        ID: "P0116"
+     Name: "KOLITZHEIM",
+     ID: "P137",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUFFEN",
-        ID: "N1107"
+     Name: "KONNERSREUTH",
+     ID: "G235",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUGLOBSOW",
-        ID: 10277
+     Name: "KONSTANZ",
+     ID: 10929,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUHAUS A.R.",
-        ID: 10557
+     Name: "KORBACH-RHENA",
+     ID: "L113",
+     Bundesland: "Hessen"
     },
     {
-        Name: "NEUHAUSEN OB",
-        ID: "Q739"
+     Name: "KÖRPERICH-GAYTALPARK",
+     ID: "K418",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NEUHAUS-SCHIE",
-        ID: "M998"
+     Name: "KRAFTISRIED",
+     ID: "P818",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUHERBERG",
-        ID: "G262"
+     Name: "KRAGELUND",
+     ID: "P0125",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "NEUHOF",
-        ID: "G315"
+     Name: "KRAICHTAL-GOCHSHEIM",
+     ID: "N0761",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUHÜTTESP",
-        ID: 10646
+     Name: "KRANZBERG",
+     ID: "Z919",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUKIRCHEN",
-        ID: "P0513"
+     Name: "KRAUTHEIM",
+     ID: "P0250",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUKIRCHEN BE",
-        ID: "P396"
+     Name: "KREFELD",
+     ID: "N8527",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEUKIRCHEN-HA",
-        ID: "L355"
+     Name: "KREIPITZSCH",
+     ID: "N924",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "NEUKIRCHEN-SE",
-        ID: "N1429"
+     Name: "KREMMEN-GROSS ZIETHE",
+     ID: "F325",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NEUMARKT OPF.",
-        ID: "N3233"
+     Name: "KREMPEL",
+     ID: "A411",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "NEUMARKOBER",
-        ID: "P348"
+     Name: "KREUTH",
+     ID: "K4179",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUMARKT-SANK",
-        ID: "P669"
+     Name: "KREUTH-GLASHUETTE",
+     ID: "P958",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUMÜNSTER",
-        ID: 10143
+     Name: "KREUZ AACHEN",
+     ID: "H810",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEUNBURG VORM",
-        ID: "P376"
+     Name: "KRINGELL",
+     ID: "G324",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUNKIRCHES",
-        ID: "P0278"
+     Name: "KRONACH",
+     ID: "K4036",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUNKIRCHEN-S",
-        ID: "H862"
+     Name: "Kroppach",
+     ID: "EW013",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NEUNKIRCHEN-W",
-        ID: "J815"
+     Name: "KRUEMMEL",
+     ID: "B951",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "NEURUPPIN",
-        ID: 10270
+     Name: "KRUEN",
+     ID: "P950",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEURUPPIN-ALT",
-        ID: 10271
+     Name: "KRUMBACH-EDENHAUSEN",
+     ID: "K4130",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEURUPPIN-GÜ",
-        ID: "F178"
+     Name: "KRUMMHOERN-LOQUARD",
+     ID: "P0130",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NEUSLING",
-        ID: "P575"
+     Name: "KUBSCHUETZ,KR.BAUTZ.",
+     ID: "O384",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "NEUSS",
-        ID: "N8481"
+     Name: "KUEHROINT",
+     ID: "Z946",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUSS-WEHL",
-        ID: "P0013"
+     Name: "KUEMMERSBRUCK",
+     ID: 10771,
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUSTADT AM K",
-        ID: "P280"
+     Name: "KUENZELSAU-MORSBACH",
+     ID: "N1551",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUSTADT AM R",
-        ID: "E667"
+     Name: "KUENZING",
+     ID: "P0266",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUSTADT BEI",
-        ID: "P052"
+     Name: "KUHBIER",
+     ID: "F125",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NEUSTADT, BAD",
-        ID: "P025"
+     Name: "KÜHMOOS UMSPWK.",
+     ID: "F9506",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUSTADAISC",
-        ID: "N3432"
+     Name: "KULMBACH",
+     ID: "K4042",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NEUSTADDONA",
-        ID: "N0778"
+     Name: "KUPFERZELL-RECHBACH",
+     ID: "Q171",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NEUSTADWEIN",
-        ID: "K887"
+     Name: "KUSEL",
+     ID: "N5227",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NEUSTADWN-A",
-        ID: "N1122"
+     Name: "KUSEL (KLAERANLAGE)",
+     ID: "K744",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NEUSTADT-GLEW",
-        ID: "B728"
+     Name: "KYRITZ",
+     ID: 10267,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NEUSTRELITZ",
-        ID: "N7113"
+     Name: "LAAGE",
+     ID: 10172,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "NEU-ULRICHSTE",
-        ID: 10537
+     Name: "LABOE",
+     ID: "P0200",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "NEUWIED-WOLLE",
-        ID: "K2247"
+     Name: "LADBERGEN",
+     ID: "H069",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NEWEL",
-        ID: "K509"
+     Name: "LAGE, KREIS LIPPE-HO",
+     ID: "H281",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "NIDDA",
-        ID: "P0019"
+     Name: "LAHR",
+     ID: 10805,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NIDDA-KL RANL",
-        ID: "L643"
+     Name: "LALLING",
+     ID: "N2202",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIDDERAU-ERBS",
-        ID: "L751"
+     Name: "LAM",
+     ID: "N1353",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIDEGGEN-SCHM",
-        ID: "H827"
+     Name: "LAMBRECHT",
+     ID: "P0021",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NIEDER KOSTEN",
-        ID: "P0413"
+     Name: "LAM-LAMBACH",
+     ID: "P481",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIEDERRHEIN",
-        ID: 10405
+     Name: "LAMSTEDT",
+     ID: "E087",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NIEDERSTEDEM",
-        ID: "F9509"
+     Name: "LANDAU ISAR",
+     ID: "N2193",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIEDERSTETTEN",
-        ID: 10743
+     Name: "LANDAU PFALZ",
+     ID: "N0677",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NIEDERWÖRSSE",
-        ID: "K642"
+     Name: "LANDSBERG",
+     ID: 10857,
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIEHEIM",
-        ID: "N2402"
+     Name: "LANDSHUT",
+     ID: "K4503",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIENBURG",
-        ID: "E652"
+     Name: "LANDSHUT-REITHOF",
+     ID: "P655",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NIERSTEIN",
-        ID: "K597"
+     Name: "LANGELSHEIM-ASTFELD",
+     ID: "E884",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NIESKY",
-        ID: "P0295"
+     Name: "LANGENAU",
+     ID: "P0608",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NILLING",
-        ID: "G384"
+     Name: "LANGENENSLINGEN-ITTE",
+     ID: "Q762",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NITTENAU-HART",
-        ID: "P453"
+     Name: "LANGEN-HOLSSEL, KREI",
+     ID: "E067",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NÖRDLINGEN",
-        ID: "K4105"
+     Name: "LANGENLIPSDORF",
+     ID: "F707",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "NÖRVENICH",
-        ID: 10502
+     Name: "LANGEN-TRECHOW",
+     ID: "P0501",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "NOHFELDEN-GON",
-        ID: "J731"
+     Name: "LANGENZENN",
+     ID: "P321",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NORDEN-LEYBUC",
-        ID: "E103"
+     Name: "LANGQUAID-OBERSCHNEI",
+     ID: "P551",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NORDERNEY",
-        ID: 10113
+     Name: "LANGWARDEN",
+     ID: "P0211",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NORDFR.KÜ.",
-        ID: "E5508"
+     Name: "LANGWEDEL",
+     ID: "P0208",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NORDHAUSEN",
-        ID: "N5755"
+     Name: "LAUBACHER HOEHE",
+     ID: "K341",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NORDHOLZ",
-        ID: 10136
+     Name: "LAUCHA",
+     ID: "P0123",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "NORDHORN",
-        ID: 10308
+     Name: "LAUCHHEIM (BERGHOF)",
+     ID: "Q395",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NORDONE1",
-        ID: "P0645"
+     Name: "LAUCHSTAEDT, BAD",
+     ID: "N769",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "NORGRÜ1",
-        ID: "P0647"
+     Name: "LAUDA-KOENIGSHOFEN-H",
+     ID: "Q066",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NORTHEIM",
-        ID: "N4623"
+     Name: "LAUDERT",
+     ID: "K480",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NORTHEIM-IMBS",
-        ID: "E858"
+     Name: "LAUF HEUCHLING",
+     ID: "N3309",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NORTHEIM-STÖ",
-        ID: "E857"
+     Name: "LAUF PEGNITZ (KLAERA",
+     ID: "P266",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NOSSEN",
-        ID: "O536"
+     Name: "LAUFEN OBB.-LEBENAU",
+     ID: "P990",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NOTZINGEN",
-        ID: "Q061"
+     Name: "LAUINGEN",
+     ID: "P0269",
+     Bundesland: "Bayern"
     },
     {
-        Name: "NOVOKUZNETSK",
-        ID: 29846
+     Name: "LAUPERATH-SCHEIDCHEN",
+     ID: "K308",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NÜRBURG",
-        ID: 10510
+     Name: "LAUPHEIM",
+     ID: 10837,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "NÜRBURG-BARW",
-        ID: 10506
+     Name: "LAUTERBACH",
+     ID: "P0182",
+     Bundesland: "Hessen"
     },
     {
-        Name: "NÜRNBERG",
-        ID: 10763
+     Name: "LAUTERBERG,BAD-BARTO",
+     ID: "E955",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "NÜRNBERG-NET",
-        ID: "P333"
+     Name: "LAUTERECKEN",
+     ID: "N5245",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "NW-HR02",
-        ID: "Q597"
+     Name: "LAUTERTAL ODENWALD-R",
+     ID: "L926",
+     Bundesland: "Hessen"
     },
     {
-        Name: "NW-HR09",
-        ID: "Q585"
+     Name: "LAUTERTAL ODW.",
+     ID: "N2222",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OBERÄGERI",
-        ID: 6676
+     Name: "LAUTERTAL-HOERGENAU",
+     ID: "L561",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OBERAMMERGAU",
-        ID: "N2103"
+     Name: "LAUTRACH",
+     ID: "G387",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OBERAUDORF",
-        ID: "P977"
+     Name: "LECHFELD",
+     ID: 10856,
+     Bundesland: "Bayern"
     },
     {
-        Name: "OBERAURACH-FA",
-        ID: "P147"
+     Name: "LECK",
+     ID: 10022,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "OBERBACHHEIM",
-        ID: "K380"
+     Name: "LEER",
+     ID: "N0765",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERBARMEN",
-        ID: "H545"
+     Name: "LEHNIN",
+     ID: "N7544",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OBER-BEERBACH",
-        ID: "P0559"
+     Name: "LEHRE",
+     ID: "N4277",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERE FIRSTAL",
-        ID: "P966"
+     Name: "LEHRTE",
+     ID: "N4359",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBER-ERLENBAC",
-        ID: "G424"
+     Name: "LEHRTE-SIEVERSHAUSEN",
+     ID: "E762",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERHACHING-L",
-        ID: "P830"
+     Name: "LEICHLINGEN",
+     ID: "P0223",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBERHARZ AM B",
-        ID: "N616"
+     Name: "LEINEFELDE",
+     ID: 10449,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "OBERHAUSEN",
-        ID: "N9079"
+     Name: "LEINIGER BERG",
+     ID: "K787",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OBERHAUSEN-ST",
-        ID: "P0030"
+     Name: "LEIPZIG",
+     ID: 10471,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OBERHONE",
-        ID: "L282"
+     Name: "LEIPZIG SCHKEUDITZ",
+     ID: 10469,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OBERKIRCH",
-        ID: "N0469"
+     Name: "LEISENWALD",
+     ID: "P0174",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OBERLEICHTERS",
-        ID: "P004"
+     Name: "LEMFOERDE",
+     ID: "P0635",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERNDORNEC",
-        ID: "Q637"
+     Name: "LENGERICH",
+     ID: "P0636",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERNZENN",
-        ID: "P0267"
+     Name: "LENGGRIES (SYLVENSTE",
+     ID: "P957",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OBERPFAFFENHO",
-        ID: "P748"
+     Name: "LENNESTADT-ALTENHUND",
+     ID: "K1597",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBERREUTE",
-        ID: "P908"
+     Name: "LENNESTADT-THETEN",
+     ID: "H678",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBERSCHLEISSH",
-        ID: "P659"
+     Name: "LENZEN ELBE",
+     ID: "F105",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OBERSÖCHERIN",
-        ID: "G391"
+     Name: "LENZKIRCH-RUHBUEHL",
+     ID: "Q823",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OBERSTADTFELD",
-        ID: "K326"
+     Name: "LEUBSDORF",
+     ID: "M774",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "OBERSTAUFEN",
-        ID: "K4140"
+     Name: "LEUPOLZ UMSPWK.",
+     ID: "F9507",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OBERSTAUFEN-T",
-        ID: "P811"
+     Name: "LEUTKIRCH",
+     ID: "N0273",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OBERSTDORF",
-        ID: 10948
+     Name: "LEUTKIRCH-HERLAZHFN.",
+     ID: 10945,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OBERSTDORF-RO",
-        ID: "P915"
+     Name: "LEVERKUSEN",
+     ID: "K1171",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBERSTEINBACH",
-        ID: "G286"
+     Name: "LICHTENAU",
+     ID: "H375",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBERSULM-WILL",
-        ID: "Q242"
+     Name: "LICHTENFELS OFR.",
+     ID: "N3041",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OBERTAÜRN",
-        ID: 11149
+     Name: "LICHTENHAIN",
+     ID: 10591,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OBERTHULBA",
-        ID: "P017"
+     Name: "LICHTENTANNE",
+     ID: "O805",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OBERVIECHTACH",
-        ID: "P372"
+     Name: "LIEBENAU-HAUEDA",
+     ID: "L071",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OBERWEISSBACH",
-        ID: "G421"
+     Name: "LIEBENBURG-OTHFRESEN",
+     ID: "E871",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OBERWEISSENBR",
-        ID: "N3727"
+     Name: "LIEBENSCHEID",
+     ID: "K099",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OBERWESEL",
-        ID: "N5446"
+     Name: "LIEBEROSE",
+     ID: "F770",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OBERZERF",
-        ID: "K711"
+     Name: "LIENEN-KATTENVENNE",
+     ID: "H142",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OBHAUSEN",
-        ID: "P0364"
+     Name: "LIMBURG",
+     ID: "K2646",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OCHTENDUNG",
-        ID: "K265"
+     Name: "LINDAU",
+     ID: "N0113",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ÖHRINGEN",
-        ID: 10742
+     Name: "LINDAU SACHS.-ANHALT",
+     ID: "N6813",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "ÖRLINGHAUSEN",
-        ID: "N3029"
+     Name: "LINDBERG-BUCHENAU",
+     ID: "P485",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ÖSINGHAUSEN",
-        ID: "X007"
+     Name: "LINDENBERG",
+     ID: 10393,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OFFENBACH",
-        ID: 10640
+     Name: "LINDENBERG ALLGAEU",
+     ID: "K2796",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OFFENBACH-WET",
-        ID: 10641
+     Name: "LINDEWITT",
+     ID: "P0126",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "OFFENBURG",
-        ID: "K2301"
+     Name: "LINGEN",
+     ID: 10305,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OF-POST D1",
-        ID: "P0101"
+     Name: "LINGERHAHN (WWV RLP)",
+     ID: "K475",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OF-POST D2",
-        ID: "P0102"
+     Name: "LINNICH",
+     ID: "P0216",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OF-POST D3",
-        ID: "P0103"
+     Name: "LINSTOW",
+     ID: "B742",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "OF-POST D4",
-        ID: "P0104"
+     Name: "LIPPSTADT-BOEKENFOER",
+     ID: "H377",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OF-POST D5",
-        ID: "P0105"
+     Name: "LISSENDORF",
+     ID: "K219",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OF-POST D6",
-        ID: "P0106"
+     Name: "LIST SYLT",
+     ID: 10020,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "OF-POST D7",
-        ID: "P0107"
+     Name: "LOBENSTEIN",
+     ID: "K4244",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "OF-POST D8",
-        ID: "P0108"
+     Name: "LOEBAU",
+     ID: "N7182",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OF-POST D9",
-        ID: "P0109"
+     Name: "LOEHNBERG-OBERSH.",
+     ID: "L511",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OF-POST H1",
-        ID: "P0110"
+     Name: "LOENINGEN",
+     ID: "K1140",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OF-POST H2",
-        ID: "P0111"
+     Name: "LOERRACH",
+     ID: "N0267",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OF-POST H3",
-        ID: "P0112"
+     Name: "LOESTERBACH SUED",
+     ID: "J721",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OF-POST H4",
-        ID: "P0113"
+     Name: "LOHME-ALME",
+     ID: "H379",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OF-POST H5",
-        ID: "P0114"
+     Name: "LOHMEN SACHSEN",
+     ID: "O566",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "OHLSBACH",
-        ID: "Q518"
+     Name: "LOHR",
+     ID: "K2671",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OLBERNHAU",
-        ID: "P0482"
+     Name: "LOHR MAIN-HALSBACH",
+     ID: "P113",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OLBERSLEBEN",
-        ID: "M299"
+     Name: "LOICHING",
+     ID: "P661",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OLDENBURG",
-        ID: 10215
+     Name: "LORSCH-KLÄRANLAGE",
+     ID: "L918",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OLDENBURG I.H",
-        ID: "A492"
+     Name: "LOSSBURG",
+     ID: "N1026",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OLFEN",
-        ID: "H333"
+     Name: "LUCKENWALDE",
+     ID: "P0285",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OLPE",
-        ID: "N8777"
+     Name: "LUDWIGSBURG",
+     ID: "K2714",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OLPENITZ",
-        ID: 10042
+     Name: "LUDWIGSCHORGAST",
+     ID: "P079",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OLSDORF",
-        ID: "K419"
+     Name: "LUDWIGSLUST",
+     ID: "N8331",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "OPLADEN",
-        ID: "P0220"
+     Name: "LUDWIGSSTADT-LAUENST",
+     ID: "P062",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OPPACH",
-        ID: "P0290"
+     Name: "LUEBBENAU",
+     ID: "P0284",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OPPENHEIM",
-        ID: "N2249"
+     Name: "LUEBBEN-BLUMENFELDE",
+     ID: "F742",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ORANIENBURG",
-        ID: "N7651"
+     Name: "LUEBECK",
+     ID: 10156,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "OSCHATZ",
-        ID: 10480
+     Name: "LUECHOW",
+     ID: 10253,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OSCHERSLEBE",
-        ID: "N6695"
+     Name: "LUEDENSCHEID",
+     ID: 10418,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OSNABRÜCK",
-        ID: 10317
+     Name: "LUEDGE",
+     ID: 10433,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OSTBEVERN",
-        ID: "P0631"
+     Name: "LUEDINGHAUSEN-BROCH.",
+     ID: "H247",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "OSTBEVERBRO",
-        ID: "P0632"
+     Name: "LUENEBURG",
+     ID: "K3891",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OSTBEVERÜB",
-        ID: "P0633"
+     Name: "LUENNE",
+     ID: "P0506",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OSTBEVERN-SCH",
-        ID: "H145"
+     Name: "LUETZELBACH",
+     ID: "N4032",
+     Bundesland: "Hessen"
     },
     {
-        Name: "OSTENFELD",
-        ID: "K1705"
+     Name: "LUPFEN",
+     ID: "P0056",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OSTENFELD",
-        ID: "A443"
+     Name: "LUSTADT",
+     ID: "K963",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OSTERFELD",
-        ID: "N992"
+     Name: "LUTTERBERG",
+     ID: "L160",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OSTERFELDER",
-        ID: "Z917"
+     Name: "MAEHRING",
+     ID: "P197",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OSTERHOFEN-TH",
-        ID: "P585"
+     Name: "MAEKEL",
+     ID: "P0628",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "OSTERHOLZ-SCH",
-        ID: "N6230"
+     Name: "MAGDEBURG",
+     ID: 10361,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "OSTERODHARZ",
-        ID: "N4601"
+     Name: "MAINBURG",
+     ID: "K4185",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OSTERSEEON",
-        ID: "G378"
+     Name: "MAINZ",
+     ID: "K2613",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OSTFR. KÜSTE",
-        ID: "E5307"
+     Name: "MAINZ (DLR)",
+     ID: "K582",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OSTHEIM V.D.",
-        ID: "P022"
+     Name: "MAINZ (ZDF)",
+     ID: "K584",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OSTÖNNER BAC",
-        ID: "H456"
+     Name: "MAISACH-GALGEN",
+     ID: "P741",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OSTRITZ",
-        ID: "O499"
+     Name: "MALENTE",
+     ID: "P0348",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "OTTENDORF-OKR",
-        ID: "N3254"
+     Name: "MALK GOEHREN",
+     ID: "B926",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "OTTENHÖFEN",
-        ID: "P0256"
+     Name: "MALLERSDORF NDB.",
+     ID: "K4501",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OTTENSGRUND",
-        ID: "H483"
+     Name: "MALLERSDORF-PFB",
+     ID: "P555",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OTTENSTEIN",
-        ID: "N2361"
+     Name: "MALSBURG-MARZELL",
+     ID: "Q902",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OTTERSBERG-OT",
-        ID: "E342"
+     Name: "MAMMING-SCHNEIDERBER",
+     ID: "P663",
+     Bundesland: "Bayern"
     },
     {
-        Name: "OTTOBEUREN",
-        ID: "P803"
+     Name: "MANDERSCHEID",
+     ID: "K2265",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "OVELGÖNNE",
-        ID: "E232"
+     Name: "MANNHEIM",
+     ID: 10729,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "OVERATH-BÖKE",
-        ID: "H755"
+     Name: "MANSCHNOW",
+     ID: 10396,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "OY-MITTELBERG",
-        ID: "P924"
+     Name: "MANSFELD-ANNARODE",
+     ID: "N731",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "PABSTORF",
-        ID: "N520"
+     Name: "MARBURG",
+     ID: "K2611",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PADENSTEDT",
-        ID: "A652"
+     Name: "MARIA-BILDHAUSEN",
+     ID: "G204",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PADENSTEDT",
-        ID: "A653"
+     Name: "MARIENBERG",
+     ID: 10579,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PADERBORN",
-        ID: 10426
+     Name: "MARIENBERG-RUEBENAU",
+     ID: "O846",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PAROW",
-        ID: 10181
+     Name: "MARIENHOEHE",
+     ID: "O862",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PARSBEROBER",
-        ID: "P441"
+     Name: "MARKERSREUTH",
+     ID: "G205",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PARUM",
-        ID: "B544"
+     Name: "MARKLKOFEN (BETRIEBS",
+     ID: "P664",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PASEWALK",
-        ID: "N2173"
+     Name: "MARKOEBEL",
+     ID: "L858",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PASSAU",
-        ID: 10893
+     Name: "MARKRANSTAEDT-GROSSL",
+     ID: "O204",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PASSOW",
-        ID: "F191"
+     Name: "MARKT BIBART",
+     ID: "P236",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PASSOVORPOM",
-        ID: "G475"
+     Name: "MARKT ERLBACH-MOSBA.",
+     ID: "P542",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PATSCHERKOFEL",
-        ID: "P0060"
+     Name: "MARKTOBERDORF-SULZSC",
+     ID: "P923",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PAVLODAR",
-        ID: 36003
+     Name: "MARKTREDW.",
+     ID: "N0149",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PEGAU",
-        ID: "O305"
+     Name: "MARKTSCHELLENBERG",
+     ID: "P994",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PEGNITZ Ä",
-        ID: "P271"
+     Name: "MARMSTORF",
+     ID: "C316",
+     Bundesland: "Hamburg"
     },
     {
-        Name: "PEINE",
-        ID: "P0205"
+     Name: "MARNE",
+     ID: "P0349",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "PELZERHAKEN",
-        ID: 10152
+     Name: "MARNITZ",
+     ID: 10264,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "PERL",
-        ID: "P0276"
+     Name: "MAROTH",
+     ID: "K060",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PERLEBERG",
-        ID: "F210"
+     Name: "MARSBERG",
+     ID: "P0607",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PERL-NENNIG",
-        ID: "J702"
+     Name: "MARSBERG-MEERHOF",
+     ID: "P0409",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PETERSBERG-MA",
-        ID: "L582"
+     Name: "MARSBERG-POSTWEG",
+     ID: "P0329",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PETERSHAGEN",
-        ID: "H027"
+     Name: "MARTINRODA",
+     ID: "M732",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "PFAFFENHOFEN",
-        ID: "P0263"
+     Name: "MARTINSHÖHE",
+     ID: "K748",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PFARRKIRCHEN",
-        ID: "P687"
+     Name: "MARWITZ (WASSERWERK)",
+     ID: "F338",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "PFARRWEISACH-",
-        ID: "P048"
+     Name: "MASSBACH",
+     ID: "P029",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PFORZHEIM",
-        ID: "K2711"
+     Name: "MAUTH",
+     ID: "N2284",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PFORZHEIM-ISP",
-        ID: "Q332"
+     Name: "MAYEN",
+     ID: "K2259",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PFULLENDORF",
-        ID: "Q864"
+     Name: "MECHERNICH",
+     ID: "P0218",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PFULLENDORF-B",
-        ID: "K2786"
+     Name: "MECKENHEIM RHEINB.",
+     ID: "P0215",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PHILIPPSBURG",
-        ID: "K2696"
+     Name: "MEDDERSHEIM",
+     ID: "K560",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PIDING",
-        ID: "P991"
+     Name: "MEDEBACH-BERGE",
+     ID: "H695",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PILSEN",
-        ID: 11448
+     Name: "MEEDER-OTTOWIND",
+     ID: "P051",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PILSTING-BÄC",
-        ID: "P568"
+     Name: "MEERANE",
+     ID: "P0288",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PILSUM",
-        ID: "P0146"
+     Name: "MEHRING, KR. ALTOETT",
+     ID: "P946",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PIRMASENS",
-        ID: "K925"
+     Name: "MEHRINGEN ASL",
+     ID: "N632",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "PIRNA",
-        ID: "N3257"
+     Name: "MEINERZHAGEN-REDLEND",
+     ID: "H658",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PLATTERHOF",
-        ID: "P0443"
+     Name: "MEININGEN",
+     ID: 10548,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "PLAU AM SEE",
-        ID: "B747"
+     Name: "MEISBURG",
+     ID: "K431",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PLAÜN",
-        ID: 10569
+     Name: "MEISSEN",
+     ID: "K3384",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "PLECH",
-        ID: "P270"
+     Name: "MEISSNER",
+     ID: "P0354",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PLEINFELD-MAN",
-        ID: "P420"
+     Name: "MELIBOCUS",
+     ID: "P0018",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PLEISWEILER-O",
-        ID: "K670"
+     Name: "MELLE",
+     ID: "K1514",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "PLÖCKENSTEIN",
-        ID: "P0064"
+     Name: "MELSUNGEN",
+     ID: "K1579",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PLÖN",
-        ID: "P0152"
+     Name: "MEMMINGEN",
+     ID: 10947,
+     Bundesland: "Bayern"
     },
     {
-        Name: "PLÖSSBERG-LI",
-        ID: "P292"
+     Name: "MENDEN_LENDRINGSEN",
+     ID: "H566",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PLÖTZKASAA",
-        ID: "N642"
+     Name: "MENDIG",
+     ID: 10514,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "POCKING",
-        ID: "P689"
+     Name: "MENGEN-ENNETACH",
+     ID: "Q763",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "Podelzig",
-        ID: "EW015"
+     Name: "MENGERSKIRCHEN",
+     ID: "N6241",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PÖSING",
-        ID: "G285"
+     Name: "MENSLAGE",
+     ID: "P0148",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "PÖSSNECK",
-        ID: "P0293"
+     Name: "MENZ",
+     ID: "F151",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "PÖTTMES-SCHO",
-        ID: "N0645"
+     Name: "MEPPEN",
+     ID: "N0602",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "POHL",
-        ID: "X044"
+     Name: "MERING (BAUHOF)",
+     ID: "P732",
+     Bundesland: "Bayern"
     },
     {
-        Name: "POHLITZ",
-        ID: "F598"
+     Name: "MERKLINGEN",
+     ID: "K2729",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "POLCH, KR. MA",
-        ID: "K259"
+     Name: "MERZEN",
+     ID: "P0637",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "POLSINGEN-DÖ",
-        ID: "P418"
+     Name: "MERZIG",
+     ID: "N7316",
+     Bundesland: "Saarland"
     },
     {
-        Name: "POMMELSBRUNN-",
-        ID: "P343"
+     Name: "MERZKIRCHEN",
+     ID: "K510",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PONITZ",
-        ID: "M500"
+     Name: "MESCHEDE HENNE",
+     ID: "N8566",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "POPPENHOLZ",
-        ID: "G207"
+     Name: "MESSMAST EMD",
+     ID: "P0134",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "POS.FPN",
-        ID: "E5407"
+     Name: "MESSMAST OL",
+     ID: "P0133",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "POTSDAM",
-        ID: 10379
+     Name: "MESSMAST WHV",
+     ID: "P0132",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "POTSDAM-ZENTR",
-        ID: "P0040"
+     Name: "MESSSTETTEN",
+     ID: 10827,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "PRACKENBACH",
-        ID: "P472"
+     Name: "METALLEUROP",
+     ID: "P0037",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "PREDIGTSTUHL",
-        ID: "P0310"
+     Name: "METTEN",
+     ID: "P572",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PREMNITLUB",
-        ID: "P0041"
+     Name: "METZINGEN",
+     ID: "Q561",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "PREROW A. DAR",
-        ID: "N2622"
+     Name: "MEUSELWITZ",
+     ID: "N6197",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "PRESCHEN",
-        ID: 10493
+     Name: "MEYENBURG",
+     ID: "F020",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "PRESSATH-MÜH",
-        ID: "P189"
+     Name: "MICHELSTADT",
+     ID: "K2507",
+     Bundesland: "Hessen"
     },
     {
-        Name: "PRESSECK",
-        ID: "N3052"
+     Name: "MICHELSTADT-V.",
+     ID: 10648,
+     Bundesland: "Hessen"
     },
     {
-        Name: "PRIMDA",
-        ID: 11423
+     Name: "MIDDELHAGEN",
+     ID: "X479",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "PRITZWALK",
-        ID: "N7817"
+     Name: "MIESAU",
+     ID: "P0198",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "PRÜM",
-        ID: "N7040"
+     Name: "MIESBACH (KLAERANLAG",
+     ID: "P965",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PRÜM-WATZERA",
-        ID: "K310"
+     Name: "MINDELHEIM",
+     ID: "N0332",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PUDERBACH",
-        ID: "P0188"
+     Name: "MINDEN",
+     ID: 10324,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "PÜRSCHLING",
-        ID: "Z916"
+     Name: "MISTELBACH",
+     ID: "G225",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PULSNITZ",
-        ID: "O461"
+     Name: "MITTELBEXBACH UMSPWK",
+     ID: "F9508",
+     Bundesland: "Saarland"
     },
     {
-        Name: "PUTBUS",
-        ID: 10093
+     Name: "MITTELNKIRCHEN-HOHEN",
+     ID: "E099",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "PUTLOS",
-        ID: "A480"
+     Name: "MITTENWALD",
+     ID: "K4157",
+     Bundesland: "Bayern"
     },
     {
-        Name: "PUTTGARDEN",
-        ID: 10063
+     Name: "MITTENWALD OBB.",
+     ID: "P949",
+     Bundesland: "Bayern"
     },
     {
-        Name: "QÜDLINBURG",
-        ID: "K3187"
+     Name: "Mittenwald-B.wiesen",
+     ID: "P948",
+     Bundesland: "Bayern"
     },
     {
-        Name: "QÜRFURT",
-        ID: "N6357"
+     Name: "MITTENWALDE UCKERMAR",
+     ID: "F172",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "QÜRFURT-LODE",
-        ID: "N748"
+     Name: "MOECKMUEHL",
+     ID: "N1648",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "QUICKBORN",
-        ID: 10146
+     Name: "MOECKMUEHL (LUBW)",
+     ID: "Q152",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "QUINTEN",
-        ID: 6687
+     Name: "MOEHNE",
+     ID: "N8653",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RADEVORMWALD",
-        ID: "N8307"
+     Name: "MOEHRENDORF-KLSEE.",
+     ID: "P257",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÄSFELD KA",
-        ID: "H316"
+     Name: "MOENCHENGLADBACH",
+     ID: 10403,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RAHDEN-VARL",
-        ID: "H012"
+     Name: "MOENCHENGLADBACH-HIL",
+     ID: "H768",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RAIN AM LECH-",
-        ID: "P621"
+     Name: "MOERS",
+     ID: "N9109",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RAKOW",
-        ID: "P0356"
+     Name: "MOESLARNALM",
+     ID: "Z936",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RAMSAU-SCHWAR",
-        ID: "P995"
+     Name: "MOITZFELD",
+     ID: "H746",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RANDERSACKER",
-        ID: "G244"
+     Name: "MOLLENFELDE",
+     ID: "E972",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RAPSHAGEN, NT",
-        ID: "P0140"
+     Name: "MONSCHAU",
+     ID: "N0121",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RASCHAU",
-        ID: "O888"
+     Name: "MONTABAUR",
+     ID: "K282",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RASTATT",
-        ID: "K2890"
+     Name: "MOORGRUND-GRAEFENDOR",
+     ID: "M405",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "RASTEDE",
-        ID: "E234"
+     Name: "MOORMERLAND-NEERMOOR",
+     ID: "E212",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RASTENBERG",
-        ID: "K3414"
+     Name: "MOOS,KR. DEGGENDORF-",
+     ID: "P576",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RATHEBUR",
-        ID: "B587"
+     Name: "MORBACH",
+     ID: "P0505",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RATZEBURG",
-        ID: "N7029"
+     Name: "MORINGEN-LUTTERBECK",
+     ID: "E839",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RAUNHEIM",
-        ID: "L829"
+     Name: "MORLAUTERN",
+     ID: "K862",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RAUSCHBERG",
-        ID: "Z940"
+     Name: "MOSBACH-DIEDESHEIM",
+     ID: "N1712",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RAUSCHWITZ",
-        ID: "P0514"
+     Name: "MOSELTALBRUECKE",
+     ID: "K266",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RAVENSBERG",
-        ID: "P0357"
+     Name: "MUDAU-SCHLOSSAU",
+     ID: "N4002",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RAVENSBURG",
-        ID: "K2791"
+     Name: "MUEHLACKER",
+     ID: 10736,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RECHLIN",
-        ID: "B853"
+     Name: "MUEHLDORF",
+     ID: 10875,
+     Bundesland: "Bayern"
     },
     {
-        Name: "RECKENHOLZ",
-        ID: 6664
+     Name: "MUEHLHAUSEN",
+     ID: "N5432",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "REDEFIN",
-        ID: "B818"
+     Name: "MUEHLHEIM MAIN",
+     ID: "L850",
+     Bundesland: "Hessen"
     },
     {
-        Name: "REGEN",
-        ID: "N1325"
+     Name: "MUELHEIM RUHR",
+     ID: "P0031",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "REGENSBURG",
-        ID: 10776
+     Name: "MUELLHEIM",
+     ID: "Q887",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "REHAU",
-        ID: "P095"
+     Name: "MUENCHBERG",
+     ID: "N3002",
+     Bundesland: "Bayern"
     },
     {
-        Name: "REHBURG-LOCCU",
-        ID: "E659"
+     Name: "MUENCHEBERG",
+     ID: "F475",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "REICHENBACH",
-        ID: "P0366"
+     Name: "MUENCHEHOFE",
+     ID: "F660",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "REICHSHOF-ECK",
-        ID: "H612"
+     Name: "MUENCHEN STADT",
+     ID: 10865,
+     Bundesland: "Bayern"
     },
     {
-        Name: "REIMLINGEN",
-        ID: "P501"
+     Name: "MUENCHEN-FL.",
+     ID: 10870,
+     Bundesland: "Bayern"
     },
     {
-        Name: "REINFELD",
-        ID: "P0350"
+     Name: "MUENSINGEN-APPELST.",
+     ID: "K2753",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "REINHARDSHAGE",
-        ID: "L892"
+     Name: "MUENSTER ZENTRUM",
+     ID: "P0036",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "REINHEIM",
-        ID: "L930"
+     Name: "MUENSTER OSNABR.",
+     ID: 10315,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "REINHOLTERODE",
-        ID: "M056"
+     Name: "MUENSTERMAIFELD",
+     ID: "K268",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "REIT IM WINKE",
-        ID: "P982"
+     Name: "MUENZENBERG-GAMBACH",
+     ID: "L631",
+     Bundesland: "Hessen"
     },
     {
-        Name: "REIT IM WINKL",
-        ID: "K4540"
+     Name: "MÜHLHAUSEN-GÖRMAR",
+     ID: "M225",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "REITERALPE",
-        ID: "Z943"
+     Name: "MÜNSINGEN-APFELSTETT",
+     ID: "Q671",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "REKEN",
-        ID: "P0229"
+     Name: "MURNAU",
+     ID: "N2046",
+     Bundesland: "Bayern"
     },
     {
-        Name: "REKEN-GROSS R",
-        ID: "H235"
+     Name: "MURRHARDT",
+     ID: "K2721",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "REMSCHEID",
-        ID: "N8346"
+     Name: "NAABBRUECKE",
+     ID: "P289",
+     Bundesland: "Bayern"
     },
     {
-        Name: "REMSCHEID-LEN",
-        ID: "H642"
+     Name: "NABBURG (FLUSSMEISTE",
+     ID: "P362",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RENNG. IHINGE",
-        ID: "Q440"
+     Name: "NAGOLD",
+     ID: "Q541",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RENNINGEN",
-        ID: "N1354"
+     Name: "NAHMER",
+     ID: "H554",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RENTWEINSDORF",
-        ID: "P151"
+     Name: "NAILA",
+     ID: "N3035",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RERIK",
-        ID: "N2822"
+     Name: "NANDLSTADT",
+     ID: "P645",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RESCHENBERG",
-        ID: "G364"
+     Name: "NASSAU (KLAERANLAGE)",
+     ID: "K272",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "REUTLINGEN",
-        ID: "K2868"
+     Name: "NASSAU RHL.-PFALZ",
+     ID: "P0190",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "REUTTE AUTOM.",
-        ID: 11314
+     Name: "NASSENFELS",
+     ID: "P760",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RHAUNEN",
-        ID: "N5149"
+     Name: "NASTAETTEN",
+     ID: "P0191",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RHEINAU UMSPW",
-        ID: "F9510"
+     Name: "NASTÄTTEN",
+     ID: "K386",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RHEINAU-MEMPR",
-        ID: "Q404"
+     Name: "NATTHEIM-FLEINHEIM",
+     ID: "Q491",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RHEINBR.MANNH",
-        ID: "L959"
+     Name: "NAUEN",
+     ID: "N7659",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "RHEINDORF",
-        ID: "P0222"
+     Name: "NAUMBURG SAALE",
+     ID: "N5417",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "RHEINE-BENTLA",
-        ID: 10306
+     Name: "NAUNDORF BEI SEYDA",
+     ID: "N587",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "RHEINFELDEN",
-        ID: "Q909"
+     Name: "NEBELHORN",
+     ID: "P0022",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RHEINSTETTEN",
-        ID: 10731
+     Name: "NEBELHORN-KOBLAT",
+     ID: "Z908",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RIBNITZ-DAMGA",
-        ID: "P0416"
+     Name: "NECKARGEMUEND-KLEING",
+     ID: "Q027",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RIED IM INNKR",
-        ID: 11053
+     Name: "NEEF",
+     ID: "K450",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RIEDENBURG",
-        ID: "P448"
+     Name: "NEMDEN",
+     ID: "E726",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RIEDLINGEN",
-        ID: "N0157"
+     Name: "NETTETAL-HUELST",
+     ID: "H512",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RIEDSTADT",
-        ID: "G429"
+     Name: "NEU ANSPACH",
+     ID: "N4241",
+     Bundesland: "Hessen"
     },
     {
-        Name: "RIESA",
-        ID: "N3462"
+     Name: "NEU MADLITZ",
+     ID: "F681",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "RIESENBECK",
-        ID: "P0626"
+     Name: "NEUBRANDENBURG",
+     ID: 10280,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "RIESTEDT",
-        ID: "X051"
+     Name: "NEUBULACH-OBERHAUGST",
+     ID: "Q437",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RIESWEILER",
-        ID: "J927"
+     Name: "NEUBURG DONAU",
+     ID: 10853,
+     Bundesland: "Bayern"
     },
     {
-        Name: "RIMBERG",
-        ID: "L474"
+     Name: "NEUBURG KAMMEL-LANGE",
+     ID: "P308",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RINGE-GROSSRI",
-        ID: "E601"
+     Name: "NEUENFELD",
+     ID: "P0363",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "RINGGAU-RENDA",
-        ID: "N0554"
+     Name: "NEUENKIRCHEN",
+     ID: "P0638",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RINTELN-VOLKS",
-        ID: "E738"
+     Name: "NEUENRADE-BLINTROP",
+     ID: "H568",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RIPPOLDSAU, B",
-        ID: "Q529"
+     Name: "NEUFFEN",
+     ID: "N1107",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "RITTERSGRÜN",
-        ID: "X099"
+     Name: "NEUGLOBSOW",
+     ID: 10277,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ROCHLITZ",
-        ID: "N4248"
+     Name: "NEUHAUS A.R.",
+     ID: 10557,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ROCKENDORF",
-        ID: "M765"
+     Name: "NEUHAUSEN OB ECK-UNT",
+     ID: "Q739",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ROCKENHAUSEN",
-        ID: "P0195"
+     Name: "NEUHAUS-SCHIERSCHNIT",
+     ID: "M998",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "RODACH ÄR",
-        ID: "P041"
+     Name: "NEUHERBERG",
+     ID: "G262",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RODDER",
-        ID: "K230"
+     Name: "NEUHOF",
+     ID: "G315",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RODING-NEUBÄ",
-        ID: "P379"
+     Name: "NEUHUETTEN SPESSART",
+     ID: 10646,
+     Bundesland: "Bayern"
     },
     {
-        Name: "RODING-WETTER",
-        ID: "P380"
+     Name: "NEUKIRCHEN",
+     ID: "P0513",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "RÖCKERSBÜHL",
-        ID: "G283"
+     Name: "NEUKIRCHEN BEI HEILI",
+     ID: "P396",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÖDELSEE",
-        ID: "P264"
+     Name: "NEUKIRCHEN-HAUPTSCHW",
+     ID: "L355",
+     Bundesland: "Hessen"
     },
     {
-        Name: "RÖDERMARK-OB",
-        ID: "L891"
+     Name: "NEUKIRCHEN-SEIGHS.",
+     ID: "N1429",
+     Bundesland: "Hessen"
     },
     {
-        Name: "RÖLLBACH",
-        ID: "P355"
+     Name: "NEUMARKT OPF.",
+     ID: "N3233",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÖLVEDER MÜ",
-        ID: "H556"
+     Name: "NEUMARKT OBERPFALZ",
+     ID: "P348",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÖMHILD-SÜL",
-        ID: "M909"
+     Name: "NEUMARKT-SANKT VEIT",
+     ID: "P669",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROHMITTELFR",
-        ID: "P327"
+     Name: "NEUMUENSTER",
+     ID: 10143,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "ROHRBACH",
-        ID: 11008
+     Name: "NEUNBURG VORM WALD-E",
+     ID: "P376",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROMMERSHEIM",
-        ID: "K588"
+     Name: "NEUNKIRCHEN SAARLAND",
+     ID: "P0278",
+     Bundesland: "Saarland"
     },
     {
-        Name: "ROMMERSKIRCHE",
-        ID: "F9511"
+     Name: "NEUNKIRCHEN-SEELSCHE",
+     ID: "H862",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "Rosenberg",
-        ID: "EW017"
+     Name: "NEUNKIRCHEN-WELLESW.",
+     ID: "J815",
+     Bundesland: "Saarland"
     },
     {
-        Name: "ROSENGARTEN-K",
-        ID: "E273"
+     Name: "NEURUPPIN",
+     ID: 10270,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ROSENHEIM",
-        ID: "P877"
+     Name: "NEURUPPIN-ALT RUPPIN",
+     ID: 10271,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ROSENTHAL-BIE",
-        ID: "O795"
+     Name: "NEURUPPIN-GUEHLEN GL",
+     ID: "F178",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ROSSAU",
-        ID: "P0432"
+     Name: "NEUSS",
+     ID: "N8481",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ROSSDORF DARM",
-        ID: "L889"
+     Name: "NEUSS-WEHL",
+     ID: "P0013",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ROSSKOPF",
-        ID: "P0483"
+     Name: "NEUSTADT AM KULM",
+     ID: "P280",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROSSLA",
-        ID: "N013"
+     Name: "NEUSTADT AM RUEBENBE",
+     ID: "E667",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ROSTOCK-STADT",
-        ID: "P0175"
+     Name: "NEUSTADT BEI COBURG",
+     ID: "P052",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROT AN DER RO",
-        ID: "Q891"
+     Name: "NEUSTADT, BAD",
+     ID: "P025",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROTENBACH",
-        ID: "X023"
+     Name: "NEUSTADT AISCH-UNTN.",
+     ID: "N3432",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROTENBURG",
-        ID: 10234
+     Name: "NEUSTADT DONAU",
+     ID: "N0778",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROTENBURFUL",
-        ID: "N1150"
+     Name: "NEUSTADT WEINSTRASSE",
+     ID: "K887",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTH",
-        ID: 10765
+     Name: "NEUSTADT WN-ALTENST.",
+     ID: "N1122",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ROTH BEI PRÜ",
-        ID: "K212"
+     Name: "NEUSTADT-GLEWE-FRIED",
+     ID: "B728",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "ROTHAARGEBIRG",
-        ID: 10521
+     Name: "NEUSTRELITZ",
+     ID: "N7113",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "ROTHE FURTH",
-        ID: "H764"
+     Name: "NEU-ULRICHSTEIN",
+     ID: 10537,
+     Bundesland: "Hessen"
     },
     {
-        Name: "ROTHEMÜHL",
-        ID: "B687"
+     Name: "NEUWIED-WOLLENDORF",
+     ID: "K2247",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTHENBURG OB",
-        ID: "P305"
+     Name: "NEWEL",
+     ID: "K509",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTHENBURG OD",
-        ID: "K4093"
+     Name: "NIDDA",
+     ID: "P0019",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ROTHENFELD",
-        ID: "G385"
+     Name: "NIDDA-KLÄRANLAGE",
+     ID: "L643",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ROTHENFELDE,",
-        ID: "E727"
+     Name: "NIDDERAU-ERBSTADT",
+     ID: "L751",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ROTHSEE BEI A",
-        ID: "P422"
+     Name: "NIDEGGEN-SCHMIDT",
+     ID: "H827",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "Rothwesten",
-        ID: "EW018"
+     Name: "NIEDER KOSTENZ",
+     ID: "P0413",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTTACH-EGERN",
-        ID: "N4176"
+     Name: "NIEDERRHEIN",
+     ID: 10405,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ROTTENBURG",
-        ID: "K2923"
+     Name: "NIEDERSTEDEM UMSPWK.",
+     ID: "F9509",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTTENBURG-KI",
-        ID: "Q554"
+     Name: "NIEDERSTETTEN",
+     ID: 10743,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ROTTHALMÜNST",
-        ID: "G354"
+     Name: "NIEDERWOERSSESBACH",
+     ID: "K642",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ROTTWEIL",
-        ID: "K2757"
+     Name: "NIEHEIM",
+     ID: "N2402",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RUDOLSTADT",
-        ID: "N5250"
+     Name: "NIENBURG",
+     ID: "E652",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RÜDERSDORF",
-        ID: "F461"
+     Name: "NIERSTEIN",
+     ID: "K597",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RÜDESHEIM",
-        ID: "N5056"
+     Name: "NIESKY",
+     ID: "P0295",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "RÜDESHEIM-PR",
-        ID: "L803"
+     Name: "NILLING",
+     ID: "G384",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÜgen",
-        ID: "EW019"
+     Name: "NITTENAU-HARTING",
+     ID: "P453",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÜLZHEIM",
-        ID: "K969"
+     Name: "NOERDLINGEN",
+     ID: "K4105",
+     Bundesland: "Bayern"
     },
     {
-        Name: "RÜNENBERG",
-        ID: 6645
+     Name: "NOERVENICH",
+     ID: 10502,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "RÜSSELSHEIM",
-        ID: "N2254"
+     Name: "NOHFELDEN-GONNESWEIL",
+     ID: "J731",
+     Bundesland: "Saarland"
     },
     {
-        Name: "RÜTHEN",
-        ID: "N8631"
+     Name: "NONNWEILER",
+     ID: "P0280",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "RUHLA",
-        ID: "N9328"
+     Name: "NORDEN-LEYBUCHTPOLDE",
+     ID: "E103",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RUHLAND",
-        ID: "F945"
+     Name: "NORDHAUSEN",
+     ID: "N5755",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "RUHPOLDING",
-        ID: "P983"
+     Name: "NORDHOLZ",
+     ID: 10136,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RUHPOLDING-SE",
-        ID: "N2443"
+     Name: "NORDHORN",
+     ID: 10308,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RUNKEL-ENNERI",
-        ID: "L602"
+     Name: "NORTHEIM",
+     ID: "N4623",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RUPPERTSECKEN",
-        ID: "K762"
+     Name: "NORTHEIM-IMBSHAUSEN",
+     ID: "E858",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "RUTHENSTROM",
-        ID: "E095"
+     Name: "NORTHEIM-STOECKHEIM",
+     ID: "E857",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SAALEBRÜCKE",
-        ID: "P082"
+     Name: "NOSSEN",
+     ID: "O536",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SAALFELD",
-        ID: "N5184"
+     Name: "NOTZINGEN",
+     ID: "Q061",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SAARBRÜCKEN",
-        ID: 10708
+     Name: "NUERBURG",
+     ID: 10510,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SAARBRÜCKEN-",
-        ID: "J908"
+     Name: "NUERBURG-BARWEILER",
+     ID: 10506,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SAARBURG",
-        ID: "N7332"
+     Name: "NUERNBERG",
+     ID: 10763,
+     Bundesland: "Bayern"
     },
     {
-        Name: "SACHSENHEIM",
-        ID: "Q341"
+     Name: "NUERNBERG-NETZSTALL",
+     ID: "P333",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SÄNTIS",
-        ID: 6680
+     Name: "NW-HR02",
+     ID: "Q597",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SAGARD",
-        ID: "B085"
+     Name: "NW-HR09",
+     ID: "Q585",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SALDENBURG-EN",
-        ID: "P586"
+     Name: "OBERAMMERGAU",
+     ID: "N2103",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SALEN-REUTENE",
-        ID: 6623
+     Name: "OBERAUDORF",
+     ID: "P977",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SALZBURG",
-        ID: 11350
+     Name: "OBERAURACH-FATSCHENB",
+     ID: "P147",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SALZBURG FL.",
-        ID: 11150
+     Name: "OBERBACHHEIM",
+     ID: "K380",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SALZGITTER",
-        ID: "K3924"
+     Name: "OBERBARMEN",
+     ID: "H545",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SALZHEMMENDOR",
-        ID: "E748"
+     Name: "OBER-BEERBACH",
+     ID: "P0559",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SALZKOTTEN",
-        ID: "H376"
+     Name: "OBERE FIRSTALM SCHLI",
+     ID: "P966",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SALZWEDEL",
-        ID: "N8232"
+     Name: "OBERHACHING-LAUFZORN",
+     ID: "P830",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SAMERBERG-GEI",
-        ID: "P979"
+     Name: "OBERHARZ AM BROCKEN",
+     ID: "N616",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SANDBERG",
-        ID: "P013"
+     Name: "OBERHAUSEN",
+     ID: "N9079",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SANDHARLANDEN",
-        ID: "G309"
+     Name: "OBERHAUSEN-STERKRADE",
+     ID: "P0030",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SANGERHAUSEN",
-        ID: "N5791"
+     Name: "OBERHONE",
+     ID: "L282",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SANKT EGIDIEN",
-        ID: "O725"
+     Name: "OBERKIRCH",
+     ID: "N0469",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SANKT ENGLMAR",
-        ID: "N1461"
+     Name: "OBERLEICHTERSBACH-MO",
+     ID: "P004",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SANKT GALLENK",
-        ID: "P0058"
+     Name: "OBERNDORF NECKAR",
+     ID: "Q637",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SANKT OSWALD",
-        ID: "N2274"
+     Name: "OBERNZENN",
+     ID: "P0267",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SARCHING",
-        ID: "G298"
+     Name: "OBERPFAFFENHOFEN",
+     ID: "P748",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SASSENBERG",
-        ID: "P0509"
+     Name: "OBERREUTE",
+     ID: "P908",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SASSENDORF, B",
-        ID: "H460"
+     Name: "OBERSCHLEISSHEIM",
+     ID: "P659",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SASSNITZ-STAP",
-        ID: "N2446"
+     Name: "OBERSOECHERING",
+     ID: "G391",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SATOW",
-        ID: "P0286"
+     Name: "OBERSTADTFELD",
+     ID: "K326",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SATRUP",
-        ID: "A173"
+     Name: "OBERSTAUFEN",
+     ID: "K4140",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SAÜRLACH",
-        ID: "N2076"
+     Name: "OBERSTAUFEN-THALKIRC",
+     ID: "P811",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SAULGAU,BAD",
-        ID: "Q077"
+     Name: "OBERSTDORF",
+     ID: 10948,
+     Bundesland: "Bayern"
     },
     {
-        Name: "SAULGAU-BOLST",
-        ID: "N0159"
+     Name: "OBERSTDORF-ROHRMOOS",
+     ID: "P915",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHAAFHEIM-SC",
-        ID: "L894"
+     Name: "OBERSTEINBACH",
+     ID: "G286",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHACKENSLEBE",
-        ID: "N440"
+     Name: "OBERSULM-WILLSBACH",
+     ID: "Q242",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHÄFTLARN-K",
-        ID: "P846"
+     Name: "OBERTHULBA",
+     ID: "P017",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHÄRDING",
-        ID: 11055
+     Name: "OBERVIECHTACH",
+     ID: "K4484",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHAFFHAUSEN",
-        ID: 6620
+     Name: "OBERWEISSENBRUNN",
+     ID: "N3727",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHAIDT",
-        ID: "K996"
+     Name: "OBERWESEL",
+     ID: "N5446",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHARNHORST-M",
-        ID: "E586"
+     Name: "OBERZERF",
+     ID: "K711",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHATTENHOF",
-        ID: "G279"
+     Name: "OBHAUSEN",
+     ID: "P0364",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SCHAÜNBURG-E",
-        ID: 10441
+     Name: "OCHTENDUNG",
+     ID: "K265",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHAUINSLAND",
-        ID: "K2360"
+     Name: "OEHRINGEN",
+     ID: 10742,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHEID",
-        ID: "P0412"
+     Name: "OERLINGHAUSEN",
+     ID: "N3029",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHEID_2",
-        ID: "P0511"
+     Name: "OFFENBACH",
+     ID: 10640,
+     Bundesland: "Hessen"
     },
     {
-        Name: "SCHELKLINGEN",
-        ID: "P0510"
+     Name: "OFFENBACH-WETTERPARK",
+     ID: 10641,
+     Bundesland: "Hessen"
     },
     {
-        Name: "SCHENEFELD",
-        ID: "P0201"
+     Name: "OFFENBURG",
+     ID: "K2301",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHENKLENGSFE",
-        ID: "P0184"
+     Name: "OHLSBACH",
+     ID: "Q518",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHESSLITZ-KO",
-        ID: "P158"
+     Name: "OLBERNHAU",
+     ID: "P0482",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHEYERN",
-        ID: "P637"
+     Name: "OLBERSLEBEN",
+     ID: "M299",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SCHIERKE",
-        ID: "N601"
+     Name: "OLDENBURG",
+     ID: 10215,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHIFFERSTADT",
-        ID: "K892"
+     Name: "OLDENBURG I.H.",
+     ID: "A492",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHILBACH",
-        ID: "P0515"
+     Name: "OLFEN",
+     ID: "H333",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHILTACH",
-        ID: "Q625"
+     Name: "OLPE",
+     ID: "N8777",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHIRL",
-        ID: "P0624"
+     Name: "OLPENITZ",
+     ID: 10042,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHL CHTERN-H",
-        ID: "L678"
+     Name: "OLSDORF",
+     ID: "K419",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHLEBUSCH",
-        ID: "P0221"
+     Name: "OPLADEN",
+     ID: "P0220",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHLEHDORF",
-        ID: "P945"
+     Name: "OPPACH",
+     ID: "P0290",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHLEIDEN-SCH",
-        ID: "N0151"
+     Name: "OPPENHEIM",
+     ID: "N2249",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHLEIZ",
-        ID: 10564
+     Name: "ORANIENBURG",
+     ID: "N7651",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHLESWIG",
-        ID: 10035
+     Name: "ORANIENBURG-STADT",
+     ID: "X486",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHLESWIG-JAG",
-        ID: 10037
+     Name: "OSCHATZ",
+     ID: 10480,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHLEUSINGEN",
-        ID: "M834"
+     Name: "OSCHERSLEBEN BODE",
+     ID: "N6695",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SCHLIERSEE",
-        ID: "K4181"
+     Name: "OSNABRUECK",
+     ID: 10317,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHLOCHAU",
-        ID: "E923"
+     Name: "OSTBEVERN",
+     ID: "P0631",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHLOSSVIPPAC",
-        ID: "G422"
+     Name: "OSTBEVERN BROCK",
+     ID: "P0632",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHLÜCHTERN",
-        ID: "K2630"
+     Name: "OSTBEVERN UEBERWAS.",
+     ID: "P0633",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHLÜSSELFEL",
-        ID: "P243"
+     Name: "OSTBEVERN-SCHIRLHEID",
+     ID: "H145",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHMALKALDEN",
-        ID: "M721"
+     Name: "OSTENFELD",
+     ID: "K1705",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHMALLENBERG",
-        ID: "P0606"
+     Name: "OSTENFELD (RENDSBURG",
+     ID: "A443",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHMELZ",
-        ID: "P0279"
+     Name: "OSTERFELD",
+     ID: 10565,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SCHMELZ-HÜTT",
-        ID: "J812"
+     Name: "OSTERFELDER",
+     ID: "Z917",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHMERIKON",
-        ID: 6683
+     Name: "OSTERHOFEN-THUNDORF",
+     ID: "P585",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHMIDGADEN",
-        ID: "P363"
+     Name: "OSTERHOLZ-SCHARMBECK",
+     ID: "N6230",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHMIDMÜHLEN",
-        ID: "P359"
+     Name: "OSTERODE HARZ",
+     ID: "N4601",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHMIEDEFEL",
-        ID: "N9126"
+     Name: "OSTERSEEON",
+     ID: "G378",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHMIERITZ-WE",
-        ID: "M772"
+     Name: "OSTHEIM V.D. RHOEN",
+     ID: "P022",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHMITTENHÖH",
-        ID: 11340
+     Name: "OSTOENNER BACH",
+     ID: "H456",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHMITTEN-TRE",
-        ID: "N6250"
+     Name: "OSTRITZ",
+     ID: "O499",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHMÖLLN",
-        ID: "P0119"
+     Name: "OTTENDORF-OKRILLA",
+     ID: "N3254",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHMÜCKE",
-        ID: 10552
+     Name: "OTTENHOEFEN",
+     ID: "P0256",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHNEIFELFORS",
-        ID: "K210"
+     Name: "OTTENSGRUND",
+     ID: "H483",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHÖFFELDING",
-        ID: "P738"
+     Name: "OTTENSTEIN",
+     ID: "N2361",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHÖLLKRIPPE",
-        ID: "G211"
+     Name: "OTTERSBERG-OTTERSTED",
+     ID: "E342",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHÖNAU",
-        ID: "G394"
+     Name: "OTTOBEUREN",
+     ID: "P803",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHÖNBERG",
-        ID: "P0351"
+     Name: "OVELGOENNE",
+     ID: "E232",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHÖNBERND",
-        ID: "N2271"
+     Name: "OVERATH-BOEKE",
+     ID: "H755",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHÖNBORN",
-        ID: "O252"
+     Name: "PABSTORF",
+     ID: "N520",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SCHÖNBRUNN",
-        ID: "G339"
+     Name: "PADENSTEDT",
+     ID: "A652",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHÖNERMARK",
-        ID: "X026"
+     Name: "PADENSTEDT (PONY-PAR",
+     ID: "A653",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHÖNEWALDE",
-        ID: "P0516"
+     Name: "PADERBORN",
+     ID: 10426,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHÖNINGEN",
-        ID: "N4854"
+     Name: "PAROW",
+     ID: 10181,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SCHÖNSEE-DIE",
-        ID: "P299"
+     Name: "PARSBERG OBERPFALZ",
+     ID: "P441",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHÖNTEICHEN",
-        ID: "O268"
+     Name: "PARUM",
+     ID: "B544",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SCHÖNWÖLKAU",
-        ID: "O039"
+     Name: "PASEWALK",
+     ID: "N2173",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SCHÖPPINGEN",
-        ID: "N3001"
+     Name: "PASSAU",
+     ID: 10893,
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHOLLENE",
-        ID: "N199"
+     Name: "PASSOW",
+     ID: "F191",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHONACH",
-        ID: "K2735"
+     Name: "PEGAU",
+     ID: "O305",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHONUNGEN-MA",
-        ID: "P131"
+     Name: "PEGNITZ (KLAERANLAGE",
+     ID: "P271",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHORLENBERG",
-        ID: "K768"
+     Name: "PEINE",
+     ID: "P0205",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHORNDORF",
-        ID: "P0249"
+     Name: "PERL",
+     ID: "P0276",
+     Bundesland: "Saarland"
     },
     {
-        Name: "SCHORNDORF-KN",
-        ID: "P463"
+     Name: "PERLEBERG",
+     ID: "F210",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHOTTEN",
-        ID: "L555"
+     Name: "PERL-NENNIG",
+     ID: "J702",
+     Bundesland: "Saarland"
     },
     {
-        Name: "SCHOTTMALHORN",
-        ID: "P0444"
+     Name: "PETERSBERG-MARBACH",
+     ID: "L582",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SCHRAMBERG",
-        ID: "N0411"
+     Name: "PETERSHAGEN",
+     ID: "H027",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SCHROBENHAUSE",
-        ID: "P627"
+     Name: "PFAFFENHOFEN",
+     ID: "P0263",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHRÖDELSTEI",
-        ID: "Z928"
+     Name: "PFARRKIRCHEN",
+     ID: "N2614",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHÜLP",
-        ID: "P0144"
+     Name: "PFARRWEISACH-LOHR (P",
+     ID: "P048",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWABACH",
-        ID: "K4071"
+     Name: "PFORZHEIM",
+     ID: "K2711",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHWABMÜNCHE",
-        ID: "G369"
+     Name: "PFORZHEIM-ISPRINGEN",
+     ID: "Q332",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHWÄB.GMÜN",
-        ID: "K2727"
+     Name: "PFULLENDORF",
+     ID: "Q864",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHWÄBISCH H",
-        ID: "K2724"
+     Name: "PFULLENDORF-BRUNNHS.",
+     ID: "K2786",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHWALMSTADT",
-        ID: "N1441"
+     Name: "PHILIPPSBURG (KKW)",
+     ID: "K2696",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SCHWAND",
-        ID: "G397"
+     Name: "PIDING",
+     ID: "P991",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWANDORF",
-        ID: "P0034"
+     Name: "PILSTING-BAECKERMUEH",
+     ID: "P568",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWANEWEDE-N",
-        ID: "E246"
+     Name: "PILSUM",
+     ID: "P0146",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SCHWANGAU-HOR",
-        ID: "P929"
+     Name: "PIRMASENS",
+     ID: "K2290",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHWARME",
-        ID: "E445"
+     Name: "PIRNA",
+     ID: "N3257",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHWARTAU,BAD",
-        ID: "A791"
+     Name: "PLATTERHOF",
+     ID: "P0443",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWARTENBERG",
-        ID: "P0620"
+     Name: "PLAU AM SEE",
+     ID: "B747",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SCHWARZACMA",
-        ID: "P233"
+     Name: "PLAUEN",
+     ID: 10569,
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SCHWARZBURG",
-        ID: "M756"
+     Name: "PLECH",
+     ID: "P270",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWARZENAU",
-        ID: "G237"
+     Name: "PLEINFELD-MANDLESMUE",
+     ID: "P420",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWARZENBACH",
-        ID: "N3007"
+     Name: "PLEISWEILER-OBERHOFE",
+     ID: "K670",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHWARZENBERG",
-        ID: "Z909"
+     Name: "PLOEN",
+     ID: "P0152",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SCHWARZHOLZ",
-        ID: "N182"
+     Name: "PLOESSBERG-LIEBENSTE",
+     ID: "P292",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWB.-GMND",
-        ID: "Q378"
+     Name: "PLOETZKAU SAALE",
+     ID: "N642",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SCHWEDT",
-        ID: "X454"
+     Name: "POCKING",
+     ID: "N2632",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWEDLUB",
-        ID: "P0042"
+     Name: "PODELZIG",
+     ID: "P0128",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHWEIGHOFEN",
-        ID: "K672"
+     Name: "POESING",
+     ID: "G285",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWEINFURT",
-        ID: "P134"
+     Name: "POESSNECK",
+     ID: "P0293",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SCHWEITENKIRC",
-        ID: "P642"
+     Name: "POETTMES-SCHORN",
+     ID: "N0645",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWELM",
-        ID: "P0032"
+     Name: "POHLITZ",
+     ID: "F598",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SCHWENNINGEN,",
-        ID: "Q755"
+     Name: "POLCH, KR. MAYEN-KOB",
+     ID: "K259",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SCHWERIN",
-        ID: 10162
+     Name: "POLSINGEN-DOECKINGEN",
+     ID: "P418",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SCHWERTE",
-        ID: "N8716"
+     Name: "POMMELSBRUNN-MITTEL.",
+     ID: "P343",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SECKACH",
-        ID: "Q059"
+     Name: "PONITZ",
+     ID: "M500",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SECKENHEIM",
-        ID: "Q006"
+     Name: "POPPENHOLZ",
+     ID: "G207",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SEEG ÄRAN",
-        ID: "P936"
+     Name: "POTSDAM",
+     ID: 10379,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SEEGEBIET MAN",
-        ID: "N750"
+     Name: "POTSDAM-ZENTRUM LUB",
+     ID: "P0040",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SEEHAMMER SEE",
-        ID: "P866"
+     Name: "PRACKENBACH",
+     ID: "P472",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SEEHAUSEN",
-        ID: 10261
+     Name: "PREDIGTSTUHL",
+     ID: "P0310",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SEEHEIM-JUGEN",
-        ID: "N2219"
+     Name: "PREMNITZ LUB",
+     ID: "P0041",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SEESBACH, KR.",
-        ID: "K557"
+     Name: "PREROW A. DARSS",
+     ID: "N2622",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SEESEN",
-        ID: "E864"
+     Name: "PRESCHEN",
+     ID: 10493,
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SEIFERSDORF",
-        ID: "O454"
+     Name: "PRESSATH-MUEHLBERG",
+     ID: "P189",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SELB",
-        ID: "K4473"
+     Name: "PRESSECK",
+     ID: "N3052",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SELOBERFRAN",
-        ID: "P098"
+     Name: "PRITZWALK",
+     ID: "N7817",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SELB-SPIELBER",
-        ID: "P099"
+     Name: "PRUEM",
+     ID: "N7040",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SELIGENSTADT",
-        ID: "G229"
+     Name: "PRUEM-WATZERATH",
+     ID: "K310",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SELTERS, WEST",
-        ID: "K172"
+     Name: "PUDERBACH",
+     ID: "P0188",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "SENDENHORST_N",
-        ID: "H250"
+     Name: "PUERSCHLING",
+     ID: "Z916",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SENFTENBERL",
-        ID: "P0043"
+     Name: "PULHEIM",
+     ID: "P0212",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SICHTER",
-        ID: "H663"
+     Name: "PULSNITZ",
+     ID: "O461",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SIEDLINGHAUSE",
-        ID: "P0328"
+     Name: "PUTBUS",
+     ID: 10093,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SIEGBURG",
-        ID: "N8128"
+     Name: "PUTTGARDEN",
+     ID: 10063,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SIEGEN",
-        ID: "K2601"
+     Name: "QUEDLINBURG",
+     ID: "K3187",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SIEGENBURG",
-        ID: "P546"
+     Name: "QUERFURT",
+     ID: "N6357",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SIEGSDORF-HÖ",
-        ID: "P904"
+     Name: "QUERFURT-LODERSL.",
+     ID: "N748",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "SIGMARINGEN",
-        ID: 10828
+     Name: "QUICKBORN",
+     ID: 10146,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SIGMARINGEN-L",
-        ID: "Q788"
+     Name: "RADEVORMWALD",
+     ID: "N8307",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SIGMARSZELL-Z",
-        ID: "P887"
+     Name: "RAESFELD KA",
+     ID: "H316",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SIMBACINN",
-        ID: "P794"
+     Name: "RAHDEN-VARL",
+     ID: "K1520",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SIMMERATH N",
-        ID: "H910"
+     Name: "RAIN AM LECH-WALLERD",
+     ID: "P621",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SIMMERN-WAHLB",
-        ID: "K471"
+     Name: "RAKOW",
+     ID: "P0356",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SIMMERSHOFEN-",
-        ID: "P300"
+     Name: "RAMSAU-SCHWARZECK SC",
+     ID: "P995",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SIMONSWALD-OB",
-        ID: "Q716"
+     Name: "RANDERSACKER",
+     ID: "G244",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SINGEN",
-        ID: "P0257"
+     Name: "RAPSHAGEN, NT",
+     ID: "P0140",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SINGHOFEN ",
-        ID: "K381"
+     Name: "RASCHAU",
+     ID: "O888",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SINSHEIM",
-        ID: 10735
+     Name: "RASTATT",
+     ID: "K2890",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SINZIG",
-        ID: "K132"
+     Name: "RASTEDE",
+     ID: "E234",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SIPPLINGEN",
-        ID: "Q951"
+     Name: "RASTENBERG",
+     ID: "K3414",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SLUBICE",
-        ID: 12310
+     Name: "RATHEBUR",
+     ID: "B587",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SODEN,BAD-SAL",
-        ID: "L781"
+     Name: "RATZEBURG",
+     ID: "N7029",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SÖLLITZ",
-        ID: "G259"
+     Name: "RAUNHEIM",
+     ID: "L829",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SÖLLMNITZ",
-        ID: "P0127"
+     Name: "RAUSCHBERG",
+     ID: "Z940",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SÖMMERDA",
-        ID: "N5601"
+     Name: "RAUSCHWITZ",
+     ID: "P0514",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SÖST",
-        ID: "N9350"
+     Name: "RAVENSBERG",
+     ID: "P0357",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SOFIJSKIJ PRI",
-        ID: 31478
+     Name: "RAVENSBURG",
+     ID: "K2791",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SOHLANSPREE",
-        ID: "O484"
+     Name: "RECHLIN",
+     ID: "B853",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SOHREN",
-        ID: "N5146"
+     Name: "REDEFIN",
+     ID: "B818",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "SOLINGEN",
-        ID: "K1170"
+     Name: "REGEN",
+     ID: "N1325",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SOLINGEN-HOHE",
-        ID: "H641"
+     Name: "REGENSBURG",
+     ID: 10776,
+     Bundesland: "Bayern"
     },
     {
-        Name: "SOLTAU",
-        ID: 10235
+     Name: "REHAU",
+     ID: "P095",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SOMMERTSHOF",
-        ID: "G280"
+     Name: "REHBURG-LOCCUM",
+     ID: "E659",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "SONDERSHAUSEN",
-        ID: "K3404"
+     Name: "REICHENBACH",
+     ID: "P0366",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "SONNBLICK",
-        ID: 11146
+     Name: "REICHSHOF-ECKENHAGEN",
+     ID: "H612",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SONNEBERG",
-        ID: 10558
+     Name: "REIMLINGEN",
+     ID: "P501",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SONNEN",
-        ID: "P599"
+     Name: "REINFELD",
+     ID: "P0350",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "SONSBECK",
-        ID: "H308"
+     Name: "REINHARDSHAGEN-VAAKE",
+     ID: "L892",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SONTHOFEN",
-        ID: "P917"
+     Name: "REINHEIM",
+     ID: "L930",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SONTRA",
-        ID: "N0548"
+     Name: "REINHOLTERODE",
+     ID: "M056",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SOONWALD WEST",
-        ID: "F9519"
+     Name: "REIT IM WINKEL 2",
+     ID: "P982",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SORPE",
-        ID: "N8613"
+     Name: "REIT IM WINKL",
+     ID: "K4540",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SPANGENBERG",
-        ID: "N1171"
+     Name: "REITERALPE",
+     ID: "Z943",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SPEICHER",
-        ID: "K511"
+     Name: "REKEN",
+     ID: "P0229",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SPEYER",
-        ID: "N0755"
+     Name: "REKEN-GROSS REKEN",
+     ID: "H235",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SPIEKEROOG",
-        ID: "E031"
+     Name: "REMSCHEID",
+     ID: "N8346",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SPITZINGSEE",
-        ID: "Z932"
+     Name: "REMSCHEID-LENNEP",
+     ID: "H642",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "SPREMBERLUB",
-        ID: "P0044"
+     Name: "RENNG. IHINGER-HOF",
+     ID: "Q440",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SPRENGE",
-        ID: "A940"
+     Name: "RENNINGEN",
+     ID: "N1354",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SPRINGE",
-        ID: "E764"
+     Name: "RENTWEINSDORF-TREINF",
+     ID: "P151",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SPROCKHÖVEL-",
-        ID: "N8867"
+     Name: "RESCHENBERG",
+     ID: "G364",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ST. PETER ORD",
-        ID: 10028
+     Name: "REUTLINGEN-BETZING.",
+     ID: "K2868",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "St. Peter-Ord",
-        ID: "EW020"
+     Name: "RHAUNEN",
+     ID: "N5149",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ST. WOLFGANG",
-        ID: 11357
+     Name: "RHEINAU UMSPWK.",
+     ID: "F9510",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ST.ANTON AM A",
-        ID: 11109
+     Name: "RHEINAU-MEMPRECHTSH.",
+     ID: "Q404",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ST.GALLEN",
-        ID: 6681
+     Name: "RHEINBR.MANNHEIM",
+     ID: "L959",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "ST.GOAR",
-        ID: "P0189"
+     Name: "RHEINDORF",
+     ID: "P0222",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ST.JOHANTIR",
-        ID: 11132
+     Name: "RHEINE-BENTLAGE",
+     ID: 10306,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ST.MICHÄLU",
-        ID: 11148
+     Name: "RHEINFELDEN",
+     ID: "Q909",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ST.PETER-ORDI",
-        ID: "P0150"
+     Name: "RHEINSTETTEN",
+     ID: 10731,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STAAKEN",
-        ID: "F448"
+     Name: "RIBNITZ-DAMGARTEN",
+     ID: "P0416",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "STADELHOF",
-        ID: "G327"
+     Name: "RIEDENBURG",
+     ID: "N0775",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STADELHOFEN",
-        ID: "N3360"
+     Name: "RIEDLINGEN",
+     ID: "N0157",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STADERSAND",
-        ID: "N8625"
+     Name: "RIESA",
+     ID: "N3462",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "STADTALLENDOR",
-        ID: "P0181"
+     Name: "RIESENBECK",
+     ID: "P0626",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STALLWANG",
-        ID: "P466"
+     Name: "RIMBERG",
+     ID: "L474",
+     Bundesland: "Hessen"
     },
     {
-        Name: "STAMMBACH-QÜ",
-        ID: "P088"
+     Name: "RINGE-GROSSRINGE",
+     ID: "E601",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "STARNBERG",
-        ID: "N2147"
+     Name: "RINGGAU-RENDA",
+     ID: "N0554",
+     Bundesland: "Hessen"
     },
     {
-        Name: "STEBEN, BAD",
-        ID: "P073"
+     Name: "RINTELN-VOLKSEN",
+     ID: "E738",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STEFFENBERG",
-        ID: "N6016"
+     Name: "RIPPOLDSAU, BAD",
+     ID: "Q529",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STEINACH",
-        ID: "G300"
+     Name: "ROCHLITZ",
+     ID: "N4248",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "STEINAU,KR.CU",
-        ID: "E078"
+     Name: "ROCKENDORF",
+     ID: "M765",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "STEINBACH",
-        ID: "P0160"
+     Name: "ROCKENHAUSEN",
+     ID: "P0195",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "STEINBACH AM",
-        ID: "N3053"
+     Name: "RODACH (KLAERANLAGE)",
+     ID: "P041",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINBEISSEN",
-        ID: "G330"
+     Name: "RODDER",
+     ID: "K230",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "STEINBORN",
-        ID: "K101"
+     Name: "RODING-NEUBAEU",
+     ID: "P379",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINEGGE-EXT",
-        ID: "H097"
+     Name: "RODING-WETTERFELD",
+     ID: "P380",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINFELD",
-        ID: "G220"
+     Name: "ROECKERSBUEHL",
+     ID: "G283",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINFURT-BUR",
-        ID: "H058"
+     Name: "ROEDELSEE",
+     ID: "P264",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINGADEN-LA",
-        ID: "P829"
+     Name: "ROEDERMARK-OBER-RODE",
+     ID: "L891",
+     Bundesland: "Hessen"
     },
     {
-        Name: "STEINHAGEN",
-        ID: "C0015"
+     Name: "ROELLBACH",
+     ID: "P355",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STEINHAGEN-NE",
-        ID: "B158"
+     Name: "ROELVEDER MUEHLE",
+     ID: "H556",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STEINKIRCHEN-",
-        ID: "P658"
+     Name: "ROEMHILD-SUELZDORF",
+     ID: "M909",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "Steinlah",
-        ID: "EW021"
+     Name: "ROHR MITTELFRANKEN-D",
+     ID: "P327",
+     Bundesland: "Bayern"
     },
     {
-        Name: "Steinsdorf",
-        ID: "EW022"
+     Name: "ROMMERSHEIM",
+     ID: "K588",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "STEINWEILER",
-        ID: "K882"
+     Name: "ROMMERSKIRCHEN UMSPW",
+     ID: "F9511",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STENDAL",
-        ID: "N7868"
+     Name: "Rosenberg",
+     ID: "EW017",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STETTIN",
-        ID: 12205
+     Name: "ROSENGARTEN-KLECKEN",
+     ID: "E273",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "STIMPFACH-WEI",
-        ID: "Q295"
+     Name: "ROSENHEIM",
+     ID: "P877",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STOCKACH",
-        ID: "K2798"
+     Name: "ROSENTHAL-BIELATAL",
+     ID: "O795",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "STÖTTEN",
-        ID: 10836
+     Name: "ROSSAU",
+     ID: "P0432",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "STRÄLEN",
-        ID: "N0447"
+     Name: "ROSSDORF DARMSTADT",
+     ID: "L889",
+     Bundesland: "Hessen"
     },
     {
-        Name: "STRALSUND",
-        ID: "N2475"
+     Name: "ROSSKOPF",
+     ID: "P0483",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STRASSBURG",
-        ID: 7190
+     Name: "ROSSLA",
+     ID: "N013",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "STRAUBING",
-        ID: 10788
+     Name: "ROSTOCK-STADT",
+     ID: "P0175",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "STRAUCH",
-        ID: "O251"
+     Name: "ROT AN DER ROT-BUCH",
+     ID: "Q891",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "STRAUSBERG",
-        ID: "F470"
+     Name: "ROTENBURG",
+     ID: 10234,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "STRAUSSFURT,",
-        ID: "G423"
+     Name: "ROTENBURG (WÜMME)",
+     ID: "E355",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "STREITELSFING",
-        ID: "G396"
+     Name: "ROTENBURG FULDA",
+     ID: "N1150",
+     Bundesland: "Hessen"
     },
     {
-        Name: "STREITHEIM",
-        ID: "P878"
+     Name: "ROTH",
+     ID: 10765,
+     Bundesland: "Bayern"
     },
     {
-        Name: "STRICKSCHEID",
-        ID: "K315"
+     Name: "ROTH BEI PRUEM",
+     ID: "K212",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "STROHN",
-        ID: "K339"
+     Name: "ROTHAARGEBIRGE",
+     ID: 10521,
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STROMBERHUN",
-        ID: "N5344"
+     Name: "ROTHE FURTH",
+     ID: "H764",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "STRUCKLAHNUNG",
-        ID: "A216"
+     Name: "ROTHEMUEHL",
+     ID: "B687",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "STÜTZENGRÜN",
-        ID: "O877"
+     Name: "ROTHENBURG OB DER TA",
+     ID: "P305",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STUTTGART NEC",
-        ID: "Q358"
+     Name: "ROTHENBURG ODT.",
+     ID: "K4093",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STUTTGART RWY",
-        ID: "Q444"
+     Name: "ROTHENFELD",
+     ID: "G385",
+     Bundesland: "Bayern"
     },
     {
-        Name: "STUTTGART-ECH",
-        ID: 10738
+     Name: "ROTHENFELDE, BAD",
+     ID: "E727",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "STUTTGART-SCH",
-        ID: 10739
+     Name: "ROTHSEE BEI ALLERSBE",
+     ID: "P422",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SUDERBURG",
-        ID: "N8408"
+     Name: "Rothwesten",
+     ID: "EW018",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SÜDEICHSFELD",
-        ID: "M301"
+     Name: "ROTTACH-EGERN",
+     ID: "N4176",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SÜDERHOLZ-NE",
-        ID: "B365"
+     Name: "ROTTENBURG",
+     ID: "K2923",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SÜDHARZ-DIET",
-        ID: "N714"
+     Name: "ROTTENBURG-KIEBINGEN",
+     ID: "Q554",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SÜDLOHN",
-        ID: "P0616"
+     Name: "ROTTHALMUENSTER",
+     ID: "G354",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SÜPPLINGEN",
-        ID: "E792"
+     Name: "ROTTHALMUENSTER (LAN",
+     ID: "P688",
+     Bundesland: "Bayern"
     },
     {
-        Name: "SUHL",
-        ID: "N9154"
+     Name: "ROTTWEIL",
+     ID: "K2757",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "SULINGEN",
-        ID: "N3206"
+     Name: "RUDOLSTADT",
+     ID: "N5250",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "SULMTAL",
-        ID: "Q241"
+     Name: "RUEDERSDORF",
+     ID: "F461",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "SULZBERG",
-        ID: "P912"
+     Name: "RUEDESHEIM",
+     ID: "N5056",
+     Bundesland: "Hessen"
     },
     {
-        Name: "SULZDORF AN D",
-        ID: "P038"
+     Name: "RUEDESHEIM-PRESBERG",
+     ID: "L803",
+     Bundesland: "Hessen"
     },
     {
-        Name: "TACHERTING-SP",
-        ID: "P788"
+     Name: "Ruegen",
+     ID: "EW019",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "TÄNIKON",
-        ID: 6679
+     Name: "RUELZHEIM",
+     ID: "K969",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "TAGMERSHEIM-B",
-        ID: "P521"
+     Name: "RUESSELSHEIM",
+     ID: "N2254",
+     Bundesland: "Hessen"
     },
     {
-        Name: "TAMBACH-DIETH",
-        ID: "N5537"
+     Name: "RUETHEN",
+     ID: "N8631",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TANRHÖN",
-        ID: "L592"
+     Name: "RUHLA",
+     ID: "N9328",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "TANNENBERG",
-        ID: "O882"
+     Name: "RUHLAND",
+     ID: "F945",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "TAUBERBISCHOF",
-        ID: "K2832"
+     Name: "RUHPOLDING (KLAERANL",
+     ID: "P983",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TAUS",
-        ID: "P0007"
+     Name: "RUHPOLDING-SEEHAUS",
+     ID: "N2443",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TB EICHELBERG",
-        ID: "P452"
+     Name: "RUNKEL-ENNERICH",
+     ID: "L602",
+     Bundesland: "Hessen"
     },
     {
-        Name: "TEGELBERG",
-        ID: "P0442"
+     Name: "RUPPERTSECKEN",
+     ID: "K762",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "TEGELBERGBAHN",
-        ID: "Z911"
+     Name: "RUTHENSTROM",
+     ID: "E095",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "TEGELBERG-RÜ",
-        ID: "Z910"
+     Name: "SAALEBRUECKE",
+     ID: "P082",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TEGKWITZ",
-        ID: "M488"
+     Name: "SAALFELD",
+     ID: "N5184",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "TEISENDORF",
-        ID: "P893"
+     Name: "SAARBRUECKEN",
+     ID: 10708,
+     Bundesland: "Saarland"
     },
     {
-        Name: "TEISENDORF-BA",
-        ID: "P972"
+     Name: "SAARBRUECKEN-BURBACH",
+     ID: "J908",
+     Bundesland: "Saarland"
     },
     {
-        Name: "TEISENDORF-NE",
-        ID: "P973"
+     Name: "SAARBURG",
+     ID: "N7332",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "TEISNACH",
-        ID: "P486"
+     Name: "SACHSENHEIM",
+     ID: "Q341",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TEMELIN",
-        ID: 11538
+     Name: "SAGARD",
+     ID: "B085",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "TEMMING",
-        ID: "P0629"
+     Name: "SALDENBURG-ENTSCHENR",
+     ID: "P586",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TEMPLIN",
-        ID: "N7135"
+     Name: "SALZGITTER",
+     ID: "K3924",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "TETEROW",
-        ID: 10177
+     Name: "SALZHEMMENDORF-LAUEN",
+     ID: "E748",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "TEUBLITZ A",
-        ID: "P451"
+     Name: "SALZKOTTEN",
+     ID: "H376",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TEUSCHNITZ",
-        ID: "P071"
+     Name: "SALZWEDEL",
+     ID: "N8232",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "THALAUBACH",
-        ID: "L684"
+     Name: "SAMERBERG-GEISENKAM",
+     ID: "P979",
+     Bundesland: "Bayern"
     },
     {
-        Name: "THALMÄSSING",
-        ID: "N0751"
+     Name: "SANDBERG",
+     ID: "P013",
+     Bundesland: "Bayern"
     },
     {
-        Name: "THOLEY",
-        ID: 10706
+     Name: "SANDHARLANDEN",
+     ID: "G309",
+     Bundesland: "Bayern"
     },
     {
-        Name: "THURNAU",
-        ID: "P166"
+     Name: "SANGERHAUSEN",
+     ID: "N5791",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "THURNAU-TANNF",
-        ID: "P164"
+     Name: "SANKT EGIDIEN-KUHSCH",
+     ID: "O725",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "THYROW",
-        ID: "F545"
+     Name: "SANKT ENGLMAR",
+     ID: "N1461",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TIMMENDORPO",
-        ID: "P0124"
+     Name: "SANKT OSWALD",
+     ID: "N2274",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TINNUM",
-        ID: "X149"
+     Name: "SARCHING",
+     ID: "G298",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TIRSCHENREUTH",
-        ID: "P198"
+     Name: "SASSENBERG",
+     ID: "P0509",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TITISEE-NEUST",
-        ID: "K2767"
+     Name: "SASSENDORF, BAD-BEUS",
+     ID: "H460",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TITTMONING",
-        ID: "P989"
+     Name: "SASSNITZ-STAPHEL",
+     ID: "N2446",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "TODTMOOS",
-        ID: "Q911"
+     Name: "SATOW",
+     ID: "P0286",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "TÖNISVORST",
-        ID: "H522"
+     Name: "SATRUP",
+     ID: "A173",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "TOITZ",
-        ID: "G482"
+     Name: "SAUERLACH",
+     ID: "N2076",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TORGAU",
-        ID: "N3533"
+     Name: "SAULGAU,BAD",
+     ID: "Q077",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TOSSENS",
-        ID: "P0142"
+     Name: "SAULGAU-BOLSTERN",
+     ID: "N0159",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TRABEN-TRARBA",
-        ID: 10617
+     Name: "SCHAAFHEIM-SCHLIERB.",
+     ID: "L894",
+     Bundesland: "Hessen"
     },
     {
-        Name: "TRAPPENKAMP",
-        ID: "P0352"
+     Name: "SCHACKENSLEBEN",
+     ID: "N440",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "TRAUNKIRCHEN",
-        ID: "P0062"
+     Name: "SCHAEFTLARN-KLOSTER",
+     ID: "P846",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TRAUNSTEIN",
-        ID: "K4533"
+     Name: "SCHAERDING",
+     ID: 11055,
+     Bundesland: "Bayern"
     },
     {
-        Name: "TRAUSNITZ-REI",
-        ID: "P370"
+     Name: "SCHAIDT",
+     ID: "K996",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "TRAVEMÜNDE",
-        ID: "A699"
+     Name: "SCHARNHORST-MARWEDE",
+     ID: "E586",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "TREBUS",
-        ID: "P0283"
+     Name: "SCHATTENHOF",
+     ID: "G279",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TREFFELSTEIN-",
-        ID: "P382"
+     Name: "SCHAUENBURG-ELGERSH.",
+     ID: 10441,
+     Bundesland: "Hessen"
     },
     {
-        Name: "TRENDELBURG",
-        ID: "L021"
+     Name: "SCHAUINSLAND",
+     ID: "K2360",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TREÜN",
-        ID: "O868"
+     Name: "SCHEID",
+     ID: "P0412",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TREÜNBRIETZE",
-        ID: "N7511"
+     Name: "SCHEID_2",
+     ID: "P0511",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TRIBSEES",
-        ID: "B258"
+     Name: "SCHELKLINGEN",
+     ID: "P0510",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TRIER",
-        ID: 10609
+     Name: "SCHENEFELD",
+     ID: "P0201",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "TRIER-IRSCH",
-        ID: "K612"
+     Name: "SCHESSLITZ-KOETTENSD",
+     ID: "P158",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TRIER-ZEWEN",
-        ID: "K611"
+     Name: "SCHEYERN",
+     ID: "P637",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TRIPPSTADT",
-        ID: "N7134"
+     Name: "SCHIERKE",
+     ID: "N601",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "TRIPPSTADT-NE",
-        ID: "K866"
+     Name: "SCHIFFERSTADT",
+     ID: "K892",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "TRITTAU",
-        ID: "N8524"
+     Name: "SCHILBACH",
+     ID: "P0515",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "TROISDORF",
-        ID: "P0214"
+     Name: "SCHILTACH (LUBW)",
+     ID: "Q625",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "TROLLENHAGEN",
-        ID: 10281
+     Name: "SCHIRL",
+     ID: "P0624",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TROSTBERG",
-        ID: "K4531"
+     Name: "SCHLEBUSCH",
+     ID: "P0221",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TRUCHTELFINGE",
-        ID: "P0259"
+     Name: "SCHLEHDORF",
+     ID: "P945",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TSELINOGRAD",
-        ID: 35188
+     Name: "SCHLEIDEN-SCHOENES.",
+     ID: "N0151",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "TÜBINGEN",
-        ID: "N1075"
+     Name: "SCHLEIZ",
+     ID: 10564,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "TÜSSLING",
-        ID: "P785"
+     Name: "SCHLENKLENGSFELD",
+     ID: "P0184",
+     Bundesland: "Hessen"
     },
     {
-        Name: "TUSIMICE",
-        ID: 11438
+     Name: "SCHLESWIG",
+     ID: 10035,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "TUTTLINGEN",
-        ID: "K2932"
+     Name: "SCHLESWIG-JAGEL",
+     ID: 10037,
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "TWENTHE",
-        ID: 6290
+     Name: "SCHLEUSINGEN",
+     ID: "M834",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "TWIST",
-        ID: "P0639"
+     Name: "SCHLIERSEE",
+     ID: "K4181",
+     Bundesland: "Bayern"
     },
     {
-        Name: "TWISTETAL-MÜ",
-        ID: "L121"
+     Name: "SCHLOCHAU",
+     ID: "E923",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "TWIST-HEBELER",
-        ID: "E501"
+     Name: "SCHLÜCHTERN-HEROLZ",
+     ID: "L678",
+     Bundesland: "Hessen"
     },
     {
-        Name: "UCKERLAND-KAR",
-        ID: "F050"
+     Name: "SCHLUECHTERN",
+     ID: "K2630",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ÜBERLINGEB",
-        ID: "K2787"
+     Name: "SCHLUESSELFELD (KLAE",
+     ID: "P243",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ÜCKERMÜNDE",
-        ID: 10193
+     Name: "SCHMALKALDEN",
+     ID: "M721",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ÜHLINGEN-BIR",
-        ID: "Q922"
+     Name: "SCHMALLENBERG",
+     ID: "P0606",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ÜLZEN",
-        ID: "K3883"
+     Name: "SCHMALLENBERG-SELLIN",
+     ID: "H681",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ÜTERSEN",
-        ID: "P0199"
+     Name: "SCHMELZ",
+     ID: "P0279",
+     Bundesland: "Saarland"
     },
     {
-        Name: "ÜTZE",
-        ID: "E688"
+     Name: "SCHMELZ-HUETTERSDORF",
+     ID: "J812",
+     Bundesland: "Saarland"
     },
     {
-        Name: "UFFENHEIM",
-        ID: "K4091"
+     Name: "SCHMIDGADEN",
+     ID: "P363",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UFS DEUTSCHE",
-        ID: 10007
+     Name: "SCHMIDMUEHLEN",
+     ID: "P359",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UFS TW EMS",
-        ID: 10004
+     Name: "SCHMIEDEFELD RSTG.",
+     ID: "N9126",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ULKEN NARYN",
-        ID: 36428
+     Name: "SCHMIERITZ-WELTWITZ",
+     ID: "M772",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ULM",
-        ID: 10838
+     Name: "SCHMITTEN-TREISBERG",
+     ID: "N6250",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ULM-MÄHRINGE",
-        ID: 10840
+     Name: "SCHMOELLN",
+     ID: "P0119",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "ULRICHSBERG",
-        ID: "P0063"
+     Name: "SCHMUECKE",
+     ID: 10552,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ULRICHSTEIN",
-        ID: "N6037"
+     Name: "SCHNEIFELFORSTHAUS",
+     ID: "K210",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "UMMENDORF",
-        ID: 10356
+     Name: "SCHOEFFELDING",
+     ID: "P738",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UNNA",
-        ID: "P0033"
+     Name: "SCHOELLKRIPPEN",
+     ID: "G211",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UNTERGRIESBAC",
-        ID: "P699"
+     Name: "SCHOENAU",
+     ID: "G394",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UNTERGSCHWEND",
-        ID: "Z003"
+     Name: "SCHOENBERG",
+     ID: "P0351",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "UNTERREYSSEN",
-        ID: "X035"
+     Name: "SCHOENBERG NDB.",
+     ID: "N2271",
+     Bundesland: "Bayern"
     },
     {
-        Name: "UNTERWÖSSEN-",
-        ID: "P981"
+     Name: "SCHOENBORN",
+     ID: "O252",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "UPLENGEN-STAP",
-        ID: "N0738"
+     Name: "SCHOENBRUNN",
+     ID: "G339",
+     Bundesland: "Bayern"
     },
     {
-        Name: "URACH, BAD",
-        ID: "Q571"
+     Name: "SCHOENEWALDE",
+     ID: "P0516",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "URBERACH UMSP",
-        ID: "F9512"
+     Name: "SCHOENINGEN",
+     ID: "N4854",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "URZHAR",
-        ID: 36639
+     Name: "SCHOENSEE-DIETERSDOR",
+     ID: "P299",
+     Bundesland: "Bayern"
     },
     {
-        Name: "USINGEN",
-        ID: "L731"
+     Name: "SCHOENTEICHEN-CUNNER",
+     ID: "O268",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "USLAR",
-        ID: "N2032"
+     Name: "SCHOENWOELKAU-BRINNI",
+     ID: "O039",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "UTTENKOFEN",
-        ID: "G313"
+     Name: "SCHOEPPINGEN",
+     ID: "N3001",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "UTTING-ACHSEL",
-        ID: "P850"
+     Name: "SCHOLLENE",
+     ID: "N199",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "VADUZ FL.",
-        ID: 6990
+     Name: "SCHONACH",
+     ID: "K2735",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VAIHINGE EN",
-        ID: "Q340"
+     Name: "SCHONUNGEN-MAINBERG",
+     ID: "P131",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VASBECK",
-        ID: "L112"
+     Name: "SCHORLENBERG",
+     ID: "K768",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "VECHTA",
-        ID: "N0462"
+     Name: "SCHORNDORF",
+     ID: "P0249",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VEILSDORF",
-        ID: "M927"
+     Name: "SCHORNDORF-KNOEBLING",
+     ID: "P463",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VEITSHÖCHHEI",
-        ID: "G231"
+     Name: "SCHOTTEN",
+     ID: "L555",
+     Bundesland: "Hessen"
     },
     {
-        Name: "VELBERT",
-        ID: "P0600"
+     Name: "SCHOTTMALHORN",
+     ID: "P0444",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VELBERT-LANGE",
-        ID: "N8947"
+     Name: "SCHRAMBERG",
+     ID: "N0411",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VENTSCHOW",
-        ID: "B525"
+     Name: "SCHROBENHAUSEN",
+     ID: "P627",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VERDEN-DAÜLS",
-        ID: "E451"
+     Name: "SCHROEDELSTEIN",
+     ID: "Z928",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VERSE",
-        ID: "N8825"
+     Name: "SCHUELP",
+     ID: "P0144",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "VIECHTACH",
-        ID: "N1345"
+     Name: "SCHWABACH",
+     ID: "K4071",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VIENENBURG, M",
-        ID: "P0136"
+     Name: "SCHWABMUENCHEN",
+     ID: "N0586",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VIERHERRENBOR",
-        ID: "P0280"
+     Name: "SCHWAEB.GMUEND",
+     ID: "K2727",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VIERSEN",
-        ID: "N0429"
+     Name: "SCHWAEBISCH HALL",
+     ID: "K2724",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VILBEL, BAD-D",
-        ID: "L744"
+     Name: "SCHWALMSTADT",
+     ID: "N1441",
+     Bundesland: "Hessen"
     },
     {
-        Name: "VILGERTSHOFEN",
-        ID: "P824"
+     Name: "SCHWAND",
+     ID: "G397",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VILLE OST 1",
-        ID: "F9528"
+     Name: "SCHWANDORF",
+     ID: "P0034",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VILLE OST 2",
-        ID: "F9529"
+     Name: "SCHWANEWEDE-NEUENKIR",
+     ID: "E246",
+     Bundesland: "Bremen"
     },
     {
-        Name: "VILLINGEN SCH",
-        ID: "K2739"
+     Name: "SCHWANGAU-HORN (LFW)",
+     ID: "P929",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VILLINGEN-SCH",
-        ID: "Q738"
+     Name: "SCHWARME",
+     ID: "E445",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "VILSBIBURG",
-        ID: "P666"
+     Name: "SCHWARTAU,BAD -GROSS",
+     ID: "A791",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "VILSHEIM-MÜN",
-        ID: "P656"
+     Name: "SCHWARTENBERG",
+     ID: "P0620",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "VILSTAL",
-        ID: "P353"
+     Name: "SCHWARZACH MAIN (KLA",
+     ID: "P233",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VINDEBÄK KYS",
-        ID: 6147
+     Name: "SCHWARZBURG",
+     ID: "M756",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "VOCKERODE",
-        ID: "N567"
+     Name: "SCHWARZENAU",
+     ID: "G237",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VÖHL-BUCHENB",
-        ID: "L222"
+     Name: "SCHWARZENBACH SAALE",
+     ID: "N3007",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VÖLKLINGEN",
-        ID: "K2107"
+     Name: "SCHWARZENBERG",
+     ID: "Z909",
+     Bundesland: "Bayern"
     },
     {
-        Name: "VOGELSBERG",
-        ID: "P0020"
+     Name: "SCHWARZHOLZ",
+     ID: "N182",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "VOGTAREUTH",
-        ID: "P873"
+     Name: "SCHWB.-GMND WEILER",
+     ID: "Q378",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "VORM WIETZENB",
-        ID: "E460"
+     Name: "SCHWEDT LUB",
+     ID: "P0042",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WAAKIRCHEN-DE",
-        ID: "P960"
+     Name: "SCHWEIGHOFEN",
+     ID: "K672",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WABERN-HEBEL",
-        ID: "L245"
+     Name: "SCHWEINFURT",
+     ID: "K4054",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WACKEN",
-        ID: "A483"
+     Name: "SCHWEITENKIRCHEN-SUE",
+     ID: "P642",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WADENBRUNN",
-        ID: "G223"
+     Name: "SCHWELM",
+     ID: "P0032",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WADERN",
-        ID: "P0277"
+     Name: "SCHWENNINGEN, KREIS",
+     ID: "Q755",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WADERSLOH",
-        ID: "N9323"
+     Name: "SCHWERIN",
+     ID: 10162,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WÄCHTERSBACH",
-        ID: "L773"
+     Name: "SCHWERTE",
+     ID: "N8716",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WAGERSROTT",
-        ID: "A191"
+     Name: "SECKACH",
+     ID: "Q059",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WAGHÄUSEL",
-        ID: "Q104"
+     Name: "SECKENHEIM",
+     ID: "Q006",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WAGING AM SEE",
-        ID: "P892"
+     Name: "SEEG (KLAERANLAGE)",
+     ID: "P936",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WAGRAIN",
-        ID: "P0394"
+     Name: "SEEGEBIET MANSFELDER",
+     ID: "N750",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "WAHLBACH",
-        ID: "K481"
+     Name: "SEEHAMMER SEE",
+     ID: "P866",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WAHLEN",
-        ID: 10535
+     Name: "SEEHAUSEN",
+     ID: 10261,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "WAIBSTADT",
-        ID: 10733
+     Name: "SEEHEIM-JUGENHEIM",
+     ID: "N2219",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WAIDHAUS-PFRE",
-        ID: "P298"
+     Name: "SEESBACH, KR. BAD KR",
+     ID: "K557",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WALBERBERG WE",
-        ID: "F9527"
+     Name: "SEESEN",
+     ID: "E864",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WALDBRÖL",
-        ID: "N8101"
+     Name: "SELB",
+     ID: "K4473",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALDBRUNN-LAH",
-        ID: "L505"
+     Name: "SELB OBERFRANKEN",
+     ID: "P098",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALDECK-ALRAF",
-        ID: "L125"
+     Name: "SELB-SPIELBERG",
+     ID: "P099",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALDEMS",
-        ID: "K2644"
+     Name: "SELIGENSTADT",
+     ID: "G229",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALDEMS-REINB",
-        ID: "L722"
+     Name: "SELTERS, WESTERWALDK",
+     ID: "K172",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WALDERSHOF-SC",
-        ID: "P185"
+     Name: "SENDENHORST_N",
+     ID: "H250",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDKIRCHEN",
-        ID: "N2704"
+     Name: "SENFTENBERG LUB",
+     ID: "P0043",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WALD-MICHELBA",
-        ID: "P0177"
+     Name: "SICHTER",
+     ID: "H663",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDMÜNCHEN",
-        ID: "N1201"
+     Name: "SIEDLINGHAUSEN",
+     ID: "P0328",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDNAAB",
-        ID: "P291"
+     Name: "SIEGBURG",
+     ID: "N8128",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDSCHNEISE",
-        ID: "L857"
+     Name: "SIEGEN",
+     ID: "K2601",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDSEE, BAD-",
-        ID: "Q885"
+     Name: "SIEGEN (KLÄRANLAGE)",
+     ID: "H883",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALDSHUT",
-        ID: "K2778"
+     Name: "SIEGENBURG",
+     ID: "P547",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALDSTEINBERG",
-        ID: "O215"
+     Name: "SIEGENBURG (KLAERANL",
+     ID: "P546",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALLDÜRN",
-        ID: "Q053"
+     Name: "SIEGSDORF-HOELL",
+     ID: "P904",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALLERSTEIN",
-        ID: "G306"
+     Name: "SIGMARINGEN",
+     ID: 10828,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WALLMENROTH",
-        ID: "K026"
+     Name: "SIGMARINGEN-LAIZ",
+     ID: "Q788",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WALTERNIENBUR",
-        ID: "N543"
+     Name: "SIGMARSZELL-ZEISERTS",
+     ID: "P887",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALTERSHAUSEN",
-        ID: "M520"
+     Name: "SIMBACH INN",
+     ID: "P794",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WALTROP",
-        ID: "N9446"
+     Name: "SIMMERATH N",
+     ID: "H910",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WALTROP-ABDIN",
-        ID: "H443"
+     Name: "SIMMERN-WAHLBACH",
+     ID: "K471",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WANGEALLGÄ",
-        ID: "N0122"
+     Name: "SIMMERSHOFEN-ADELHOF",
+     ID: "P300",
+     Bundesland: "Bayern"
     },
     {
-        Name: "Wangerland",
-        ID: "EW024"
+     Name: "SIMONSWALD-OBERSIMON",
+     ID: "Q716",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WANGERLAND-HO",
-        ID: "E043"
+     Name: "SINGEN",
+     ID: "P0257",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WANGEROOGE",
-        ID: "E5408"
+     Name: "SINGHOFEN (KLAERANLA",
+     ID: "K381",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WANK",
-        ID: "P0306"
+     Name: "SINSHEIM",
+     ID: 10735,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WARBURG",
-        ID: 10435
+     Name: "SINZIG",
+     ID: "K132",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WAREN",
-        ID: 10268
+     Name: "SIPPLINGEN (SWN)",
+     ID: "Q951",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WAREN-MÜRITZ",
-        ID: "X398"
+     Name: "SODEN,BAD-SALMUENSTE",
+     ID: "L781",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WARENDORF",
-        ID: "N0153"
+     Name: "SOELLITZ",
+     ID: "G259",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WARNEMÜNDE",
-        ID: 10170
+     Name: "SOELLMNITZ",
+     ID: "P0127",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WARSTEIN",
-        ID: "N8634"
+     Name: "SOEMMERDA",
+     ID: "N5601",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WARSTEIN-HIRS",
-        ID: "H581"
+     Name: "SOEST",
+     ID: "N9350",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WARTH",
-        ID: 11308
+     Name: "SOHLAND SPREE",
+     ID: "O484",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WARTSTEINHÜT",
-        ID: "Z944"
+     Name: "SOHREN",
+     ID: "N5146",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WARTSTEINKOPF",
-        ID: "Z942"
+     Name: "SOLINGEN",
+     ID: "K1170",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "Wasbek",
-        ID: "EW025"
+     Name: "SOLINGEN-HOHENSCHEID",
+     ID: "H641",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WASSERBURIN",
-        ID: "K4529"
+     Name: "SOLTAU",
+     ID: 10235,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WASSERKUPPE",
-        ID: 10544
+     Name: "SOMMERTSHOF",
+     ID: "G280",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WASSERTRÜDIN",
-        ID: "P417"
+     Name: "SONDERSHAUSEN",
+     ID: "K3404",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WASUNGEN",
-        ID: "X048"
+     Name: "SONNEBERG",
+     ID: 10558,
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WATENSTEDT",
-        ID: "E777"
+     Name: "SONNEN",
+     ID: "P599",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEDDELBROOK",
-        ID: "A752"
+     Name: "SONSBECK",
+     ID: "H308",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WEDEMARK-ELZE",
-        ID: "E672"
+     Name: "SONTHOFEN (FLUSSMEIS",
+     ID: "P917",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEESBY",
-        ID: "A051"
+     Name: "SONTRA",
+     ID: "N0548",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WEGBERG",
-        ID: "P0601"
+     Name: "SORPE",
+     ID: "N8613",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WEI ENFELS",
-        ID: "N9610"
+     Name: "SPANGENBERG",
+     ID: "N1171",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WEI ENTURM UM",
-        ID: "F9513"
+     Name: "SPEICHER",
+     ID: "K511",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WEIBERSBRUNN",
-        ID: "N3833"
+     Name: "SPEYER",
+     ID: "N0755",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WEIDEN",
-        ID: 10688
+     Name: "SPITZINGSEE",
+     ID: "Z932",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEIDENBACH-WE",
-        ID: "P319"
+     Name: "SPREMBERG LUB",
+     ID: "P0044",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WEIDING, KREI",
-        ID: "P389"
+     Name: "SPRENGE",
+     ID: "A940",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WEIERHOF",
-        ID: "K886"
+     Name: "SPRINGE",
+     ID: "E764",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WEIHENSTEPHAN",
-        ID: 10863
+     Name: "SPROCKHOEVEL-HASSL.",
+     ID: "N8867",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WEIHENZELL-GR",
-        ID: "P317"
+     Name: "St. Peter-Ording",
+     ID: "EW020",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WEIKERSHEIM",
-        ID: "N3924"
+     Name: "ST.GOAR",
+     ID: "P0189",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WEILER-SIMMER",
-        ID: "P905"
+     Name: "ST.PETER-ORDING",
+     ID: "P0150",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WEILERSWIST-L",
-        ID: "H932"
+     Name: "STAAKEN",
+     ID: "F448",
+     Bundesland: "Berlin"
     },
     {
-        Name: "WEILHEIM",
-        ID: "N2117"
+     Name: "STADELHOF",
+     ID: "G327",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEILHEIM-BIER",
-        ID: "Q925"
+     Name: "STADELHOFEN",
+     ID: "N3360",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEILMÜNSTER",
-        ID: "L612"
+     Name: "STADERSAND",
+     ID: "N8625",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WEIMAR",
-        ID: 10555
+     Name: "STADTALLENDORF",
+     ID: "P0181",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WEIMAR-SCHÖN",
-        ID: "M448"
+     Name: "STALLWANG",
+     ID: "P466",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEINBIET",
-        ID: 10724
+     Name: "STAMMBACH-QUERENBACH",
+     ID: "P088",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEINGARTEN BE",
-        ID: "Q879"
+     Name: "STARNBERG",
+     ID: "N2147",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISCHLITZ-HE",
-        ID: "O950"
+     Name: "STEBEN, BAD",
+     ID: "P073",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISKIRCHES",
-        ID: "J728"
+     Name: "STEFFENBERG",
+     ID: "N6016",
+     Bundesland: "Hessen"
     },
     {
-        Name: "Weissenburg",
-        ID: "EW026"
+     Name: "STEINACH",
+     ID: "G300",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISSENBURG-E",
-        ID: 10761
+     Name: "STEINAU,KR.CUXHAVEN",
+     ID: "E078",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WEISSENFELS-W",
-        ID: "N426"
+     Name: "STEINBACH AM WALD",
+     ID: "N3053",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISSENHORN-O",
-        ID: "P702"
+     Name: "STEINBEISSEN",
+     ID: "G330",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISSENSEIFEN",
-        ID: "K317"
+     Name: "STEINBORN",
+     ID: "K101",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WEISSINGEN",
-        ID: "G342"
+     Name: "STEINEGGE-EXTER",
+     ID: "H097",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WEISSWASSER",
-        ID: "N7314"
+     Name: "STEINFELD",
+     ID: "G220",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WEISWEIL-WALD",
-        ID: "Q703"
+     Name: "STEINFURT-BURGSTEINF",
+     ID: "H058",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WEITERFELD",
-        ID: "N8044"
+     Name: "STEINGADEN-LAUTERBAC",
+     ID: "P829",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WELVER",
-        ID: "P0326"
+     Name: "STEINHAGEN",
+     ID: "C0015",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WELZHEIM",
-        ID: "K2719"
+     Name: "STEINHAGEN-NEGAST",
+     ID: "B158",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WELZHEIM",
-        ID: "Q367"
+     Name: "STEINKIRCHEN-HOFSTAR",
+     ID: "P658",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WENDELSTEIN",
-        ID: 10980
+     Name: "Steinlah",
+     ID: "EW021",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WENDELSTEIN-K",
-        ID: "P337"
+     Name: "Steinsdorf",
+     ID: "EW022",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WENDELSTEIN-S",
-        ID: "Z934"
+     Name: "STEINWEILER",
+     ID: "K882",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WENDEN-DÖRNS",
-        ID: "H777"
+     Name: "STENDAL",
+     ID: "N7868",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "WENDISCH EVER",
-        ID: "E298"
+     Name: "STIMPFACH-WEIPERTSHO",
+     ID: "Q295",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WENNIGSEN",
-        ID: "P0121"
+     Name: "STOCKACH",
+     ID: "K2798",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WERBIG",
-        ID: "P0431"
+     Name: "STOETTEN",
+     ID: 10836,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WERDER",
-        ID: "P0503"
+     Name: "STRAELEN",
+     ID: "N0447",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WERL",
-        ID: 10424
+     Name: "STRALSUND",
+     ID: "N2475",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WERMELSKIRCHE",
-        ID: "N8349"
+     Name: "STRAUBING",
+     ID: 10788,
+     Bundesland: "Bayern"
     },
     {
-        Name: "WERNIGERODE",
-        ID: 10454
+     Name: "STRAUCH",
+     ID: "O251",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WERTHEIM-EICH",
-        ID: "N3951"
+     Name: "STRAUSBERG",
+     ID: "N7395",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WERTINGEN",
-        ID: "P611"
+     Name: "STREITELSFINGEN",
+     ID: "G396",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WESEL-FLÜREN",
-        ID: "N9607"
+     Name: "STREITHEIM",
+     ID: "P878",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WESSELBUREN",
-        ID: "P0353"
+     Name: "STRICKSCHEID",
+     ID: "K315",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WESTERBERG",
-        ID: "P0035"
+     Name: "STROHN",
+     ID: "K339",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WESTERBURRH",
-        ID: "K191"
+     Name: "STROMBERG HUNSRUECK",
+     ID: "N5344",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WESTERHEIM",
-        ID: "Q574"
+     Name: "STUETZENGRUEN-HUNDSH",
+     ID: "O877",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WESTERKAPPELN",
-        ID: "F9514"
+     Name: "STUTTGART NECKARTAL",
+     ID: "Q358",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WESTERLAND",
-        ID: 10018
+     Name: "STUTTGART RWY4",
+     ID: "Q444",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WESTERMARKELS",
-        ID: 10055
+     Name: "STUTTGART-ECHT.",
+     ID: 10738,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WESTERODE",
-        ID: "E885"
+     Name: "STUTTGART-SCHN.",
+     ID: 10739,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WESTERSTEDE",
-        ID: "E229"
+     Name: "SUDERBURG",
+     ID: "N8408",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "Westfehmarn",
-        ID: "EW027"
+     Name: "SUEDEICHSFELD-WENDEH",
+     ID: "M301",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WESTL.OSTS.",
-        ID: "E5412"
+     Name: "SUEDERHOLZ-NEUENDORF",
+     ID: "B365",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WESTL.RÜGEN",
-        ID: "E5413"
+     Name: "SUEDHARZ-DIETERSDORF",
+     ID: "N714",
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "WETTEHESSEN",
-        ID: "L312"
+     Name: "SUEDLOHN",
+     ID: "P0616",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WETTRINGEN",
-        ID: "P0617"
+     Name: "SUEPPLINGEN",
+     ID: "E792",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WETZLAR",
-        ID: "N6172"
+     Name: "SUHL",
+     ID: "N9154",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WIELEN",
-        ID: "P0122"
+     Name: "SULINGEN",
+     ID: "N3206",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WIELENBACH",
-        ID: "P831"
+     Name: "SULMTAL",
+     ID: "Q241",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WIERSDORF",
-        ID: "K436"
+     Name: "SULZBACH-LAUFEN",
+     ID: "P0251",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WIESBADEN",
-        ID: 10633
+     Name: "SULZBERG",
+     ID: "P912",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WIESBADEN-AUR",
-        ID: "L821"
+     Name: "SULZDORF AN DER LEDE",
+     ID: "P038",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WIESBADEN-BIE",
-        ID: "L819"
+     Name: "SYKE-GESSEL, NTB",
+     ID: "P0137",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WIESDORF",
-        ID: "P0219"
+     Name: "T R WETTERAU",
+     ID: "L637",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WIESENBURG",
-        ID: 10368
+     Name: "TACHERTING-SPREIT",
+     ID: "P788",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WIESENFELDEN-",
-        ID: "P467"
+     Name: "TAGMERSHEIM-BLOSSENA",
+     ID: "P521",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WIESENGIECH",
-        ID: "G219"
+     Name: "TAMBACH-DIETHARZ",
+     ID: "N5537",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WIESENSTEIG",
-        ID: "Q067"
+     Name: "TANN RHOEN",
+     ID: "L592",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WIESWEILER",
-        ID: "K562"
+     Name: "TANNENBERG",
+     ID: "O882",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WIETZEN",
-        ID: "E653"
+     Name: "TAUBERBISCHOFSHEIM",
+     ID: "K2832",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WIKINGR1",
-        ID: "P0649"
+     Name: "TB EICHELBERG",
+     ID: "P452",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILDBAD, BAD-",
-        ID: "Q318"
+     Name: "TEGELBERG",
+     ID: "P0442",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILDPOLDSRIED",
-        ID: "P0415"
+     Name: "TEGELBERGBAHN",
+     ID: "Z911",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILHELMSDOR",
-        ID: "P249"
+     Name: "TEGELBERG-RUECKEN",
+     ID: "Z910",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILHELMSHAVEN",
-        ID: 10125
+     Name: "TEGKWITZ",
+     ID: "M488",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "WILLEBADESSEN",
-        ID: "N2311"
+     Name: "TEISENDORF",
+     ID: "N2571",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILLINGEHOC",
-        ID: "L101"
+     Name: "TEISENDORF-BABING",
+     ID: "P972",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILLINGEUPL",
-        ID: "K1586"
+     Name: "TEISENDORF-NEUKIRCHE",
+     ID: "P973",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILLMERSDORF",
-        ID: "P0360"
+     Name: "TEISNACH",
+     ID: "P486",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WILSDRUFF-MOH",
-        ID: "O543"
+     Name: "TEMMING",
+     ID: "P0629",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WINDEN",
-        ID: "Q711"
+     Name: "TEMPLIN",
+     ID: "N7135",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WINDISCHGARST",
-        ID: 11355
+     Name: "TETEROW",
+     ID: 10177,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WINDSHEIM, BA",
-        ID: "P310"
+     Name: "TEUBLITZ (KLAERANLAG",
+     ID: "P451",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WINTERBACH",
-        ID: "N1215"
+     Name: "TEUSCHNITZ",
+     ID: "P071",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WINTERBACRE",
-        ID: "Q375"
+     Name: "THALAUBACH",
+     ID: "L684",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WINTERBERG-AL",
-        ID: "N8723"
+     Name: "THALMAESSING",
+     ID: "N0751",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WINTERFELD-SA",
-        ID: "N135"
+     Name: "THOLEY",
+     ID: 10706,
+     Bundesland: "Saarland"
     },
     {
-        Name: "WINTERSPELT",
-        ID: "K300"
+     Name: "THURNAU",
+     ID: "P166",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WIPPERFÜRTH",
-        ID: "H655"
+     Name: "THURNAU-TANNFELD",
+     ID: "P164",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WISMAR",
-        ID: "N2839"
+     Name: "THYROW",
+     ID: "F545",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WISSKIRCHEN",
-        ID: "H933"
+     Name: "TIMMENDORF POEL",
+     ID: "P0124",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WITTEN",
-        ID: "P0481"
+     Name: "TIRSCHENREUTH",
+     ID: "K4476",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WITTENBERG",
-        ID: 10474
+     Name: "TIRSCHENREUTH-LODERM",
+     ID: "P198",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WITTENBERGE",
-        ID: "X434"
+     Name: "TITISEE-NEUSTADT",
+     ID: "K2767",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WITTENBERGL",
-        ID: "P0045"
+     Name: "TODTMOOS",
+     ID: "Q911",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WITTENBORN",
-        ID: "A762"
+     Name: "TOENISVORST",
+     ID: "H522",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WITTIGHAUSEN",
-        ID: "P0476"
+     Name: "TORGAU",
+     ID: "N3533",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WITTINGEN",
-        ID: "P0203"
+     Name: "TOSSENS",
+     ID: "P0142",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WITTINGEN-VOR",
-        ID: "E691"
+     Name: "TRABEN-TRARBACH",
+     ID: 10617,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WITTLICH",
-        ID: "K446"
+     Name: "TRAPPENKAMP",
+     ID: "P0352",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WITTMUNDHAVEN",
-        ID: 10126
+     Name: "TRAUNSTEIN",
+     ID: "K4533",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WITTSTOCK",
-        ID: 10272
+     Name: "TRAUSNITZ-REISACH",
+     ID: "P370",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WITTSTOCK-ROT",
-        ID: "F143"
+     Name: "TRAVEMUENDE",
+     ID: "A699",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WITZENHAUSEN-",
-        ID: "G426"
+     Name: "TREBUS",
+     ID: "P0283",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WÖRRSTADT",
-        ID: "K587"
+     Name: "TREFFELSTEIN-WITZELS",
+     ID: "P382",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WÖRTH",
-        ID: "P0197"
+     Name: "TRENDELBURG",
+     ID: "L021",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WOLFACH",
-        ID: "K2736"
+     Name: "TREUEN",
+     ID: "O868",
+     Bundesland: "Sachsen"
     },
     {
-        Name: "WOLFENBÜTTEL",
-        ID: "N4242"
+     Name: "TREUENBRIETZEN",
+     ID: "N7511",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WOLFHAGEN",
-        ID: "N2171"
+     Name: "TRIBSEES",
+     ID: "B258",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WOLFRATSHAUSE",
-        ID: "P0262"
+     Name: "TRIER",
+     ID: 10609,
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WOLFSBURG",
-        ID: "K3910"
+     Name: "TRIER-IRSCH",
+     ID: "K612",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WOLFSEGG",
-        ID: 11001
+     Name: "TRIER-ZEWEN",
+     ID: "K611",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WOLFSKOPF",
-        ID: "Q290"
+     Name: "TRIPPSTADT",
+     ID: "N7134",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WOLFSTEIPFA",
-        ID: "K2286"
+     Name: "TRIPPSTADT-NEUHOF",
+     ID: "K866",
+     Bundesland: "Rheinland-Pfalz"
     },
     {
-        Name: "WOLGAST",
-        ID: "N2395"
+     Name: "TRITTAU",
+     ID: "N8524",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WONNEGAU WEST",
-        ID: "F9521"
+     Name: "TROISDORF",
+     ID: "P0214",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WORMS",
-        ID: "K2635"
+     Name: "TROLLENHAGEN",
+     ID: 10281,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WORPSWEDE-HÜ",
-        ID: "E254"
+     Name: "TROSTBERG",
+     ID: "K4531",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WRIEZEN",
-        ID: "P0610"
+     Name: "TRUCHTELFINGEN",
+     ID: "P0259",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WRIXUFÖHR",
-        ID: "A112"
+     Name: "TUEBINGEN",
+     ID: "N1075",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WÜnnenberg",
-        ID: "EW028"
+     Name: "TUESSLING",
+     ID: "P785",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WÜNNENBERG-E",
-        ID: "H477"
+     Name: "TUTTLINGEN",
+     ID: "K2932",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WÜRENLINGEN",
-        ID: 6647
+     Name: "TWIST",
+     ID: "P0639",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WÜRZBURG",
-        ID: 10655
+     Name: "TWISTETAL-MUEHLHAUS.",
+     ID: "L121",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WÜSTENROT",
-        ID: "N1528"
+     Name: "TWIST-HEBELERMEER",
+     ID: "E501",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WÜSTENROT-OB",
-        ID: "Q261"
+     Name: "UCKERLAND-KARLSTEIN",
+     ID: "F050",
+     Bundesland: "Brandenburg"
     },
     {
-        Name: "WULLNHOF",
-        ID: "G271"
+     Name: "UEBERLINGEN BODENSEE",
+     ID: "K2787",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WUNSIEDEL-SCH",
-        ID: 10686
+     Name: "UECKERMUENDE",
+     ID: 10193,
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "WUNSTORF",
-        ID: 10334
+     Name: "UEHLINGEN-BIRKENDORF",
+     ID: "Q922",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WUPPERTAL",
-        ID: "N8322"
+     Name: "UELZEN",
+     ID: "K3883",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "WURMANNSQUICK",
-        ID: "P678"
+     Name: "UETERSEN",
+     ID: "P0199",
+     Bundesland: "Schleswig-Holstein"
     },
     {
-        Name: "WURZEN",
-        ID: "P0292"
+     Name: "UETZE",
+     ID: "E688",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "Wusterhusen",
-        ID: "EW029"
+     Name: "UFFENHEIM",
+     ID: "K4091",
+     Bundesland: "Bayern"
     },
     {
-        Name: "WUSTERWITZ",
-        ID: "F419"
+     Name: "ULM",
+     ID: 10838,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WUSTROW",
-        ID: "F385"
+     Name: "ULM-MAEHRINGEN",
+     ID: 10840,
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "WUTÖSCHINGEN",
-        ID: "Q926"
+     Name: "ULRICHSTEIN",
+     ID: "N6037",
+     Bundesland: "Hessen"
     },
     {
-        Name: "WYBELSUMER PO",
-        ID: "P0143"
+     Name: "UMMENDORF",
+     ID: 10356,
+     Bundesland: "Sachsen-Anhalt"
     },
     {
-        Name: "WYFÖHR",
-        ID: "K1407"
+     Name: "UNNA",
+     ID: "P0033",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "WYNAU",
-        ID: 6643
+     Name: "UNTERGRIESBACH-GLOTZ",
+     ID: "P699",
+     Bundesland: "Bayern"
     },
     {
-        Name: "XANTEN",
-        ID: "H311"
+     Name: "UNTERGRIESBACH-SCHAI",
+     ID: "P697",
+     Bundesland: "Bayern"
     },
     {
-        Name: "Zapfendorf",
-        ID: "EW030"
+     Name: "UNTERWOESSEN-HINTERW",
+     ID: "P981",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZEHDENICK",
-        ID: "N7142"
+     Name: "UPLENGEN-STAPELERM.",
+     ID: "N0738",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZEITZ",
-        ID: "N977"
+     Name: "URACH, BAD",
+     ID: "Q571",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ZELL A.SEE",
-        ID: 11144
+     Name: "URBERACH UMSPWK.",
+     ID: "F9512",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ZELL A.SEE FL",
-        ID: 11143
+     Name: "USINGEN",
+     ID: "L731",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ZELL I.WIES.-",
-        ID: "N0258"
+     Name: "USLAR",
+     ID: "N2032",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZELLWALD",
-        ID: "O459"
+     Name: "UTTENKOFEN",
+     ID: "G313",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZELTINGEN",
-        ID: "K623"
+     Name: "UTTING-ACHSELSCHWANG",
+     ID: "P850",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZELTWEG",
-        ID: 11165
+     Name: "VAIHINGEN  ENZ",
+     ID: "Q340",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ZEMMER",
-        ID: "K515"
+     Name: "VALENTIA",
+     ID: 3953,
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZERNIEN",
-        ID: "E387"
+     Name: "VASBECK",
+     ID: "L112",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ZETEL",
-        ID: "E136"
+     Name: "VECHTA",
+     ID: "N0462",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZIELITZ",
-        ID: "N345"
+     Name: "VEILSDORF",
+     ID: "M927",
+     Bundesland: "Thüringen"
     },
     {
-        Name: "ZINKEN",
-        ID: "P0302"
+     Name: "VEITSHOECHHEIM",
+     ID: "G231",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZINNOWITZ",
-        ID: "K3018"
+     Name: "VELBERT",
+     ID: "P0600",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ZINNWALD-G.",
-        ID: 10582
+     Name: "VELBERT-LANGENBERG",
+     ID: "N8947",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ZITTAU",
-        ID: "N1120"
+     Name: "VENTSCHOW",
+     ID: "B525",
+     Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-        Name: "ZÖRBIG",
-        ID: "N793"
+     Name: "VERDEN-DAUELSEN",
+     ID: "E451",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZOLLHAUS",
-        ID: "P332"
+     Name: "VERSE",
+     ID: "N8825",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ZÜLPICH",
-        ID: "N8439"
+     Name: "VIECHTACH",
+     ID: "N1345",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZUGSPITZE",
-        ID: 10961
+     Name: "VIENENBURG, MG",
+     ID: "P0136",
+     Bundesland: "Niedersachsen"
     },
     {
-        Name: "ZUGSPITZPLATT",
-        ID: "Z914"
+     Name: "VIERSEN",
+     ID: "N0429",
+     Bundesland: "Nordrhein-Westfalen"
     },
     {
-        Name: "ZUMHAUS",
-        ID: "P401"
+     Name: "VILBEL, BAD-DORTELWE",
+     ID: "L744",
+     Bundesland: "Hessen"
     },
     {
-        Name: "ZUSMARSHAUSEN",
-        ID: "P609"
+     Name: "VILGERTSHOFEN-PFLUGD",
+     ID: "P824",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZWEIBRÜCKEN",
-        ID: 10714
+     Name: "VILLINGEN SCHWENN.",
+     ID: "K2739",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ZWICKAU",
-        ID: "N4162"
+     Name: "VILLINGEN-SCHWENNING",
+     ID: "Q738",
+     Bundesland: "Baden-Württemberg"
     },
     {
-        Name: "ZWIESEL",
-        ID: 10796
+     Name: "VILSBIBURG",
+     ID: "P666",
+     Bundesland: "Bayern"
     },
     {
-        Name: "ZWÖNITZ",
-        ID: "N4191"
+     Name: "VILSHEIM-MUENCHSDORF",
+     ID: "P656",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "VILSTAL",
+     ID: "P353",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "VOCKERODE",
+     ID: "N567",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "VOEHL-BUCHENBERG",
+     ID: "L222",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "VOELKLINGEN",
+     ID: "K2107",
+     Bundesland: "Saarland"
+    },
+    {
+     Name: "VOGELSBERG",
+     ID: "P0020",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "VOGTAREUTH (KLAERANL",
+     ID: "P873",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "VORM WITZENBRUCH",
+     ID: "E460",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WAAKIRCHEN-DEMMELBER",
+     ID: "P960",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WABERN-HEBEL",
+     ID: "L245",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WADENBRUNN",
+     ID: "G223",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WADERN",
+     ID: "P0277",
+     Bundesland: "Saarland"
+    },
+    {
+     Name: "WADERSLOH",
+     ID: "N9323",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WAECHTERSBACH",
+     ID: "L773",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WAGERSROTT",
+     ID: "A191",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WAGHAEUSEL-KIRRLACH",
+     ID: "Q104",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WAGING AM SEE",
+     ID: "P892",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WAGING AM SEE-SCHNOE",
+     ID: "P894",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WAHLBACH",
+     ID: "K481",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WAHLEN",
+     ID: 10535,
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WAIBSTADT",
+     ID: 10733,
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WAIDHAUS-PFRENTSCH",
+     ID: "P298",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALBERBERG WEST",
+     ID: "F9527",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WALDBROEL",
+     ID: "N8101",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WALDBRUNN-LAHR",
+     ID: "L505",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDECK-ALRAFT",
+     ID: "L125",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDEMS",
+     ID: "K2644",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDEMS-REINBORN",
+     ID: "L722",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDERSHOF-SCHAFBRUC",
+     ID: "P185",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALDKIRCHEN",
+     ID: "N2704",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALD-MICHELBACH",
+     ID: "P0177",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDMUENCHEN",
+     ID: 10782,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALDNAAB",
+     ID: "P291",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALDSCHNEISE HANAU",
+     ID: "L857",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WALDSEE, BAD-REUTE",
+     ID: "Q885",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WALDSHUT",
+     ID: "K2778",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WALDSTEINBERG",
+     ID: "O215",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "WALLDUERN",
+     ID: "Q053",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WALLERSTEIN",
+     ID: "G306",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WALLMENROTH",
+     ID: "K026",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WALTERNIENBURG-RONNE",
+     ID: "N543",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WALTERSHAUSEN",
+     ID: "M520",
+     Bundesland: "Thüringen"
+    },
+    {
+     Name: "WALTROP",
+     ID: "N9446",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WALTROP-ABDINGHOF",
+     ID: "H443",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WANGEN ALLGAEU",
+     ID: "N0122",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WANGEN ALLGAEU-UNTER",
+     ID: "Q999",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "Wangerland",
+     ID: "EW024",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WANK",
+     ID: "P0306",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WARBURG",
+     ID: 10435,
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WAREN",
+     ID: 10268,
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WARENDORF",
+     ID: "N0153",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WARNEMUENDE",
+     ID: 10170,
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WARSTEIN",
+     ID: "N8634",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WARSTEIN-HIRSCHBERG",
+     ID: "H581",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WARTSTEINHUETTE",
+     ID: "Z944",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WARTSTEINKOPF",
+     ID: "Z942",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "Wasbek",
+     ID: "EW025",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WASSERBURG INN",
+     ID: "K4529",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WASSERKUPPE",
+     ID: 10544,
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WASSERTRUEDINGEN (KL",
+     ID: "P417",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WATENSTEDT",
+     ID: "E777",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WEDDELBROOK",
+     ID: "A752",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WEDEMARK-ELZE",
+     ID: "E672",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WEESBY",
+     ID: "A051",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WEGBERG",
+     ID: "P0601",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WEIBERSBRUNN",
+     ID: "N3833",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIDEN",
+     ID: 10688,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIDENBACH-WEIHERSCH",
+     ID: "P319",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIDING, KREIS CHAM-",
+     ID: "P389",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIERHOF",
+     ID: "K886",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WEIHENSTEPHAN",
+     ID: 10863,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIHENZELL-GRUEB",
+     ID: "P317",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIKERSHEIM",
+     ID: "N3924",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WEILER-SIMMERBERG (K",
+     ID: "P905",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEILERSWIST-LOMMERSU",
+     ID: "H932",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WEILHEIM",
+     ID: "N2117",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEILHEIM-BIERBRONNEN",
+     ID: "Q925",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WEILMUENSTER",
+     ID: "N6259",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WEIMAR",
+     ID: 10555,
+     Bundesland: "Thüringen"
+    },
+    {
+     Name: "WEIMAR-SCHOENDORF",
+     ID: "M448",
+     Bundesland: "Thüringen"
+    },
+    {
+     Name: "WEINBIET",
+     ID: 10724,
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WEINGARTEN BEI RAVEN",
+     ID: "Q879",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WEISCHLITZ-HEINERSGR",
+     ID: "O950",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "WEISKIRCHEN SAAR",
+     ID: "J728",
+     Bundesland: "Saarland"
+    },
+    {
+     Name: "Weissenburg",
+     ID: "EW026",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEISSENBURG-EMETZH.",
+     ID: 10761,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEIßENFELS",
+     ID: "N9610",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WEISSENFELS-WENGELSD",
+     ID: "N426",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WEISSENHORN-OBERREIC",
+     ID: "P702",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEISSENSEIFEN",
+     ID: "K317",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WEIßENTURM UMSPWK.",
+     ID: "F9513",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WEISSINGEN",
+     ID: "G342",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WEISSWASSER",
+     ID: "N7314",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "WEISWEIL-WALDECKHOF",
+     ID: "Q703",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WEITERFELD",
+     ID: "N8044",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WELVER",
+     ID: "P0326",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WELZHEIM",
+     ID: "K2719",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WELZHEIM (LUBW)",
+     ID: "Q367",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WENDELSTEIN",
+     ID: 10980,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WENDELSTEIN-KLEINSCH",
+     ID: "P337",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WENDELSTEIN-SOIN",
+     ID: "Z934",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WENDEN-DOERNSCHEID",
+     ID: "H777",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WENDISCH EVERN",
+     ID: "E298",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WENNIGSEN",
+     ID: "P0121",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WERBIG",
+     ID: "P0431",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WERDER",
+     ID: "P0503",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WERL",
+     ID: 10424,
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WERMELSKIRCHEN",
+     ID: "N8349",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WERNIGERODE",
+     ID: 10454,
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WERTHEIM-EICHEL",
+     ID: "N3951",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WERTINGEN",
+     ID: "N0474",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WESEL-FLUEREN",
+     ID: "N9607",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WESSELBUREN",
+     ID: "P0353",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WESTERBERG",
+     ID: "P0035",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WESTERBURG RHLPF.",
+     ID: "K191",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WESTERHEIM",
+     ID: "Q574",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WESTERKAPPELN",
+     ID: "H009",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WESTERKAPPELN UMSPWK",
+     ID: "F9514",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WESTERLAND",
+     ID: 10018,
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WESTERMARKELSDORF",
+     ID: 10055,
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WESTERODE",
+     ID: "E885",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WESTERSTEDE",
+     ID: "E229",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WESTERTAL-LIPPOLDSB.",
+     ID: "L031",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "Westfehmarn",
+     ID: "EW027",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WESTL.IRLAND",
+     ID: "W5413",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WETTER HESSEN-AMOENA",
+     ID: "L312",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WETTRINGEN",
+     ID: "P0617",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WETZLAR",
+     ID: "N6172",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WIELEN",
+     ID: "P0122",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WIELENBACH",
+     ID: "P831",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WIERSDORF",
+     ID: "K436",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WIESBADEN",
+     ID: 10633,
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WIESBADEN-AURINGEN",
+     ID: "L821",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WIESBADEN-BIEBRICH",
+     ID: "L819",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WIESDORF",
+     ID: "P0219",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WIESENBURG",
+     ID: 10368,
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WIESENFELDEN-UTZENZE",
+     ID: "P467",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WIESENGIECH",
+     ID: "G219",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WIESENSTEIG",
+     ID: "P0247",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WIESWEILER",
+     ID: "K562",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WIETZEN",
+     ID: "E653",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WILDBAD, BAD-CALMBAC",
+     ID: "Q318",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WILDPOLDSRIED",
+     ID: "P0415",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WILHELMSDORF MITTELF",
+     ID: "P249",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WILHELMSHAVEN",
+     ID: 10125,
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WILLEBADESSEN-BORL.",
+     ID: "N2311",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WILLINGEN HOCHSAUERL",
+     ID: "L101",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WILLINGEN UPLAND",
+     ID: "K1586",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WILLMERSDORF",
+     ID: "P0360",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WILSDRUFF-MOHORN",
+     ID: "O543",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "WINDEN",
+     ID: "Q711",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WINDSHEIM, BAD",
+     ID: "P310",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WINTERBACH",
+     ID: "N1215",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WINTERBACH REMSTAL",
+     ID: "Q375",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WINTERBERG-ALTASTBG.",
+     ID: "N8723",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WINTERFELD-SALLENTHI",
+     ID: "N135",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WINTERSPELT",
+     ID: "K300",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WIPPERFUERTH-GARDEWE",
+     ID: "H655",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WISMAR",
+     ID: "N2839",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WISSKIRCHEN",
+     ID: "H933",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WITTEN",
+     ID: "P0481",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WITTENBERG",
+     ID: 10474,
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "WITTENBERGE LUB",
+     ID: "P0045",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WITTENBORN",
+     ID: "A762",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WITTIGHAUSEN",
+     ID: "P0476",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WITTINGEN",
+     ID: "P0203",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WITTINGEN-VORHOP",
+     ID: "E691",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WITTLICH",
+     ID: "N7539",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WITTMUNDHAVEN",
+     ID: 10126,
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WITTSTOCK",
+     ID: 10272,
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WITTSTOCK-ROTE MÜHLE",
+     ID: "F143",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WITZENHAUSEN-ZIEGENH",
+     ID: "L171",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WITZENHAUSEN-ZIEGH.",
+     ID: "N0635",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WOERRSTADT",
+     ID: "K587",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WOERTH",
+     ID: "P0197",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WOLFACH",
+     ID: "K2736",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WOLFENBUETTEL",
+     ID: "N4242",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WOLFHAGEN",
+     ID: "N2171",
+     Bundesland: "Hessen"
+    },
+    {
+     Name: "WOLFRATSHAUSEN",
+     ID: "P0262",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WOLFSBURG",
+     ID: "K3910",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WOLFSBURG (SUEDWEST)",
+     ID: "E790",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WOLFSKOPF",
+     ID: "Q290",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WOLFSTEIN PFALZ",
+     ID: "K2286",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WOLGAST",
+     ID: "N2395",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WONNEGAU WEST 1",
+     ID: "F9520",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WONNEGAU WEST 2",
+     ID: "F9521",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WONNEGAU WEST 3",
+     ID: "F9522",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WONNEGAU WEST 4",
+     ID: "F9523",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WONNEGAU WEST 5",
+     ID: "F9524",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WORMS",
+     ID: "K2635",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "WORPSWEDE-HUETTENBUS",
+     ID: "E254",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WRIEZEN",
+     ID: "P0610",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WRIXUM FOEHR",
+     ID: "A112",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "WUENNENBERG",
+     ID: "N9227",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WUENNENBERG-EILERN",
+     ID: "H477",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WUERZBURG",
+     ID: 10655,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WUESTENROT",
+     ID: "N1528",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WUESTENROT-OBERHEIMB",
+     ID: "Q261",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WULLNHOF",
+     ID: "G271",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WUNSIEDEL-SCHOENBRUN",
+     ID: 10686,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WUNSTORF",
+     ID: 10334,
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "WUPPERTAL-BARMEN",
+     ID: "N8322",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WUPPERTAL-VOHW.",
+     ID: "N8334",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "WURMANNSQUICK-EGELSB",
+     ID: "P678",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "WURZEN",
+     ID: "P0292",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "WUSTERHAUSEN",
+     ID: "EW029",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WUSTERHUSEN",
+     ID: "N2412",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "WUSTERWITZ",
+     ID: "F419",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WUSTROW",
+     ID: "F385",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "WUTOESCHINGEN-OFTER.",
+     ID: "Q926",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "WYK FOEHR",
+     ID: "K1407",
+     Bundesland: "Schleswig-Holstein"
+    },
+    {
+     Name: "XANTEN",
+     ID: "H311",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "Zapfendorf",
+     ID: "EW030",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZEHDENICK",
+     ID: "N7142",
+     Bundesland: "Brandenburg"
+    },
+    {
+     Name: "ZEITZ",
+     ID: "N977",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "ZELL I.WIES.-PFAFFB.",
+     ID: "N0258",
+     Bundesland: "Baden-Württemberg"
+    },
+    {
+     Name: "ZELLWALD",
+     ID: "O459",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "ZELTINGEN",
+     ID: "K623",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "ZEMMER (FORSTHAUS MU",
+     ID: "K515",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "ZERNIEN",
+     ID: "E387",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "ZETEL",
+     ID: "E136",
+     Bundesland: "Niedersachsen"
+    },
+    {
+     Name: "ZIELITZ",
+     ID: "N345",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "ZINNOWITZ",
+     ID: "K3018",
+     Bundesland: "Mecklenburg-Vorpommern"
+    },
+    {
+     Name: "ZINNWALD-G.",
+     ID: 10582,
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "ZITTAU",
+     ID: "N1120",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "ZOERBIG",
+     ID: "N793",
+     Bundesland: "Sachsen-Anhalt"
+    },
+    {
+     Name: "ZOLLHAUS",
+     ID: "P332",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZUELPICH",
+     ID: "N8439",
+     Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "ZUGSPITZPLATT",
+     ID: "Z914",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZUMHAUS",
+     ID: "P401",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZUSMARSHAUSEN",
+     ID: "P609",
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZWEIBRUECKEN",
+     ID: 10714,
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "ZWEIBRUECKEN (KLAERA",
+     ID: "K918",
+     Bundesland: "Rheinland-Pfalz"
+    },
+    {
+     Name: "ZWICKAU",
+     ID: "N4162",
+     Bundesland: "Sachsen"
+    },
+    {
+     Name: "ZWIESEL",
+     ID: 10796,
+     Bundesland: "Bayern"
+    },
+    {
+     Name: "ZWOENITZ",
+     ID: "N4191",
+     Bundesland: "Sachsen"
     }
    ]
