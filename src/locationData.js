@@ -5,16 +5,6 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "AACHEN-ORSBACH",
-     ID: 10505,
-     Bundesland: "Nordrhein-Westfalen"
-    },
-    {
-     Name: "AACHEN-RICHTERICH",
-     ID: "P0004",
-     Bundesland: "Nordrhein-Westfalen"
-    },
-    {
      Name: "AALEN",
      ID: "N1503",
      Bundesland: "Baden-Württemberg"
@@ -30,11 +20,6 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "ABTSGMUEND-UNTERGROE",
-     ID: "Q334",
-     Bundesland: "Baden-Württemberg"
-    },
-    {
      Name: "ACHERN",
      ID: "N0477",
      Bundesland: "Baden-Württemberg"
@@ -43,11 +28,6 @@ export const locationData = [
      Name: "ADELHEIDSDORF",
      ID: "N4365",
      Bundesland: "Niedersachsen"
-    },
-    {
-     Name: "ADELSDORF (KLAERANLA",
-     ID: "P761",
-     Bundesland: "Bayern"
     },
     {
      Name: "ADENAU",
@@ -130,7 +110,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "ALLGAEUER TOR",
+     Name: "ALLGÄÜR TOR",
      ID: "P805",
      Bundesland: "Bayern"
     },
@@ -210,17 +190,17 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "ALTOETTING",
+     Name: "ALTÖTTING",
      ID: "P0055",
      Bundesland: "Bayern"
     },
     {
-     Name: "ALTOMUENSTER",
+     Name: "ALTOMÜNSTER",
      ID: "K4116",
      Bundesland: "Bayern"
     },
     {
-     Name: "ALTOMUENSTER-MAISBRU",
+     Name: "ALTOMÜNSTER-MAISBRU",
      ID: "P629",
      Bundesland: "Bayern"
     },
@@ -255,7 +235,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "AMOENEBURG-RUEDIGHEI",
+     Name: "AMÖNEBURG-RÜDIGHEIM",
      ID: "L442",
      Bundesland: "Hessen"
     },
@@ -267,11 +247,6 @@ export const locationData = [
     {
      Name: "AMORBACH-NEUDORF",
      ID: "P208",
-     Bundesland: "Bayern"
-    },
-    {
-     Name: "AMPFING (KLAERANLAGE",
-     ID: "P781",
      Bundesland: "Bayern"
     },
     {
@@ -300,7 +275,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "ANGERMUENDE",
+     Name: "ANGERMÜNDE",
      ID: 10291,
      Bundesland: "Brandenburg"
     },
@@ -335,7 +310,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "ARNSBERG-MUESCHEDE",
+     Name: "ARNSBERG-MÜSCHEDE",
      ID: "H573",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -350,7 +325,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "ARNSTEIN-MUEDESHEIM",
+     Name: "ARNSTEIN-MÜDESHEIM",
      ID: "P125",
      Bundesland: "Bayern"
     },
@@ -440,12 +415,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "AUE",
+     Name: "AÜ",
      ID: 10575,
      Bundesland: "Sachsen"
     },
     {
-     Name: "AUERBACH OPF.",
+     Name: "AÜRBACH OPF.",
      ID: "N3265",
      Bundesland: "Bayern"
     },
@@ -540,17 +515,17 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "BAD DUEBEN",
+     Name: "BAD DÜBEN",
      ID: "N4535",
      Bundesland: "Sachsen"
     },
     {
-     Name: "BAD DUERKHEIM",
+     Name: "BAD DÜRKHEIM",
      ID: "K881",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BAD DUERRENBERG",
+     Name: "BAD DÜRRENBERG",
      ID: "N5872",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -595,7 +570,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "BAD KOENIGSHOFEN",
+     Name: "BAD KÖNIGSHOFEN",
      ID: "P033",
      Bundesland: "Bayern"
     },
@@ -640,12 +615,12 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "BAD MUENDER",
+     Name: "BAD MÜNDER",
      ID: "N2433",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "BAD MUENSTEREIFEL",
+     Name: "BAD MÜNSTEREIFEL",
      ID: "N8403",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -660,17 +635,17 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "BAD NEUENAHR-AHRWEIL",
+     Name: "BAD NEÜNAHR-AHRWEIL",
      ID: "K038",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BAD NEUENAHR-AHRWL.",
+     Name: "BAD NEÜNAHR-AHRWL.",
      ID: "K2245",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BAD OLDESLOE",
+     Name: "BAD OLDESLÖ",
      ID: "N7012",
      Bundesland: "Schleswig-Holstein"
     },
@@ -710,7 +685,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "BAD SUELZE",
+     Name: "BAD SÜLZE",
      ID: "N2575",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -720,7 +695,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "BAD TOELZ",
+     Name: "BAD TÖLZ",
      ID: "K4169",
      Bundesland: "Bayern"
     },
@@ -750,12 +725,12 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "BAERNAU",
+     Name: "BÄRNAU",
      ID: "N1101",
      Bundesland: "Bayern"
     },
     {
-     Name: "BAESWEILER",
+     Name: "BÄSWEILER",
      ID: "P0224",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -855,7 +830,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "BASTORF-KAEGSDORF (S",
+     Name: "BASTORF-KÄGSDORF (S",
      ID: "B203",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -995,7 +970,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "BERGEN RUEGEN",
+     Name: "BERGEN AUF RÜGEN",
      ID: "N2457",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -1033,7 +1008,7 @@ export const locationData = [
      Name: "BERGSTEDT",
      ID: "P0488",
      Bundesland: "Hamburg"
-    },
+    },  
 
     {
      Name: "BERKHOLZ-MEYENBURG",
@@ -1041,7 +1016,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "BERLIN-ALEX.",
+     Name: "BERLIN-MITTE",
      ID: 10389,
      Bundesland: "Berlin"
     },
@@ -1071,7 +1046,7 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "BERNKASTEL-KUES",
+     Name: "BERNKASTEL-KÜS",
      ID: "K531",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -1086,7 +1061,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "BERTSDORF-HOERNITZ",
+     Name: "BERTSDORF-HÖRNITZ",
      ID: "O598",
      Bundesland: "Sachsen"
     },
@@ -1106,7 +1081,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BETZWEILER-WAELDE",
+     Name: "BETZWEILER-WÄLDE",
      ID: "Q056",
      Bundesland: "Baden-Württemberg"
     },
@@ -1196,7 +1171,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "BINGEN-BUEDESHEIM",
+     Name: "BINGEN-BÜDESHEIM",
      ID: "N5374",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -1236,7 +1211,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "BISCHOFSHEIM RHOEN",
+     Name: "BISCHOFSHEIM RHÖN",
      ID: "N3729",
      Bundesland: "Bayern"
     },
@@ -1254,11 +1229,6 @@ export const locationData = [
      Name: "BISDORF",
      ID: "P0332",
      Bundesland: "Schleswig-Holstein"
-    },
-    {
-     Name: "BISSINGEN (KLAERANLA",
-     ID: "P517",
-     Bundesland: "Bayern"
     },
     {
      Name: "BITBURG",
@@ -1286,7 +1256,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "BLANKENHEIM AHRHUET.",
+     Name: "BLANKENHEIM AHRHÜT.",
      ID: "N7822",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -1371,17 +1341,17 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "BOEBLINGEN",
+     Name: "BÖBLINGEN",
      ID: "K2913",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "BOENNIGHEIM",
+     Name: "BÖNNIGHEIM",
      ID: "N1401",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "BOESDORF",
+     Name: "BÖSDORF",
      ID: "N305",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -1451,7 +1421,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "BORKUM-SUEDERSTRASSE",
+     Name: "BORKUM-SÜDERSTRASSE",
      ID: "E006",
      Bundesland: "Niedersachsen"
     },
@@ -1516,7 +1486,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "BRAUNERSGRUEN",
+     Name: "BRAUNERSGRÜN",
      ID: "G213",
      Bundesland: "Bayern"
     },
@@ -1566,7 +1536,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "BREITENBRUNN-FUERBUC",
+     Name: "BREITENBRUNN-FÜRBUC",
      ID: "P718",
      Bundesland: "Bayern"
     },
@@ -1596,7 +1566,7 @@ export const locationData = [
      Bundesland: "Bremen"
     },
     {
-     Name: "BREMERVOERDE",
+     Name: "BREMERVÖRDE",
      ID: 10139,
      Bundesland: "Niedersachsen"
     },
@@ -1646,27 +1616,27 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BRUCKMUEHL",
+     Name: "BRUCKMÜHL",
      ID: "P0264",
      Bundesland: "Bayern"
     },
     {
-     Name: "BRUECK-GOEMNIGK",
+     Name: "BRÜCK-GÖMNIGK",
      ID: "F620",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "BRUEGGEN",
+     Name: "BRÜGGEN",
      ID: 10401,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "BRUEHL",
+     Name: "BRÜHL",
      ID: "N8204",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "BRUNSBUETTEL SWA",
+     Name: "BRUNSBÜTTEL SWA",
      ID: "P0027",
      Bundesland: "Schleswig-Holstein"
     },
@@ -1706,57 +1676,57 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "BUCHLOE",
+     Name: "BUCHLÖ",
      ID: "P821",
      Bundesland: "Bayern"
     },
     {
-     Name: "BUECHEL",
+     Name: "BÜCHEL",
      ID: 10613,
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BUECHLBERG-TANNOED",
+     Name: "BÜCHLBERG-TANNÖD",
      ID: "P597",
      Bundesland: "Bayern"
     },
     {
-     Name: "BUECKEBURG",
+     Name: "BÜCKEBURG",
      ID: 10335,
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "BUEHNE-RIMBECK",
+     Name: "BÜHNE-RIMBECK",
      ID: "N500",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "BUENDE",
+     Name: "BÜNDE",
      ID: "P0233",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "BUERG",
+     Name: "BÜRG",
      ID: "G348",
      Bundesland: "Bayern"
     },
     {
-     Name: "BUERGSTADT",
+     Name: "BÜRGSTADT",
      ID: "G247",
      Bundesland: "Bayern"
     },
     {
-     Name: "BUERSTADT",
+     Name: "BÜRSTADT",
      ID: "P0176",
      Bundesland: "Hessen"
     },
     {
-     Name: "BUETTHARD",
+     Name: "BÜTTHARD",
      ID: "P228",
      Bundesland: "Bayern"
     },
     {
-     Name: "BUETZOW-WOLKEN",
+     Name: "BÜTZOW-WOLKEN",
      ID: "N2781",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -1766,7 +1736,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "BURBACH-WUERGENDORF",
+     Name: "BURBACH-WÜRGENDORF",
      ID: "H889",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -1816,7 +1786,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "BURKAUER BERG",
+     Name: "BURKAÜR BERG",
      ID: "O372",
      Bundesland: "Sachsen"
     },
@@ -1841,7 +1811,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "Calvoerde",
+     Name: "CalvÖrde",
      ID: "EW003",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -1926,12 +1896,12 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "COELBE",
+     Name: "CÖLBE",
      ID: "L319",
      Bundesland: "Hessen"
     },
     {
-     Name: "COESFELD",
+     Name: "CÖSFELD",
      ID: "N3114",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -1976,7 +1946,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "CREUSSEN-BUEHL",
+     Name: "CREUSSEN-BÜHL",
      ID: "P179",
      Bundesland: "Bayern"
     },
@@ -2045,11 +2015,7 @@ export const locationData = [
      ID: "B040",
      Bundesland: "Mecklenburg-Vorpommern"
     },
-    {
-     Name: "DASING (KLAERANLAGE)",
-     ID: "P626",
-     Bundesland: "Bayern"
-    },
+
     {
      Name: "DAUN",
      ID: "K2270",
@@ -2076,7 +2042,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "DELBRUECK",
+     Name: "DELBRÜCK",
      ID: "N9320",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -2131,7 +2097,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "DEUTSCHNEUDORF-BRUED",
+     Name: "DEUTSCHNEUDORF-BRÜD",
      ID: "O842",
      Bundesland: "Sachsen"
     },
@@ -2181,7 +2147,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "DIETZHOELZTAL",
+     Name: "DIETZHÖLZTAL",
      ID: "N6208",
      Bundesland: "Hessen"
     },
@@ -2211,12 +2177,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "DINKELSBUEHL",
+     Name: "DINKELSBÜHL",
      ID: "N0406",
      Bundesland: "Bayern"
     },
     {
-     Name: "DINKELSBUEHL-OBERWIN",
+     Name: "DINKELSBÜHL-OBERWIN",
      ID: "P405",
      Bundesland: "Bayern"
     },
@@ -2246,32 +2212,32 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "DOEBELN",
+     Name: "DÖBELN",
      ID: "P0291",
      Bundesland: "Sachsen"
     },
     {
-     Name: "DOERENTHE",
+     Name: "DÖRENTHE",
      ID: "P0625",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "DOERNICK",
+     Name: "DÖRNICK",
      ID: 10150,
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "DOERNTHAL",
+     Name: "DÖRNTHAL",
      ID: "N4426",
      Bundesland: "Sachsen"
     },
     {
-     Name: "DOERPEN",
+     Name: "DÖRPEN",
      ID: "K1091",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "DOERRMOSCHEL-FELSBER",
+     Name: "DÖRRMOSCHEL-FELSBER",
      ID: "K761",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -2286,33 +2252,28 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "DOMAENE VOGELSBURG",
+     Name: "DOMÄNE VOGELSBURG",
      ID: "L283",
      Bundesland: "Hessen"
     },
     {
-     Name: "DONAUESCHINGEN",
+     Name: "DONAÜSCHINGEN",
      ID: "K2780",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "DONAUESCHINGEN (LAND",
+     Name: "DONAÜSCHINGEN (LAND",
      ID: "Q870",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "DONAUWOERTH",
+     Name: "DONAUWÖRTH",
      ID: "N0445",
      Bundesland: "Bayern"
     },
     {
-     Name: "DONAUWOERTH-OSTERWE.",
+     Name: "DONAUWÖRTH-OSTERWE.",
      ID: "P515",
-     Bundesland: "Bayern"
-    },
-    {
-     Name: "DORFEN (KLAERANLAGE)",
-     ID: "P771",
      Bundesland: "Bayern"
     },
     {
@@ -2356,7 +2317,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "DREI GLEICHEN-MUEHLB",
+     Name: "DREI GLEICHEN-MÜHLB",
      ID: "M640",
      Bundesland: "Thüringen"
     },
@@ -2366,7 +2327,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "DREIS-BRUECK",
+     Name: "DREIS-BRÜCK",
      ID: "K442",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -2421,37 +2382,37 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "DUEBEN",
+     Name: "DÜBEN",
      ID: "N563",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "DUELMEN",
+     Name: "DÜLMEN",
      ID: "P0051",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "DUERABUCH",
+     Name: "DÜRABUCH",
      ID: "G363",
      Bundesland: "Bayern"
     },
     {
-     Name: "DUEREN",
+     Name: "DÜREN",
      ID: "N0226",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "DUERRHENNERSDORF",
+     Name: "DÜRRHENNERSDORF",
      ID: "O580",
      Bundesland: "Sachsen"
     },
     {
-     Name: "DUERRNBACHHORN",
+     Name: "DÜRRNBACHHORN",
      ID: "Z939",
      Bundesland: "Bayern"
     },
     {
-     Name: "DUESSELDORF",
+     Name: "DÜSSELDORF",
      ID: 10400,
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -2461,7 +2422,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "DUISBURG-BAERL",
+     Name: "DUISBURG-BÄRL",
      ID: "H419",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -2516,7 +2477,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "ECKERNFOERDE",
+     Name: "ECKERNFÖRDE",
      ID: "N7244",
      Bundesland: "Schleswig-Holstein"
     },
@@ -2591,12 +2552,12 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "EICHSTAETT",
+     Name: "EICHSTÄTT",
      ID: "K4108",
      Bundesland: "Bayern"
     },
     {
-     Name: "EICHSTAETT-LANDERSH.",
+     Name: "EICHSTÄTT-LANDERSH.",
      ID: "P522",
      Bundesland: "Bayern"
     },
@@ -2616,7 +2577,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "EINOELLEN",
+     Name: "EINÖLLEN",
      ID: "K755",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -2666,7 +2627,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "ELPERSBUETTEL",
+     Name: "ELPERSBÜTTEL",
      ID: 10130,
      Bundesland: "Schleswig-Holstein"
     },
@@ -2781,7 +2742,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "ENZKLOESTERLE",
+     Name: "ENZKLÖSTERLE",
      ID: "Q424",
      Bundesland: "Baden-Württemberg"
     },
@@ -2901,7 +2862,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "EUERHAUSEN",
+     Name: "EÜRHAUSEN",
      ID: "G256",
      Bundesland: "Bayern"
     },
@@ -2926,7 +2887,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "EW-Roedeser-Berg",
+     Name: "EW-RÖdeser-Berg",
      ID: "EW039",
      Bundesland: "Hessen"
     },
@@ -3041,7 +3002,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "FLAEMING",
+     Name: "FLÄMING",
      ID: "F618",
      Bundesland: "Brandenburg"
     },
@@ -3051,7 +3012,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "FLENSBURG (SCHAEFERH",
+     Name: "FLENSBURG (SCHÄFERH",
      ID: "A160",
      Bundesland: "Schleswig-Holstein"
     },
@@ -3061,7 +3022,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "FLOSSENBUERG",
+     Name: "FLOSSENBÜRG",
      ID: "P294",
      Bundesland: "Bayern"
     },
@@ -3071,7 +3032,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "Foehr",
+     Name: "FÖhr",
      ID: "EW007",
      Bundesland: "Schleswig-Holstein"
     },
@@ -3176,12 +3137,12 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "FRAUENRIEDHAUSEN",
+     Name: "FRAÜNRIEDHAUSEN",
      ID: "G334",
      Bundesland: "Bayern"
     },
     {
-     Name: "FRAUENWALD",
+     Name: "FRAÜNWALD",
      ID: "M833",
      Bundesland: "Thüringen"
     },
@@ -3221,7 +3182,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "FREIHUNG-GROSSSCHOEN",
+     Name: "FREIHUNG-GROSSSCHÖN",
      ID: "P287",
      Bundesland: "Bayern"
     },
@@ -3326,37 +3287,37 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "FROENDENBERG",
+     Name: "FRÖNDENBERG",
      ID: "N8686",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "FROENDENBERG-HOHENHE",
+     Name: "FRÖNDENBERG-HOHENHE",
      ID: "H450",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "FUERSTENFELDBRUCK",
+     Name: "FÜRSTENFELDBRUCK",
      ID: 10858,
      Bundesland: "Bayern"
     },
     {
-     Name: "FUERSTENWALDE SPREE",
+     Name: "FÜRSTENWALDE SPREE",
      ID: "N7386",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "FUERSTENZELL",
+     Name: "FÜRSTENZELL",
      ID: 10895,
      Bundesland: "Bayern"
     },
     {
-     Name: "FUERTH BAYERN",
+     Name: "FÜRTH BAYERN",
      ID: "K4086",
      Bundesland: "Bayern"
     },
     {
-     Name: "FUESSEN-WEISSENSEE",
+     Name: "FÜSSEN-WEISSENSEE",
      ID: "N0505",
      Bundesland: "Bayern"
     },
@@ -3366,7 +3327,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "FUNTENSEETAUERN",
+     Name: "FUNTENSEETAÜRN",
      ID: "Z947",
      Bundesland: "Bayern"
     },
@@ -3389,11 +3350,6 @@ export const locationData = [
      Name: "GAMMERTINGEN",
      ID: "P0261",
      Bundesland: "Baden-Württemberg"
-    },
-    {
-     Name: "GANGKOFEN (KLAERANLA",
-     ID: "P668",
-     Bundesland: "Bayern"
     },
     {
      Name: "GARCHING",
@@ -3426,7 +3382,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "GEDERN-SCHOENHAUSEN",
+     Name: "GEDERN-SCHÖNHAUSEN",
      ID: "L652",
      Bundesland: "Hessen"
     },
@@ -3506,7 +3462,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "GERAER BERG",
+     Name: "GERÄR BERG",
      ID: "M575",
      Bundesland: "Thüringen"
     },
@@ -3521,7 +3477,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "GEROLDSGRUEN-STEINB.",
+     Name: "GEROLDSGRÜN-STEINB.",
      ID: "N3047",
      Bundesland: "Bayern"
     },
@@ -3586,7 +3542,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "GLUECKSTADT",
+     Name: "GLÜCKSTADT",
      ID: "K1484",
      Bundesland: "Schleswig-Holstein"
     },
@@ -3601,32 +3557,32 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "GOEHL",
+     Name: "GÖHL",
      ID: "P0331",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "GOEPPINGEN",
+     Name: "GÖPPINGEN",
      ID: "N1147",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "GOERLITZ",
+     Name: "GÖRLITZ",
      ID: 10499,
      Bundesland: "Sachsen"
     },
     {
-     Name: "GOESSWEINSTEIN",
+     Name: "GÖSSWEINSTEIN",
      ID: "P262",
      Bundesland: "Bayern"
     },
     {
-     Name: "GOETTENDORF",
+     Name: "GÖTTENDORF",
      ID: "M799",
      Bundesland: "Thüringen"
     },
     {
-     Name: "GOETTINGEN",
+     Name: "GÖTTINGEN",
      ID: 10444,
      Bundesland: "Niedersachsen"
     },
@@ -3696,27 +3652,27 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "GRAAL-MUERITZ",
+     Name: "GRAAL-MÜRITZ",
      ID: "N2626",
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "GRAEFENBERG",
+     Name: "GRÄFENBERG",
      ID: "N3334",
      Bundesland: "Bayern"
     },
     {
-     Name: "GRAEFENBERG-KASBERG",
+     Name: "GRÄFENBERG-KASBERG",
      ID: "P265",
      Bundesland: "Bayern"
     },
     {
-     Name: "GRAEFENDORF,KR.MAIN-",
+     Name: "GRÄFENDORF,KR.MAIN-",
      ID: "P120",
      Bundesland: "Bayern"
     },
     {
-     Name: "GRAEFENTONNA",
+     Name: "GRÄFENTONNA",
      ID: "N3685",
      Bundesland: "Thüringen"
     },
@@ -3786,7 +3742,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "GREIZ-DOELAU",
+     Name: "GREIZ-DÖLAU",
      ID: "K4420",
      Bundesland: "Sachsen"
     },
@@ -3796,7 +3752,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "GREVESMUEHLEN",
+     Name: "GREVESMÜHLEN",
      ID: "B511",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -3841,7 +3797,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "GROSS LUESEWITZ",
+     Name: "GROSS LÜSEWITZ",
      ID: "B334",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -3916,27 +3872,27 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "GRUENBERG",
+     Name: "GRÜNBERG",
      ID: "P0180",
      Bundesland: "Hessen"
     },
     {
-     Name: "GRUENDAU-BREITENBORN",
+     Name: "GRÜNDAU-BREITENBORN",
      ID: "L771",
      Bundesland: "Hessen"
     },
     {
-     Name: "GRUENOW",
+     Name: "GRÜNOW",
      ID: 10289,
      Bundesland: "Brandenburg"
     },
     {
-     Name: "GRUENSTADT",
+     Name: "GRÜNSTADT",
      ID: "N2132",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "GRUEPPENBUEHREN",
+     Name: "GRÜPPENBÜHREN",
      ID: "P0435",
      Bundesland: "Niedersachsen"
     },
@@ -3956,22 +3912,22 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "GUEDDERATH",
+     Name: "GÜDDERATH",
      ID: "H605",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "GUENZBURG",
+     Name: "GÜNZBURG",
      ID: "P606",
      Bundesland: "Bayern"
     },
     {
-     Name: "GUETERSLOH",
+     Name: "GÜTERSLOH",
      ID: 10320,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "GUETERSLOH EMS",
+     Name: "GÜTERSLOH EMS",
      ID: "H265",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -3996,7 +3952,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "GUT HUELL",
+     Name: "GUT HÜLL",
      ID: "G375",
      Bundesland: "Bayern"
     },
@@ -4026,12 +3982,12 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "HAEHNICHEN-TREBUS",
+     Name: "HÄHNICHEN-TREBUS",
      ID: "O099",
      Bundesland: "Sachsen"
     },
     {
-     Name: "HAENCHEN",
+     Name: "HÄNCHEN",
      ID: "F863",
      Bundesland: "Brandenburg"
     },
@@ -4166,7 +4122,7 @@ export const locationData = [
      Bundesland: "Hamburg"
     },
     {
-     Name: "HAMBURG-NEUENG.",
+     Name: "HAMBURG-NEÜNG.",
      ID: "P0120",
      Bundesland: "Hamburg"
     },
@@ -4211,7 +4167,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "HANNOV.MUENDEN",
+     Name: "HANNOV.MÜNDEN",
      ID: "P0204",
      Bundesland: "Niedersachsen"
     },
@@ -4261,7 +4217,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "HARTH-POELLNITZ NEUN",
+     Name: "HARTH-PÖLLNITZ NEUN",
      ID: "M691",
      Bundesland: "Thüringen"
     },
@@ -4276,12 +4232,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "HASELUENNE",
+     Name: "HASELÜNNE",
      ID: "N0546",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "HASELUENNE KNN",
+     Name: "HASELÜNNE KNN",
      ID: "P0434",
      Bundesland: "Niedersachsen"
     },
@@ -4341,7 +4297,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "HECKLINGEN-GROSS BOE",
+     Name: "HECKLINGEN-GROSS BÖ",
      ID: "N532",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -4381,7 +4337,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "HEINERSGRUEN",
+     Name: "HEINERSGRÜN",
      ID: "O951",
      Bundesland: "Sachsen"
     },
@@ -4411,7 +4367,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "HELBEDUENDORF-KEULA",
+     Name: "HELBEDÜNDORF-KEULA",
      ID: "M146",
      Bundesland: "Thüringen"
     },
@@ -4486,7 +4442,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "HERMSDORF   THUER.",
+     Name: "HERMSDORF   THÜR.",
      ID: "P0578",
      Bundesland: "Thüringen"
     },
@@ -4504,11 +4460,6 @@ export const locationData = [
      Name: "HERRENBERG",
      ID: "K2920",
      Bundesland: "Baden-Württemberg"
-    },
-    {
-     Name: "HERRIEDEN (KLAERANLA",
-     ID: "P318",
-     Bundesland: "Bayern"
     },
     {
      Name: "HERSBRUCK",
@@ -4656,52 +4607,52 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "HOECHSTADT",
+     Name: "HÖCHSTADT",
      ID: "P0028",
      Bundesland: "Bayern"
     },
     {
-     Name: "HOECHSTADT A.D. AISC",
+     Name: "HÖCHSTADT A.D. AISC",
      ID: "G249",
      Bundesland: "Bayern"
     },
     {
-     Name: "HOEHR-GRENZHAUSEN",
+     Name: "HÖHR-GRENZHAUSEN",
      ID: "K170",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "HOELLGRABEN",
+     Name: "HÖLLGRABEN",
      ID: "Z948",
      Bundesland: "Bayern"
     },
     {
-     Name: "HOERMOOS",
+     Name: "HÖRMOOS",
      ID: "Z901",
      Bundesland: "Bayern"
     },
     {
-     Name: "HOERNLE",
+     Name: "HÖRNLE",
      ID: "P0307",
      Bundesland: "Bayern"
     },
     {
-     Name: "HOERSCHEL",
+     Name: "HÖRSCHEL",
      ID: "M403",
      Bundesland: "Thüringen"
     },
     {
-     Name: "HOERSELBERG-HAINICH-",
+     Name: "HÖRSELBERG-HAINICH-",
      ID: "M412",
      Bundesland: "Thüringen"
     },
     {
-     Name: "HOERSTEL",
+     Name: "HÖRSTEL",
      ID: "H061",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "HOEXTER",
+     Name: "HÖXTER",
      ID: "N2336",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -4711,7 +4662,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "HOF LAUTERBACH, VOEH",
+     Name: "HOF LAUTERBACH, VÖH",
      ID: "L119",
      Bundesland: "Hessen"
     },
@@ -4816,7 +4767,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "HOLLEDAU SUED",
+     Name: "HOLLEDAU SÜD",
      ID: "P632",
      Bundesland: "Bayern"
     },
@@ -4826,7 +4777,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "HOLZBUETTGEN",
+     Name: "HOLZBÜTTGEN",
      ID: "H528",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -4856,7 +4807,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "HOLZSCHLAEGERMATTE",
+     Name: "HOLZSCHLÄGERMATTE",
      ID: "P0484",
      Bundesland: "Baden-Württemberg"
     },
@@ -4871,7 +4822,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "HOMBERG-SCHOENBORNER",
+     Name: "HOMBERG-SCHÖNBORNER",
      ID: "K764",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -4926,22 +4877,22 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "HUELL",
+     Name: "HÜLL",
      ID: "G333",
      Bundesland: "Bayern"
     },
     {
-     Name: "HUEMMERICH",
+     Name: "HÜMMERICH",
      ID: "K057",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "HUERTH",
+     Name: "HÜRTH",
      ID: "P0490",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "HUETTGESWASEN",
+     Name: "HÜTTGESWASEN",
      ID: "K633",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -5066,7 +5017,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "ITZEHOE",
+     Name: "ITZEHÖ",
      ID: 10142,
      Bundesland: "Schleswig-Holstein"
     },
@@ -5126,18 +5077,13 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "JUDENBACH-NEUENBAU",
+     Name: "JUDENBACH-NEÜNBAU",
      ID: "M945",
      Bundesland: "Thüringen"
     },
     {
-     Name: "JUELICH",
+     Name: "JÜLICH",
      ID: "K2204",
-     Bundesland: "Nordrhein-Westfalen"
-    },
-    {
-     Name: "JUELICH (KLAERANLAGE",
-     ID: "H718",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
@@ -5146,7 +5092,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KAEBSCHUETZTAL",
+     Name: "KÄBSCHÜTZTAL",
      ID: "P0289",
      Bundesland: "Sachsen"
     },
@@ -5166,7 +5112,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "KAISERSBACH-CRONHUET",
+     Name: "KAISERSBACH-CRONHÜT",
      ID: 10747,
      Bundesland: "Baden-Württemberg"
     },
@@ -5241,7 +5187,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "KANNENBAECKER LAND",
+     Name: "KANNENBÄCKER LAND",
      ID: "K164",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -5271,7 +5217,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "KARSTAEDT PRIGNITZ",
+     Name: "KARSTÄDT PRIGNITZ",
      ID: "F108",
      Bundesland: "Brandenburg"
     },
@@ -5296,7 +5242,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "KATZHUETTE",
+     Name: "KATZHÜTTE",
      ID: "M846",
      Bundesland: "Thüringen"
     },
@@ -5401,7 +5347,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "KIRCHDORF POEL",
+     Name: "KIRCHDORF PÖL",
      ID: "B308",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -5531,97 +5477,97 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "KOECKTE",
+     Name: "KÖCKTE",
      ID: "N214",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "KOEFERING",
+     Name: "KÖFERING",
      ID: "G301",
      Bundesland: "Bayern"
     },
     {
-     Name: "KOEHN",
+     Name: "KÖHN",
      ID: "A473",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "KOELN (BOTAN.GART.)",
+     Name: "KÖLN (BOTAN.GART.)",
      ID: "K2221",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KOELN BONN",
+     Name: "KÖLN BONN",
      ID: 10513,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KOELN-STAMMHEIM",
+     Name: "KÖLN-STAMMHEIM",
      ID: "H744",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KOENIGHEIM",
+     Name: "KÖNIGHEIM",
      ID: "Q033",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "KOENIGS WUSTERH. LUB",
+     Name: "KÖNIGS WUSTERH. LUB",
      ID: "P0039",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "KOENIGSBACH-STEIN, E",
+     Name: "KÖNIGSBACH-STEIN, E",
      ID: "Q222",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "KOENIGSBERG BAYERN-H",
+     Name: "KÖNIGSBERG BAYERN-H",
      ID: "P141",
      Bundesland: "Bayern"
     },
     {
-     Name: "KOENIGSBORN",
+     Name: "KÖNIGSBORN",
      ID: "N463",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "KOENIGSMOOR",
+     Name: "KÖNIGSMOOR",
      ID: "E277",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "KOENIGSTEIN TS.",
+     Name: "KÖNIGSTEIN TS.",
      ID: "K2649",
      Bundesland: "Hessen"
     },
     {
-     Name: "KOENIGSWINTER",
+     Name: "KÖNIGSWINTER",
      ID: "P0227",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KOESCHING",
+     Name: "KÖSCHING",
      ID: "P532",
      Bundesland: "Bayern"
     },
     {
-     Name: "KOESCHINGER FORST",
+     Name: "KÖSCHINGER FORST",
      ID: "P533",
      Bundesland: "Bayern"
     },
     {
-     Name: "KOESLAU",
+     Name: "KÖSLAU",
      ID: "G214",
      Bundesland: "Bayern"
     },
     {
-     Name: "KOETERBERG",
+     Name: "KÖTERBERG",
      ID: 10432,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "KOETHEN (ANHALT)",
+     Name: "KÖTHEN (ANHALT)",
      ID: "N652",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -5706,7 +5652,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "KREUTH-GLASHUETTE",
+     Name: "KREUTH-GLASHÜTTE",
      ID: "P958",
      Bundesland: "Bayern"
     },
@@ -5731,12 +5677,12 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "KRUEMMEL",
+     Name: "KRÜMMEL",
      ID: "B951",
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "KRUEN",
+     Name: "KRÜN",
      ID: "P950",
      Bundesland: "Bayern"
     },
@@ -5746,32 +5692,32 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "KRUMMHOERN-LOQUARD",
+     Name: "KRUMMHÖRN-LOQUARD",
      ID: "P0130",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "KUBSCHUETZ,KR.BAUTZ.",
+     Name: "KUBSCHÜTZ,KR.BAUTZ.",
      ID: "O384",
      Bundesland: "Sachsen"
     },
     {
-     Name: "KUEHROINT",
+     Name: "KÜHROINT",
      ID: "Z946",
      Bundesland: "Bayern"
     },
     {
-     Name: "KUEMMERSBRUCK",
+     Name: "KÜMMERSBRUCK",
      ID: 10771,
      Bundesland: "Bayern"
     },
     {
-     Name: "KUENZELSAU-MORSBACH",
+     Name: "KÜNZELSAU-MORSBACH",
      ID: "N1551",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "KUENZING",
+     Name: "KÜNZING",
      ID: "P0266",
      Bundesland: "Bayern"
     },
@@ -5801,11 +5747,6 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "KUSEL (KLAERANLAGE)",
-     ID: "K744",
-     Bundesland: "Rheinland-Pfalz"
-    },
-    {
      Name: "KYRITZ",
      ID: 10267,
      Bundesland: "Brandenburg"
@@ -5816,7 +5757,7 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "LABOE",
+     Name: "LABÖ",
      ID: "P0200",
      Bundesland: "Schleswig-Holstein"
     },
@@ -5936,7 +5877,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "LAUBACHER HOEHE",
+     Name: "LAUBACHER HÖHE",
      ID: "K341",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -5951,12 +5892,12 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "LAUCHSTAEDT, BAD",
+     Name: "LAUCHSTÄDT, BAD",
      ID: "N769",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "LAUDA-KOENIGSHOFEN-H",
+     Name: "LAUDA-KÖNIGSHOFEN-H",
      ID: "Q066",
      Bundesland: "Baden-Württemberg"
     },
@@ -5968,11 +5909,6 @@ export const locationData = [
     {
      Name: "LAUF HEUCHLING",
      ID: "N3309",
-     Bundesland: "Bayern"
-    },
-    {
-     Name: "LAUF PEGNITZ (KLAERA",
-     ID: "P266",
      Bundesland: "Bayern"
     },
     {
@@ -6021,7 +5957,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "LAUTERTAL-HOERGENAU",
+     Name: "LAUTERTAL-HÖRGENAU",
      ID: "L561",
      Bundesland: "Hessen"
     },
@@ -6096,7 +6032,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "LEMFOERDE",
+     Name: "LEMFÖRDE",
      ID: "P0635",
      Bundesland: "Niedersachsen"
     },
@@ -6126,7 +6062,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "LENZKIRCH-RUHBUEHL",
+     Name: "LENZKIRCH-RUHBÜHL",
      ID: "Q823",
      Bundesland: "Baden-Württemberg"
     },
@@ -6176,7 +6112,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "LIEBENAU-HAUEDA",
+     Name: "LIEBENAU-HAÜDA",
      ID: "L071",
      Bundesland: "Hessen"
     },
@@ -6226,7 +6162,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "LINDENBERG ALLGAEU",
+     Name: "LINDENBERG ALLGÄU",
      ID: "K2796",
      Bundesland: "Bayern"
     },
@@ -6256,7 +6192,7 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "LIPPSTADT-BOEKENFOER",
+     Name: "LIPPSTADT-BÖKENFÖR",
      ID: "H377",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -6276,27 +6212,27 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "LOEBAU",
+     Name: "LÖBAU",
      ID: "N7182",
      Bundesland: "Sachsen"
     },
     {
-     Name: "LOEHNBERG-OBERSH.",
+     Name: "LÖHNBERG-OBERSH.",
      ID: "L511",
      Bundesland: "Hessen"
     },
     {
-     Name: "LOENINGEN",
+     Name: "LÖNINGEN",
      ID: "K1140",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "LOERRACH",
+     Name: "LÖRRACH",
      ID: "N0267",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "LOESTERBACH SUED",
+     Name: "LÖSTERBACH SÜD",
      ID: "J721",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -6326,11 +6262,6 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "LORSCH-KLÄRANLAGE",
-     ID: "L918",
-     Bundesland: "Hessen"
-    },
-    {
      Name: "LOSSBURG",
      ID: "N1026",
      Bundesland: "Baden-Württemberg"
@@ -6356,57 +6287,57 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "LUDWIGSSTADT-LAUENST",
+     Name: "LUDWIGSSTADT-LAÜNST",
      ID: "P062",
      Bundesland: "Bayern"
     },
     {
-     Name: "LUEBBENAU",
+     Name: "LÜBBENAU",
      ID: "P0284",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "LUEBBEN-BLUMENFELDE",
+     Name: "LÜBBEN-BLUMENFELDE",
      ID: "F742",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "LUEBECK",
+     Name: "LÜBECK",
      ID: 10156,
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "LUECHOW",
+     Name: "LÜCHOW",
      ID: 10253,
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "LUEDENSCHEID",
+     Name: "LÜDENSCHEID",
      ID: 10418,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "LUEDGE",
+     Name: "LÜDGE",
      ID: 10433,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "LUEDINGHAUSEN-BROCH.",
+     Name: "LÜDINGHAUSEN-BROCH.",
      ID: "H247",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "LUENEBURG",
+     Name: "LÜNEBURG",
      ID: "K3891",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "LUENNE",
+     Name: "LÜNNE",
      ID: "P0506",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "LUETZELBACH",
+     Name: "LÜTZELBACH",
      ID: "N4032",
      Bundesland: "Hessen"
     },
@@ -6426,12 +6357,12 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "MAEHRING",
+     Name: "MÄHRING",
      ID: "P197",
      Bundesland: "Bayern"
     },
     {
-     Name: "MAEKEL",
+     Name: "MÄKEL",
      ID: "P0628",
      Bundesland: "Niedersachsen"
     },
@@ -6471,7 +6402,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "MALK GOEHREN",
+     Name: "MALK GÖHREN",
      ID: "B926",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -6531,12 +6462,12 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "MARIENBERG-RUEBENAU",
+     Name: "MARIENBERG-RÜBENAU",
      ID: "O846",
      Bundesland: "Sachsen"
     },
     {
-     Name: "MARIENHOEHE",
+     Name: "MARIENHÖHE",
      ID: "O862",
      Bundesland: "Sachsen"
     },
@@ -6551,12 +6482,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "MARKOEBEL",
+     Name: "MARKÖBEL",
      ID: "L858",
      Bundesland: "Hessen"
     },
     {
-     Name: "MARKRANSTAEDT-GROSSL",
+     Name: "MARKRANSTÄDT-GROSSL",
      ID: "O204",
      Bundesland: "Sachsen"
     },
@@ -6681,7 +6612,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "MEHRING, KR. ALTOETT",
+     Name: "MEHRING, KR. ALTÖTT",
      ID: "P946",
      Bundesland: "Bayern"
     },
@@ -6866,11 +6797,6 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "MIESBACH (KLAERANLAG",
-     ID: "P965",
-     Bundesland: "Bayern"
-    },
-    {
      Name: "MINDELHEIM",
      ID: "N0332",
      Bundesland: "Bayern"
@@ -6916,42 +6842,42 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "MOECKMUEHL",
+     Name: "MÖCKMÜHL",
      ID: "N1648",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MOECKMUEHL (LUBW)",
+     Name: "MÖCKMÜHL (LUBW)",
      ID: "Q152",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MOEHNE",
+     Name: "MÖHNE",
      ID: "N8653",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MOEHRENDORF-KLSEE.",
+     Name: "MÖHRENDORF-KLSEE.",
      ID: "P257",
      Bundesland: "Bayern"
     },
     {
-     Name: "MOENCHENGLADBACH",
+     Name: "MÖNCHENGLADBACH",
      ID: 10403,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MOENCHENGLADBACH-HIL",
+     Name: "MÖNCHENGLADBACH-HIL",
      ID: "H768",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MOERS",
+     Name: "MÖRS",
      ID: "N9109",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MOESLARNALM",
+     Name: "MÖSLARNALM",
      ID: "Z936",
      Bundesland: "Bayern"
     },
@@ -6976,7 +6902,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "MOORGRUND-GRAEFENDOR",
+     Name: "MOORGRUND-GRÄFENDOR",
      ID: "M405",
      Bundesland: "Thüringen"
     },
@@ -7011,7 +6937,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MOSELTALBRUECKE",
+     Name: "MOSELTALBRÜCKE",
      ID: "K266",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -7021,82 +6947,82 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MUEHLACKER",
+     Name: "MÜHLACKER",
      ID: 10736,
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MUEHLDORF",
+     Name: "MÜHLDORF",
      ID: 10875,
      Bundesland: "Bayern"
     },
     {
-     Name: "MUEHLHAUSEN",
+     Name: "MÜHLHAUSEN",
      ID: "N5432",
      Bundesland: "Thüringen"
     },
     {
-     Name: "MUEHLHEIM MAIN",
+     Name: "MÜHLHEIM MAIN",
      ID: "L850",
      Bundesland: "Hessen"
     },
     {
-     Name: "MUELHEIM RUHR",
+     Name: "MÜLHEIM RUHR",
      ID: "P0031",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MUELLHEIM",
+     Name: "MÜLLHEIM",
      ID: "Q887",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MUENCHBERG",
+     Name: "MÜNCHBERG",
      ID: "N3002",
      Bundesland: "Bayern"
     },
     {
-     Name: "MUENCHEBERG",
+     Name: "MÜNCHEBERG",
      ID: "F475",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "MUENCHEHOFE",
+     Name: "MÜNCHEHOFE",
      ID: "F660",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "MUENCHEN STADT",
+     Name: "MÜNCHEN STADT",
      ID: 10865,
      Bundesland: "Bayern"
     },
     {
-     Name: "MUENCHEN-FL.",
+     Name: "MÜNCHEN-FL.",
      ID: 10870,
      Bundesland: "Bayern"
     },
     {
-     Name: "MUENSINGEN-APPELST.",
+     Name: "MÜNSINGEN-APPELST.",
      ID: "K2753",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "MUENSTER ZENTRUM",
+     Name: "MÜNSTER ZENTRUM",
      ID: "P0036",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MUENSTER OSNABR.",
+     Name: "MÜNSTER OSNABR.",
      ID: 10315,
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "MUENSTERMAIFELD",
+     Name: "MÜNSTERMAIFELD",
      ID: "K268",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "MUENZENBERG-GAMBACH",
+     Name: "MÜNZENBERG-GAMBACH",
      ID: "L631",
      Bundesland: "Hessen"
     },
@@ -7121,7 +7047,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "NAABBRUECKE",
+     Name: "NAABBRÜCKE",
      ID: "P289",
      Bundesland: "Bayern"
     },
@@ -7151,11 +7077,6 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NASSAU (KLAERANLAGE)",
-     ID: "K272",
-     Bundesland: "Rheinland-Pfalz"
-    },
-    {
      Name: "NASSAU RHL.-PFALZ",
      ID: "P0190",
      Bundesland: "Rheinland-Pfalz"
@@ -7166,7 +7087,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NASTAETTEN",
+     Name: "NASTÄTTEN",
      ID: "P0191",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -7181,7 +7102,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "NAUEN",
+     Name: "NAÜN",
      ID: "N7659",
      Bundesland: "Brandenburg"
     },
@@ -7206,7 +7127,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NECKARGEMUEND-KLEING",
+     Name: "NECKARGEMÜND-KLEING",
      ID: "Q027",
      Bundesland: "Baden-Württemberg"
     },
@@ -7221,7 +7142,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "NETTETAL-HUELST",
+     Name: "NETTETAL-HÜLST",
      ID: "H512",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7256,17 +7177,17 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NEUENFELD",
+     Name: "NEÜNFELD",
      ID: "P0363",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "NEUENKIRCHEN",
+     Name: "NEÜNKIRCHEN",
      ID: "P0638",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "NEUENRADE-BLINTROP",
+     Name: "NEÜNRADE-BLINTROP",
      ID: "H568",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7306,7 +7227,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NEUHUETTEN SPESSART",
+     Name: "NEUHÜTTEN SPESSART",
      ID: 10646,
      Bundesland: "Bayern"
     },
@@ -7346,7 +7267,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NEUMUENSTER",
+     Name: "NEUMÜNSTER",
      ID: 10143,
      Bundesland: "Schleswig-Holstein"
     },
@@ -7381,7 +7302,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "NEURUPPIN-GUEHLEN GL",
+     Name: "NEURUPPIN-GÜHLEN GL",
      ID: "F178",
      Bundesland: "Brandenburg"
     },
@@ -7401,7 +7322,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NEUSTADT AM RUEBENBE",
+     Name: "NEUSTADT AM RÜBENBE",
      ID: "E667",
      Bundesland: "Niedersachsen"
     },
@@ -7466,11 +7387,6 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "NIDDA-KLÄRANLAGE",
-     ID: "L643",
-     Bundesland: "Hessen"
-    },
-    {
      Name: "NIDDERAU-ERBSTADT",
      ID: "L751",
      Bundesland: "Hessen"
@@ -7501,7 +7417,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "NIEDERWOERSSESBACH",
+     Name: "NIEDERWÖRSSESBACH",
      ID: "K642",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -7536,12 +7452,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "NOERDLINGEN",
+     Name: "NÖRDLINGEN",
      ID: "K4105",
      Bundesland: "Bayern"
     },
     {
-     Name: "NOERVENICH",
+     Name: "NÖRVENICH",
      ID: 10502,
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7586,7 +7502,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "NORTHEIM-STOECKHEIM",
+     Name: "NORTHEIM-STÖCKHEIM",
      ID: "E857",
      Bundesland: "Niedersachsen"
     },
@@ -7601,22 +7517,22 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "NUERBURG",
+     Name: "NÜRBURG",
      ID: 10510,
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "NUERBURG-BARWEILER",
+     Name: "NÜRBURG-BARWEILER",
      ID: 10506,
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "NUERNBERG",
+     Name: "NÜRNBERG",
      ID: 10763,
      Bundesland: "Bayern"
     },
     {
-     Name: "NUERNBERG-NETZSTALL",
+     Name: "NÜRNBERG-NETZSTALL",
      ID: "P333",
      Bundesland: "Bayern"
     },
@@ -7726,7 +7642,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "OBERSOECHERING",
+     Name: "OBERSÖCHERING",
      ID: "G391",
      Bundesland: "Bayern"
     },
@@ -7801,12 +7717,12 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "OEHRINGEN",
+     Name: "ÖHRINGEN",
      ID: 10742,
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "OERLINGHAUSEN",
+     Name: "ÖRLINGHAUSEN",
      ID: "N3029",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7906,7 +7822,7 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "OSNABRUECK",
+     Name: "OSNABRÜCK",
      ID: 10317,
      Bundesland: "Niedersachsen"
     },
@@ -7921,7 +7837,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "OSTBEVERN UEBERWAS.",
+     Name: "OSTBEVERN ÜBERWAS.",
      ID: "P0633",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7971,12 +7887,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "OSTHEIM V.D. RHOEN",
+     Name: "OSTHEIM V.D. RHÖN",
      ID: "P022",
      Bundesland: "Bayern"
     },
     {
-     Name: "OSTOENNER BACH",
+     Name: "OSTÖNNER BACH",
      ID: "H456",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -7991,7 +7907,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "OTTENHOEFEN",
+     Name: "OTTENHÖFEN",
      ID: "P0256",
      Bundesland: "Baden-Württemberg"
     },
@@ -8016,12 +7932,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "OVELGOENNE",
+     Name: "OVELGÖNNE",
      ID: "E232",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "OVERATH-BOEKE",
+     Name: "OVERATH-BÖKE",
      ID: "H755",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -8079,11 +7995,6 @@ export const locationData = [
      Name: "PEGAU",
      ID: "O305",
      Bundesland: "Sachsen"
-    },
-    {
-     Name: "PEGNITZ (KLAERANLAGE",
-     ID: "P271",
-     Bundesland: "Bayern"
     },
     {
      Name: "PEINE",
@@ -8161,7 +8072,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "PILSTING-BAECKERMUEH",
+     Name: "PILSTING-BÄCKERMÜH",
      ID: "P568",
      Bundesland: "Bayern"
     },
@@ -8191,7 +8102,7 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "PLAUEN",
+     Name: "PLAÜN",
      ID: 10569,
      Bundesland: "Sachsen"
     },
@@ -8201,7 +8112,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "PLEINFELD-MANDLESMUE",
+     Name: "PLEINFELD-MANDLESMÜ",
      ID: "P420",
      Bundesland: "Bayern"
     },
@@ -8211,17 +8122,17 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "PLOEN",
+     Name: "PLÖN",
      ID: "P0152",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "PLOESSBERG-LIEBENSTE",
+     Name: "PLÖSSBERG-LIEBENSTE",
      ID: "P292",
      Bundesland: "Bayern"
     },
     {
-     Name: "PLOETZKAU SAALE",
+     Name: "PLÖTZKAU SAALE",
      ID: "N642",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -8236,17 +8147,17 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "POESING",
+     Name: "PÖSING",
      ID: "G285",
      Bundesland: "Bayern"
     },
     {
-     Name: "POESSNECK",
+     Name: "PÖSSNECK",
      ID: "P0293",
      Bundesland: "Thüringen"
     },
     {
-     Name: "POETTMES-SCHORN",
+     Name: "PÖTTMES-SCHORN",
      ID: "N0645",
      Bundesland: "Bayern"
     },
@@ -8261,7 +8172,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "POLSINGEN-DOECKINGEN",
+     Name: "POLSINGEN-DÖCKINGEN",
      ID: "P418",
      Bundesland: "Bayern"
     },
@@ -8316,7 +8227,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "PRESSATH-MUEHLBERG",
+     Name: "PRESSATH-MÜHLBERG",
      ID: "P189",
      Bundesland: "Bayern"
     },
@@ -8331,12 +8242,12 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "PRUEM",
+     Name: "PRÜM",
      ID: "N7040",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "PRUEM-WATZERATH",
+     Name: "PRÜM-WATZERATH",
      ID: "K310",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -8346,7 +8257,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "PUERSCHLING",
+     Name: "PÜRSCHLING",
      ID: "Z916",
      Bundesland: "Bayern"
     },
@@ -8371,17 +8282,17 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "QUEDLINBURG",
+     Name: "QÜDLINBURG",
      ID: "K3187",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "QUERFURT",
+     Name: "QÜRFURT",
      ID: "N6357",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "QUERFURT-LODERSL.",
+     Name: "QÜRFURT-LODERSL.",
      ID: "N748",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -8396,7 +8307,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "RAESFELD KA",
+     Name: "RÄSFELD KA",
      ID: "H316",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -8716,17 +8627,12 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "RODACH (KLAERANLAGE)",
-     ID: "P041",
-     Bundesland: "Bayern"
-    },
-    {
      Name: "RODDER",
      ID: "K230",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "RODING-NEUBAEU",
+     Name: "RODING-NEUBÄU",
      ID: "P379",
      Bundesland: "Bayern"
     },
@@ -8736,32 +8642,32 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "ROECKERSBUEHL",
+     Name: "RÖCKERSBÜHL",
      ID: "G283",
      Bundesland: "Bayern"
     },
     {
-     Name: "ROEDELSEE",
+     Name: "RÖDELSEE",
      ID: "P264",
      Bundesland: "Bayern"
     },
     {
-     Name: "ROEDERMARK-OBER-RODE",
+     Name: "RÖDERMARK-OBER-RODE",
      ID: "L891",
      Bundesland: "Hessen"
     },
     {
-     Name: "ROELLBACH",
+     Name: "RÖLLBACH",
      ID: "P355",
      Bundesland: "Bayern"
     },
     {
-     Name: "ROELVEDER MUEHLE",
+     Name: "RÖLVEDER MÜHLE",
      ID: "H556",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "ROEMHILD-SUELZDORF",
+     Name: "RÖMHILD-SÜLZDORF",
      ID: "M909",
      Bundesland: "Thüringen"
     },
@@ -8851,7 +8757,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "ROTH BEI PRUEM",
+     Name: "ROTH BEI PRÜM",
      ID: "K212",
      Bundesland: "Rheinland-Pfalz"
     },
@@ -8866,7 +8772,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "ROTHEMUEHL",
+     Name: "ROTHEMÜHL",
      ID: "B687",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -8916,12 +8822,12 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "ROTTHALMUENSTER",
+     Name: "ROTTHALMÜNSTER",
      ID: "G354",
      Bundesland: "Bayern"
     },
     {
-     Name: "ROTTHALMUENSTER (LAN",
+     Name: "ROTTHALMÜNSTER (LAN",
      ID: "P688",
      Bundesland: "Bayern"
     },
@@ -8936,37 +8842,32 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "RUEDERSDORF",
+     Name: "RÜDERSDORF",
      ID: "F461",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "RUEDESHEIM",
+     Name: "RÜDESHEIM",
      ID: "N5056",
      Bundesland: "Hessen"
     },
     {
-     Name: "RUEDESHEIM-PRESBERG",
+     Name: "RÜDESHEIM-PRESBERG",
      ID: "L803",
      Bundesland: "Hessen"
     },
     {
-     Name: "Ruegen",
-     ID: "EW019",
-     Bundesland: "Mecklenburg-Vorpommern"
-    },
-    {
-     Name: "RUELZHEIM",
+     Name: "RÜLZHEIM",
      ID: "K969",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "RUESSELSHEIM",
+     Name: "RÜSSELSHEIM",
      ID: "N2254",
      Bundesland: "Hessen"
     },
     {
-     Name: "RUETHEN",
+     Name: "RÜTHEN",
      ID: "N8631",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -8979,11 +8880,6 @@ export const locationData = [
      Name: "RUHLAND",
      ID: "F945",
      Bundesland: "Brandenburg"
-    },
-    {
-     Name: "RUHPOLDING (KLAERANL",
-     ID: "P983",
-     Bundesland: "Bayern"
     },
     {
      Name: "RUHPOLDING-SEEHAUS",
@@ -9006,7 +8902,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "SAALEBRUECKE",
+     Name: "SAALEBRÜCKE",
      ID: "P082",
      Bundesland: "Bayern"
     },
@@ -9016,12 +8912,12 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "SAARBRUECKEN",
+     Name: "SAARBRÜCKEN",
      ID: 10708,
      Bundesland: "Saarland"
     },
     {
-     Name: "SAARBRUECKEN-BURBACH",
+     Name: "SAARBRÜCKEN-BURBACH",
      ID: "J908",
      Bundesland: "Saarland"
     },
@@ -9051,7 +8947,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "SALZHEMMENDORF-LAUEN",
+     Name: "SALZHEMMENDORF-LAÜN",
      ID: "E748",
      Bundesland: "Niedersachsen"
     },
@@ -9131,7 +9027,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "SAUERLACH",
+     Name: "SAÜRLACH",
      ID: "N2076",
      Bundesland: "Bayern"
     },
@@ -9156,12 +9052,12 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "SCHAEFTLARN-KLOSTER",
+     Name: "SCHÄFTLARN-KLOSTER",
      ID: "P846",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHAERDING",
+     Name: "SCHÄRDING",
      ID: 11055,
      Bundesland: "Bayern"
     },
@@ -9181,7 +9077,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHAUENBURG-ELGERSH.",
+     Name: "SCHAÜNBURG-ELGERSH.",
      ID: 10441,
      Bundesland: "Hessen"
     },
@@ -9211,7 +9107,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "SCHESSLITZ-KOETTENSD",
+     Name: "SCHESSLITZ-KÖTTENSD",
      ID: "P158",
      Bundesland: "Bayern"
     },
@@ -9256,7 +9152,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHLEIDEN-SCHOENES.",
+     Name: "SCHLEIDEN-SCHÖNES.",
      ID: "N0151",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -9301,14 +9197,9 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "SCHLUECHTERN",
+     Name: "SCHLÜCHTERN",
      ID: "K2630",
      Bundesland: "Hessen"
-    },
-    {
-     Name: "SCHLUESSELFELD (KLAE",
-     ID: "P243",
-     Bundesland: "Bayern"
     },
     {
      Name: "SCHMALKALDEN",
@@ -9331,7 +9222,7 @@ export const locationData = [
      Bundesland: "Saarland"
     },
     {
-     Name: "SCHMELZ-HUETTERSDORF",
+     Name: "SCHMELZ-HÜTTERSDORF",
      ID: "J812",
      Bundesland: "Saarland"
     },
@@ -9341,7 +9232,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHMIDMUEHLEN",
+     Name: "SCHMIDMÜHLEN",
      ID: "P359",
      Bundesland: "Bayern"
     },
@@ -9361,12 +9252,12 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "SCHMOELLN",
+     Name: "SCHMÖLLN",
      ID: "P0119",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "SCHMUECKE",
+     Name: "SCHMÜCKE",
      ID: 10552,
      Bundesland: "Thüringen"
     },
@@ -9376,67 +9267,67 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "SCHOEFFELDING",
+     Name: "SCHÖFFELDING",
      ID: "P738",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOELLKRIPPEN",
+     Name: "SCHÖLLKRIPPEN",
      ID: "G211",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOENAU",
+     Name: "SCHÖNAU",
      ID: "G394",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOENBERG",
+     Name: "SCHÖNBERG",
      ID: "P0351",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "SCHOENBERG NDB.",
+     Name: "SCHÖNBERG NDB.",
      ID: "N2271",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOENBORN",
+     Name: "SCHÖNBORN",
      ID: "O252",
      Bundesland: "Sachsen"
     },
     {
-     Name: "SCHOENBRUNN",
+     Name: "SCHÖNBRUNN",
      ID: "G339",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOENEWALDE",
+     Name: "SCHÖNEWALDE",
      ID: "P0516",
      Bundesland: "Brandenburg"
     },
     {
-     Name: "SCHOENINGEN",
+     Name: "SCHÖNINGEN",
      ID: "N4854",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "SCHOENSEE-DIETERSDOR",
+     Name: "SCHÖNSEE-DIETERSDOR",
      ID: "P299",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHOENTEICHEN-CUNNER",
+     Name: "SCHÖNTEICHEN-CUNNER",
      ID: "O268",
      Bundesland: "Sachsen"
     },
     {
-     Name: "SCHOENWOELKAU-BRINNI",
+     Name: "SCHÖNWÖLKAU-BRINNI",
      ID: "O039",
      Bundesland: "Sachsen"
     },
     {
-     Name: "SCHOEPPINGEN",
+     Name: "SCHÖPPINGEN",
      ID: "N3001",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -9466,7 +9357,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "SCHORNDORF-KNOEBLING",
+     Name: "SCHORNDORF-KNÖBLING",
      ID: "P463",
      Bundesland: "Bayern"
     },
@@ -9491,12 +9382,12 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHROEDELSTEIN",
+     Name: "SCHRÖDELSTEIN",
      ID: "Z928",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHUELP",
+     Name: "SCHÜLP",
      ID: "P0144",
      Bundesland: "Schleswig-Holstein"
     },
@@ -9506,17 +9397,17 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHWABMUENCHEN",
+     Name: "SCHWABMÜNCHEN",
      ID: "N0586",
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHWAEB.GMUEND",
+     Name: "SCHWÄB.GMÜND",
      ID: "K2727",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "SCHWAEBISCH HALL",
+     Name: "SCHWÄBISCH HALL",
      ID: "K2724",
      Bundesland: "Baden-Württemberg"
     },
@@ -9536,7 +9427,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHWANEWEDE-NEUENKIR",
+     Name: "SCHWANEWEDE-NEÜNKIR",
      ID: "E246",
      Bundesland: "Bremen"
     },
@@ -9611,7 +9502,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "SCHWEITENKIRCHEN-SUE",
+     Name: "SCHWEITENKIRCHEN-SÜ",
      ID: "P642",
      Bundesland: "Bayern"
     },
@@ -9644,11 +9535,6 @@ export const locationData = [
      Name: "SECKENHEIM",
      ID: "Q006",
      Bundesland: "Baden-Württemberg"
-    },
-    {
-     Name: "SEEG (KLAERANLAGE)",
-     ID: "P936",
-     Bundesland: "Bayern"
     },
     {
      Name: "SEEGEBIET MANSFELDER",
@@ -9736,22 +9622,13 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "SIEGEN (KLÄRANLAGE)",
-     ID: "H883",
-     Bundesland: "Nordrhein-Westfalen"
-    },
-    {
      Name: "SIEGENBURG",
      ID: "P547",
      Bundesland: "Bayern"
     },
+
     {
-     Name: "SIEGENBURG (KLAERANL",
-     ID: "P546",
-     Bundesland: "Bayern"
-    },
-    {
-     Name: "SIEGSDORF-HOELL",
+     Name: "SIEGSDORF-HÖLL",
      ID: "P904",
      Bundesland: "Bayern"
     },
@@ -9801,11 +9678,6 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "SINGHOFEN (KLAERANLA",
-     ID: "K381",
-     Bundesland: "Rheinland-Pfalz"
-    },
-    {
      Name: "SINSHEIM",
      ID: 10735,
      Bundesland: "Baden-Württemberg"
@@ -9821,27 +9693,27 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "SODEN,BAD-SALMUENSTE",
+     Name: "SODEN,BAD-SALMÜNSTE",
      ID: "L781",
      Bundesland: "Hessen"
     },
     {
-     Name: "SOELLITZ",
+     Name: "SÖLLITZ",
      ID: "G259",
      Bundesland: "Bayern"
     },
     {
-     Name: "SOELLMNITZ",
+     Name: "SÖLLMNITZ",
      ID: "P0127",
      Bundesland: "Thüringen"
     },
     {
-     Name: "SOEMMERDA",
+     Name: "SÖMMERDA",
      ID: "N5601",
      Bundesland: "Thüringen"
     },
     {
-     Name: "SOEST",
+     Name: "SÖST",
      ID: "N9350",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -9946,7 +9818,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "SPROCKHOEVEL-HASSL.",
+     Name: "SPROCKHÖVEL-HASSL.",
      ID: "N8867",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -9996,7 +9868,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "STAMMBACH-QUERENBACH",
+     Name: "STAMMBACH-QÜRENBACH",
      ID: "P088",
      Bundesland: "Bayern"
     },
@@ -10106,12 +9978,12 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "STOETTEN",
+     Name: "STÖTTEN",
      ID: 10836,
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "STRAELEN",
+     Name: "STRÄLEN",
      ID: "N0447",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -10156,12 +10028,12 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "STROMBERG HUNSRUECK",
+     Name: "STROMBERG HUNSRÜCK",
      ID: "N5344",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "STUETZENGRUEN-HUNDSH",
+     Name: "STÜTZENGRÜN-HUNDSH",
      ID: "O877",
      Bundesland: "Sachsen"
     },
@@ -10191,27 +10063,27 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "SUEDEICHSFELD-WENDEH",
+     Name: "SÜDEICHSFELD-WENDEH",
      ID: "M301",
      Bundesland: "Thüringen"
     },
     {
-     Name: "SUEDERHOLZ-NEUENDORF",
+     Name: "SÜDERHOLZ-NEÜNDORF",
      ID: "B365",
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "SUEDHARZ-DIETERSDORF",
+     Name: "SÜDHARZ-DIETERSDORF",
      ID: "N714",
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "SUEDLOHN",
+     Name: "SÜDLOHN",
      ID: "P0616",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "SUEPPLINGEN",
+     Name: "SÜPPLINGEN",
      ID: "E792",
      Bundesland: "Niedersachsen"
     },
@@ -10271,7 +10143,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "TANN RHOEN",
+     Name: "TANN RHÖN",
      ID: "L592",
      Bundesland: "Hessen"
     },
@@ -10301,7 +10173,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "TEGELBERG-RUECKEN",
+     Name: "TEGELBERG-RÜCKEN",
      ID: "Z910",
      Bundesland: "Bayern"
     },
@@ -10346,11 +10218,6 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "TEUBLITZ (KLAERANLAG",
-     ID: "P451",
-     Bundesland: "Bayern"
-    },
-    {
      Name: "TEUSCHNITZ",
      ID: "P071",
      Bundesland: "Bayern"
@@ -10361,7 +10228,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "THALMAESSING",
+     Name: "THALMÄSSING",
      ID: "N0751",
      Bundesland: "Bayern"
     },
@@ -10386,7 +10253,7 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "TIMMENDORF POEL",
+     Name: "TIMMENDORF PÖL",
      ID: "P0124",
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -10411,7 +10278,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "TOENISVORST",
+     Name: "TÖNISVORST",
      ID: "H522",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -10446,7 +10313,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "TRAVEMUENDE",
+     Name: "TRAVEMÜNDE",
      ID: "A699",
      Bundesland: "Schleswig-Holstein"
     },
@@ -10466,12 +10333,12 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "TREUEN",
+     Name: "TREÜN",
      ID: "O868",
      Bundesland: "Sachsen"
     },
     {
-     Name: "TREUENBRIETZEN",
+     Name: "TREÜNBRIETZEN",
      ID: "N7511",
      Bundesland: "Brandenburg"
     },
@@ -10531,12 +10398,12 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "TUEBINGEN",
+     Name: "TÜBINGEN",
      ID: "N1075",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "TUESSLING",
+     Name: "TÜSSLING",
      ID: "P785",
      Bundesland: "Bayern"
     },
@@ -10551,7 +10418,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "TWISTETAL-MUEHLHAUS.",
+     Name: "TWISTETAL-MÜHLHAUS.",
      ID: "L121",
      Bundesland: "Hessen"
     },
@@ -10566,32 +10433,32 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "UEBERLINGEN BODENSEE",
+     Name: "ÜBERLINGEN BODENSEE",
      ID: "K2787",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "UECKERMUENDE",
+     Name: "ÜCKERMÜNDE",
      ID: 10193,
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "UEHLINGEN-BIRKENDORF",
+     Name: "ÜHLINGEN-BIRKENDORF",
      ID: "Q922",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "UELZEN",
+     Name: "ÜLZEN",
      ID: "K3883",
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "UETERSEN",
+     Name: "ÜTERSEN",
      ID: "P0199",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "UETZE",
+     Name: "ÜTZE",
      ID: "E688",
      Bundesland: "Niedersachsen"
     },
@@ -10606,7 +10473,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "ULM-MAEHRINGEN",
+     Name: "ULM-MÄHRINGEN",
      ID: 10840,
      Bundesland: "Baden-Württemberg"
     },
@@ -10636,7 +10503,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "UNTERWOESSEN-HINTERW",
+     Name: "UNTERWÖSSEN-HINTERW",
      ID: "P981",
      Bundesland: "Bayern"
     },
@@ -10701,7 +10568,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "VEITSHOECHHEIM",
+     Name: "VEITSHÖCHHEIM",
      ID: "G231",
      Bundesland: "Bayern"
     },
@@ -10721,7 +10588,7 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "VERDEN-DAUELSEN",
+     Name: "VERDEN-DAÜLSEN",
      ID: "E451",
      Bundesland: "Niedersachsen"
     },
@@ -10771,7 +10638,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "VILSHEIM-MUENCHSDORF",
+     Name: "VILSHEIM-MÜNCHSDORF",
      ID: "P656",
      Bundesland: "Bayern"
     },
@@ -10786,12 +10653,12 @@ export const locationData = [
      Bundesland: "Sachsen-Anhalt"
     },
     {
-     Name: "VOEHL-BUCHENBERG",
+     Name: "VÖHL-BUCHENBERG",
      ID: "L222",
      Bundesland: "Hessen"
     },
     {
-     Name: "VOELKLINGEN",
+     Name: "VÖLKLINGEN",
      ID: "K2107",
      Bundesland: "Saarland"
     },
@@ -10799,11 +10666,6 @@ export const locationData = [
      Name: "VOGELSBERG",
      ID: "P0020",
      Bundesland: "Hessen"
-    },
-    {
-     Name: "VOGTAREUTH (KLAERANL",
-     ID: "P873",
-     Bundesland: "Bayern"
     },
     {
      Name: "VORM WITZENBRUCH",
@@ -10836,7 +10698,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WAECHTERSBACH",
+     Name: "WÄCHTERSBACH",
      ID: "L773",
      Bundesland: "Hessen"
     },
@@ -10846,7 +10708,7 @@ export const locationData = [
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "WAGHAEUSEL-KIRRLACH",
+     Name: "WAGHÄUSEL-KIRRLACH",
      ID: "Q104",
      Bundesland: "Baden-Württemberg"
     },
@@ -10856,7 +10718,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "WAGING AM SEE-SCHNOE",
+     Name: "WAGING AM SEE-SCHNÖ",
      ID: "P894",
      Bundesland: "Bayern"
     },
@@ -10886,7 +10748,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WALDBROEL",
+     Name: "WALDBRÖL",
      ID: "N8101",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -10926,7 +10788,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "WALDMUENCHEN",
+     Name: "WALDMÜNCHEN",
      ID: 10782,
      Bundesland: "Bayern"
     },
@@ -10956,7 +10818,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "WALLDUERN",
+     Name: "WALLDÜRN",
      ID: "Q053",
      Bundesland: "Baden-Württemberg"
     },
@@ -10991,12 +10853,12 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WANGEN ALLGAEU",
+     Name: "WANGEN ALLGÄU",
      ID: "N0122",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "WANGEN ALLGAEU-UNTER",
+     Name: "WANGEN ALLGÄU-UNTER",
      ID: "Q999",
      Bundesland: "Baden-Württemberg"
     },
@@ -11026,7 +10888,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WARNEMUENDE",
+     Name: "WARNEMÜNDE",
      ID: 10170,
      Bundesland: "Mecklenburg-Vorpommern"
     },
@@ -11041,7 +10903,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WARTSTEINHUETTE",
+     Name: "WARTSTEINHÜTTE",
      ID: "Z944",
      Bundesland: "Bayern"
     },
@@ -11066,7 +10928,7 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "WASSERTRUEDINGEN (KL",
+     Name: "WASSERTRÜDINGEN (KL",
      ID: "P417",
      Bundesland: "Bayern"
     },
@@ -11126,7 +10988,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "WEIHENZELL-GRUEB",
+     Name: "WEIHENZELL-GRÜB",
      ID: "P317",
      Bundesland: "Bayern"
     },
@@ -11156,7 +11018,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "WEILMUENSTER",
+     Name: "WEILMÜNSTER",
      ID: "N6259",
      Bundesland: "Hessen"
     },
@@ -11166,7 +11028,7 @@ export const locationData = [
      Bundesland: "Thüringen"
     },
     {
-     Name: "WEIMAR-SCHOENDORF",
+     Name: "WEIMAR-SCHÖNDORF",
      ID: "M448",
      Bundesland: "Thüringen"
     },
@@ -11276,7 +11138,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "WENDEN-DOERNSCHEID",
+     Name: "WENDEN-DÖRNSCHEID",
      ID: "H777",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -11326,7 +11188,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "WESEL-FLUEREN",
+     Name: "WESEL-FLÜREN",
      ID: "N9607",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -11396,7 +11258,7 @@ export const locationData = [
      Bundesland: "Mecklenburg-Vorpommern"
     },
     {
-     Name: "WETTER HESSEN-AMOENA",
+     Name: "WETTER HESSEN-AMÖNA",
      ID: "L312",
      Bundesland: "Hessen"
     },
@@ -11501,7 +11363,7 @@ export const locationData = [
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WILLINGEN HOCHSAUERL",
+     Name: "WILLINGEN HOCHSAÜRL",
      ID: "L101",
      Bundesland: "Hessen"
     },
@@ -11556,7 +11418,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "WIPPERFUERTH-GARDEWE",
+     Name: "WIPPERFÜRTH-GARDEWE",
      ID: "H655",
      Bundesland: "Nordrhein-Westfalen"
     },
@@ -11636,12 +11498,12 @@ export const locationData = [
      Bundesland: "Hessen"
     },
     {
-     Name: "WOERRSTADT",
+     Name: "WÖRRSTADT",
      ID: "K587",
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "WOERTH",
+     Name: "WÖRTH",
      ID: "P0197",
      Bundesland: "Bayern"
     },
@@ -11651,7 +11513,7 @@ export const locationData = [
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "WOLFENBUETTEL",
+     Name: "WOLFENBÜTTEL",
      ID: "N4242",
      Bundesland: "Niedersachsen"
     },
@@ -11671,7 +11533,7 @@ export const locationData = [
      Bundesland: "Niedersachsen"
     },
     {
-     Name: "WOLFSBURG (SUEDWEST)",
+     Name: "WOLFSBURG (SÜDWEST)",
      ID: "E790",
      Bundesland: "Niedersachsen"
     },
@@ -11721,7 +11583,7 @@ export const locationData = [
      Bundesland: "Rheinland-Pfalz"
     },
     {
-     Name: "WORPSWEDE-HUETTENBUS",
+     Name: "WORPSWEDE-HÜTTENBUS",
      ID: "E254",
      Bundesland: "Niedersachsen"
     },
@@ -11731,32 +11593,32 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "WRIXUM FOEHR",
+     Name: "WRIXUM FÖHR",
      ID: "A112",
      Bundesland: "Schleswig-Holstein"
     },
     {
-     Name: "WUENNENBERG",
+     Name: "WÜNNENBERG",
      ID: "N9227",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WUENNENBERG-EILERN",
+     Name: "WÜNNENBERG-EILERN",
      ID: "H477",
      Bundesland: "Nordrhein-Westfalen"
     },
     {
-     Name: "WUERZBURG",
+     Name: "WÜRZBURG",
      ID: 10655,
      Bundesland: "Bayern"
     },
     {
-     Name: "WUESTENROT",
+     Name: "WÜSTENROT",
      ID: "N1528",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "WUESTENROT-OBERHEIMB",
+     Name: "WÜSTENROT-OBERHEIMB",
      ID: "Q261",
      Bundesland: "Baden-Württemberg"
     },
@@ -11766,7 +11628,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "WUNSIEDEL-SCHOENBRUN",
+     Name: "WUNSIEDEL-SCHÖNBRUN",
      ID: 10686,
      Bundesland: "Bayern"
     },
@@ -11816,12 +11678,12 @@ export const locationData = [
      Bundesland: "Brandenburg"
     },
     {
-     Name: "WUTOESCHINGEN-OFTER.",
+     Name: "WUTÖSCHINGEN-OFTER.",
      ID: "Q926",
      Bundesland: "Baden-Württemberg"
     },
     {
-     Name: "WYK FOEHR",
+     Name: "WYK FÖHR",
      ID: "K1407",
      Bundesland: "Schleswig-Holstein"
     },
@@ -11896,7 +11758,7 @@ export const locationData = [
      Bundesland: "Sachsen"
     },
     {
-     Name: "ZOERBIG",
+     Name: "ZÖRBIG",
      ID: "N793",
      Bundesland: "Sachsen-Anhalt"
     },
@@ -11906,9 +11768,15 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "ZUELPICH",
+     Name: "ZÜLPICH",
      ID: "N8439",
      Bundesland: "Nordrhein-Westfalen"
+    },
+    {
+     Name: "ZUGSPITZE",
+     ID: "10961",
+     Bundesland: "Bayern"
+     
     },
     {
      Name: "ZUGSPITZPLATT",
@@ -11926,13 +11794,8 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "ZWEIBRUECKEN",
+     Name: "ZWEIBRÜCKEN",
      ID: 10714,
-     Bundesland: "Rheinland-Pfalz"
-    },
-    {
-     Name: "ZWEIBRUECKEN (KLAERA",
-     ID: "K918",
      Bundesland: "Rheinland-Pfalz"
     },
     {
@@ -11946,7 +11809,7 @@ export const locationData = [
      Bundesland: "Bayern"
     },
     {
-     Name: "ZWOENITZ",
+     Name: "ZWÖNITZ",
      ID: "N4191",
      Bundesland: "Sachsen"
     }
