@@ -61,13 +61,15 @@
     /* -webkit-box-align: center; */
   }
   
-  .weather-details {
+  .weather-details, .weather-details-bottom {
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
+    margin-top: 15px;
     -webkit-box-pack: justify;
     -webkit-box-flex: 1;
   }
+
   
   .next-data {
     width: 50%;
@@ -83,7 +85,7 @@
       margin-bottom: 2px;
   }
   
-  .humidity, .precipitation {
+  .data-value {
     font-size: 1.1rem;
     font-weight: 400;
     color: rgb(68, 68, 68);

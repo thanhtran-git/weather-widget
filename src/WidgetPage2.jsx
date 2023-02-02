@@ -1,7 +1,9 @@
 import React, {useState, useContext} from "react";
 import {SearchContext} from './SearchContext.js'
-import './CSS/Style-Page-2.css'
 import WeatherIconSmall from "./WeatherIcon-small";
+import { formatTime } from "./Variables.jsx";
+import { weekdayToday } from "./Variables.jsx";
+import './CSS/Style-Page-2.css'
 
 const WidgetPage2 = () => {
     const {data, stationId, searchTerm} = useContext(SearchContext)
@@ -9,6 +11,10 @@ const WidgetPage2 = () => {
     const today = new Date()
     const currentHour = today.getHours()
     const todaysDate = new Date(data[stationId]?.forecast1?.start)
+    const msSunrise = data[stationId]?.days[0]?.sunrise;
+    const msSunset = data[stationId]?.days[0]?.sunset;
+    const sunrise = formatTime(msSunrise);
+    const sunset = formatTime(msSunset)
 
     return(
      <>
@@ -25,7 +31,7 @@ const WidgetPage2 = () => {
 
                 <span className="Wicon-small">{WeatherIconSmall()}</span>
 
-                <span className="todaysDate">{todaysDate.toLocaleDateString('de-de')}</span>
+                <span className="todaysDate">{weekdayToday+' '}{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
             
                         <div className="weather-details">
@@ -33,36 +39,65 @@ const WidgetPage2 = () => {
                                                     {/* Forecast Next Day Container */}
                             <div className="">
                                 <span className="title-data">Luftfeuchte</span>
-                                {<img src="/weathericons/icon-feuchtigkeit-32.png" alt="humidityicon"/>}{' '}
-                                <span className="humidity">
+                                <span className="data-value">
                                     {Math.round(data[stationId]?.forecast1?.humidity[0]/10)}%
-                                </span>{' '}
+                                </span>
                             </div>
                             
                                                     
                             <div className="">
                                 <span className="title-data">Regen</span>
-                                {<img src="/weathericons/icon-regen-32.png" alt="regenIcon"/>}{' '}
-                                <span className="precipitation">
+                                <span className="data-value">
                                     {data[stationId]?.forecast1?.precipitationTotal[currentHour]}mm
-                                </span>{' '}
+                                </span>
                             </div>
 
                             <div className="">
                                 <span className="title-data">Wind</span>
-                                {<img src="/weathericons/icon-wind-32.png" alt="windIcon"/>}{' '}
-                                <span className="precipitation">
+                                <span className="data-value">
                                     {Math.round(data[stationId]?.days[0]?.windSpeed/10)}km/h
-                                </span>{' '}
+                                </span>
                             </div>
                             
                             <div className="">
                                 <span className="title-data">Sonne</span>
-                                {<img src="/weathericons/sun.png" alt="windIcon"/>}{' '}
-                                <span className="precipitation">
+                                <span className="data-value">
                                     {Math.round(data[stationId]?.days[0]?.sunshine/10)}min
-                                </span>{' '} 
+                                </span>
                             </div>
+                        </div>
+
+                        <div className="weather-details-bottom">
+                            <div>
+                                <span className="title-data">Taupunkt</span>
+                                <span className="data-value">
+                                    {Math.round(data[stationId]?.forecast1?.dewPoint2m[0]/10)}°C
+                                </span>
+
+                            </div>
+
+                            <div>
+                                <span className="title-data">Luftdruck</span>
+                                <span className="data-value">
+                                    {data[stationId]?.forecast1?.surfacePressure[0]/10} hPa
+                                </span>
+                            </div>
+
+                            <div>
+                                <img src="./sunrise-color-24px.png" alt="sunrise-icon" />
+                                <span className="data-value">
+                                    {sunrise}
+                                </span>
+                            </div>
+
+                            <div>
+                                <img src="./sunset-blue.png" alt="sunset-icon" />
+                                <span className="data-value">
+                                    {sunset}
+                                </span>
+                            </div>
+
+
                         </div>
                         
             </div> )} 

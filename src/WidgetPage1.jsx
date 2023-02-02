@@ -24,7 +24,7 @@ const WidgetPage1 = () => {
             
                                         {/* "WETTER | BERLIN" HEADER */}
             <div className="weather-header">
-                { <span className="title">Wetter</span> /*<span className="weather-location">{searchTerm}   </span> */}
+                <span className="title">Wetter</span>
                 <span className="todaysDate">{weekdayToday+' '}{todaysDate.toLocaleDateString('de-de')}</span>
             </div>
 
@@ -32,6 +32,7 @@ const WidgetPage1 = () => {
             <div className="searchbar">
                 {SearchBar()}
             </div>
+
 
             {data && (
                 <div className="weather-bottom">   
