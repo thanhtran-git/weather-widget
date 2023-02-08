@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
-import WeatherIconSmall from "./WeatherIcon-small";
+import WeatherIconSmall from "./WeatherIconSmall";
 import { formatTime } from "./Variables.jsx";
 import { weekdayToday } from "./Variables.jsx";
 import "./CSS/StylePage2.css";
@@ -10,6 +10,7 @@ const WidgetPage2 = () => {
   const [error] = useState(null);
   const today = new Date();
   const currentHour = today.getHours();
+  const iconCurrentHour = data[stationId]?.forecast1.icon[currentHour];
   const todaysDate = new Date(data[stationId]?.forecast1?.start);
   const msSunrise = data[stationId]?.days[0]?.sunrise;
   const msSunset = data[stationId]?.days[0]?.sunset;
@@ -28,7 +29,9 @@ const WidgetPage2 = () => {
           <div className="weather-header">
             <span className="weather-location">{searchTerm}</span>
 
-            <span className="Wicon-small">{WeatherIconSmall()}</span>
+            <span className="Wicon-small">
+              {WeatherIconSmall(iconCurrentHour)}
+            </span>
 
             <span className="todaysDate">
               {weekdayToday + " "}
