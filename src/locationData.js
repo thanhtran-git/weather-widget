@@ -735,16 +735,6 @@ export const locationData = [
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "BAIERSBRONN-MITTELTA",
-    ID: "Q522",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAIERSBRONN-RUHESTEI",
-    ID: "Q409",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "BALDERSCHWANG",
     ID: "N0101",
     Bundesland: "Bayern",
@@ -1461,24 +1451,9 @@ export const locationData = [
     Bundesland: "Thüringen",
   },
   {
-    Name: "BRAKE",
-    ID: "E235",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BRAKEL",
-    ID: "H391",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
     Name: "BRANDENBURG HAVEL",
     ID: "F518",
     Bundesland: "Brandenburg",
-  },
-  {
-    Name: "BRANNENBURG-DEGERNDO",
-    ID: "P971",
-    Bundesland: "Bayern",
   },
   {
     Name: "BRAUNECK",
@@ -1496,7 +1471,7 @@ export const locationData = [
     Bundesland: "Niedersachsen",
   },
   {
-    Name: "BRAUNSCHWG.",
+    Name: "BRAUNSCHWEIG",
     ID: 10348,
     Bundesland: "Niedersachsen",
   },
@@ -3962,11 +3937,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "HAALE",
-    ID: "A536",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
     Name: "HAARSTRANG",
     ID: "P0512",
     Bundesland: "Nordrhein-Westfalen",
@@ -3982,19 +3952,9 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "HÄHNICHEN-TREBUS",
-    ID: "O099",
-    Bundesland: "Sachsen",
-  },
-  {
     Name: "HÄNCHEN",
     ID: "F863",
     Bundesland: "Brandenburg",
-  },
-  {
-    Name: "HAFTENKAMP",
-    ID: "P0618",
-    Bundesland: "Niedersachsen",
   },
   {
     Name: "HAGELSTADT",
@@ -6022,11 +5982,6 @@ export const locationData = [
     Bundesland: "Sachsen",
   },
   {
-    Name: "LEIPZIG SCHKEUDITZ",
-    ID: 10469,
-    Bundesland: "Sachsen",
-  },
-  {
     Name: "LEISENWALD",
     ID: "P0174",
     Bundesland: "Hessen",
@@ -7197,11 +7152,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "NEUGLOBSOW",
-    ID: 10277,
-    Bundesland: "Brandenburg",
-  },
-  {
     Name: "NEUHAUS A.R.",
     ID: 10557,
     Bundesland: "Thüringen",
@@ -8037,16 +7987,6 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "PFARRWEISACH-LOHR (P",
-    ID: "P048",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "PFORZHEIM",
-    ID: "K2711",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "PFORZHEIM-ISPRINGEN",
     ID: "Q332",
     Bundesland: "Baden-Württemberg",
@@ -8097,23 +8037,8 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "PLAU AM SEE",
-    ID: "B747",
-    Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "PLAÜN",
-    ID: 10569,
-    Bundesland: "Sachsen",
-  },
-  {
     Name: "PLECH",
     ID: "P270",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "PLEINFELD-MANDLESMÜ",
-    ID: "P420",
     Bundesland: "Bayern",
   },
   {

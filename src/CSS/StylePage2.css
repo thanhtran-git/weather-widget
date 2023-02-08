@@ -8,12 +8,12 @@
 
   .widget-container-p2 {
     background-color: white;
-    padding: 20px 20px 20px 12px;
+    padding: 10px 20px 10px 15px;
     margin: 50px auto auto auto;
     border-radius: 13px;
   
     width: 500px;
-    height: 220px;
+    height: 200px;
   }
   
   .title {
@@ -34,7 +34,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     color: #7d8c96;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   
   .todaysDate {
@@ -46,28 +46,7 @@
   
   .weather-header{
     display: flex;
-    margin-bottom: 17px;
-  }
-  
-  .weather-bottom{
-    align-items: center;
-    display: flex;
-    height: 70%;
-    -webkit-box-align: center;
-  }
-  
-  .weather-now img {
-    margin-right: 15px;
-  }
-  
-  .weather-now-temp {
-    font-size: 3.5rem;
-    padding-right: 19px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-shrink: 0;
-    /* -webkit-box-align: center; */
+    /* margin-bottom: 0px; */
   }
   
   .weather-details, .weather-details-bottom {
@@ -75,20 +54,12 @@
     justify-content: space-around;
     flex-grow: 1;
     margin-top: 15px;
-    -webkit-box-pack: justify;
-    -webkit-box-flex: 1;
-  }
-
-  
-  .next-data {
-    width: 50%;
-  
   }
   
   .title-data {
       color: rgb(68, 68, 68);
       display: block;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: bold;
       line-height: 1;
       margin-bottom: 2px;
@@ -100,8 +71,6 @@
     color: rgb(68, 68, 68);
   }
 
-
-  
 .weatherIcon-forecast {
   margin-left: 10px;
 }

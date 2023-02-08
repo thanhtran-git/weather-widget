@@ -8,13 +8,14 @@ const WeatherIconSmall = (condition) => {
   const currentHour = today.getHours();
   const sunrise = new Date(data[stationId]?.days[0]?.sunrise);
   const sunset = new Date(data[stationId]?.days[0]?.sunset);
-  const checkDayNight =
+  const isDay =
     currentHour > sunrise.getHours() && currentHour < sunset.getHours();
+  // let isDay = data[stationId]?.forecast1.isDay[currentHour];
   let icon = "";
 
   switch (condition) {
     case 1:
-      checkDayNight
+      isDay === "true"
         ? (icon = (
             <img
               src="/weatherIcons/sonne.png"
@@ -31,7 +32,7 @@ const WeatherIconSmall = (condition) => {
           ));
       break;
     case 2:
-      checkDayNight
+      isDay === "true"
         ? (icon = (
             <img
               src="/weatherIcons/sonne_woelkchen.png"
@@ -48,7 +49,7 @@ const WeatherIconSmall = (condition) => {
           ));
       break;
     case 3:
-      checkDayNight
+      isDay === "true"
         ? (icon = icon =
             (
               <img

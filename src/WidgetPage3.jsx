@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
 import { weekdayToday } from "./Variables.jsx";
-import WeatherIconSmall from "./WeatherIcon-small";
+import WeatherIconSmall from "./WeatherIconSmall";
 import "./CSS/StylePage3.css";
 
 const WidgetPage3 = () => {
@@ -9,7 +9,6 @@ const WidgetPage3 = () => {
   const today = new Date();
   const currentHour = today.getHours();
   const todaysDate = new Date(data[stationId]?.forecast1?.start);
-  const iconCurrentHour = data[stationId]?.forecast1?.icon[currentHour];
 
   return (
     <>
@@ -26,8 +25,9 @@ const WidgetPage3 = () => {
 
           <div className="weather-box-container">
             <div className="weather-box">
-              {currentHour + 1 + ":00"}
-              {WeatherIconSmall(iconCurrentHour)}
+              {"9:00"}
+              {WeatherIconSmall(data[stationId]?.forecast1?.icon[9])}
+              {console.log(data[stationId]?.forecast1.isDay[currentHour + 1])}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 1] / 10
               )}
@@ -36,7 +36,9 @@ const WidgetPage3 = () => {
 
             <div className="weather-box">
               {currentHour + 2 + ":00"}
-              {WeatherIconSmall(iconCurrentHour)}
+              {WeatherIconSmall(
+                data[stationId]?.forecast1?.icon[currentHour + 2]
+              )}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 2] / 10
               )}
@@ -45,7 +47,9 @@ const WidgetPage3 = () => {
 
             <div className="weather-box">
               {currentHour + 3 + ":00"}
-              {WeatherIconSmall(iconCurrentHour)}
+              {WeatherIconSmall(
+                data[stationId]?.forecast1?.icon[currentHour + 3]
+              )}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 3] / 10
               )}
@@ -54,7 +58,9 @@ const WidgetPage3 = () => {
 
             <div className="weather-box">
               {currentHour + 4 + ":00"}
-              {WeatherIconSmall(iconCurrentHour)}
+              {WeatherIconSmall(
+                data[stationId]?.forecast1?.icon[currentHour + 4]
+              )}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 4] / 10
               )}
@@ -63,7 +69,9 @@ const WidgetPage3 = () => {
 
             <div className="weather-box">
               {currentHour + 5 + ":00"}
-              {WeatherIconSmall()}
+              {WeatherIconSmall(
+                data[stationId]?.forecast1?.icon[currentHour + 5]
+              )}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 5] / 10
               )}

@@ -18,11 +18,12 @@ body {
 
 .widget-container {
   background-color: rgb(255, 255, 255);
-  padding: 20px 20px 20px 12px;
+  padding: 30px 20px 20px 12px;
   margin: 50px auto auto auto;
   border-radius: 13px;
   width: 500px;
-  height: 220px; 
+  height: 200px; 
+
 }
 
 .title {
@@ -59,6 +60,7 @@ body {
 
 .weather-header{
   display: flex;
+  justify-content: space-around;
   margin-bottom: 1px;
 }
 
