@@ -25,9 +25,10 @@ const WidgetPage3 = () => {
 
           <div className="weather-box-container">
             <div className="weather-box">
-              {"9:00"}
-              {WeatherIconSmall(data[stationId]?.forecast1?.icon[9])}
-              {console.log(data[stationId]?.forecast1.isDay[currentHour + 1])}
+              {currentHour < 23 ? currentHour + 1 + ":00" : "00:00"}
+              {WeatherIconSmall(
+                data[stationId]?.forecast1?.icon[currentHour + 1]
+              )}
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 1] / 10
               )}
@@ -35,7 +36,7 @@ const WidgetPage3 = () => {
             </div>
 
             <div className="weather-box">
-              {currentHour + 2 + ":00"}
+              {currentHour < 23 ? currentHour + 2 + ":00" : "01:00"}
               {WeatherIconSmall(
                 data[stationId]?.forecast1?.icon[currentHour + 2]
               )}
@@ -46,7 +47,7 @@ const WidgetPage3 = () => {
             </div>
 
             <div className="weather-box">
-              {currentHour + 3 + ":00"}
+              {currentHour < 23 ? currentHour + 3 + ":00" : "02:00"}
               {WeatherIconSmall(
                 data[stationId]?.forecast1?.icon[currentHour + 3]
               )}
@@ -57,7 +58,7 @@ const WidgetPage3 = () => {
             </div>
 
             <div className="weather-box">
-              {currentHour + 4 + ":00"}
+              {currentHour < 23 ? currentHour + 4 + ":00" : "03:00"}
               {WeatherIconSmall(
                 data[stationId]?.forecast1?.icon[currentHour + 4]
               )}
@@ -68,7 +69,7 @@ const WidgetPage3 = () => {
             </div>
 
             <div className="weather-box">
-              {currentHour + 5 + ":00"}
+              {currentHour < 23 ? currentHour + 5 + ":00" : "04:00"}
               {WeatherIconSmall(
                 data[stationId]?.forecast1?.icon[currentHour + 5]
               )}
