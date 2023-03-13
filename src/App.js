@@ -28,8 +28,6 @@ export default function App() {
           <WidgetPage3 />
         </Slider>
       </SearchProvider>
-
-      {/* <MyCarousel />  */}
     </>
   );
 }

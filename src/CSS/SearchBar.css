@@ -4,17 +4,18 @@
 
 .search-box {
     border-radius: 20px;
-    border: solid 1px rgb(219, 219, 219);
+    border: solid 1px rgb(227, 227, 227);
     text-indent: 5%;
 }
 
-.search-box:hover {
-    border:solid 1px rgb(138, 157, 194)
-}
-
 button {
+    border: 1px solid rgb(217, 217, 217);
     border-radius: 10%;
-    height: 2rem
+    height: 2rem;
+    margin: 3px;
+}
+button:hover {
+    background-color: rgb(219, 219, 219)
 }
 
 input {
@@ -22,7 +23,7 @@ input {
 }
 
 input:focus {
-    outline: 1px solid rgb(138, 157, 194)
+    outline: 1px solid rgb(97, 97, 97);
 }
 
 .dropdown {
@@ -31,4 +32,13 @@ input:focus {
     flex-direction: column;
     z-index: 1;
     position: fixed;
+    margin-right: 50px;;
   }
+
+  .search_suggestion_line:hover {
+    background: rgb(227, 227, 227);
+}
+
+.search_suggestion_line.active {
+    background: rgb(227, 227, 227);
+}

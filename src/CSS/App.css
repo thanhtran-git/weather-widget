@@ -1,4 +1,6 @@
 .container-slider {
-    width: 500px;
-    margin:auto
+    width: 470px;
+    margin:auto;
+    border-radius: 13px;
+    /* overflow: hidden; */
 }

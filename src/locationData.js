@@ -10,29 +10,9 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "ABENSBERG-SANDHARL.",
-    ID: "N0674",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "ABLASS",
-    ID: "P0358",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "ACHERN",
-    ID: "N0477",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "ADELHEIDSDORF",
     ID: "N4365",
     Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "ADENAU",
-    ID: "K242",
-    Bundesland: "Rheinland-Pfalz",
   },
   {
     Name: "ADENSTEDT",
@@ -68,11 +48,6 @@ export const locationData = [
     Name: "AINERTSHOFEN",
     ID: "G340",
     Bundesland: "Bayern",
-  },
-  {
-    Name: "AK STUTTGART",
-    ID: "Q441",
-    Bundesland: "Baden-Württemberg",
   },
   {
     Name: "ALBSTADT-BADKAP",
@@ -455,259 +430,9 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "B.MARIENBG.",
-    ID: 10526,
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
     Name: "BACHEM",
     ID: "J739",
     Bundesland: "Saarland",
-  },
-  {
-    Name: "BACKNANG",
-    ID: "N1245",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD BENTHEIM",
-    ID: "N3060",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD BERGZABERN",
-    ID: "K2688",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD BERLEBURG",
-    ID: "K1599",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BAD BERLEBURG-STÜNZE",
-    ID: "H795",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BAD BERTRICH",
-    ID: "K2269",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD BEVENSEN",
-    ID: "N8421",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD BRAMSTEDT",
-    ID: "N8667",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "BAD BREISIG",
-    ID: "P0186",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD DOBERAN",
-    ID: "N2813",
-    Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "BAD DÜBEN",
-    ID: "N4535",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "BAD DÜRKHEIM",
-    ID: "K881",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD DÜRRENBERG",
-    ID: "N5872",
-    Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "BAD EMSTAL",
-    ID: "P0185",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "BAD FRANKENHAUSEN KY",
-    ID: "K3406",
-    Bundesland: "Thüringen",
-  },
-  {
-    Name: "BAD GANDERSHEIM",
-    ID: "N4655",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD GOTTLEUBA",
-    ID: "K4408",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "BAD HARZBURG",
-    ID: "E897",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD HERRENALB",
-    ID: "K2706",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD HERSFELD",
-    ID: 10542,
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "BAD HOMBURG",
-    ID: "N4333",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "BAD KÖNIGSHOFEN",
-    ID: "P033",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BAD KOHLGRUB",
-    ID: "P942",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BAD KREUZNACH",
-    ID: "K2274",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD LAUTERBERG",
-    ID: "K3973",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD LIEBENZELL",
-    ID: "N1336",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD LIPPSPRINGE",
-    ID: 10430,
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BAD LOBENSTEIN",
-    ID: "M965",
-    Bundesland: "Thüringen",
-  },
-  {
-    Name: "BAD MERGENTHEIM",
-    ID: "K2679",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD MERGENTHEIM-NEUN",
-    ID: "Q076",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD MÜNDER",
-    ID: "N2433",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BAD MÜNSTEREIFEL",
-    ID: "N8403",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BAD MUSKAU",
-    ID: "O025",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "BAD NAUHEIM",
-    ID: "L635",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "BAD NEÜNAHR-AHRWEIL",
-    ID: "K038",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD NEÜNAHR-AHRWL.",
-    ID: "K2245",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "BAD OLDESLÖ",
-    ID: "N7012",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "BAD REICHENHALL",
-    ID: "K4535",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BAD SALZUFLEN",
-    ID: 10325,
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BAD SALZUNGEN",
-    ID: "N9228",
-    Bundesland: "Thüringen",
-  },
-  {
-    Name: "BAD SCHUSSENRIED",
-    ID: "N0136",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD SCHWALBACH",
-    ID: "K2588",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "BAD SEGEBERG",
-    ID: "K3854",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "BAD STAFFELSTEIN",
-    ID: "G210",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BAD SÜLZE",
-    ID: "N2575",
-    Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "BAD TENNSTEDT",
-    ID: "N5570",
-    Bundesland: "Thüringen",
-  },
-  {
-    Name: "BAD TÖLZ",
-    ID: "K4169",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BAD WALDSEE",
-    ID: "N0139",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BAD ZWISCHENAHN",
-    ID: "N6423",
-    Bundesland: "Niedersachsen",
   },
   {
     Name: "BADEN BADEN",
@@ -742,11 +467,6 @@ export const locationData = [
   {
     Name: "BALINGEN",
     ID: "N1043",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BALINGEN-BRONNHPTN.",
-    ID: "Q740",
     Bundesland: "Baden-Württemberg",
   },
   {
@@ -900,84 +620,14 @@ export const locationData = [
     Bundesland: "Sachsen",
   },
   {
-    Name: "BELM",
-    ID: 10312,
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BELMULLET",
-    ID: 3976,
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "BENTHEIM, BAD",
-    ID: "E704",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BERATZHAUSEN",
-    ID: "P444",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BERBERSDORF",
-    ID: "O013",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "BERCHING",
-    ID: "P433",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BERCHTESG.",
-    ID: "K4536",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "BERCHTESGADEN",
     ID: "P996",
     Bundesland: "Bayern",
   },
   {
-    Name: "BERCHTESGADEN JENNER",
-    ID: "P997",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BERDEL",
-    ID: "P0621",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BERG.NEUKIRCHEN",
-    ID: "N8369",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BERGE",
-    ID: "F431",
-    Bundesland: "Brandenburg",
-  },
-  {
     Name: "BERGEN AUF RÜGEN",
     ID: "N2457",
     Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "BERGEN-HOHNE",
-    ID: 10238,
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "BERGHAM",
-    ID: "G376",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BERGHAUSEN",
-    ID: "K399",
-    Bundesland: "Rheinland-Pfalz",
   },
   {
     Name: "BERGHEIM",
@@ -1010,44 +660,20 @@ export const locationData = [
     ID: 10389,
     Bundesland: "Berlin",
   },
-  {
-    Name: "BERLIN-TEGEL",
-    ID: 10382,
-    Bundesland: "Berlin",
-  },
+
   {
     Name: "BERLIN-TEMPELHOF",
     ID: 10384,
     Bundesland: "Berlin",
   },
   {
-    Name: "BERNAU BRANDENBURG",
+    Name: "BERNAU",
     ID: "P0281",
     Bundesland: "Brandenburg",
   },
   {
-    Name: "BERNBEUREN-PRACHTSRI",
-    ID: "P931",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "BERNBURG SAALE",
-    ID: "K3182",
-    Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "BERNKASTEL-KÜS",
-    ID: "K531",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
     Name: "BERSTELAND-NIEWITZ",
     ID: "P0504",
-    Bundesland: "Brandenburg",
-  },
-  {
-    Name: "BERTIKOW",
-    ID: "P0500",
     Bundesland: "Brandenburg",
   },
   {
@@ -1246,11 +872,6 @@ export const locationData = [
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "BLANKENHEIM AHRHÜT.",
-    ID: "N7822",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
     Name: "BLANKENRATH",
     ID: "K463",
     Bundesland: "Rheinland-Pfalz",
@@ -1303,11 +924,6 @@ export const locationData = [
   {
     Name: "BOCHUM",
     ID: "K1161",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "BOCHUM UMSPWK.",
-    ID: "F9501",
     Bundesland: "Nordrhein-Westfalen",
   },
   {
@@ -1371,7 +987,7 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "BONN-FRIESDORF",
+    Name: "BONN",
     ID: 10517,
     Bundesland: "Nordrhein-Westfalen",
   },
@@ -1586,11 +1202,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "BRUCHWEILER, KR. BIR",
-    ID: "K539",
-    Bundesland: "Rheinland-Pfalz",
-  },
-  {
     Name: "BRUCKMÜHL",
     ID: "P0264",
     Bundesland: "Bayern",
@@ -1626,11 +1237,6 @@ export const locationData = [
     Bundesland: "Thüringen",
   },
   {
-    Name: "BUCHEN,KR.NECKAR-OD.",
-    ID: "Q055",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "BUCHENBACH",
     ID: "Q811",
     Bundesland: "Baden-Württemberg",
@@ -1644,11 +1250,6 @@ export const locationData = [
     Name: "BUCHHALDE",
     ID: "L985",
     Bundesland: "Hessen",
-  },
-  {
-    Name: "BUCHHOLZ I.D. NORDH.",
-    ID: "K1489",
-    Bundesland: "Niedersachsen",
   },
   {
     Name: "BUCHLÖ",
@@ -1716,11 +1317,6 @@ export const locationData = [
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "BURG B.MAGDEBURG",
-    ID: "N7622",
-    Bundesland: "Sachsen-Anhalt",
-  },
-  {
     Name: "BURGBERNHEIM",
     ID: "P302",
     Bundesland: "Bayern",
@@ -1761,43 +1357,8 @@ export const locationData = [
     Bundesland: "Hessen",
   },
   {
-    Name: "BURKAÜR BERG",
-    ID: "O372",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "BURLADINGEN-HAUSEN",
-    ID: "Q655",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "BUTJADINGEN-INTE",
-    ID: "E145",
-    Bundesland: "Niedersachsen",
-  },
-  {
     Name: "BUTZBACH",
     ID: "N6160",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "CALGARY",
-    ID: 71877,
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "CalvÖrde",
-    ID: "EW003",
-    Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "CALW",
-    ID: "P0603",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "CAMBERG, BAD",
-    ID: "L617",
     Bundesland: "Hessen",
   },
   {
@@ -1809,16 +1370,6 @@ export const locationData = [
     Name: "CELLE",
     ID: 10343,
     Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "CELLE (STADT)",
-    ID: "E673",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "CHAM",
-    ID: "K4488",
-    Bundesland: "Bayern",
   },
   {
     Name: "CHEMNITZ",
@@ -1848,11 +1399,6 @@ export const locationData = [
   {
     Name: "CLAUSTHAL-ZELLERFELD",
     ID: "E877",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "CLAUSTHAL-ZELLERFLD.",
-    ID: "K3982",
     Bundesland: "Niedersachsen",
   },
   {
@@ -1893,16 +1439,6 @@ export const locationData = [
   {
     Name: "COTTBUS",
     ID: 10496,
-    Bundesland: "Brandenburg",
-  },
-  {
-    Name: "COTTBUS FLUGPLATZ",
-    ID: 10492,
-    Bundesland: "Brandenburg",
-  },
-  {
-    Name: "COTTBUS LUB",
-    ID: "P0038",
     Bundesland: "Brandenburg",
   },
   {
@@ -2167,16 +1703,6 @@ export const locationData = [
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "DIPPOLDISWALDE-REIN.",
-    ID: "O660",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "DISCHINGEN(EGAUWAS.)",
-    ID: "N0359",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "DOBERLUG-KIRCHHAIN",
     ID: 10490,
     Bundesland: "Brandenburg",
@@ -2244,16 +1770,6 @@ export const locationData = [
   {
     Name: "DONAUWÖRTH",
     ID: "N0445",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "DONAUWÖRTH-OSTERWE.",
-    ID: "P515",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "DORFEN KR.ERDING",
-    ID: "N2388",
     Bundesland: "Bayern",
   },
   {
@@ -2467,11 +1983,6 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "EDMONTON INT.",
-    ID: 71123,
-    Bundesland: "Brandenburg",
-  },
-  {
     Name: "EGGEBEK",
     ID: 10034,
     Bundesland: "Schleswig-Holstein",
@@ -2502,11 +2013,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "EIBENSTOCK(TALSP.)",
-    ID: "N4123",
-    Bundesland: "Sachsen",
-  },
-  {
     Name: "EICH",
     ID: "K695",
     Bundesland: "Rheinland-Pfalz",
@@ -2529,11 +2035,6 @@ export const locationData = [
   {
     Name: "EICHSTÄTT",
     ID: "K4108",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "EICHSTÄTT-LANDERSH.",
-    ID: "P522",
     Bundesland: "Bayern",
   },
   {
@@ -2570,11 +2071,6 @@ export const locationData = [
     Name: "EISENBERG",
     ID: "P0196",
     Bundesland: "Rheinland-Pfalz",
-  },
-  {
-    Name: "EISERFELD UMSPWK.",
-    ID: "F9502",
-    Bundesland: "Nordrhein-Westfalen",
   },
   {
     Name: "EISERSZELL",
@@ -2655,11 +2151,6 @@ export const locationData = [
     Name: "EMLICHHEIM",
     ID: "N3049",
     Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "EMMENDINGEN-MUNDING.",
-    ID: "Q702",
-    Bundesland: "Baden-Württemberg",
   },
   {
     Name: "EMMERTHAL-GROHNDE",
@@ -2852,11 +2343,6 @@ export const locationData = [
     Bundesland: "Schleswig-Holstein",
   },
   {
-    Name: "EW-Hamburg",
-    ID: "EW034",
-    Bundesland: "Hamburg",
-  },
-  {
     Name: "EW-Lindenberg",
     ID: "EW031",
     Bundesland: "Brandenburg",
@@ -2882,16 +2368,6 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "FALKENBERG,KR.ROTTAL",
-    ID: "P674",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "FALKENSTEIN KR.CHAM",
-    ID: "N1382",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "FALKENSTEIN TAUNUS",
     ID: "P0050",
     Bundesland: "Hessen",
@@ -2907,11 +2383,6 @@ export const locationData = [
     Bundesland: "Niedersachsen",
   },
   {
-    Name: "FASTNET",
-    ID: "W5011",
-    Bundesland: "Thüringen",
-  },
-  {
     Name: "FEILNBACH, BAD",
     ID: "P962",
     Bundesland: "Bayern",
@@ -2925,11 +2396,6 @@ export const locationData = [
     Name: "FELDBERG MECKLENBURG",
     ID: 10282,
     Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "FELDBERG S.",
-    ID: 10908,
-    Bundesland: "Baden-Württemberg",
   },
   {
     Name: "FELDKIRCHEN-WESTERHA",
@@ -2955,11 +2421,6 @@ export const locationData = [
     Name: "FICHTELBERG",
     ID: 10578,
     Bundesland: "Sachsen",
-  },
-  {
-    Name: "FICHTELBERG OBERFRA.",
-    ID: "P182",
-    Bundesland: "Bayern",
   },
   {
     Name: "FINKENWERDER",
@@ -3020,11 +2481,6 @@ export const locationData = [
     Name: "FORBACH-HERRENWIES",
     ID: "N0527",
     Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "FORCHHEIM OFR.",
-    ID: "N3420",
-    Bundesland: "Bayern",
   },
   {
     Name: "FORSTHAUS",
@@ -3102,11 +2558,6 @@ export const locationData = [
     Bundesland: "Brandenburg",
   },
   {
-    Name: "FRANKFURT PALMENGAR.",
-    ID: "K2561",
-    Bundesland: "Hessen",
-  },
-  {
     Name: "FRANKFURT ZEIL",
     ID: "P0445",
     Bundesland: "Hessen",
@@ -3135,11 +2586,6 @@ export const locationData = [
     Name: "FREIBURG",
     ID: 10803,
     Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "FREIBURG ELBE",
-    ID: "E082",
-    Bundesland: "Niedersachsen",
   },
   {
     Name: "FREIENBESSINGEN",
@@ -3187,11 +2633,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "FREUDENST.",
-    ID: 10815,
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "FREYBURG UNSTRUT-ZEU",
     ID: "N855",
     Bundesland: "Sachsen-Anhalt",
@@ -3229,11 +2670,6 @@ export const locationData = [
   {
     Name: "FRIEDRICHSHAFEN",
     ID: 10935,
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "FRIEDRICHSHFN UNTER.",
-    ID: "Q978",
     Bundesland: "Baden-Württemberg",
   },
   {
@@ -3452,11 +2888,6 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "GEROLDSGRÜN-STEINB.",
-    ID: "N3047",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "GEROLSTEIN",
     ID: "P0192",
     Bundesland: "Rheinland-Pfalz",
@@ -3480,11 +2911,6 @@ export const locationData = [
     Name: "GETTORF",
     ID: "P0346",
     Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "GEVELSBERG-OBERB.",
-    ID: "H542",
-    Bundesland: "Nordrhein-Westfalen",
   },
   {
     Name: "GIESSEN",
@@ -3617,16 +3043,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "GR.ARBER",
-    ID: 10791,
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "GR.FELDBG. TS.",
-    ID: "P0016",
-    Bundesland: "Hessen",
-  },
-  {
     Name: "GRAAL-MÜRITZ",
     ID: "N2626",
     Bundesland: "Mecklenburg-Vorpommern",
@@ -3639,11 +3055,6 @@ export const locationData = [
   {
     Name: "GRÄFENBERG-KASBERG",
     ID: "P265",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "GRÄFENDORF,KR.MAIN-",
-    ID: "P120",
     Bundesland: "Bayern",
   },
   {
@@ -3680,11 +3091,6 @@ export const locationData = [
     Name: "GRAUSTEIN",
     ID: "F878",
     Bundesland: "Brandenburg",
-  },
-  {
-    Name: "GREAT FALLS MT.",
-    ID: 72775,
-    Bundesland: "Bayern",
   },
   {
     Name: "GREBENHAIN",
@@ -3801,16 +3207,7 @@ export const locationData = [
     ID: "A397",
     Bundesland: "Schleswig-Holstein",
   },
-  {
-    Name: "GROSSENKNETEN-AHL.",
-    ID: "E426",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "GROSSENLACH MANNENW.",
-    ID: "Q351",
-    Bundesland: "Baden-Württemberg",
-  },
+
   {
     Name: "GROSSER BEERBERG",
     ID: "P0057",
@@ -3910,11 +3307,6 @@ export const locationData = [
     Name: "GUMMERSBACH",
     ID: "N8146",
     Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "GUNDELFINGEN UMSPWK.",
-    ID: "F9503",
-    Bundesland: "Bayern",
   },
   {
     Name: "GUNDREMMINGEN",
@@ -4072,25 +3464,11 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "HAMBURG INNENSTADT",
+    Name: "HAMBURG",
     ID: "P0489",
     Bundesland: "Hamburg",
   },
-  {
-    Name: "HAMBURG-FU.",
-    ID: 10147,
-    Bundesland: "Hamburg",
-  },
-  {
-    Name: "HAMBURG-NEÜNG.",
-    ID: "P0120",
-    Bundesland: "Hamburg",
-  },
-  {
-    Name: "HAMBURG-NEUWIEDENTH.",
-    ID: "C720",
-    Bundesland: "Hamburg",
-  },
+
   {
     Name: "HAMELN",
     ID: "K1547",
@@ -4410,11 +3788,6 @@ export const locationData = [
     Name: "HERNE",
     ID: "N9030",
     Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "HERRENALB, BAD (LUBW",
-    ID: "Q327",
-    Bundesland: "Baden-Württemberg",
   },
   {
     Name: "HERRENBERG",
@@ -6947,13 +6320,8 @@ export const locationData = [
     Bundesland: "Brandenburg",
   },
   {
-    Name: "MÜNCHEN STADT",
+    Name: "MÜNCHEN",
     ID: 10865,
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "MÜNCHEN-FL.",
-    ID: 10870,
     Bundesland: "Bayern",
   },
   {
@@ -8122,11 +7490,6 @@ export const locationData = [
     Bundesland: "Brandenburg",
   },
   {
-    Name: "POTSDAM-ZENTRUM LUB",
-    ID: "P0040",
-    Bundesland: "Brandenburg",
-  },
-  {
     Name: "PRACKENBACH",
     ID: "P472",
     Bundesland: "Bayern",
@@ -8652,14 +8015,9 @@ export const locationData = [
     Bundesland: "Sachsen-Anhalt",
   },
   {
-    Name: "ROSTOCK-STADT",
+    Name: "ROSTOCK",
     ID: "P0175",
     Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "ROT AN DER ROT-BUCH",
-    ID: "Q891",
-    Bundesland: "Baden-Württemberg",
   },
   {
     Name: "ROTENBURG",
@@ -8702,16 +8060,6 @@ export const locationData = [
     Bundesland: "Mecklenburg-Vorpommern",
   },
   {
-    Name: "ROTHENBURG OB DER TA",
-    ID: "P305",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "ROTHENBURG ODT.",
-    ID: "K4093",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "ROTHENFELD",
     ID: "G385",
     Bundesland: "Bayern",
@@ -8749,11 +8097,6 @@ export const locationData = [
   {
     Name: "ROTTHALMÜNSTER",
     ID: "G354",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "ROTTHALMÜNSTER (LAN",
-    ID: "P688",
     Bundesland: "Bayern",
   },
   {
@@ -8842,11 +8185,6 @@ export const locationData = [
     Bundesland: "Saarland",
   },
   {
-    Name: "SAARBRÜCKEN-BURBACH",
-    ID: "J908",
-    Bundesland: "Saarland",
-  },
-  {
     Name: "SAARBURG",
     ID: "N7332",
     Bundesland: "Rheinland-Pfalz",
@@ -8872,11 +8210,6 @@ export const locationData = [
     Bundesland: "Niedersachsen",
   },
   {
-    Name: "SALZHEMMENDORF-LAÜN",
-    ID: "E748",
-    Bundesland: "Niedersachsen",
-  },
-  {
     Name: "SALZKOTTEN",
     ID: "H376",
     Bundesland: "Nordrhein-Westfalen",
@@ -8885,11 +8218,6 @@ export const locationData = [
     Name: "SALZWEDEL",
     ID: "N8232",
     Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "SAMERBERG-GEISENKAM",
-    ID: "P979",
-    Bundesland: "Bayern",
   },
   {
     Name: "SANDBERG",
@@ -8905,11 +8233,6 @@ export const locationData = [
     Name: "SANGERHAUSEN",
     ID: "N5791",
     Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "SANKT EGIDIEN-KUHSCH",
-    ID: "O725",
-    Bundesland: "Sachsen",
   },
   {
     Name: "SANKT ENGLMAR",
@@ -8932,11 +8255,6 @@ export const locationData = [
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "SASSENDORF, BAD-BEUS",
-    ID: "H460",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
     Name: "SASSNITZ-STAPHEL",
     ID: "N2446",
     Bundesland: "Mecklenburg-Vorpommern",
@@ -8950,26 +8268,6 @@ export const locationData = [
     Name: "SATRUP",
     ID: "A173",
     Bundesland: "Schleswig-Holstein",
-  },
-  {
-    Name: "SAÜRLACH",
-    ID: "N2076",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "SAULGAU,BAD",
-    ID: "Q077",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "SAULGAU-BOLSTERN",
-    ID: "N0159",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "SCHAAFHEIM-SCHLIERB.",
-    ID: "L894",
-    Bundesland: "Hessen",
   },
   {
     Name: "SCHACKENSLEBEN",
@@ -9002,11 +8300,6 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "SCHAÜNBURG-ELGERSH.",
-    ID: 10441,
-    Bundesland: "Hessen",
-  },
-  {
     Name: "SCHAUINSLAND",
     ID: "K2360",
     Bundesland: "Baden-Württemberg",
@@ -9014,11 +8307,6 @@ export const locationData = [
   {
     Name: "SCHEID",
     ID: "P0412",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "SCHEID_2",
-    ID: "P0511",
     Bundesland: "Nordrhein-Westfalen",
   },
   {
@@ -9057,11 +8345,6 @@ export const locationData = [
     Bundesland: "Thüringen",
   },
   {
-    Name: "SCHILTACH (LUBW)",
-    ID: "Q625",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "SCHIRL",
     ID: "P0624",
     Bundesland: "Nordrhein-Westfalen",
@@ -9075,11 +8358,6 @@ export const locationData = [
     Name: "SCHLEHDORF",
     ID: "P945",
     Bundesland: "Bayern",
-  },
-  {
-    Name: "SCHLEIDEN-SCHÖNES.",
-    ID: "N0151",
-    Bundesland: "Nordrhein-Westfalen",
   },
   {
     Name: "SCHLEIZ",
@@ -9965,21 +9243,6 @@ export const locationData = [
   {
     Name: "STUTTGART NECKARTAL",
     ID: "Q358",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "STUTTGART RWY4",
-    ID: "Q444",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "STUTTGART-ECHT.",
-    ID: 10738,
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "STUTTGART-SCHN.",
-    ID: 10739,
     Bundesland: "Baden-Württemberg",
   },
   {
@@ -11263,18 +10526,8 @@ export const locationData = [
     Bundesland: "Niedersachsen",
   },
   {
-    Name: "WILDBAD, BAD-CALMBAC",
-    ID: "Q318",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
     Name: "WILDPOLDSRIED",
     ID: "P0415",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "WILHELMSDORF MITTELF",
-    ID: "P249",
     Bundesland: "Bayern",
   },
   {

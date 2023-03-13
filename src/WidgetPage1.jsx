@@ -29,8 +29,6 @@ const WidgetPage1 = () => {
         {/* <span className="todaysDate">{weekdayToday + " "}</span>
         {todaysDate.toLocaleDateString("de-de")} */}
 
-        {/* Search Bar  */}
-
         {data && (
           <div className="weather-bottom">
             {/* TempNow Container + Weather Icon*/}
