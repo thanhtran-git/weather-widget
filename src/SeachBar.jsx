@@ -5,46 +5,47 @@ import { locationData } from "./locationData";
 import "./CSS/SearchBar.css";
 
 export const SearchBar = () => {
-  const {
-    handleSearch,
-    handleChange,
-    searchTerm,
-    setSearchTerm,
-    getStationId,
-    stationId,
-  } = useContext(SearchContext);
+  const { handleSearch, handleChange, searchTerm, setSearchTerm } =
+    useContext(SearchContext);
   const [selectedItem, setSelectedItem] = useState(-1);
-  const [searchData, setSearchData] = useState([]);
+  const [searchSuggestion, setsearchSuggestion] = useState([]);
 
   const handleClose = () => {
     setSearchTerm("");
-    setSearchData([]);
+    setsearchSuggestion([]);
     setSelectedItem(-1);
   };
 
   const handleKeyDown = (e) => {
-    if (selectedItem < searchData.length) {
+    if (selectedItem < searchSuggestion.length) {
       if (e.key === "ArrowUp" && selectedItem > 0) {
         setSelectedItem((prev) => prev - 1);
       } else if (
         e.key === "ArrowDown" &&
-        selectedItem < searchData.length - 1
+        selectedItem < searchSuggestion.length - 1
       ) {
         setSelectedItem((prev) => prev + 1);
-      } else if (e.key === "Enter" && selectedItem >= 0) {
-        const chosenItem = searchData[selectedItem].Name;
-        setSearchTerm(chosenItem);
-        console.log(chosenItem);
-        handleSearch(searchTerm);
+      } else if (e.key === "Enter") {
+        if (selectedItem >= 0) {
+          setSearchTerm(searchSuggestion[selectedItem].Name);
+          console.log(searchSuggestion[selectedItem].Name);
+          handleSearch(searchSuggestion[selectedItem].Name);
+          console.log(e.key);
+        } else if (selectedItem === -1 && searchTerm) {
+          handleSearch(searchTerm);
+          console.log("searchTerm:", searchTerm);
+          console.log(e.key);
+        }
       } else {
         setSelectedItem(-1);
       }
     }
   };
 
-  const handleResultClick = (city) => {
-    setSearchTerm(searchData[selectedItem].Name);
-    setSearchData([]);
+  const handleResultClick = (x) => {
+    setSearchTerm(x);
+    console.log(searchTerm);
+    setsearchSuggestion([]);
     setSelectedItem(-1);
   };
 
@@ -53,16 +54,11 @@ export const SearchBar = () => {
       const newFilterData = locationData.filter((city) => {
         const search = searchTerm.toLowerCase();
         const cityName = city.Name.toLowerCase();
-        return (
-          search && cityName.startsWith(search) && cityName !== search
-
-          // item.Name.toLowerCase().startsWith(searchTerm.toLowerCase()) &&
-          // item.Name.toLowerCase() !== searchTerm
-        );
+        return search && cityName.startsWith(search) && cityName !== search;
       });
-      setSearchData(newFilterData);
+      setsearchSuggestion(newFilterData);
     } else {
-      setSearchData([]);
+      setsearchSuggestion([]);
       setSelectedItem(-1);
     }
   }, [searchTerm]);
@@ -71,6 +67,8 @@ export const SearchBar = () => {
     <div className="search-container">
       <div className="search-inner">
         <input
+          autoComplete="none"
+          placeholder="Ort eingeben..."
           className="search-box"
           type="text"
           value={searchTerm}
@@ -85,16 +83,16 @@ export const SearchBar = () => {
         </button>
       </div>
       <div className="dropdown">
-        {searchData.slice(0, 4).map((city, index) => {
+        {searchSuggestion.slice(0, 4).map((city, index) => {
           return (
             <div
               className={
                 selectedItem === index
-                  ? "search_suggestion_line active"
-                  : "search_suggestion_line"
+                  ? "suggestionLine active"
+                  : "suggestionLine"
               }
               key={index}
-              onClick={() => handleSearch(searchData[selectedItem].Name)}
+              onClick={() => setSearchTerm(city.Name)}
             >
               {city.Name}
               <span style={{ fontSize: "1rem" }}>

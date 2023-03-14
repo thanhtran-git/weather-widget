@@ -10,21 +10,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "ADELHEIDSDORF",
-    ID: "N4365",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "ADENSTEDT",
-    ID: "N4838",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "AHAUS",
-    ID: 10309,
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
     Name: "AHLEN",
     ID: "N0224",
     Bundesland: "Nordrhein-Westfalen",
@@ -1833,31 +1818,6 @@ export const locationData = [
     Bundesland: "Sachsen",
   },
   {
-    Name: "DRESDEN FLUGHAFEN",
-    ID: "O454",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "DRESDEN-HOSTERWITZ",
-    ID: "O458",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "DRESDEN-PILLNITZ",
-    ID: "O451",
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "DRESDEN-STADT",
-    ID: 10487,
-    Bundesland: "Sachsen",
-  },
-  {
-    Name: "DRESDEN-STREHLEN",
-    ID: "O457",
-    Bundesland: "Sachsen",
-  },
-  {
     Name: "DREWITZ BEI BURG",
     ID: "N398",
     Bundesland: "Sachsen-Anhalt",
@@ -3468,7 +3428,6 @@ export const locationData = [
     ID: "P0489",
     Bundesland: "Hamburg",
   },
-
   {
     Name: "HAMELN",
     ID: "K1547",
@@ -3512,16 +3471,6 @@ export const locationData = [
   {
     Name: "HANNOVER",
     ID: 10338,
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "HANNOVER-HERRENHAUSE",
-    ID: "E755",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "HANNOVER-KIRCHRODE",
-    ID: "E756",
     Bundesland: "Niedersachsen",
   },
   {
@@ -4355,23 +4304,8 @@ export const locationData = [
     Bundesland: "Schleswig-Holstein",
   },
   {
-    Name: "ITZGRUND-HERRETH",
-    ID: "P058",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "JACHENAU-TANNERN",
-    ID: "P956",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "JENA (STERNWARTE)",
     ID: "M552",
-    Bundesland: "Thüringen",
-  },
-  {
-    Name: "JENA STERNWARTE",
-    ID: "K4204",
     Bundesland: "Thüringen",
   },
   {
@@ -4825,20 +4759,11 @@ export const locationData = [
     Bundesland: "Schleswig-Holstein",
   },
   {
-    Name: "KÖLN (BOTAN.GART.)",
+    Name: "KÖLN",
     ID: "K2221",
     Bundesland: "Nordrhein-Westfalen",
   },
-  {
-    Name: "KÖLN BONN",
-    ID: 10513,
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "KÖLN-STAMMHEIM",
-    ID: "H744",
-    Bundesland: "Nordrhein-Westfalen",
-  },
+
   {
     Name: "KÖNIGHEIM",
     ID: "Q033",
@@ -4850,16 +4775,6 @@ export const locationData = [
     Bundesland: "Brandenburg",
   },
   {
-    Name: "KÖNIGSBACH-STEIN, E",
-    ID: "Q222",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "KÖNIGSBERG BAYERN-H",
-    ID: "P141",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "KÖNIGSBORN",
     ID: "N463",
     Bundesland: "Sachsen-Anhalt",
@@ -4868,11 +4783,6 @@ export const locationData = [
     Name: "KÖNIGSMOOR",
     ID: "E277",
     Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "KÖNIGSTEIN TS.",
-    ID: "K2649",
-    Bundesland: "Hessen",
   },
   {
     Name: "KÖNIGSWINTER",
@@ -4903,11 +4813,6 @@ export const locationData = [
     Name: "KÖTHEN (ANHALT)",
     ID: "N652",
     Bundesland: "Sachsen-Anhalt",
-  },
-  {
-    Name: "KO-FALKENST.KASERNE",
-    ID: 10516,
-    Bundesland: "Rheinland-Pfalz",
   },
   {
     Name: "KOLITZHEIM",
@@ -7170,11 +7075,6 @@ export const locationData = [
     Bundesland: "Schleswig-Holstein",
   },
   {
-    Name: "OSTENFELD (RENDSBURG",
-    ID: "A443",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
     Name: "OSTERFELD",
     ID: 10565,
     Bundesland: "Sachsen-Anhalt",
@@ -7683,16 +7583,6 @@ export const locationData = [
     Name: "RAVENSBURG",
     ID: "K2791",
     Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "RECHLIN",
-    ID: "B853",
-    Bundesland: "Mecklenburg-Vorpommern",
-  },
-  {
-    Name: "REDEFIN",
-    ID: "B818",
-    Bundesland: "Mecklenburg-Vorpommern",
   },
   {
     Name: "REGEN",
@@ -8841,26 +8731,6 @@ export const locationData = [
     Bundesland: "Baden-Württemberg",
   },
   {
-    Name: "SIGMARINGEN-LAIZ",
-    ID: "Q788",
-    Bundesland: "Baden-Württemberg",
-  },
-  {
-    Name: "SIGMARSZELL-ZEISERTS",
-    ID: "P887",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "SIMBACH INN",
-    ID: "P794",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "SIMMERATH N",
-    ID: "H910",
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
     Name: "SIMMERN-WAHLBACH",
     ID: "K471",
     Bundesland: "Rheinland-Pfalz",
@@ -9241,7 +9111,7 @@ export const locationData = [
     Bundesland: "Sachsen",
   },
   {
-    Name: "STUTTGART NECKARTAL",
+    Name: "STUTTGART",
     ID: "Q358",
     Bundesland: "Baden-Württemberg",
   },

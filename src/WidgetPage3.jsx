@@ -26,9 +26,11 @@ const WidgetPage3 = () => {
           <div className="weather-box-container">
             <div className="weather-box">
               {currentHour < 23 ? currentHour + 1 + ":00" : "00:00"}
-              {WeatherIconSmall(
-                data[stationId]?.forecast1?.icon[currentHour + 1]
-              )}
+              <span className="wicon-small">
+                {WeatherIconSmall(
+                  data[stationId]?.forecast1?.icon[currentHour + 1]
+                )}
+              </span>
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour + 1] / 10
               )}

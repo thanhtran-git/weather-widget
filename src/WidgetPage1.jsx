@@ -2,18 +2,20 @@
 import React, { useState, useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
 import WeatherIcon from "./WeatherIcon.jsx";
-import { currentHour, weekDay, weekdayToday } from "./Variables";
+import { currentHour, weekDay, weekdayToday, todaysDate } from "./Variables";
 import { SearchBar } from "./SeachBar.jsx";
 import "./CSS/StylePage1.css";
+import WeatherIconSmall from "./WeatherIconSmall.jsx";
 
 const WidgetPage1 = () => {
   const { data, stationId } = useContext(SearchContext);
   const [error] = useState(null);
-  const todaysDate = new Date(data[stationId]?.forecast1?.start);
+  // const todaysDate = new Date(data[stationId]?.forecast1?.start);
   const date1 = new Date(data[stationId]?.days[1]?.dayDate);
-  const forecastNextDay = weekDay[date1.getDay()];
+  const nextWeekDay = weekDay[date1.getDay()];
   const date2 = new Date(data[stationId]?.days[2]?.dayDate);
-  const forecastNextDay2 = weekDay[date2.getDay()];
+  const nextWeekDay2 = weekDay[date2.getDay()];
+  const todaysDate = new Date(data[stationId]?.forecast1?.start);
 
   return (
     <>
@@ -43,11 +45,9 @@ const WidgetPage1 = () => {
               </span>
             </div>
 
-            <div className="weather-next"></div>
-
             {/* Forecast Tomorrow Container */}
             <div className="weather-next-item">
-              <span className="weather-next-date">{forecastNextDay}</span>
+              <span className="weather-next-date">{nextWeekDay}</span>
               <span className="weather-next-temp tempMax">
                 {Math.round(data[stationId]?.days[1].temperatureMax / 10)}°
               </span>{" "}
@@ -59,7 +59,7 @@ const WidgetPage1 = () => {
 
             {/* Forecast Day After Tomorrow Container */}
             <div className="weather-next-item">
-              <span className="weather-next-date">{forecastNextDay2}</span>
+              <span className="weather-next-date">{nextWeekDay2}</span>
               <span className="weather-next-temp tempMax">
                 {Math.round(data[stationId]?.days[2].temperatureMax / 10)}°
               </span>{" "}

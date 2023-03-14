@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
 import "./CSS/Wicon.css";
 
-const WeatherIconSmall = (condition) => {
+const WeatherIconSmall = (condition, hours) => {
   const { data, stationId } = useContext(SearchContext);
   const today = new Date();
   const currentHour = today.getHours();
@@ -13,7 +13,7 @@ const WeatherIconSmall = (condition) => {
   // };
 
   let isDay =
-    currentHour > sunrise.getHours() && currentHour < sunset.getHours();
+    currentHour + hours > sunrise.getHours() && currentHour < sunset.getHours();
   let icon = "";
 
   switch (condition) {

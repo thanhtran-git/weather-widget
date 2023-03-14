@@ -35,10 +35,10 @@ input:focus {
     margin-right: 50px;;
   }
 
-  .search_suggestion_line:hover {
+  .suggestionLine:hover {
     background: rgb(227, 227, 227);
 }
 
-.search_suggestion_line.active {
+.suggestionLine.active {
     background: rgb(227, 227, 227);
 }
