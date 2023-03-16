@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./CSS/StylePage1.css";
+import "./CSS/WidgetPageStyle.css";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 

@@ -1,9 +1,7 @@
 import React, { useState, useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
-import WeatherIconSmall from "./WeatherIconSmall";
 import { formatTime } from "./Variables.jsx";
 import { weekdayToday } from "./Variables.jsx";
-import "./CSS/StylePage2.css";
 
 const WidgetPage2 = () => {
   const { data, stationId, searchTerm } = useContext(SearchContext);
@@ -24,53 +22,51 @@ const WidgetPage2 = () => {
       )}
 
       {data && (
-        <div className="widget-container-p2">
-          {/* BERLIN" HEADER */}
-          <div className="weather-header">
+        <div className="widget-container padding">
+          {/* HEADER */}
+          <section className="header">
             <span className="weather-location">{searchTerm}</span>
+            <span className="Wicon-small"></span>
 
-            <span className="Wicon-small">
-              {WeatherIconSmall(iconCurrentHour)}
-            </span>
-
-            <span className="todaysDate">
+            <span className="todays-date">
               {weekdayToday + " "}
               {todaysDate.toLocaleDateString("de-de")}
             </span>
-          </div>
+          </section>
 
-          <div className="weather-details">
-            {/* Forecast Next Day Container */}
-            <div className="">
+          {/*Top row weather data*/}
+          <section className="weather-data-row">
+            <div>
               <span className="title-data">Luftfeuchte</span>
               <span className="data-value">
                 {Math.round(data[stationId]?.forecast1?.humidity[0] / 10)}%
               </span>
             </div>
 
-            <div className="">
+            <div>
               <span className="title-data">Regen</span>
               <span className="data-value">
                 {data[stationId]?.forecast1?.precipitationTotal[currentHour]}mm
               </span>
             </div>
 
-            <div className="">
+            <div>
               <span className="title-data">Wind</span>
               <span className="data-value">
                 {Math.round(data[stationId]?.days[0]?.windSpeed / 10)}km/h
               </span>
             </div>
 
-            <div className="">
+            <div>
               <span className="title-data">Sonne</span>
               <span className="data-value">
                 {Math.round(data[stationId]?.days[0]?.sunshine / 10)}min
               </span>
             </div>
-          </div>
+          </section>
 
-          <div className="weather-details-bottom">
+          {/*Bottom row weather data*/}
+          <section className="weather-data-row">
             <div>
               <span className="title-data">Taupunkt</span>
               <span className="data-value">
@@ -94,7 +90,7 @@ const WidgetPage2 = () => {
               <img src="./sunset-blue.png" alt="sunset-icon" />
               <span className="data-value">{sunset}</span>
             </div>
-          </div>
+          </section>
         </div>
       )}
     </>

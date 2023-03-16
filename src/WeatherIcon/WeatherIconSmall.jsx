@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { SearchContext } from "./SearchContext.js";
-import "./CSS/Wicon.css";
+import { SearchContext } from "../SearchContext.js";
+import "../CSS/Wicon.css";
 
 const WeatherIconSmall = (condition, hours) => {
   const { data, stationId } = useContext(SearchContext);

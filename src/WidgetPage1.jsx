@@ -1,11 +1,9 @@
 //This component is the main widget page displaying the location search bar, temps of today and next 2 days + weather icon
 import React, { useState, useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
-import WeatherIcon from "./WeatherIcon.jsx";
+import WeatherIcon from "./WeatherIcon/WeatherIcon.jsx";
 import { currentHour, weekDay, weekdayToday, todaysDate } from "./Variables";
 import { SearchBar } from "./SeachBar.jsx";
-import "./CSS/StylePage1.css";
-import WeatherIconSmall from "./WeatherIconSmall.jsx";
 
 const WidgetPage1 = () => {
   const { data, stationId } = useContext(SearchContext);
@@ -23,52 +21,49 @@ const WidgetPage1 = () => {
         <h1>{`Fehler beim Laden von Daten. Error fetching data - ${error}`}</h1>
       )}
       <div className="widget-container">
-        {/* "WETTER | BERLIN" HEADER */}
-        <div className="weather-header">
+        <section className="header">
           <span className="title">Wetter</span>
           <div className="searchbar">{SearchBar()}</div>
-        </div>
+        </section>
         {/* <span className="todaysDate">{weekdayToday + " "}</span>
         {todaysDate.toLocaleDateString("de-de")} */}
 
         {data && (
-          <div className="weather-bottom">
+          <section className="weather-bottom">
             {/* TempNow Container + Weather Icon*/}
             <div className="weather-now">
               {/* Weather Icon component */}
               {WeatherIcon()}
-              <span className="weather-now-temp">
-                {Math.round(
-                  data[stationId]?.forecast1.temperature[currentHour] / 10
-                )}
-                °
-              </span>
+              {Math.round(
+                data[stationId]?.forecast1.temperature[currentHour] / 10
+              )}
+              °
             </div>
 
             {/* Forecast Tomorrow Container */}
-            <div className="weather-next-item">
-              <span className="weather-next-date">{nextWeekDay}</span>
-              <span className="weather-next-temp tempMax">
+            <div className="next-day-forecast">
+              <span className="next-weekday">{nextWeekDay}</span>
+              <span className="temp-forecast temp-max">
                 {Math.round(data[stationId]?.days[1].temperatureMax / 10)}°
               </span>{" "}
               /{" "}
-              <span className="weather-next-temp tempMin">
+              <span className="temp-forecast temp-min">
                 {Math.round(data[stationId]?.days[1].temperatureMin / 10)}°
               </span>
             </div>
 
             {/* Forecast Day After Tomorrow Container */}
-            <div className="weather-next-item">
-              <span className="weather-next-date">{nextWeekDay2}</span>
-              <span className="weather-next-temp tempMax">
+            <div className="next-day-forecast">
+              <span className="next-weekday">{nextWeekDay2}</span>
+              <span className="temp-forecast temp-max">
                 {Math.round(data[stationId]?.days[2].temperatureMax / 10)}°
               </span>{" "}
               /{" "}
-              <span className="weather-next-temp tempMin">
+              <span className="temp-forecast temp-min">
                 {Math.round(data[stationId]?.days[2].temperatureMin / 10)}°
               </span>
             </div>
-          </div>
+          </section>
         )}
       </div>
     </>

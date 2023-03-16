@@ -1,8 +1,7 @@
 import React, { useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
 import { weekdayToday } from "./Variables.jsx";
-import WeatherIconSmall from "./WeatherIconSmall";
-import "./CSS/StylePage3.css";
+import WeatherIconSmall from "./WeatherIcon/WeatherIconSmall";
 
 const WidgetPage3 = () => {
   const { data, stationId, searchTerm } = useContext(SearchContext);
@@ -13,17 +12,17 @@ const WidgetPage3 = () => {
   return (
     <>
       {data && (
-        <div className="widget-container-p3">
-          <div className="header">
+        <div className="widget-container padding">
+          <section className="header">
             <span className="weather-location">{searchTerm}</span>
 
-            <span className="todaysDate">
+            <span className="todays-date">
               {weekdayToday + " "}
               {todaysDate.toLocaleDateString("de-de")}
             </span>
-          </div>
+          </section>
 
-          <div className="weather-box-container">
+          <section className="weather-box-container">
             <div className="weather-box">
               {currentHour < 23 ? currentHour + 1 + ":00" : "00:00"}
               <span className="wicon-small">
@@ -80,7 +79,7 @@ const WidgetPage3 = () => {
               )}
               °
             </div>
-          </div>
+          </section>
         </div>
       )}
     </>
