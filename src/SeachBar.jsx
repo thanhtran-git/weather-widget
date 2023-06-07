@@ -1,4 +1,4 @@
-//This Component is the Search Bar and Search Button, used on WidgetPage1
+//This Component contains the Search Bar and Buttons, used on WidgetPage1
 import React, { useState, useContext, useEffect } from "react";
 import { SearchContext } from "./SearchContext";
 import { locationData } from "./locationData";
@@ -28,25 +28,14 @@ export const SearchBar = () => {
       } else if (e.key === "Enter") {
         if (selectedItem >= 0) {
           setSearchTerm(searchSuggestion[selectedItem].Name);
-          console.log(searchSuggestion[selectedItem].Name);
           handleSearch(searchSuggestion[selectedItem].Name);
-          console.log(e.key);
         } else if (selectedItem === -1 && searchTerm) {
           handleSearch(searchTerm);
-          console.log("searchTerm:", searchTerm);
-          console.log(e.key);
         }
       } else {
         setSelectedItem(-1);
       }
     }
-  };
-
-  const handleResultClick = (x) => {
-    setSearchTerm(x);
-    console.log(searchTerm);
-    setsearchSuggestion([]);
-    setSelectedItem(-1);
   };
 
   useEffect(() => {
@@ -64,8 +53,8 @@ export const SearchBar = () => {
   }, [searchTerm]);
 
   return (
-    <div className="search-container">
-      <div className="search-inner">
+    <section className="search-section">
+      <div className="search-input-container">
         <input
           autoComplete="none"
           placeholder="Ort eingeben..."
@@ -76,10 +65,24 @@ export const SearchBar = () => {
           onKeyDown={handleKeyDown}
         />
         <button onClick={() => handleClose()}>
-          {<img src="/close.png" alt="close-png" height="20px" width="20px" />}
+          {
+            <img
+              className="close-btn"
+              src="/close.png"
+              alt="close-png"
+              height="18px"
+              width="18px"
+            />
+          }
         </button>
         <button onClick={() => handleSearch(searchTerm)}>
-          <img src="/search.png" alt="search-icon" height="20px" width="20px" />
+          <img
+            className="search-btn"
+            src="/search.png"
+            alt="search-icon"
+            height="20px"
+            width="20px"
+          />
         </button>
       </div>
       <div className="dropdown">
@@ -87,11 +90,9 @@ export const SearchBar = () => {
           return (
             <div
               className={
-                selectedItem === index
-                  ? "suggestionLine active"
-                  : "suggestionLine"
+                selectedItem === index ? "suggestion active" : "suggestion"
               }
-              key={index}
+              key={city.Name}
               onClick={() => setSearchTerm(city.Name)}
             >
               {city.Name}
@@ -103,6 +104,6 @@ export const SearchBar = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };

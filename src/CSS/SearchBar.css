@@ -1,44 +1,51 @@
-.search-inner {
-    display: flex;
+.search-input-container {
+  display: flex;
 }
 
 .search-box {
-    border-radius: 20px;
-    border: solid 1px rgb(227, 227, 227);
-    text-indent: 5%;
+  border-radius: 12px;
+  border: solid 1px rgb(227, 227, 227);
+  text-indent: 5%;
+  margin-right: 3px;
+  background-color: transparent;
 }
 
 button {
-    border: 1px solid rgb(217, 217, 217);
-    border-radius: 10%;
-    height: 2rem;
-    margin: 3px;
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 20%;
+  height: 2rem;
+  width: 2rem;
+  margin: 3px;
+  cursor: pointer;
 }
+
 button:hover {
-    background-color: rgb(219, 219, 219)
+  background-color: rgb(219, 219, 219);
 }
 
 input {
-    height: 2.3rem
+  height: 2.3rem;
+  width: 210px;
+  font-size: large;
 }
 
 input:focus {
-    outline: 1px solid rgb(97, 97, 97);
+  outline: 1px solid rgb(97, 97, 97);
 }
 
 .dropdown {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    position: fixed;
-    margin-right: 50px;;
-  }
-
-  .suggestionLine:hover {
-    background: rgb(227, 227, 227);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: fixed;
+  line-height: 1.7rem;
 }
 
-.suggestionLine.active {
-    background: rgb(227, 227, 227);
+.suggestion:hover {
+  background: rgb(227, 227, 227);
+}
+
+.suggestion.active {
+  background: rgb(227, 227, 227);
 }

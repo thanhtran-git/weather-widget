@@ -667,11 +667,6 @@ export const locationData = [
     Bundesland: "Sachsen",
   },
   {
-    Name: "BERUS",
-    ID: 10704,
-    Bundesland: "Saarland",
-  },
-  {
     Name: "BESIGHEIM",
     ID: "P0248",
     Bundesland: "Baden-Württemberg",
@@ -2408,11 +2403,6 @@ export const locationData = [
     Bundesland: "Schleswig-Holstein",
   },
   {
-    Name: "FLENSBURG (SCHÄFERH",
-    ID: "A160",
-    Bundesland: "Schleswig-Holstein",
-  },
-  {
     Name: "FLOMBORN",
     ID: "P0411",
     Bundesland: "Rheinland-Pfalz",
@@ -2428,7 +2418,7 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "FÖhr",
+    Name: "FÖHR",
     ID: "EW007",
     Bundesland: "Schleswig-Holstein",
   },
@@ -2498,18 +2488,8 @@ export const locationData = [
     Bundesland: "Rheinland-Pfalz",
   },
   {
-    Name: "FRANKFURT",
+    Name: "FRANKFURT AM MAIN",
     ID: "L838",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "FRANKFURT WESTEND",
-    ID: "L841",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "FRANKFURT M",
-    ID: 10637,
     Bundesland: "Hessen",
   },
   {
@@ -2518,22 +2498,17 @@ export const locationData = [
     Bundesland: "Brandenburg",
   },
   {
-    Name: "FRANKFURT ZEIL",
-    ID: "P0445",
-    Bundesland: "Hessen",
-  },
-  {
-    Name: "FRAÜNRIEDHAUSEN",
+    Name: "FRAUNRIEDHAUSEN",
     ID: "G334",
     Bundesland: "Bayern",
   },
   {
-    Name: "FRAÜNWALD",
+    Name: "FRAUNWALD",
     ID: "M833",
     Bundesland: "Thüringen",
   },
   {
-    Name: "Freiamt",
+    Name: "FREIAMT",
     ID: "EW008",
     Bundesland: "Baden-Württemberg",
   },
@@ -2833,7 +2808,7 @@ export const locationData = [
     Bundesland: "Thüringen",
   },
   {
-    Name: "GERÄR BERG",
+    Name: "GERAER BERG",
     ID: "M575",
     Bundesland: "Thüringen",
   },
@@ -3434,39 +3409,14 @@ export const locationData = [
     Bundesland: "Niedersachsen",
   },
   {
-    Name: "HAMELN-HASTENBECK",
-    ID: "E739",
-    Bundesland: "Niedersachsen",
-  },
-  {
     Name: "HAMM",
     ID: "N9401",
     Bundesland: "Nordrhein-Westfalen",
   },
   {
-    Name: "HAMMELBURG",
-    ID: "N3754",
-    Bundesland: "Bayern",
-  },
-  {
-    Name: "HAMSWEHRUM",
-    ID: "P0145",
-    Bundesland: "Niedersachsen",
-  },
-  {
     Name: "HANAU",
     ID: "N4116",
     Bundesland: "Hessen",
-  },
-  {
-    Name: "HANEKENFÄHR UMSPWK.",
-    ID: "F9504",
-    Bundesland: "Niedersachsen",
-  },
-  {
-    Name: "HANNOV.MÜNDEN",
-    ID: "P0204",
-    Bundesland: "Niedersachsen",
   },
   {
     Name: "HANNOVER",
@@ -6097,11 +6047,6 @@ export const locationData = [
   {
     Name: "MÖNCHENGLADBACH",
     ID: 10403,
-    Bundesland: "Nordrhein-Westfalen",
-  },
-  {
-    Name: "MÖNCHENGLADBACH-HIL",
-    ID: "H768",
     Bundesland: "Nordrhein-Westfalen",
   },
   {

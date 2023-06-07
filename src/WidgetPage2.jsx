@@ -27,7 +27,6 @@ const WidgetPage2 = () => {
           <section className="header">
             <span className="weather-location">{searchTerm}</span>
             <span className="Wicon-small"></span>
-
             <span className="todays-date">
               {weekdayToday + " "}
               {todaysDate.toLocaleDateString("de-de")}

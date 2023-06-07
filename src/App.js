@@ -3,6 +3,7 @@ import { SearchProvider } from "./SearchContext";
 import WidgetPage1 from "./WidgetPage1.jsx";
 import WidgetPage2 from "./WidgetPage2.jsx";
 import WidgetPage3 from "./WidgetPage3.jsx";
+import WidgetPage4 from "./WidgetPage4.jsx";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -26,6 +27,7 @@ export default function App() {
           <WidgetPage1 />
           <WidgetPage2 />
           <WidgetPage3 />
+          <WidgetPage4 />
         </Slider>
       </SearchProvider>
     </>
