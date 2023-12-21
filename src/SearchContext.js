@@ -7,7 +7,7 @@ export const SearchProvider = (props) => {
   const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
-  const API_URL = `api/v30/stationOverviewExtended?stationIds=${stationId}`;
+  const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
