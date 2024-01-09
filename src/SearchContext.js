@@ -1,19 +1,17 @@
 // This Component fetches the API data on search and makes it accessible to all components using createContext
 import { useState, useEffect, createContext } from "react";
 import { locationData } from "./locationData";
+
 export const SearchContext = createContext();
 
 export const SearchProvider = (props) => {
   const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
+
   const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
-  const options = {
-    method: "GET",
-    headers: { Accept: "application/json" },
-    origin: "http://localhost:3000",
-  };
-  //const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
+
+  //Const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
@@ -36,7 +34,7 @@ export const SearchProvider = (props) => {
 
   useEffect(() => {
     const getApiData = async () => {
-      const response = await fetch(API_URL, options);
+      const response = await fetch(API_URL);
       let receivedData = await response.json();
       setData(receivedData);
     };

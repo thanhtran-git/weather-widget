@@ -1,16 +1,17 @@
 // const express = require("express");
 // const cors = require("cors");
+// const fetch = require("node-fetch");
 
 // const app = express();
 // const port = 3000;
 
 // app.use(cors());
 
-// app.get("/api/data", async (req, res) => {
-//   const apiUrl = "https://dwd.api.proxy.bund.dev";
+// const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
 
+// app.get("/api/data", async (req, res) => {
 //   try {
-//     const response = await fetch(apiUrl);
+//     const response = await fetch(API_URL);
 
 //     if (!response.ok) {
 //       throw new Error("Network response was not ok");
