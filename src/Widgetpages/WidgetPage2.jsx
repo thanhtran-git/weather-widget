@@ -7,7 +7,7 @@ function WidgetPage2() {
   const [error] = useState(null);
   const today = new Date();
   const currentHour = today.getHours();
-  const iconCurrentHour = data[stationId]?.forecast1.icon[currentHour];
+  // const iconCurrentHour = data[stationId]?.forecast1.icon[currentHour];
   const todaysDate = new Date(data[stationId]?.forecast1?.start);
   const msSunrise = data[stationId]?.days[0]?.sunrise;
   const msSunset = data[stationId]?.days[0]?.sunset;

@@ -2,12 +2,7 @@
 import React, { useState, useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx";
-import {
-  currentHour,
-  weekDay,
-  weekdayToday,
-  todaysDate,
-} from "../utils/Variables";
+import { currentHour, weekDay } from "../utils/Variables";
 import SearchBar from "../Searchfunction/SeachBar.jsx";
 
 function WidgetPage1() {
@@ -18,7 +13,7 @@ function WidgetPage1() {
   const nextWeekDay = weekDay[date1.getDay()];
   const date2 = new Date(data[stationId]?.days[2]?.dayDate);
   const nextWeekDay2 = weekDay[date2.getDay()];
-  const todaysDate = new Date(data[stationId]?.forecast1?.start);
+  // const todaysDate = new Date(data[stationId]?.forecast1?.start);
 
   return (
     <>

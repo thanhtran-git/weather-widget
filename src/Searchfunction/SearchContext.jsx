@@ -9,12 +9,12 @@ function SearchProvider(props) {
   const [data, setData] = useState([]);
   const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
 
-  //Const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
+  //const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  const getStationId = () => {
+  const getStationId = (searchTerm) => {
     const found = locationData.find(
       (city) => city.Name.toLowerCase() === searchTerm.toLowerCase()
     );
