@@ -1342,6 +1342,11 @@ export const locationData = [
     Bundesland: "Hessen",
   },
   {
+    Name: "BUXTEHUDE",
+    ID: "E099",
+    Bundesland: "Niedersachsen",
+  },
+  {
     Name: "CARLSFELD",
     ID: 10574,
     Bundesland: "Sachsen",
