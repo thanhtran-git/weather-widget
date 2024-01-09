@@ -9,11 +9,16 @@ export const SearchBar = () => {
     useContext(SearchContext);
   const [selectedItem, setSelectedItem] = useState(-1);
   const [searchSuggestion, setsearchSuggestion] = useState([]);
+  const [enterPressed, setEnterPressed] = useState(false);
 
   const handleClose = () => {
     setSearchTerm("");
     setsearchSuggestion([]);
     setSelectedItem(-1);
+  };
+
+  const handleSearchTrigger = (value) => {
+    handleSearch(value);
   };
 
   const handleKeyDown = (e) => {
@@ -26,17 +31,25 @@ export const SearchBar = () => {
       ) {
         setSelectedItem((prev) => prev + 1);
       } else if (e.key === "Enter") {
+        e.preventDefault();
+        setEnterPressed(true);
         if (selectedItem >= 0) {
           setSearchTerm(searchSuggestion[selectedItem].Name);
-          handleSearch(searchSuggestion[selectedItem].Name);
-        } else if (selectedItem === -1 && searchTerm) {
-          handleSearch(searchTerm);
         }
       } else {
         setSelectedItem(-1);
+        setEnterPressed(false);
       }
     }
   };
+
+  //Trigger the search when the Enter Key is pressed
+  useEffect(() => {
+    if (enterPressed && searchTerm !== "") {
+      handleSearchTrigger(searchTerm);
+      setEnterPressed(false); // Reset the flag after triggering the search
+    }
+  }, [searchTerm, enterPressed]);
 
   useEffect(() => {
     if (searchTerm !== "") {
@@ -64,7 +77,7 @@ export const SearchBar = () => {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-        <button onClick={() => handleClose()}>
+        <button onClick={handleClose}>
           {
             <img
               className="close-btn"
@@ -75,7 +88,7 @@ export const SearchBar = () => {
             />
           }
         </button>
-        <button onClick={() => handleSearch(searchTerm)}>
+        <button onClick={handleSearch}>
           <img
             className="search-btn"
             src="/search.png"

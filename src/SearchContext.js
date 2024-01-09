@@ -7,8 +7,13 @@ export const SearchProvider = (props) => {
   const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
-  //const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
-  const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
+  const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
+  const options = {
+    method: "GET",
+    headers: { Accept: "application/json" },
+    origin: "http://localhost:3000",
+  };
+  //const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
@@ -25,13 +30,13 @@ export const SearchProvider = (props) => {
     }
   };
 
-  const handleSearch = (city) => {
-    getStationId(city);
+  const handleSearch = (searchTerm) => {
+    getStationId(searchTerm);
   };
 
   useEffect(() => {
     const getApiData = async () => {
-      const response = await fetch(API_URL);
+      const response = await fetch(API_URL, options);
       let receivedData = await response.json();
       setData(receivedData);
     };
