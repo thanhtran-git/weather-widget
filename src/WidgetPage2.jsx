@@ -3,7 +3,7 @@ import { SearchContext } from "./SearchContext.js";
 import { formatTime } from "./Variables.jsx";
 import { weekdayToday } from "./Variables.jsx";
 
-const WidgetPage2 = () => {
+function WidgetPage2() {
   const { data, stationId, searchTerm } = useContext(SearchContext);
   const [error] = useState(null);
   const today = new Date();
@@ -94,5 +94,5 @@ const WidgetPage2 = () => {
       )}
     </>
   );
-};
+}
 export default WidgetPage2;

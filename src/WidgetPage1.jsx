@@ -3,9 +3,9 @@ import React, { useState, useContext } from "react";
 import { SearchContext } from "./SearchContext.js";
 import WeatherIcon from "./WeatherIcon/WeatherIcon.jsx";
 import { currentHour, weekDay, weekdayToday, todaysDate } from "./Variables";
-import { SearchBar } from "./SeachBar.jsx";
+import SearchBar from "./SeachBar.jsx";
 
-const WidgetPage1 = () => {
+function WidgetPage1() {
   const { data, stationId } = useContext(SearchContext);
   const [error] = useState(null);
   // const todaysDate = new Date(data[stationId]?.forecast1?.start);
@@ -26,7 +26,7 @@ const WidgetPage1 = () => {
           <div className="searchbar">{SearchBar()}</div>
         </section>
         {/* <span className="todaysDate">{weekdayToday + " "}</span>
-        {todaysDate.toLocaleDateString("de-de")} */}
+            {todaysDate.toLocaleDateString("de-de")} */}
 
         {data && (
           <section className="weather-bottom">
@@ -68,5 +68,5 @@ const WidgetPage1 = () => {
       </div>
     </>
   );
-};
+}
 export default WidgetPage1;

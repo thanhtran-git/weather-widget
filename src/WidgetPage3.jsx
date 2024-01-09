@@ -3,7 +3,7 @@ import { SearchContext } from "./SearchContext.js";
 import { weekdayToday } from "./Variables.jsx";
 import WeatherIconSmall from "./WeatherIcon/WeatherIconSmall";
 
-const WidgetPage3 = () => {
+function WidgetPage3() {
   const { data, stationId, searchTerm } = useContext(SearchContext);
   const today = new Date();
   const currentHour = today.getHours();
@@ -84,6 +84,6 @@ const WidgetPage3 = () => {
       )}
     </>
   );
-};
+}
 
 export default WidgetPage3;

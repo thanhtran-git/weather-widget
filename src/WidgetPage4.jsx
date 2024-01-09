@@ -4,7 +4,7 @@ import { SearchContext } from "./SearchContext.js";
 import { weekDay } from "./Variables.jsx";
 import WeatherIconSmall from "./WeatherIcon/WeatherIconSmall";
 
-const WidgetPage4 = () => {
+function WidgetPage4() {
   const { data, stationId } = useContext(SearchContext);
 
   const date1 = new Date(data[stationId]?.days[1]?.dayDate);
@@ -66,6 +66,6 @@ const WidgetPage4 = () => {
       )}
     </>
   );
-};
+}
 
 export default WidgetPage4;

@@ -1,25 +1,22 @@
 // This Component fetches the API data on search and makes it accessible to all components using createContext
 import { useState, useEffect, createContext } from "react";
 import { locationData } from "./locationData";
-
 export const SearchContext = createContext();
 
-export const SearchProvider = (props) => {
+function SearchProvider(props) {
   const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
-
   const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
 
   //Const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
-
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };
 
   const getStationId = () => {
     const found = locationData.find(
-      (item) => item.Name.toLowerCase() === searchTerm.toLowerCase()
+      (city) => city.Name.toLowerCase() === searchTerm.toLowerCase()
     );
     if (found) {
       setStationId(found.ID);
@@ -33,29 +30,36 @@ export const SearchProvider = (props) => {
   };
 
   useEffect(() => {
-    const getApiData = async () => {
-      const response = await fetch(API_URL);
-      let receivedData = await response.json();
-      setData(receivedData);
-    };
+    async function getApiData() {
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data. Status: ${response.status}`);
+        }
+        let receivedData = await response.json();
+        setData(receivedData);
+      } catch (error) {
+        console.error("Error fetching API data:", error);
+      }
+    }
     getApiData();
   }, [API_URL]);
 
   return (
-    <>
-      <SearchContext.Provider
-        value={{
-          data,
-          stationId,
-          searchTerm,
-          setSearchTerm,
-          handleChange,
-          handleSearch,
-          getStationId,
-        }}
-      >
-        {props.children}
-      </SearchContext.Provider>
-    </>
+    <SearchContext.Provider
+      value={{
+        data,
+        stationId,
+        searchTerm,
+        setSearchTerm,
+        handleChange,
+        handleSearch,
+        getStationId,
+      }}
+    >
+      {props.children}
+    </SearchContext.Provider>
   );
-};
+}
+
+export default SearchProvider;

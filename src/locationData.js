@@ -6700,11 +6700,6 @@ export const locationData = [
     Bundesland: "Bayern",
   },
   {
-    Name: "NÜRNBERG-NETZSTALL",
-    ID: "P333",
-    Bundesland: "Bayern",
-  },
-  {
     Name: "NW-HR02",
     ID: "Q597",
     Bundesland: "Baden-Württemberg",

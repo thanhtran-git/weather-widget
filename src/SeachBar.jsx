@@ -3,49 +3,52 @@ import React, { useState, useContext, useEffect } from "react";
 import { SearchContext } from "./SearchContext";
 import { locationData } from "./locationData";
 import "./CSS/SearchBar.css";
+import SearchInput from "./SearchInput";
+import Suggestions from "./Suggestions";
 
-export const SearchBar = () => {
+function SearchBar() {
   const { handleSearch, handleChange, searchTerm, setSearchTerm } =
     useContext(SearchContext);
   const [selectedItem, setSelectedItem] = useState(-1);
-  const [searchSuggestion, setsearchSuggestion] = useState([]);
-  const [enterPressed, setEnterPressed] = useState(false);
+  const [searchSuggestions, setsearchSuggestions] = useState([]);
+  const [isEnterPressed, setIsEnterPressed] = useState(false);
 
   const handleClose = () => {
     setSearchTerm("");
-    setsearchSuggestion([]);
+    setsearchSuggestions([]);
     setSelectedItem(-1);
   };
 
-  const handleKeyDown = (e) => {
-    if (selectedItem < searchSuggestion.length) {
-      if (e.key === "ArrowUp" && selectedItem > 0) {
-        setSelectedItem((prev) => prev - 1);
-      } else if (
-        e.key === "ArrowDown" &&
-        selectedItem < searchSuggestion.length - 1
-      ) {
-        setSelectedItem((prev) => prev + 1);
-      } else if (e.key === "Enter") {
-        e.preventDefault();
-        setEnterPressed(true);
+  const handleKeyDown = (event) => {
+    const isArrowUp = event.key === "ArrowUp";
+    const isArrowDown = event.key === "ArrowDown";
+    const isEnter = event.key === "Enter";
+
+    if (selectedItem < searchSuggestions.length) {
+      if (isArrowUp && selectedItem > 0) {
+        setSelectedItem((prevSelectedItem) => prevSelectedItem - 1);
+      } else if (isArrowDown && selectedItem < searchSuggestions.length - 1) {
+        setSelectedItem((prevSelectedItem) => prevSelectedItem + 1);
+      } else if (isEnter) {
+        event.preventDefault();
+        setIsEnterPressed(true);
         if (selectedItem >= 0) {
-          setSearchTerm(searchSuggestion[selectedItem].Name);
+          setSearchTerm(searchSuggestions[selectedItem].Name);
         }
       } else {
         setSelectedItem(-1);
-        setEnterPressed(false);
+        setIsEnterPressed(false);
       }
     }
   };
 
   //Trigger the search when the Enter Key is pressed
   useEffect(() => {
-    if (enterPressed && searchTerm !== "") {
+    if (isEnterPressed && searchTerm !== "") {
       handleSearch(searchTerm);
-      setEnterPressed(false); // Reset the flag after triggering the search
+      setIsEnterPressed(false); // Reset the flag after triggering the search
     }
-  }, [searchTerm, enterPressed, handleSearch]);
+  }, [searchTerm, isEnterPressed, handleSearch]);
 
   useEffect(() => {
     if (searchTerm !== "") {
@@ -54,65 +57,30 @@ export const SearchBar = () => {
         const cityName = city.Name.toLowerCase();
         return search && cityName.startsWith(search) && cityName !== search;
       });
-      setsearchSuggestion(newFilterData);
+      setsearchSuggestions(newFilterData);
     } else {
-      setsearchSuggestion([]);
+      setsearchSuggestions([]);
       setSelectedItem(-1);
     }
   }, [searchTerm]);
 
   return (
     <section className="search-section">
-      <div className="search-input-container">
-        <input
-          autoComplete="none"
-          placeholder="Ort eingeben..."
-          className="search-box"
-          type="text"
-          value={searchTerm}
-          onChange={handleChange}
-          onKeyDown={handleKeyDown}
-        />
-        <button onClick={handleClose}>
-          {
-            <img
-              className="close-btn"
-              src="/close.png"
-              alt="close-png"
-              height="18px"
-              width="18px"
-            />
-          }
-        </button>
-        <button onClick={handleSearch}>
-          <img
-            className="search-btn"
-            src="/search.png"
-            alt="search-icon"
-            height="20px"
-            width="20px"
-          />
-        </button>
-      </div>
-      <div className="dropdown">
-        {searchSuggestion.slice(0, 4).map((city, index) => {
-          return (
-            <div
-              className={
-                selectedItem === index ? "suggestion active" : "suggestion"
-              }
-              key={city.Name}
-              onClick={() => setSearchTerm(city.Name)}
-            >
-              {city.Name}
-              <span style={{ fontSize: "1rem" }}>
-                {" "}
-                {" (" + city.Bundesland + ")"}{" "}
-              </span>
-            </div>
-          );
-        })}
-      </div>
+      <SearchInput
+        value={searchTerm}
+        onChange={handleChange}
+        onKeyDown={handleKeyDown}
+        onClose={handleClose}
+        onSearch={() => handleSearch()}
+      />
+
+      <Suggestions
+        searchSuggestions={searchSuggestions}
+        selectedItem={selectedItem}
+        onSearch={handleSearch}
+      />
     </section>
   );
-};
+}
+
+export default SearchBar;

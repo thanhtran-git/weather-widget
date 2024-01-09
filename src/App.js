@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchProvider } from "./SearchContext";
+import SearchProvider from "./SearchContext";
 import WidgetPage1 from "./WidgetPage1.jsx";
 import WidgetPage2 from "./WidgetPage2.jsx";
 import WidgetPage3 from "./WidgetPage3.jsx";
@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./CSS/App.css";
 
-export default function App() {
+function App() {
   const settings = {
     dots: true,
     infinite: true,
@@ -33,3 +33,4 @@ export default function App() {
     </>
   );
 }
+export default App;
