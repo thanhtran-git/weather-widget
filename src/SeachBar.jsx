@@ -17,10 +17,6 @@ export const SearchBar = () => {
     setSelectedItem(-1);
   };
 
-  const handleSearchTrigger = (value) => {
-    handleSearch(value);
-  };
-
   const handleKeyDown = (e) => {
     if (selectedItem < searchSuggestion.length) {
       if (e.key === "ArrowUp" && selectedItem > 0) {
@@ -46,10 +42,10 @@ export const SearchBar = () => {
   //Trigger the search when the Enter Key is pressed
   useEffect(() => {
     if (enterPressed && searchTerm !== "") {
-      handleSearchTrigger(searchTerm);
+      handleSearch(searchTerm);
       setEnterPressed(false); // Reset the flag after triggering the search
     }
-  }, [searchTerm, enterPressed]);
+  }, [searchTerm, enterPressed, handleSearch]);
 
   useEffect(() => {
     if (searchTerm !== "") {
