@@ -1,8 +1,8 @@
 // Forecast next 5 days
 import React, { useContext } from "react";
-import { SearchContext } from "./SearchContext.js";
-import { weekDay } from "./Variables.jsx";
-import WeatherIconSmall from "./WeatherIcon/WeatherIconSmall";
+import { SearchContext } from "../Searchfunction/SearchContext.jsx";
+import { weekDay } from "../utils/Variables.js";
+import WeatherIconSmall from "../WeatherIcon/WeatherIconSmall.jsx";
 
 function WidgetPage4() {
   const { data, stationId } = useContext(SearchContext);

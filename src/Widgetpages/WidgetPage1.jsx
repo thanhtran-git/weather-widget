@@ -1,9 +1,14 @@
 //This component is the main widget page displaying the location search bar, temps of today and next 2 days + weather icon
 import React, { useState, useContext } from "react";
-import { SearchContext } from "./SearchContext.js";
-import WeatherIcon from "./WeatherIcon/WeatherIcon.jsx";
-import { currentHour, weekDay, weekdayToday, todaysDate } from "./Variables";
-import SearchBar from "./SeachBar.jsx";
+import { SearchContext } from "../Searchfunction/SearchContext.jsx";
+import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx";
+import {
+  currentHour,
+  weekDay,
+  weekdayToday,
+  todaysDate,
+} from "../utils/Variables";
+import SearchBar from "../Searchfunction/SeachBar.jsx";
 
 function WidgetPage1() {
   const { data, stationId } = useContext(SearchContext);

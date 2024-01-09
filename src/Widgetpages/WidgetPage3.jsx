@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { SearchContext } from "./SearchContext.js";
-import { weekdayToday } from "./Variables.jsx";
-import WeatherIconSmall from "./WeatherIcon/WeatherIconSmall";
+import { SearchContext } from "../Searchfunction/SearchContext.jsx";
+import { weekdayToday } from "../utils/Variables.js";
+import WeatherIconSmall from "../WeatherIcon/WeatherIconSmall.jsx";
 
 function WidgetPage3() {
   const { data, stationId, searchTerm } = useContext(SearchContext);

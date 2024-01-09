@@ -1,6 +1,6 @@
 // This Component fetches the API data on search and makes it accessible to all components using createContext
 import { useState, useEffect, createContext } from "react";
-import { locationData } from "./locationData";
+import { locationData } from "../utils/locationData";
 export const SearchContext = createContext();
 
 function SearchProvider(props) {

@@ -1,8 +1,8 @@
 //This Component contains the Search Bar and Buttons, used on WidgetPage1
 import React, { useState, useContext, useEffect } from "react";
 import { SearchContext } from "./SearchContext";
-import { locationData } from "./locationData";
-import "./CSS/SearchBar.css";
+import { locationData } from "../utils/locationData";
+import "../CSS/SearchBar.css";
 import SearchInput from "./SearchInput";
 import Suggestions from "./Suggestions";
 

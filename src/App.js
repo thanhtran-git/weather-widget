@@ -1,9 +1,9 @@
 import React from "react";
-import SearchProvider from "./SearchContext";
-import WidgetPage1 from "./WidgetPage1.jsx";
-import WidgetPage2 from "./WidgetPage2.jsx";
-import WidgetPage3 from "./WidgetPage3.jsx";
-import WidgetPage4 from "./WidgetPage4.jsx";
+import SearchProvider from "./Searchfunction/SearchContext";
+import WidgetPage1 from "./Widgetpages/WidgetPage1.jsx";
+import WidgetPage2 from "./Widgetpages/WidgetPage2.jsx";
+import WidgetPage3 from "./Widgetpages/WidgetPage3.jsx";
+import WidgetPage4 from "./Widgetpages/WidgetPage4.jsx";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
