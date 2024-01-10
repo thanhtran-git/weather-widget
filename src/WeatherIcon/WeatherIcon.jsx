@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
-// import "./CSS/Wicon.css";
+import { currentHour } from "../utils/Variables.js";
 
 function WeatherIcon() {
   const { data, stationId } = useContext(SearchContext);
-  const today = new Date();
-  const currentHour = today.getHours();
+
   // console.log(currentHour);
   let isDay = data[stationId]?.forecast1?.isDay[currentHour];
   console.log(isDay);

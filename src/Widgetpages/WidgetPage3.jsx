@@ -1,12 +1,10 @@
 import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
-import { weekdayToday } from "../utils/Variables.js";
+import { weekdayToday, currentHour } from "../utils/Variables.js";
 import WeatherIconSmall from "../WeatherIcon/WeatherIconSmall.jsx";
 
 function WidgetPage3() {
   const { data, stationId, searchTerm } = useContext(SearchContext);
-  const today = new Date();
-  const currentHour = today.getHours();
   const todaysDate = new Date(data[stationId]?.forecast1?.start);
 
   const WeatherBox = (hour) => (
