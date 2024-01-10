@@ -8,13 +8,17 @@ function SearchProvider(props) {
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
   const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
-
   //const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
+
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
   };
 
-  const getStationId = (searchTerm) => {
+  const handleSearch = (searchTerm) => {
+    getStationId(searchTerm);
+  };
+
+  function getStationId(searchTerm) {
     const found = locationData.find(
       (city) => city.Name.toLowerCase() === searchTerm.toLowerCase()
     );
@@ -23,25 +27,22 @@ function SearchProvider(props) {
     } else {
       setStationId("ID not found");
     }
-  };
+  }
 
-  const handleSearch = (searchTerm) => {
-    getStationId(searchTerm);
-  };
+  async function getApiData() {
+    try {
+      const response = await fetch(API_URL);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data. Status: ${response.status}`);
+      }
+      const receivedData = await response.json();
+      setData(receivedData);
+    } catch (error) {
+      console.error("Error fetching API data:", error);
+    }
+  }
 
   useEffect(() => {
-    async function getApiData() {
-      try {
-        const response = await fetch(API_URL);
-        if (!response.ok) {
-          throw new Error(`Failed to fetch data. Status: ${response.status}`);
-        }
-        let receivedData = await response.json();
-        setData(receivedData);
-      } catch (error) {
-        console.error("Error fetching API data:", error);
-      }
-    }
     getApiData();
   }, [API_URL]);
 

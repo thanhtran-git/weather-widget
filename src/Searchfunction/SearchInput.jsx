@@ -2,6 +2,7 @@ const SearchInput = ({ value, onChange, onKeyDown, onClose, onSearch }) => (
   <div className="search-input-container">
     <input
       autoComplete="none"
+      spellCheck="false"
       placeholder="Ort eingeben..."
       className="search-box"
       type="text"

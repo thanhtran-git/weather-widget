@@ -25,8 +25,6 @@ function WidgetPage1() {
           <span className="title">Wetter</span>
           <div className="searchbar">{SearchBar()}</div>
         </section>
-        {/* <span className="todaysDate">{weekdayToday + " "}</span>
-            {todaysDate.toLocaleDateString("de-de")} */}
 
         {data && (
           <section className="weather-bottom">

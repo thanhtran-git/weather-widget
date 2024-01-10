@@ -2,19 +2,18 @@ import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 // import "./CSS/Wicon.css";
 
-const WeatherIcon = () => {
+function WeatherIcon() {
   const { data, stationId } = useContext(SearchContext);
   const today = new Date();
   const currentHour = today.getHours();
-  const sunrise = new Date(data[stationId]?.days[0]?.sunrise);
-  const sunset = new Date(data[stationId]?.days[0]?.sunset);
-  const checkDayNight =
-    currentHour > sunrise.getHours() && currentHour < sunset.getHours();
+  // console.log(currentHour);
+  let isDay = data[stationId]?.forecast1?.isDay[currentHour];
+  console.log(isDay);
   let icon = "";
 
   switch (data[stationId]?.forecast1?.icon[currentHour]) {
     case 1:
-      checkDayNight
+      isDay
         ? (icon = (
             <img
               src="/weatherIcons/sonne.png"
@@ -32,7 +31,7 @@ const WeatherIcon = () => {
       break;
 
     case 2:
-      checkDayNight
+      isDay
         ? (icon = (
             <img
               src="/weatherIcons/sonne_woelkchen.png"
@@ -50,7 +49,7 @@ const WeatherIcon = () => {
       break;
 
     case 3:
-      checkDayNight
+      isDay
         ? (icon = (
             <img
               src="/weatherIcons/sonne_wolke.png"
@@ -148,5 +147,5 @@ const WeatherIcon = () => {
       <div>{icon}</div>
     </>
   );
-};
+}
 export default WeatherIcon;

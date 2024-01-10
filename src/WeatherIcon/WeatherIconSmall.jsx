@@ -2,18 +2,13 @@ import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 import "../CSS/Wicon.css";
 
-const WeatherIconSmall = (condition, hours) => {
+function WeatherIconSmall(condition, hours) {
   const { data, stationId } = useContext(SearchContext);
   const today = new Date();
   const currentHour = today.getHours();
-  const sunrise = new Date(data[stationId]?.days[0]?.sunrise);
-  const sunset = new Date(data[stationId]?.days[0]?.sunset);
-  // const isDay = (h) => {
-  //   return data[stationId]?.forecast1.isDay[h];
-  // };
 
-  let isDay =
-    currentHour + hours > sunrise.getHours() && currentHour < sunset.getHours();
+  let isDay = data[stationId]?.forecast1?.isDay[currentHour + hours];
+
   let icon = "";
 
   switch (condition) {
@@ -23,14 +18,14 @@ const WeatherIconSmall = (condition, hours) => {
             <img
               src="/weatherIcons/sonne.png"
               className="wicon-small"
-              alt="wIcon"
+              alt="sonne"
             />
           ))
         : (icon = (
             <img
               src="/weatherIcons/mond.png"
               className="wicon-small"
-              alt="wIcon"
+              alt="mond"
             />
           ));
       break;
@@ -40,32 +35,31 @@ const WeatherIconSmall = (condition, hours) => {
             <img
               src="/weatherIcons/sonne_woelkchen.png"
               className="wicon-small"
-              alt="wIcon"
+              alt="sonne-woelkchen"
             />
           ))
         : (icon = (
             <img
               src="/weatherIcons/mond_woelkchen.png"
               className="wicon-small"
-              alt="wIcon"
+              alt="mond-woelkchen"
             />
           ));
       break;
     case 3:
       isDay
-        ? (icon = icon =
-            (
-              <img
-                src="/weatherIcons/sonne_wolke.png"
-                className="wicon-small"
-                alt="wIcon"
-              />
-            ))
+        ? (icon = (
+            <img
+              src="/weatherIcons/sonne_wolke.png"
+              className="wicon-small"
+              alt="sonne-wolke"
+            />
+          ))
         : (icon = (
             <img
               src="/weatherIcons/mond_wolke.png"
               className="wicon-small"
-              alt="wIcon"
+              alt="mond-wolke"
             />
           ));
       break;
@@ -74,7 +68,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/wolke.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="wolke"
         />
       );
       break;
@@ -85,7 +79,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/nebel.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="mebel"
         />
       );
       break;
@@ -95,7 +89,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/wolke_regen_leicht.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="wolke-regen-leicht"
         />
       );
       break;
@@ -108,7 +102,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/wolke_regen.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="wolke-regen"
         />
       );
       break;
@@ -120,7 +114,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/schnee.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="schnee"
         />
       );
       break;
@@ -130,7 +124,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/wolke_graupel.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="wolke-graupel"
         />
       );
       break;
@@ -139,7 +133,7 @@ const WeatherIconSmall = (condition, hours) => {
         <img
           src="/weatherIcons/wolke.png"
           className="wicon-small"
-          alt="wIcon"
+          alt="default-wolke"
         />
       );
       break;
@@ -149,5 +143,5 @@ const WeatherIconSmall = (condition, hours) => {
       <div>{icon}</div>
     </>
   );
-};
+}
 export default WeatherIconSmall;

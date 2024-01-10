@@ -9,6 +9,19 @@ function WidgetPage3() {
   const currentHour = today.getHours();
   const todaysDate = new Date(data[stationId]?.forecast1?.start);
 
+  const WeatherBox = (hour) => (
+    <div className="weather-box">
+      {currentHour < 23 ? currentHour + hour + ":00" : hour - 23 + ":00"}
+      <span className="wicon-small">
+        {WeatherIconSmall(data[stationId]?.forecast1?.icon[currentHour + hour])}
+      </span>
+      {Math.round(
+        data[stationId]?.forecast1.temperature[currentHour + hour] / 10
+      )}
+      °
+    </div>
+  );
+
   return (
     <>
       {data && (
@@ -23,62 +36,11 @@ function WidgetPage3() {
           </section>
 
           <section className="weather-box-container">
-            <div className="weather-box">
-              {currentHour < 23 ? currentHour + 1 + ":00" : "00:00"}
-              <span className="wicon-small">
-                {WeatherIconSmall(
-                  data[stationId]?.forecast1?.icon[currentHour + 1]
-                )}
-              </span>
-              {Math.round(
-                data[stationId]?.forecast1.temperature[currentHour + 1] / 10
-              )}
-              °
-            </div>
-
-            <div className="weather-box">
-              {currentHour < 23 ? currentHour + 2 + ":00" : "01:00"}
-              {WeatherIconSmall(
-                data[stationId]?.forecast1?.icon[currentHour + 2]
-              )}
-              {Math.round(
-                data[stationId]?.forecast1.temperature[currentHour + 2] / 10
-              )}
-              °
-            </div>
-
-            <div className="weather-box">
-              {currentHour < 23 ? currentHour + 3 + ":00" : "02:00"}
-              {WeatherIconSmall(
-                data[stationId]?.forecast1?.icon[currentHour + 3]
-              )}
-              {Math.round(
-                data[stationId]?.forecast1.temperature[currentHour + 3] / 10
-              )}
-              °
-            </div>
-
-            <div className="weather-box">
-              {currentHour < 23 ? currentHour + 4 + ":00" : "03:00"}
-              {WeatherIconSmall(
-                data[stationId]?.forecast1?.icon[currentHour + 4]
-              )}
-              {Math.round(
-                data[stationId]?.forecast1.temperature[currentHour + 4] / 10
-              )}
-              °
-            </div>
-
-            <div className="weather-box">
-              {currentHour < 23 ? currentHour + 5 + ":00" : "04:00"}
-              {WeatherIconSmall(
-                data[stationId]?.forecast1?.icon[currentHour + 5]
-              )}
-              {Math.round(
-                data[stationId]?.forecast1.temperature[currentHour + 5] / 10
-              )}
-              °
-            </div>
+            {WeatherBox(1)}
+            {WeatherBox(2)}
+            {WeatherBox(3)}
+            {WeatherBox(4)}
+            {WeatherBox(5)}
           </section>
         </div>
       )}
