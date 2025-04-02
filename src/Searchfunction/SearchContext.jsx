@@ -1,5 +1,5 @@
 // This Component fetches the API data on search and makes it accessible to all components using createContext
-import { useState, useEffect, createContext } from "react";
+import { useState, useEffect, createContext, useCallback } from "react";
 import { locationData } from "../utils/locationData";
 export const SearchContext = createContext();
 
@@ -35,7 +35,7 @@ function SearchProvider(props) {
     }
   }
 
-  async function getApiData() {
+  const getApiData = useCallback(async () => {
     setIsLoading(true);
     setError(null);
     
@@ -52,13 +52,13 @@ function SearchProvider(props) {
     } finally {
       setIsLoading(false);
     }
-  }
+  }, [SERVER_URL, stationId]);
 
   useEffect(() => {
-     
+    if (stationId !== "ID not found") {
       getApiData();
-    
-  }, [stationId]);
+    }
+  }, [stationId, getApiData]);
 
   return (
     <SearchContext.Provider
