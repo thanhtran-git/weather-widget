@@ -7,8 +7,13 @@ function SearchProvider(props) {
   const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [stationId, setStationId] = useState("10389");
   const [data, setData] = useState([]);
-  const API_URL = `https://dwd.api.proxy.bund.dev/v30/stationOverviewExtended?stationIds=${stationId}`;
-  //const API_URL = `/api/v30/stationOverviewExtended?stationIds=${stationId}`;
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
+  
+  // Updated to use the Node.js server endpoint
+  const SERVER_URL = process.env.NODE_ENV === 'production' 
+    ? '/api/weather' 
+    : 'http://localhost:3001/api/weather';
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
@@ -26,12 +31,16 @@ function SearchProvider(props) {
       setStationId(found.ID);
     } else {
       setStationId("ID not found");
+      setError("Location not found");
     }
   }
 
   async function getApiData() {
+    setIsLoading(true);
+    setError(null);
+    
     try {
-      const response = await fetch(API_URL);
+      const response = await fetch(`${SERVER_URL}?stationId=${stationId}`);
       if (!response.ok) {
         throw new Error(`Failed to fetch data. Status: ${response.status}`);
       }
@@ -39,12 +48,17 @@ function SearchProvider(props) {
       setData(receivedData);
     } catch (error) {
       console.error("Error fetching API data:", error);
+      setError("Failed to fetch weather data");
+    } finally {
+      setIsLoading(false);
     }
   }
 
   useEffect(() => {
-    getApiData();
-  }, [API_URL]);
+     
+      getApiData();
+    
+  }, [stationId]);
 
   return (
     <SearchContext.Provider
@@ -52,6 +66,8 @@ function SearchProvider(props) {
         data,
         stationId,
         searchTerm,
+        isLoading,
+        error,
         setSearchTerm,
         handleChange,
         handleSearch,
