@@ -15,14 +15,14 @@ function WeatherIcon() {
       isDay
         ? (icon = (
             <img
-              src="/weatherIcons/sonne.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne.png`}
               className="wicon-big"
               alt="weather_icon"
             />
           ))
         : (icon = (
             <img
-              src="/weatherIcons/mond.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/mond.png`}
               className="wicon-big"
               alt="weather_icon"
             />
@@ -33,14 +33,14 @@ function WeatherIcon() {
       isDay
         ? (icon = (
             <img
-              src="/weatherIcons/sonne_woelkchen.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne_woelkchen.png`}
               className="wicon-big"
               alt="weather_icon"
             />
           ))
         : (icon = (
             <img
-              src="/weatherIcons/mond_woelkchen.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/mond_woelkchen.png`}
               className="wicon-big"
               alt="weather_icon"
             />
@@ -51,14 +51,14 @@ function WeatherIcon() {
       isDay
         ? (icon = (
             <img
-              src="/weatherIcons/sonne_wolke.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne_wolke.png`}
               className="wicon-big"
               alt="weather_icon"
             />
           ))
         : (icon = (
             <img
-              src="/weatherIcons/mond_wolke.png"
+              src={`${process.env.PUBLIC_URL}/weatherIcons/mond_wolke.png`}
               className="wicon-big"
               alt="weather_icon"
             />
@@ -68,7 +68,7 @@ function WeatherIcon() {
     case 4:
       icon = (
         <img
-          src="/weatherIcons/wolke.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -79,7 +79,7 @@ function WeatherIcon() {
     case 6:
       icon = (
         <img
-          src="/weatherIcons/nebel.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/nebel.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -89,7 +89,7 @@ function WeatherIcon() {
     case 7:
       icon = (
         <img
-          src="/weatherIcons/wolke_regen_leicht.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_regen_leicht.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -102,7 +102,7 @@ function WeatherIcon() {
     case 11:
       icon = (
         <img
-          src="/weatherIcons/wolke_regen.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_regen.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -114,7 +114,7 @@ function WeatherIcon() {
     case 16:
       icon = (
         <img
-          src="/weatherIcons/schnee.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/schnee.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -124,7 +124,7 @@ function WeatherIcon() {
     case 17:
       icon = (
         <img
-          src="/weatherIcons/wolke_graupel.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_graupel.png`}
           className="wicon-big"
           alt="weather_icon"
         />
@@ -134,7 +134,7 @@ function WeatherIcon() {
     default:
       icon = (
         <img
-          src="/weatherIcons/wolke.png"
+          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke.png`}
           className="wicon-big"
           alt="weather_icon"
         />

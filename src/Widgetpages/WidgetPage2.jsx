@@ -15,7 +15,7 @@ function WidgetPage2() {
 
   const renderSunIcon = (iconSrc, value) => (
     <div>
-      <img src={iconSrc} alt="sun-icon" />
+      <img src={`${process.env.PUBLIC_URL}${iconSrc}`} alt="sun-icon" />
       <span className="data-value">{value}</span>
     </div>
   );
