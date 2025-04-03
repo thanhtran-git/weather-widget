@@ -3,12 +3,25 @@ import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx";
 import { currentHour, weekDay } from "../utils/Variables";
 import SearchBar from "../Searchfunction/SeachBar.jsx";
+import "../CSS/LoadingSpinner.css";  
 
 function WidgetPage1() {
-  const { data, stationId } = useContext(SearchContext);
+  const { data, stationId, isLoading } = useContext(SearchContext);
   const [error] = useState(null);
 
+  const isDataValid = () => {
+    return (
+      data && 
+      data[stationId] && 
+      data[stationId].forecast1 && 
+      data[stationId].forecast1.temperature && 
+      data[stationId].days
+    );
+  };
+
   const renderForecastDay = (index) => {
+    if (!isDataValid()) return null;
+    
     const date = new Date(data[stationId]?.days[index]?.dayDate);
     const nextWeekDay = weekDay[date.getDay()];
 
@@ -37,7 +50,12 @@ function WidgetPage1() {
           <div className="searchbar">{SearchBar()}</div>
         </section>
 
-        {data && (
+        {isLoading || !isDataValid() ? (
+          <div className="loading-spinner">
+            <div className="spinner"></div>
+            <p>Lade Wetterdaten...</p>
+          </div>
+        ) : (
           <section className="weather-bottom">
             {/* TempNow Container + Weather Icon*/}
             <div className="weather-now">

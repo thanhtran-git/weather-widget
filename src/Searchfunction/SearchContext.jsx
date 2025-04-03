@@ -37,6 +37,9 @@ function SearchProvider(props) {
   const getApiData = useCallback(async () => {
     setIsLoading(true);
     setError(null);
+    
+    const startTime = Date.now();
+    const minLoadingTime = 1000; // 1.5 seconds in milliseconds
 
     try {
       const response = await fetch(`${SERVER_URL}?stationId=${stationId}`);
@@ -44,6 +47,13 @@ function SearchProvider(props) {
         throw new Error(`Failed to fetch data. Status: ${response.status}`);
       }
       const receivedData = await response.json();
+    
+      const elapsedTime = Date.now() - startTime;
+      
+      if (elapsedTime < minLoadingTime) {
+        await new Promise(resolve => setTimeout(resolve, minLoadingTime - elapsedTime));
+      }
+      
       setData(receivedData);
     } catch (error) {
       console.error("Error fetching API data:", error);
