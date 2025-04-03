@@ -71,11 +71,11 @@ function WidgetPage2() {
               `${data[stationId]?.forecast1?.surfacePressure[0] / 10} hPa`
             )}
             {renderSunIcon(
-              "./sunrise-color-24px.png",
+              "./miniIcons/sunrise-color-24px.png",
               formatTime(data[stationId]?.days[0]?.sunrise)
             )}
             {renderSunIcon(
-              "./sunset-blue.png",
+              "./miniIcons/sunset-blue.png",
               formatTime(data[stationId]?.days[0]?.sunset)
             )}
           </section>
