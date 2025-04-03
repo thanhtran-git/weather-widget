@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, useCallback } from "react";
 import { SearchContext } from "./SearchContext";
 import { locationData } from "../utils/locationData";
 import "../CSS/SearchBar.css";
@@ -6,16 +6,52 @@ import SearchInput from "./SearchInput";
 import Suggestions from "./Suggestions";
 
 function SearchBar() {
-  const { handleSearch, handleChange, searchTerm, setSearchTerm } =
-    useContext(SearchContext);
+  const { setStationToFetch } = useContext(SearchContext);
+  const [searchTerm, setSearchTerm] = useState("BERLIN-MITTE");
   const [selectedItem, setSelectedItem] = useState(-1);
-  const [searchSuggestions, setsearchSuggestions] = useState([]);
-  const [isEnterPressed, setIsEnterPressed] = useState(false);
+  const [searchSuggestions, setSearchSuggestions] = useState([]);
+  const [searchError, setSearchError] = useState(null);
+
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
+    setSearchError(null);
+  };
+
+  const findStationId = useCallback((term) => {
+    const found = locationData.find(
+      (city) => city.Name.toLowerCase() === term.toLowerCase()
+    );
+    if (found) {
+      setSearchError(null);
+      return found.ID;
+    } else {
+      setSearchError("Location not found");
+      return null;
+    }
+  }, []);
+
+  const triggerSearch = useCallback(
+    (term) => {
+      const id = findStationId(term);
+      if (id) {
+        setStationToFetch(id);
+        setSearchSuggestions([]);
+        setSelectedItem(-1);
+      }
+    },
+    [findStationId, setStationToFetch]
+  );
 
   const handleClose = () => {
     setSearchTerm("");
-    setsearchSuggestions([]);
+    setSearchSuggestions([]);
     setSelectedItem(-1);
+    setSearchError(null);
+  };
+
+  const handleSuggestionClick = (cityName) => {
+    setSearchTerm(cityName);
+    triggerSearch(cityName);
   };
 
   const handleKeyDown = (event) => {
@@ -23,41 +59,42 @@ function SearchBar() {
     const isArrowDown = event.key === "ArrowDown";
     const isEnter = event.key === "Enter";
 
-    if (selectedItem < searchSuggestions.length) {
+    if (
+      searchSuggestions.length > 0 &&
+      selectedItem < searchSuggestions.length
+    ) {
       if (isArrowUp && selectedItem > 0) {
-        setSelectedItem((prevSelectedItem) => prevSelectedItem - 1);
+        setSelectedItem((prev) => prev - 1);
       } else if (isArrowDown && selectedItem < searchSuggestions.length - 1) {
-        setSelectedItem((prevSelectedItem) => prevSelectedItem + 1);
+        setSelectedItem((prev) => prev + 1);
       } else if (isEnter) {
         event.preventDefault();
-        setIsEnterPressed(true);
         if (selectedItem >= 0) {
-          setSearchTerm(searchSuggestions[selectedItem].Name);
+          handleSuggestionClick(searchSuggestions[selectedItem].Name);
+        } else {
+          triggerSearch(searchTerm);
         }
-      } else {
+      } else if (event.key !== "ArrowUp" && event.key !== "ArrowDown") {
         setSelectedItem(-1);
-        setIsEnterPressed(false);
       }
+    } else if (isEnter) {
+      event.preventDefault();
+      triggerSearch(searchTerm);
     }
   };
 
   useEffect(() => {
-    if (isEnterPressed && searchTerm !== "") {
-      handleSearch(searchTerm);
-      setIsEnterPressed(false);
-    }
-  }, [searchTerm, isEnterPressed, handleSearch]);
-
-  useEffect(() => {
-    if (searchTerm !== "") {
+    if (searchTerm.trim() !== "") {
+      const searchLower = searchTerm.toLowerCase();
       const newFilterData = locationData.filter((city) => {
-        const search = searchTerm.toLowerCase();
-        const cityName = city.Name.toLowerCase();
-        return search && cityName.startsWith(search) && cityName !== search;
+        const cityNameLower = city.Name.toLowerCase();
+        return (
+          cityNameLower.startsWith(searchLower) && cityNameLower !== searchLower
+        );
       });
-      setsearchSuggestions(newFilterData);
+      setSearchSuggestions(newFilterData);
     } else {
-      setsearchSuggestions([]);
+      setSearchSuggestions([]);
       setSelectedItem(-1);
     }
   }, [searchTerm]);
@@ -69,14 +106,16 @@ function SearchBar() {
         onChange={handleChange}
         onKeyDown={handleKeyDown}
         onClose={handleClose}
-        onSearch={() => handleSearch()}
       />
+      {searchError && <div className="search-error-message">{searchError}</div>}
 
-      <Suggestions
-        searchSuggestions={searchSuggestions}
-        selectedItem={selectedItem}
-        onSearch={handleSearch}
-      />
+      {searchSuggestions.length > 0 && (
+        <Suggestions
+          searchSuggestions={searchSuggestions}
+          selectedItem={selectedItem}
+          onSuggestionClick={handleSuggestionClick}
+        />
+      )}
     </section>
   );
 }
