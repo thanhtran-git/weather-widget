@@ -3,7 +3,7 @@ import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx";
 import { currentHour, weekDay } from "../utils/Variables";
 import SearchBar from "../Searchfunction/SeachBar.jsx";
-import "../CSS/LoadingSpinner.css";  
+import "../CSS/LoadingSpinner.css";
 
 function WidgetPage1() {
   const { data, stationId, isLoading } = useContext(SearchContext);
@@ -11,17 +11,17 @@ function WidgetPage1() {
 
   const isDataValid = () => {
     return (
-      data && 
-      data[stationId] && 
-      data[stationId].forecast1 && 
-      data[stationId].forecast1.temperature && 
+      data &&
+      data[stationId] &&
+      data[stationId].forecast1 &&
+      data[stationId].forecast1.temperature &&
       data[stationId].days
     );
   };
 
   const renderForecastDay = (index) => {
     if (!isDataValid()) return null;
-    
+
     const date = new Date(data[stationId]?.days[index]?.dayDate);
     const nextWeekDay = weekDay[date.getDay()];
 
@@ -47,7 +47,7 @@ function WidgetPage1() {
       <div className="widget-container">
         <section className="header">
           <span className="title">Wetter</span>
-          <div className="searchbar">{SearchBar()}</div>
+          <SearchBar />
         </section>
 
         {isLoading || !isDataValid() ? (
@@ -60,9 +60,9 @@ function WidgetPage1() {
             {/* TempNow Container + Weather Icon*/}
             <div className="weather-now">
               {/* Weather Icon component */}
-              <WeatherIcon 
-                condition={data[stationId]?.forecast1?.icon[currentHour]} 
-                size="big" 
+              <WeatherIcon
+                condition={data[stationId]?.forecast1?.icon[currentHour]}
+                size="big"
               />
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour] / 10
