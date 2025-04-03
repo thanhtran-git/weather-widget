@@ -60,7 +60,10 @@ function WidgetPage1() {
             {/* TempNow Container + Weather Icon*/}
             <div className="weather-now">
               {/* Weather Icon component */}
-              {WeatherIcon()}
+              <WeatherIcon 
+                condition={data[stationId]?.forecast1?.icon[currentHour]} 
+                size="big" 
+              />
               {Math.round(
                 data[stationId]?.forecast1.temperature[currentHour] / 10
               )}

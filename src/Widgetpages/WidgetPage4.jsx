@@ -2,10 +2,11 @@
 import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
 import { weekDay } from "../utils/Variables.js";
-import WeatherIconSmall from "../WeatherIcon/WeatherIconSmall.jsx";
+import WeatherIcon from "../WeatherIcon/WeatherIcon.jsx";
 
 function WidgetPage4() {
   const { data, stationId } = useContext(SearchContext);
+  
   const getWeatherBox = (dayIndex) => {
     const date = new Date(data[stationId]?.days[dayIndex]?.dayDate);
     const nextWeekDay = weekDay[date.getDay()];
@@ -16,7 +17,9 @@ function WidgetPage4() {
     return (
       <div className="weather-box">
         {nextWeekDay}
-        <span className="wicon-small">{WeatherIconSmall(icon, dayIndex)}</span>
+        <span className="wicon-small">
+          <WeatherIcon condition={icon} hours={null} size="small" />
+        </span>
         {temperatureMax}°
       </div>
     );

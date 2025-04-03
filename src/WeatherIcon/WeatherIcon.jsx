@@ -1,148 +1,45 @@
 import React, { useContext } from "react";
 import { SearchContext } from "../Searchfunction/SearchContext.jsx";
+import "../CSS/Wicon.css";
 import { currentHour } from "../utils/Variables.js";
 
-function WeatherIcon() {
+function WeatherIcon({ condition, hours, size = "big" }) {
   const { data, stationId } = useContext(SearchContext);
 
-  let isDay = data[stationId]?.forecast1?.isDay[currentHour];
-  console.log(isDay);
-  let icon = "";
+  const isDay = hours === null
+    ? true
+    : hours === undefined
+    ? data[stationId]?.forecast1?.isDay[currentHour]
+    : data[stationId]?.forecast1?.isDay[currentHour + hours];
 
-  switch (data[stationId]?.forecast1?.icon[currentHour]) {
-    case 1:
-      isDay
-        ? (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ))
-        : (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/mond.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ));
-      break;
+  const iconClass = size === "big" ? "wicon-big" : "wicon-small";
 
-    case 2:
-      isDay
-        ? (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne_woelkchen.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ))
-        : (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/mond_woelkchen.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ));
-      break;
+  const iconMap = {
+    1: isDay ? "sonne.png" : "mond.png",
+    2: isDay ? "sonne_woelkchen.png" : "mond_woelkchen.png",
+    3: isDay ? "sonne_wolke.png" : "mond_wolke.png",
+    4: "wolke.png",
+    5: "nebel.png",
+    6: "nebel.png",
+    7: "wolke_regen_leicht.png",
+    8: "wolke_regen.png",
+    9: "wolke_regen.png",
+    10: "wolke_regen.png",
+    11: "wolke_regen.png",
+    14: "schnee.png",
+    15: "schnee.png",
+    16: "schnee.png",
+    17: "wolke_graupel.png",
+  };
 
-    case 3:
-      isDay
-        ? (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/sonne_wolke.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ))
-        : (icon = (
-            <img
-              src={`${process.env.PUBLIC_URL}/weatherIcons/mond_wolke.png`}
-              className="wicon-big"
-              alt="weather_icon"
-            />
-          ));
-      break;
+  const iconFile = iconMap[condition] || "wolke.png";
+  const altText = iconFile.replace(".png", "").replace(/_/g, "-");
 
-    case 4:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-
-    case 5:
-    case 6:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/nebel.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-
-    case 7:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_regen_leicht.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_regen.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-    case 14:
-    case 15:
-    case 16:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/schnee.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-
-    case 17:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke_graupel.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-
-    default:
-      icon = (
-        <img
-          src={`${process.env.PUBLIC_URL}/weatherIcons/wolke.png`}
-          className="wicon-big"
-          alt="weather_icon"
-        />
-      );
-      break;
-  }
   return (
-    <>
-      <div>{icon}</div>
-    </>
+    <div>
+      <img src={`/weatherIcons/${iconFile}`} className={iconClass} alt={altText} />
+    </div>
   );
 }
+
 export default WeatherIcon;
