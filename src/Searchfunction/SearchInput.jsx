@@ -15,7 +15,7 @@ const SearchInput = ({ value, onChange, onKeyDown, onClose, onSearch }) => (
         <button onClick={onClose}>
           <img
             className="close-btn"
-            src="/close.png"
+            src="/miniIcons/close.png"
             alt="close-icon"
             height="18px"
             width="18px"
@@ -24,7 +24,7 @@ const SearchInput = ({ value, onChange, onKeyDown, onClose, onSearch }) => (
         <button onClick={onSearch}>
           <img
             className="search-btn"
-            src={`${process.env.PUBLIC_URL}/search.png`}
+            src="/miniIcons/search.png"
             alt="search-icon"
             height="20px"
             width="20px"
