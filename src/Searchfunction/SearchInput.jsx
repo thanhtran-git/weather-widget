@@ -1,7 +1,7 @@
-const SearchInput = ({ value, onChange, onKeyDown, onClose, onSearch }) => (
+const SearchInput = ({ value, onChange, onKeyDown, onClose }) => (
   <div className="search-input-container">
     <input
-      autoComplete="none"
+      autoComplete="off"
       spellCheck="false"
       placeholder="Ort eingeben..."
       className="search-box"
@@ -11,26 +11,13 @@ const SearchInput = ({ value, onChange, onKeyDown, onClose, onSearch }) => (
       onKeyDown={onKeyDown}
     />
     {value && (
-      <>
-        <button onClick={onClose}>
-          <img
-            className="close-btn"
-            src={`${process.env.PUBLIC_URL}/miniIcons/close.png`}
-            alt="close-icon"
-            height="18px"
-            width="18px"
-          />
-        </button>
-        <button onClick={onSearch}>
-          <img
-            className="search-btn"
-            src={`${process.env.PUBLIC_URL}/miniIcons/search.png`}
-            alt="search-icon"
-            height="20px"
-            width="20px"
-          />
-        </button>
-      </>
+      <button onClick={onClose} className="close-button-inside">
+        <img
+          className="close-btn-icon"
+          src={`${process.env.PUBLIC_URL}/miniIcons/close.png`}
+          alt="close-icon"
+        />
+      </button>
     )}
   </div>
 );
