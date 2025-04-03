@@ -1,4 +1,3 @@
-//This Component contains the Search Bar and Buttons, used on WidgetPage1
 import React, { useState, useContext, useEffect } from "react";
 import { SearchContext } from "./SearchContext";
 import { locationData } from "../utils/locationData";
@@ -42,11 +41,10 @@ function SearchBar() {
     }
   };
 
-  //Trigger the search when the Enter Key is pressed
   useEffect(() => {
     if (isEnterPressed && searchTerm !== "") {
       handleSearch(searchTerm);
-      setIsEnterPressed(false); // Reset the flag after triggering the search
+      setIsEnterPressed(false);
     }
   }, [searchTerm, isEnterPressed, handleSearch]);
 

@@ -5,7 +5,6 @@ import { currentHour } from "../utils/Variables.js";
 function WeatherIcon() {
   const { data, stationId } = useContext(SearchContext);
 
-  // console.log(currentHour);
   let isDay = data[stationId]?.forecast1?.isDay[currentHour];
   console.log(isDay);
   let icon = "";
@@ -108,7 +107,6 @@ function WeatherIcon() {
         />
       );
       break;
-    // case icon = <img src={require("./weatherIcons/.png")} alt="weather_icon" />; break;
     case 14:
     case 15:
     case 16:

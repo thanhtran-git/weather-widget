@@ -1,4 +1,3 @@
-// This Component fetches the API data on search and makes it accessible to all components using createContext
 import { useState, useEffect, createContext, useCallback } from "react";
 import { locationData } from "../utils/locationData";
 export const SearchContext = createContext();
@@ -9,11 +8,11 @@ function SearchProvider(props) {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  
-  // Updated to use the Node.js server endpoint
-  const SERVER_URL = process.env.NODE_ENV === 'production' 
-    ? '/api/weather' 
-    : 'http://localhost:3001/api/weather';
+
+  const SERVER_URL =
+    process.env.NODE_ENV === "production"
+      ? "/api/weather"
+      : "http://localhost:3001/api/weather";
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
@@ -38,7 +37,7 @@ function SearchProvider(props) {
   const getApiData = useCallback(async () => {
     setIsLoading(true);
     setError(null);
-    
+
     try {
       const response = await fetch(`${SERVER_URL}?stationId=${stationId}`);
       if (!response.ok) {
