@@ -17,15 +17,50 @@
       "dest": "server.js"
     },
     {
+      "src": "^/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "^/Images/(.*)",
+      "dest": "/Images/$1"
+    },
+    {
       "src": "^/weatherIcons/(.*)",
       "dest": "/weatherIcons/$1"
     },
-
     {
       "src": "^/miniIcons/(.*)",
       "dest": "/miniIcons/$1"
     },
 
+    {
+      "src": "^/images/(.*)",
+      "dest": "/images/$1"
+    },
+    {
+      "src": "^/icons/(.*)",
+      "dest": "/icons/$1"
+    },
+    {
+      "src": "^/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "^/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "^/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
+      "src": "^/asset-manifest.json",
+      "dest": "/asset-manifest.json"
+    },
+    {
+      "src": "^/logo(.*).png",
+      "dest": "/logo$1.png"
+    },
     {
       "src": "^/(.*)",
       "dest": "/index.html"
