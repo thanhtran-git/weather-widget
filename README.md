@@ -1,4 +1,6 @@
-## A weather widget with search function using the API of Deutscher Wetterdienst.
-Work in progress...
-
-![Preview](https://i.ibb.co/9q0c4Kb/weather-widget-preview.gif)
+## A weather widget using data of the German Weather Service API (Deutscher Wetterdienst)
+Run locally
+```
+npm i
+npm run start
+```
